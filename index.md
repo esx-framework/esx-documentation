@@ -16,7 +16,7 @@ Follow these instructions to build install ESX.
 
 ### 1. Download esx
 
-First download or clone esx from the [Github repo](https://github.com/ESX-Org/es_extended).
+First download or clone ESX from the [GitHub Repo](https://github.com/ESX-Org/es_extended).
 
 ### 2. Install ESX
 
