@@ -7,3 +7,5 @@ order: 7
 ```lua
 local str = ESX.GetRandomString(10)
 ```
+
+Get random string

@@ -11,3 +11,5 @@ AddEventHandler('esx:playerLoaded', function(source)
 
 end)
 ```
+
+Trigger when player is fully loaded

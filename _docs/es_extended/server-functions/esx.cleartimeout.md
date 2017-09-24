@@ -9,5 +9,7 @@ local id = ESX.SetTimeout(5000, function()
   print('it will never show')
 end)
 
-ESX.CLearTimeout(id)
+ESX.ClearTimeout(id)
 ```
+
+Clear a timeout callback
