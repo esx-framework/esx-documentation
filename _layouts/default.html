@@ -93,15 +93,6 @@
 
 		<script>
 
-			$('nav.full-navigation .top-level').on('mouseover', function(){
-
-				if($(this).find('.nav-item').length > 0){
-					$('nav.full-navigation .top-level .nav-item').hide();
-					$(this).find('.nav-item').show();
-				}
-
-			});
-
 			$('nav.full-navigation .top-level .nav-item a').each(function(i, e){
 				if(e.href == window.location){
 					$(e).parent().parent().find('.nav-item').show();
