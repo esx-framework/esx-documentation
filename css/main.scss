@@ -29,7 +29,3 @@ $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 @import "code";
 @import "tables";
 @import "layout";
-
-nav.full-navigation .top-level .nav-item {
-	display:none;
-}

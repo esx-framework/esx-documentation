@@ -8,4 +8,4 @@ order: 3
 local xPlayer = ESX.GetPlayerFromId(1)
 ```
 
-Get player from id (source)
+Get player from ID (Source)

@@ -18,4 +18,4 @@ ESX.RegisterServerCallback('namespace:name', function(source, cb)
 end)
 ```
 
-Register a calbback to be triggered with [ESX.TriggerServerCallback](../../client-functions/esx.triggerservercallback/)
+Register a callback to be triggered with [ESX.TriggerServerCallback](../../client-functions/esx.triggerservercallback/)

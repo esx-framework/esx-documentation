@@ -8,4 +8,4 @@ order: 3
 local xPlayer = ESX.GetPlayerFromIdentifier('steam:110000012345')
 ```
 
-Get player from identifier (steam id)
+Get player from Identifier (Steam ID)
