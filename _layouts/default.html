@@ -83,10 +83,30 @@
 			</article>
 		</section>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 		<script>
 			document.getElementById("open-nav").addEventListener("click", function () {
 				document.body.classList.toggle("nav-open");
 			});
 		</script>
+
+		<script>
+
+			$('nav.full-navigation .top-level').on('mouseover', function(){
+
+				if($(this).find('.nav-item').length > 0){
+					$('nav.full-navigation .top-level .nav-item').hide();
+					$(this).find('.nav-item').show();
+				}
+
+			});
+
+			$('nav.full-navigation .top-level').on('mouseout', function(){
+				$(this).find('.nav-item').hide();
+			});
+
+		</script>
+
 	</body>
 </html>
