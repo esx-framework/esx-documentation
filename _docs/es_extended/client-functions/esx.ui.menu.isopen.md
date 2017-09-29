@@ -9,4 +9,3 @@ ESX.UI.Menu.IsOpen(type, namespace, name)
 ```
 
 Check if menu is open
-

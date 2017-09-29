@@ -9,4 +9,3 @@ ESX.UI.HUD.SetDisplay(opacity)
 ```
 
 Set HUD opacity
-

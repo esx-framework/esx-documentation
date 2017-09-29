@@ -9,4 +9,3 @@ ESX.GetPlayerFromIdentifier(identifier)
 ```
 
 Get player from identifier
-

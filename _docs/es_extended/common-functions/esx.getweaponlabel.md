@@ -10,3 +10,10 @@ ESX.GetWeaponLabel(weaponName)
 
 Get weapon label
 
+```lua
+local label = ESX.GetWeaponLabel('WEAPON_ASSAULTRIFLE')
+```
+
+
+
+

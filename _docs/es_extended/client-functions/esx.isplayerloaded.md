@@ -9,4 +9,3 @@ ESX.IsPlayerLoaded()
 ```
 
 Check if player is loaded
-

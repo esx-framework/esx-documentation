@@ -9,4 +9,3 @@ ESX.TriggerServerCallback(name, cb, args)
 ```
 
 Trigger server callback
-

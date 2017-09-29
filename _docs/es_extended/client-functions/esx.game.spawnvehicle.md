@@ -9,4 +9,3 @@ ESX.Game.SpawnVehicle(modelOrHash, coords, heading, cb)
 ```
 
 Spawn vehicle
-

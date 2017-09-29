@@ -9,4 +9,3 @@ ESX.Game.DeleteVehicle(vehicle)
 ```
 
 Delete vehicle
-

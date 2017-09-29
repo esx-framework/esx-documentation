@@ -9,4 +9,3 @@ ESX.UI.Menu.RegisterType(type, open, close)
 ```
 
 Register menu type
-

@@ -9,4 +9,3 @@ ESX.Game.Utils.DrawText3D(coords, text, size)
 ```
 
 Draw 3D text
-

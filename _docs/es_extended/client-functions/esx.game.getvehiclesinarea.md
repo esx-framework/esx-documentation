@@ -9,4 +9,3 @@ ESX.Game.GetVehiclesInArea(coords)
 ```
 
 Get vehicles in area
-

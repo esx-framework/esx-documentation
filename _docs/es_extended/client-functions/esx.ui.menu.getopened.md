@@ -9,4 +9,3 @@ ESX.UI.Menu.GetOpened(type, namespace, name)
 ```
 
 Get opened menus
-

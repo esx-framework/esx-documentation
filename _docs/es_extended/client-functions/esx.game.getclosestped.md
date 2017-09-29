@@ -9,4 +9,3 @@ ESX.Game.GetClosestPed(coords, ignoreList)
 ```
 
 Get closest ped
-

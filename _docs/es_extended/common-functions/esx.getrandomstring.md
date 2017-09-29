@@ -10,3 +10,10 @@ ESX.GetRandomString(length)
 
 Get random string
 
+```lua
+local str = ESX.GetRandomString(5)
+```
+
+
+
+

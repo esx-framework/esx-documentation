@@ -9,4 +9,3 @@ ESX.UI.Menu.CloseAll()
 ```
 
 Close all menus
-

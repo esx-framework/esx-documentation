@@ -9,4 +9,3 @@ ESX.Game.SpawnLocalObject(modelOrHash, coords, cb)
 ```
 
 Spawn local object
-

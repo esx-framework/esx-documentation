@@ -9,4 +9,3 @@ ESX.Game.GetObjects()
 ```
 
 Get objects
-

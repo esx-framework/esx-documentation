@@ -9,4 +9,3 @@ ESX.Trace(str)
 ```
 
 Show debug line if Config.EnableDebug is true
-

@@ -9,4 +9,3 @@ ESX.Game.GetVehicles()
 ```
 
 Get vehicles
-

@@ -7,6 +7,3 @@ order: 6
 ```lua
 ESX.Game.GetClosestPlayer(coords)
 ```
-
-
-

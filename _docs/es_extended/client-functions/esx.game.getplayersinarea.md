@@ -9,4 +9,3 @@ ESX.Game.GetPlayersInArea(coords, radius)
 ```
 
 Get players in area
-

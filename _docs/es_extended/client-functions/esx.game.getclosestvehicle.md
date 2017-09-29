@@ -9,4 +9,3 @@ ESX.Game.GetClosestVehicle(coords)
 ```
 
 Get closest vehicle
-
