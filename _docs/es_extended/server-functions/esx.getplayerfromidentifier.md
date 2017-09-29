@@ -1,11 +1,11 @@
 ---
 title: ESX.GetPlayerFromIdentifier
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-local xPlayer = ESX.GetPlayerFromIdentifier('steam:110000012345')
+ESX.GetPlayerFromIdentifier(identifier)
 ```
 
-Get player from Identifier (Steam ID)
+Get player from identifier

@@ -1,11 +1,10 @@
 ---
-title: <b>Client Events</b>
+title: <b>Client - Events</b>
 category: ES Extended
-order: 8
+order: 7
 ---
 
-### [esx:playerLoaded(source)](../client-events/esx.playerloaded/)
+[esx:playerLoaded **xPlayer**](../client-events/esx.playerloaded)
 
-Fire when a player is fully loaded
 
 ___

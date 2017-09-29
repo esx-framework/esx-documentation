@@ -1,11 +1,11 @@
 ---
 title: ESX.CreatePickup
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-ESX.CreatePickup('item_standard', 'bread', 1, 'Bread', 1)
+ESX.CreatePickup(type, name, count, label, player)
 ```
 
-Create an item pickup
+Create pickup

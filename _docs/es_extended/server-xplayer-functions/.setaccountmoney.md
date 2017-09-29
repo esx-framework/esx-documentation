@@ -1,0 +1,11 @@
+---
+title: xPlayer.setAccountMoney
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.setAccountMoney(account, money)
+```
+
+Set account money

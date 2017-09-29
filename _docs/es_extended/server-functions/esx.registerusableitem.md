@@ -1,19 +1,11 @@
 ---
 title: ESX.RegisterUsableItem
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-ESX.RegisterUsableItem('bread', function(source)
-
-  local xPlayer = ESX.GetPlayerFromId(source)
-
-  xPlayer.removeInventoryItem('bread', 1)
-
-  ESX.ShowNotification(source, 'You have used x1 bread')
-
-end)
+ESX.RegisterUsableItem(item, cb)
 ```
 
-Register an usable item
+Register Usable Item

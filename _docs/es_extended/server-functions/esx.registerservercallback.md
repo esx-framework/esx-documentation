@@ -1,21 +1,11 @@
 ---
 title: ESX.RegisterServerCallback
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-ESX.RegisterServerCallback('namespace:name', function(source, cb)
-	
-  local data = {
-    foo = 'bar'
-  }
-
-  print('Running callback')
-	
-  cb(data)
-
-end)
+ESX.RegisterServerCallback(name, cb)
 ```
 
-Register a callback to be triggered with [ESX.TriggerServerCallback](../../client-functions/esx.triggerservercallback/)
+Register server callback

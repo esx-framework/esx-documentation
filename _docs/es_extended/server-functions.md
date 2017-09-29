@@ -1,37 +1,28 @@
 ---
-title: <b>Server Functions</b>
+title: <b>Server - Functions</b>
 category: ES Extended
-order: 2
+order: 8
 ---
 
-**[ESX.ClearTimeout(id)](../server-functions/esx.cleartimeout/)** Clear timeout callback
+[ESX.CreatePickup(**type**, **name**, **count**, **label**, **player**)](../server/esx.createpickup)
 
-**[ESX.CreatePickup(type, name, count, label, player)](../server-functions/esx.createpickup/)** Create pickup
+[ESX.GetPlayerFromId(**source**)](../server/esx.getplayerfromid)
 
-**[ESX.GetPlayerFromId(source)](../server-functions/esx.getplayerfromid/)** Get player from id
+[ESX.GetPlayerFromIdentifier(**identifier**)](../server/esx.getplayerfromidentifier)
 
-**[ESX.GetPlayerFromIdentifier(identifier)](../server-functions/esx.getplayerfromidentifier/)** Get player from identifier
+[ESX.GetPlayers()](../server/esx.getplayers)
 
-**[ESX.GetPlayers()](../server-functions/esx.getplayers/)** Get Players
+[ESX.RegisterServerCallback(**name**, **cb**)](../server/esx.registerservercallback)
 
-**[ESX.GetWeaponLabel(weaponName)](../server-functions/esx.getweaponlabel/)** Get weapon label
+[ESX.RegisterUsableItem(**item**, **cb**)](../server/esx.registerusableitem)
 
-**[ESX.GetWeaponList()](../server-functions/esx.getweaponlist/)** Get weapon list
+[ESX.SavePlayer(**player**, **cb**)](../server/esx.saveplayer)
 
-**[ESX.RegisterServerCallback(name, cb)](../server-functions/esx.registerservercallback/)** Register server callback
+[ESX.SavePlayers(**cb**)](../server/esx.saveplayers)
 
-**[ESX.RegisterUsableItem(item, cb)](../server-functions/esx.registerusableitem/)** Register usable item
+[ESX.Trace(**str**)](../server/esx.trace)
 
-**[ESX.SavePlayer(xPlayer, cb)](../server-functions/esx.saveplayer/)** Save player
-
-**[ESX.ESX.SavePlayers(cb)](../server-functions/esx.saveplayers/)** Save players
-
-**[ESX.SetTimeout(msec, cb)](../server-functions/esx.settimeout/)** Execute callback after delay, can be cleared with ESX.ClearTimeout()
-
-**[ESX.Trace(str)](../server-functions/esx.trace/)** Print debug line
-
-**[ESX.ESX.UseItem(source)](../server-functions/esx.useitem/)** Use an usable item
-
+[ESX.UseItem(**source**)](../server/esx.useitem)
 
 
 ___

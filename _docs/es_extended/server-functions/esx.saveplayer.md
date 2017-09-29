@@ -1,13 +1,11 @@
 ---
 title: ESX.SavePlayer
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-ESX.SavePlayer(xPlayer, function()
-  print('Player saved')
-end)
+ESX.SavePlayer(player, cb)
 ```
 
 Save player

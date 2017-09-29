@@ -1,15 +1,11 @@
 ---
 title: ESX.GetPlayers
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-local xPlayers = ESX.GetPlayers
-
-for i=1, #xPlayers, 1 do
-  local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
-end
+ESX.GetPlayers()
 ```
 
 Get players

@@ -1,0 +1,11 @@
+---
+title: xPlayer.getName
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getName()
+```
+
+Get name

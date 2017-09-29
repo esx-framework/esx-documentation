@@ -1,0 +1,11 @@
+---
+title: xPlayer.getAccounts
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getAccounts()
+```
+
+Get accounts

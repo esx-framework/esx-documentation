@@ -1,15 +1,11 @@
 ---
 title: ESX.Trace
 category: ES Extended
-order: 3
+order: 9
 ---
 
 ```lua
-function foo()
-  ESX.Trace('Running foo()')
-end
-
-foo()
+ESX.Trace(str)
 ```
 
-Print string if Config.EnableDebug = true
+Show debug line if Config.EnableDebug is true

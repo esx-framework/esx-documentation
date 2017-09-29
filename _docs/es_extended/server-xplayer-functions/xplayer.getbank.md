@@ -1,0 +1,11 @@
+---
+title: xPlayer.getBank
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getBank()
+```
+
+Get bank balance

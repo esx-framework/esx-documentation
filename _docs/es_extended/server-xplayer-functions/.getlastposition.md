@@ -1,0 +1,11 @@
+---
+title: xPlayer.getLastPosition
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getLastPosition()
+```
+
+Get last position

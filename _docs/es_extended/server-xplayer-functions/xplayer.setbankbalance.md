@@ -1,0 +1,11 @@
+---
+title: xPlayer.setBankBalance
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.setBankBalance(money)
+```
+
+Set bank balance

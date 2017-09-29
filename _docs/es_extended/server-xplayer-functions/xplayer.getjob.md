@@ -1,0 +1,11 @@
+---
+title: xPlayer.getJob
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getJob()
+```
+
+Get job

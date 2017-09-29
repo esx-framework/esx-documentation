@@ -1,0 +1,11 @@
+---
+title: xPlayer.getLoadout
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getLoadout()
+```
+
+Get loadout

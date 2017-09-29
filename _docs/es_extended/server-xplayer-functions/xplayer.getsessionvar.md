@@ -1,0 +1,11 @@
+---
+title: xPlayer.getSessionVar
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.getSessionVar(key)
+```
+
+Get session variable

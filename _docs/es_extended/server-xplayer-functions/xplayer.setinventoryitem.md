@@ -1,0 +1,11 @@
+---
+title: xPlayer.setInventoryItem
+category: ES Extended
+order: 12
+---
+
+```lua
+xPlayer.setInventoryItem(item, count)
+```
+
+Set inventory item

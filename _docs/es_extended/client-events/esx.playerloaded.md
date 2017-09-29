@@ -1,22 +1,12 @@
 ---
 title: esx:playerLoaded
 category: ES Extended
-order: 9
+order: 8
 ---
 
 ```lua
-RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(xPlayer)
-	
-  local identifier   = xPlayer.identifier
-  local accounts     = xPlayer.accounts
-  local inventory    = xPlayer.inventory
-  local job          = xPlayer.job
-  local loadout      = xPlayer.loadout
-  local lastPosition = xPlayer.lastPosition
-  local money        = xPlayer.money
-
-end)
+AddEventHandler('esx:playerLoaded', function(xPlayer) end)
+TriggerEvent('esx:playerLoaded', xPlayer)
 ```
 
-Trigger when player is fully loaded
+Player loaded
