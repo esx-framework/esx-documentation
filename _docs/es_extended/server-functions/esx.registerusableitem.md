@@ -9,3 +9,4 @@ ESX.RegisterUsableItem(item, cb)
 ```
 
 Register Usable Item
+

@@ -9,3 +9,4 @@ ESX.Game.SetVehicleProperties(vehicle, props)
 ```
 
 Set vehicle properties
+

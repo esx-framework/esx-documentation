@@ -9,3 +9,4 @@ ESX.Game.GetPlayers()
 ```
 
 Get players
+

@@ -9,3 +9,4 @@ ESX.UI.Menu.Close(type, namespace, name)
 ```
 
 Close menu
+

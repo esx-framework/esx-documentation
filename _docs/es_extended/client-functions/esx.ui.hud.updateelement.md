@@ -9,3 +9,4 @@ ESX.UI.HUD.UpdateElement(name, data)
 ```
 
 Update hud element
+

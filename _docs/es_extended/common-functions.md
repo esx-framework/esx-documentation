@@ -4,15 +4,15 @@ category: ES Extended
 order: 2
 ---
 
-[ESX.ClearTimeout(**id**)](../common/esx.cleartimeout)
+[ESX.ClearTimeout(**id**)](../common-functions/esx.cleartimeout)
 
-[ESX.GetRandomString(**length**)](../common/esx.getrandomstring)
+[ESX.GetRandomString(**length**)](../common-functions/esx.getrandomstring)
 
-[ESX.GetWeaponLabel(**weaponName**)](../common/esx.getweaponlabel)
+[ESX.GetWeaponLabel(**weaponName**)](../common-functions/esx.getweaponlabel)
 
-[ESX.GetWeaponList()](../common/esx.getweaponlist)
+[ESX.GetWeaponList()](../common-functions/esx.getweaponlist)
 
-[ESX.SetTimeout(**msec**, **cb**)](../common/esx.settimeout)
+[ESX.SetTimeout(**msec**, **cb**)](../common-functions/esx.settimeout)
 
 
 ___

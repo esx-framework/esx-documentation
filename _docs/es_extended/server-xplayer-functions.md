@@ -4,81 +4,81 @@ category: ES Extended
 order: 11
 ---
 
-[.setMoney(**money**)](../server-xplayer/.setmoney)
+[.setMoney(**money**)](../server-xplayer-functions/.setmoney)
 
-[.getMoney()](../server-xplayer/.getmoney)
+[.getMoney()](../server-xplayer-functions/.getmoney)
 
-[.setBankBalance(**money**)](../server-xplayer/.setbankbalance)
+[.setBankBalance(**money**)](../server-xplayer-functions/.setbankbalance)
 
-[.getBank()](../server-xplayer/.getbank)
+[.getBank()](../server-xplayer-functions/.getbank)
 
-[.getCoords()](../server-xplayer/.getcoords)
+[.getCoords()](../server-xplayer-functions/.getcoords)
 
-[.setCoords(**x**, **y**, **z**)](../server-xplayer/.setcoords)
+[.setCoords(**x**, **y**, **z**)](../server-xplayer-functions/.setcoords)
 
-[.kick(**reason**)](../server-xplayer/.kick)
+[.kick(**reason**)](../server-xplayer-functions/.kick)
 
-[.addMoney(**money**)](../server-xplayer/.addmoney)
+[.addMoney(**money**)](../server-xplayer-functions/.addmoney)
 
-[.removeMoney(**money**)](../server-xplayer/.removemoney)
+[.removeMoney(**money**)](../server-xplayer-functions/.removemoney)
 
-[.addBank(**money**)](../server-xplayer/.addbank)
+[.addBank(**money**)](../server-xplayer-functions/.addbank)
 
-[.removeBank(**money**)](../server-xplayer/.removebank)
+[.removeBank(**money**)](../server-xplayer-functions/.removebank)
 
-[.displayMoney(**money**)](../server-xplayer/.displaymoney)
+[.displayMoney(**money**)](../server-xplayer-functions/.displaymoney)
 
-[.displayBank(**money**)](../server-xplayer/.displaybank)
+[.displayBank(**money**)](../server-xplayer-functions/.displaybank)
 
-[.setSessionVar(**key**, **value**)](../server-xplayer/.setsessionvar)
+[.setSessionVar(**key**, **value**)](../server-xplayer-functions/.setsessionvar)
 
-[.getSessionVar(**key**)](../server-xplayer/.getsessionvar)
+[.getSessionVar(**key**)](../server-xplayer-functions/.getsessionvar)
 
-[.getPermissions()](../server-xplayer/.getpermissions)
+[.getPermissions()](../server-xplayer-functions/.getpermissions)
 
-[.setPermissions(**permissionLevel**)](../server-xplayer/.setpermissions)
+[.setPermissions(**permissionLevel**)](../server-xplayer-functions/.setpermissions)
 
-[.getIdentifier()](../server-xplayer/.getidentifier)
+[.getIdentifier()](../server-xplayer-functions/.getidentifier)
 
-[.getGroup()](../server-xplayer/.getgroup)
+[.getGroup()](../server-xplayer-functions/.getgroup)
 
-[.getPlayer()](../server-xplayer/.getplayer)
+[.getPlayer()](../server-xplayer-functions/.getplayer)
 
-[.getAccounts()](../server-xplayer/.getaccounts)
+[.getAccounts()](../server-xplayer-functions/.getaccounts)
 
-[.getAccount()](../server-xplayer/.getaccount)
+[.getAccount()](../server-xplayer-functions/.getaccount)
 
-[.getInventory()](../server-xplayer/.getinventory)
+[.getInventory()](../server-xplayer-functions/.getinventory)
 
-[.getJob()](../server-xplayer/.getjob)
+[.getJob()](../server-xplayer-functions/.getjob)
 
-[.getLoadout()](../server-xplayer/.getloadout)
+[.getLoadout()](../server-xplayer-functions/.getloadout)
 
-[.getName()](../server-xplayer/.getname)
+[.getName()](../server-xplayer-functions/.getname)
 
-[.getLastPosition()](../server-xplayer/.getlastposition)
+[.getLastPosition()](../server-xplayer-functions/.getlastposition)
 
-[.getMissingAccounts()](../server-xplayer/.getmissingaccounts)
+[.getMissingAccounts()](../server-xplayer-functions/.getmissingaccounts)
 
-[.setAccountMoney(**account**, **money**)](../server-xplayer/.setaccountmoney)
+[.setAccountMoney(**account**, **money**)](../server-xplayer-functions/.setaccountmoney)
 
-[.addAccountMoney(**account**, **money**)](../server-xplayer/.addaccountmoney)
+[.addAccountMoney(**account**, **money**)](../server-xplayer-functions/.addaccountmoney)
 
-[.removeAccountMoney(**account**, **money**)](../server-xplayer/.removeaccountmoney)
+[.removeAccountMoney(**account**, **money**)](../server-xplayer-functions/.removeaccountmoney)
 
-[.getInventoryItem(**item**)](../server-xplayer/.getinventoryitem)
+[.getInventoryItem(**item**)](../server-xplayer-functions/.getinventoryitem)
 
-[.addInventoryItem(**item**, **count**)](../server-xplayer/.addinventoryitem)
+[.addInventoryItem(**item**, **count**)](../server-xplayer-functions/.addinventoryitem)
 
-[.removeInventoryItem(**item**, **count**)](../server-xplayer/.removeinventoryitem)
+[.removeInventoryItem(**item**, **count**)](../server-xplayer-functions/.removeinventoryitem)
 
-[.setInventoryItem(**item**, **count**)](../server-xplayer/.setinventoryitem)
+[.setInventoryItem(**item**, **count**)](../server-xplayer-functions/.setinventoryitem)
 
-[.setJob(**name**, **grade**)](../server-xplayer/.setjob)
+[.setJob(**name**, **grade**)](../server-xplayer-functions/.setjob)
 
-[.addWeapon(**name**)](../server-xplayer/.addweapon)
+[.addWeapon(**name**)](../server-xplayer-functions/.addweapon)
 
-[.removeWeapon(**name**)](../server-xplayer/.removeweapon)
+[.removeWeapon(**name**)](../server-xplayer-functions/.removeweapon)
 
 
 ___

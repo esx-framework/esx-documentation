@@ -9,3 +9,4 @@ ESX.Game.GetVehicleProperties(vehicle)
 ```
 
 Get vehicle properties
+

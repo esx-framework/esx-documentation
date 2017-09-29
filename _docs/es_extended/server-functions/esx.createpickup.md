@@ -9,3 +9,4 @@ ESX.CreatePickup(type, name, count, label, player)
 ```
 
 Create pickup
+

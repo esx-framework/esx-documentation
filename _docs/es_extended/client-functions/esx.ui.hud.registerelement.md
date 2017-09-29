@@ -9,3 +9,4 @@ ESX.UI.HUD.RegisterElement(name, index, prority, html, data)
 ```
 
 Register hud element
+

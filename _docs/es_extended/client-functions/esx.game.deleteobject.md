@@ -9,3 +9,4 @@ ESX.Game.DeleteObject(object)
 ```
 
 Delete object
+

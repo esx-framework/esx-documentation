@@ -9,3 +9,4 @@ ESX.Game.SpawnLocalVehicle(modelOrHash, coords, heading, cb)
 ```
 
 Spawn lcoal vehicle
+

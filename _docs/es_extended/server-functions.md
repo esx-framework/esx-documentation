@@ -4,25 +4,25 @@ category: ES Extended
 order: 8
 ---
 
-[ESX.CreatePickup(**type**, **name**, **count**, **label**, **player**)](../server/esx.createpickup)
+[ESX.CreatePickup(**type**, **name**, **count**, **label**, **player**)](../server-functions/esx.createpickup)
 
-[ESX.GetPlayerFromId(**source**)](../server/esx.getplayerfromid)
+[ESX.GetPlayerFromId(**source**)](../server-functions/esx.getplayerfromid)
 
-[ESX.GetPlayerFromIdentifier(**identifier**)](../server/esx.getplayerfromidentifier)
+[ESX.GetPlayerFromIdentifier(**identifier**)](../server-functions/esx.getplayerfromidentifier)
 
-[ESX.GetPlayers()](../server/esx.getplayers)
+[ESX.GetPlayers()](../server-functions/esx.getplayers)
 
-[ESX.RegisterServerCallback(**name**, **cb**)](../server/esx.registerservercallback)
+[ESX.RegisterServerCallback(**name**, **cb**)](../server-functions/esx.registerservercallback)
 
-[ESX.RegisterUsableItem(**item**, **cb**)](../server/esx.registerusableitem)
+[ESX.RegisterUsableItem(**item**, **cb**)](../server-functions/esx.registerusableitem)
 
-[ESX.SavePlayer(**player**, **cb**)](../server/esx.saveplayer)
+[ESX.SavePlayer(**player**, **cb**)](../server-functions/esx.saveplayer)
 
-[ESX.SavePlayers(**cb**)](../server/esx.saveplayers)
+[ESX.SavePlayers(**cb**)](../server-functions/esx.saveplayers)
 
-[ESX.Trace(**str**)](../server/esx.trace)
+[ESX.Trace(**str**)](../server-functions/esx.trace)
 
-[ESX.UseItem(**source**)](../server/esx.useitem)
+[ESX.UseItem(**source**)](../server-functions/esx.useitem)
 
 
 ___

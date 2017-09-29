@@ -9,3 +9,14 @@ ESX.ClearTimeout(id)
 ```
 
 Clear timeout
+
+
+```lua
+local id = ESX.SetTimeout(5000, function()
+  print('foo')
+end)
+
+ESX.ClearTimeout(id)
+```
+
+

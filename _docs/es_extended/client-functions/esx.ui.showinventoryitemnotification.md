@@ -9,3 +9,4 @@ ESX.UI.ShowInventoryItemNotification(add, item, count)
 ```
 
 Show inventory item notification
+

@@ -9,3 +9,4 @@ ESX.UI.HUD.RemoveElement(name)
 ```
 
 Remove hud element
+

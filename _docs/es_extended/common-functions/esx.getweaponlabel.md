@@ -9,3 +9,4 @@ ESX.GetWeaponLabel(weaponName)
 ```
 
 Get weapon label
+

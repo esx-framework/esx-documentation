@@ -9,3 +9,4 @@ ESX.ShowInventory()
 ```
 
 Show inventory
+
