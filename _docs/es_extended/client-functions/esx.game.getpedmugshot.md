@@ -4,6 +4,8 @@ category: ES Extended
 order: 6
 ---
 
+![screenshot](https://i.imgur.com/OV72S12.jpg)
+
 ```lua
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
 ```
