@@ -10,7 +10,7 @@ order: 6
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
 ```
 
-You can you it like in the following example:
+You can do it like in the following example:
 
 ```
 Be sure to use UnregisterPedheadshot(mugshot) after using it,
