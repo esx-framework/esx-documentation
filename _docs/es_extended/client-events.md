@@ -8,4 +8,6 @@ order: 7
 
 [esx:onPlayerDeath](../client-events/esx.onplayerdeath)
 
+[esx:showNotification(**source**, **msg**)](../client-events/esx.shownotification)
+
 ___
