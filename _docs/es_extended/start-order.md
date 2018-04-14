@@ -40,6 +40,8 @@ sv_authMinTrust 1
 # add system admins
 add_ace group.admin command allow # allow all commands
 add_ace group.admin command.quit deny # but don't allow quit
+add_ace resource.essentialmode command.add_ace allow
+add_ace resource.essentialmode command.add_principal allow
 add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group
 
 # hide player endpoints in external log output
