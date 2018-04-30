@@ -5,14 +5,14 @@ order: 8
 ---
 
 ```lua
-local isDead = false
+local IsDead = false
 
 AddEventHandler('esx:onPlayerDeath', function()
-	isDead = true
+	IsDead = true
 end)
 
 AddEventHandler('playerSpawned', function(spawn)
-	isDead = false
+	IsDead = false
 end)
 ```
 
