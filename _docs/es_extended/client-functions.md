@@ -64,6 +64,8 @@ order: 5
 
 [ESX.Game.GetClosestVehicle(**coords**)](../client-functions/esx.game.getclosestvehicle)
 
+[ESX.Game.GetVehicleInDirection()](../client-functions/esx.game.getvehicleindirection)
+
 [ESX.Game.GetVehiclesInArea(**coords**)](../client-functions/esx.game.getvehiclesinarea)
 
 [ESX.Game.GetPeds(**ignoreList**)](../client-functions/esx.game.getpeds)
