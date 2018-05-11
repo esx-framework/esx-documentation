@@ -43,4 +43,4 @@ function notification(msg)
 end
 ```
 ### Related
-- [ESX.ShowAdvancedNotification](esx.showadvancednotification)
+- [ESX.ShowAdvancedNotification](../esx.showadvancednotification)
