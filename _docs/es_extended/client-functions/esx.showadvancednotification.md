@@ -22,7 +22,7 @@ Shows an advanced notification
 ### icon
 To specify an icon, you can either simply parse an already existing notification image, or you can create a player mugshot with ESX.
 - [Existing image list](https://wiki.gtanet.work/index.php?title=Notification_Pictures)
-- [Player mugshots](https://esx-org.github.io/es_extended/client-functions/esx.game.getpedmugshot/)
+- [Player mugshots](esx.game.getpedmugshot)
 
 ### iconType list
 ```
