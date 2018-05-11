@@ -12,6 +12,8 @@ order: 5
 
 [ESX.ShowNotification(**msg**)](../client-functions/esx.shownotification)
 
+[ESX.ShowAdvancedNotification(**title**, **subject**, **msg**, **icon**, **iconType**)](../client-functions/esx.showadvancednotification)
+
 [ESX.TriggerServerCallback(**name**, **cb**, **args**)](../client-functions/esx.triggerservercallback)
 
 [ESX.UI.HUD.SetDisplay(**opacity**)](../client-functions/esx.ui.hud.setdisplay)
