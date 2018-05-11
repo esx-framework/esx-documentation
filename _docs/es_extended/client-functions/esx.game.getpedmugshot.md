@@ -10,7 +10,7 @@ order: 6
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
 ```
 
-You can do it like in the following example:
+You can do it like in the following example with ESX.ShowAdvancedNotification:
 
 ```
 Be sure to use UnregisterPedheadshot(mugshot) after using it,
@@ -25,27 +25,22 @@ Citizen.CreateThread(function()
 
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Wait(0)
+		Citizen.Wait(0)
 	end
 
 	while true do
+		Citizen.Wait(10)
 		if IsControlJustReleased(0, 22) then -- Spacebar key
-		    notification("Hello")
+		    notification('Hello')
 		end
-		Wait(0)
 	end
-
 end)
 
 function notification(msg)
-    SetNotificationTextEntry("STRING")
-    AddTextComponentString(msg)
-    local mugshot, mugshotStr = ESX.GetPedMugshot(GetPlayerPed(-1))
-    SetNotificationMessage(mugshotStr, mugshotStr, false, 1, "Test", "Testing!")
-    DrawNotification(false, false)
-    UnregisterPedheadshot(mugshot)
+	local mugshot, mugshotStr = ESX.Game.GetPedMugshot(GetPlayerPed(-1))
+	ESX.ShowAdvancedNotification('Test', 'Testing!', msg, mugshotStr, 1)
+	UnregisterPedheadshot(mugshot)
 end
 ```
-
-More info about SetNotificationMessage:
-https://runtime.fivem.net/doc/reference.html#_0x1CCD9A37359072CF
+### Related
+- [ESX.ShowAdvancedNotification](esx.showadvancednotification.md)
