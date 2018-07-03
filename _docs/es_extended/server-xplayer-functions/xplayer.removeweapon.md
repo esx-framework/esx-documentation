@@ -5,7 +5,8 @@ order: 12
 ---
 
 ```lua
-xPlayer.removeWeapon(name)
+xPlayer.removeWeapon(name, ammo)
 ```
 
-Remove weapon
+Remove a weapon from the player.
+- The `ammo` variable is optional to delete an certain amount of ammo. Not specifying it will remove all available ammo.

@@ -8,4 +8,4 @@ order: 6
 ESX.Game.SpawnLocalObject(modelOrHash, coords, cb)
 ```
 
-Spawn local object
+Spawn a local object, will not be visible for other players?

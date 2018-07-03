@@ -8,4 +8,4 @@ order: 6
 ESX.Game.SpawnLocalVehicle(modelOrHash, coords, heading, cb)
 ```
 
-Spawn lcoal vehicle
+Spawn a local vehicle, will not be visible for other players?
