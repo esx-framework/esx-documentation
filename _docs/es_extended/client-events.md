@@ -12,4 +12,6 @@ order: 7
 
 [esx:showAdvancedNotification(**source**, **title**, **subject**, **msg**, **icon**, **iconType**)](../client-events/esx.showadvancednotification)
 
+[esx:showHelpNotification(**source**, **msg**)](../client-events/esx.showhelpnotification)
+
 ___

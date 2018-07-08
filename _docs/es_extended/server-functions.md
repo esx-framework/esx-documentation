@@ -24,5 +24,7 @@ order: 8
 
 [ESX.UseItem(**source**)](../server-functions/esx.useitem)
 
+[ESX.GetItemLabel(**item**)](../server-functions/esx.getitemlabel)
+
 
 ___
