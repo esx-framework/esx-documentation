@@ -10,10 +10,20 @@ AddEventHandler('esx:onPlayerDeath', function(data)
 end)
 ```
 
+## `data` table information
+- `victimCoords`: victim coords in its own table
+- `wepaonHash`: weapon hash used to kill player
+- `deathCause`: hash used of the object/model/weapon to kill the player
+- `killed` (boolean): was the player killed by an online player?
+- `killerPed`
+- `killerCoords`
+- `distance`: distance (in gta units) between the two players when killed
+
 ## Example usage server-side
 Simple kill notifications
 
 ```lua
+RegisterServerEvent('esx:onPlayerDeath')
 AddEventHandler('esx:onPlayerDeath', function(data)
 	data.victim = source
 
