@@ -8,4 +8,4 @@ order: 6
 ESX.Game.DeleteVehicle(vehicle)
 ```
 
-Delete vehicle
+Deletes the parsed vehicle
