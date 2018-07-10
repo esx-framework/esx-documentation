@@ -18,6 +18,10 @@ end)
 - `killerPed`
 - `killerCoords`
 - `distance`: distance (in gta units) between the two players when killed
+- `killerType`: [ped type](https://runtime.fivem.net/doc/reference.html#_0xFF059E1E4C01E63C)
+- `killerinveh` (boolean)
+- `killervehseat`
+- `killervehname`
 
 ## Example usage server-side
 Simple kill notifications
