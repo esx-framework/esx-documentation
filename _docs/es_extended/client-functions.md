@@ -84,5 +84,14 @@ order: 5
 
 [ESX.ShowInventory()](../client-functions/esx.showinventory)
 
+[ESX.Scaleform.ShowFreemodeMessage(**title**, **msg**, **sec**)](../client-functions/esx.scaleform.showfreemodemessage)
+
+[ESX.Scaleform.ShowBreakingNews(**title**, **msg**, **bottom**, **sec**)](../client-functions/esx.scaleform.showbreakingnews)
+
+[ESX.Scaleform.ShowPopupWarning(**title**, **msg**, **bottom**, **sec**)](../client-functions/esx.scaleform.showpopupwarning)
+
+[ESX.Scaleform.ShowTrafficMovie(**sec**)](../client-functions/esx.scaleform.showtrafficmovie)
+
+[ESX.Scaleform.Utils.RequestScaleformMovie(**movie**)](../client-functions/esx.scaleform.utils.requestscaleformmovie)
 
 ___
