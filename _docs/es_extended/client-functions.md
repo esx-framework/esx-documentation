@@ -94,4 +94,12 @@ order: 5
 
 [ESX.Scaleform.Utils.RequestScaleformMovie(**movie**)](../client-functions/esx.scaleform.utils.requestscaleformmovie)
 
+[ESX.Streaming.RequestAnimDict(**animDict**)](../esx.streaming.requestanimdict)
+
+[ESX.Streaming.RequestAnimSet(**animSet**)](../esx.streaming.requestanimset)
+
+[ESX.Streaming.RequestModel(**model**)](../esx.streaming.requestmodel)
+
+[ESX.Streaming.RequestStreamedTextureDict(**textureDict**)](../esx.streaming.requeststreamedtexturedict)
+
 ___
