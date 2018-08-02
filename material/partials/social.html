@@ -1,0 +1,10 @@
+{% if config.extra.social %}
+  <div class="md-footer-social">
+    <!--<link rel="stylesheet" href="{{ base_url }}/assets/fonts/font-awesome.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/v4-shims.css">
+    {% for social in config.extra.social %}
+      <a href="{{ social.link }}" class="md-footer-social__link fab fa-{{ social.type }}"></a>
+    {% endfor %}
+  </div>
+{% endif %}
