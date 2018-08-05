@@ -1,7 +1,7 @@
 # ESX.Game.GetVehiclesInArea
 
 ```lua
-ESX.Game.Get.VehiclesInArea(coords)
+ESX.Game.Get.VehiclesInArea(coords, radius)
 ```
 
-This function gets vehicles in a given area.
+This function gets vehicles in a given radius.
