@@ -1,4 +1,4 @@
-# ESX.Game.GetPlayersInArea.md
+# ESX.Game.GetPlayersInArea
 
 ```lua
 ESX.Game.GetPlayersInArea(coords, radius)
