@@ -467,13 +467,13 @@
         },
         {
             "location": "/es_extended/client/functions/game/getplayersinarea/",
-            "text": "ESX.Game.GetPlayersInArea.md\n\u00b6\n\n\n1\nESX\n.\nGame\n.\nGetPlayersInArea\n(\ncoords\n,\n \nradius\n)\n\n\n\n\n\n\n\nThis function gets players in a given radius.",
-            "title": "ESX.Game.GetPlayersInArea.md"
+            "text": "ESX.Game.GetPlayersInArea\n\u00b6\n\n\n1\nESX\n.\nGame\n.\nGetPlayersInArea\n(\ncoords\n,\n \nradius\n)\n\n\n\n\n\n\n\nThis function gets players in a given radius.",
+            "title": "ESX.Game.GetPlayersInArea"
         },
         {
-            "location": "/es_extended/client/functions/game/getplayersinarea/#esxgamegetplayersinareamd",
+            "location": "/es_extended/client/functions/game/getplayersinarea/#esxgamegetplayersinarea",
             "text": "1 ESX . Game . GetPlayersInArea ( coords ,   radius )    This function gets players in a given radius.",
-            "title": "ESX.Game.GetPlayersInArea.md"
+            "title": "ESX.Game.GetPlayersInArea"
         },
         {
             "location": "/es_extended/client/functions/game/getvehicleindirection/",
