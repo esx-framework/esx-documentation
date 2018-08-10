@@ -1282,12 +1282,12 @@
         },
         {
             "location": "/es_extended/server/xplayer/functions/removemoney/",
-            "text": "xPlayer.removeMoney\n\u00b6\n\n\n1\nxPlayer\n.\nremove\n(\nmoney\n)\n\n\n\n\n\n\n\nThis function removes money.",
+            "text": "xPlayer.removeMoney\n\u00b6\n\n\n1\nxPlayer\n.\nremoveMoney\n(\nmoney\n)\n\n\n\n\n\n\n\nThis function removes money.",
             "title": "xPlayer.removeMoney"
         },
         {
             "location": "/es_extended/server/xplayer/functions/removemoney/#xplayerremovemoney",
-            "text": "1 xPlayer . remove ( money )    This function removes money.",
+            "text": "1 xPlayer . removeMoney ( money )    This function removes money.",
             "title": "xPlayer.removeMoney"
         },
         {
