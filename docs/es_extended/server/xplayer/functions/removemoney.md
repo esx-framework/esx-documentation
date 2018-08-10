@@ -1,7 +1,7 @@
 # xPlayer.removeMoney
 
 ```lua
-xPlayer.remove(money)
+xPlayer.removeMoney(money)
 ```
 
 This function removes money.
