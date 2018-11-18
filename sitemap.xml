@@ -1,587 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/faq/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/getrandomstring/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/getweaponlabel/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/getweaponlist/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/round/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/setimeout/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/cleartimeout/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/dumptable/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/functions/tablecontainsvalue/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/common/events/onplayerdeath/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/getplayerdata/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/isplayerloaded/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/setplayerdata/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/showadvancednotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/showhelpnotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/showinventory/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/shownotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/triggerservercallback/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/deleteobject/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/deletevehicle/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getclosestobject/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getclosestped/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getclosestplayer/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getclosestvehicle/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getobjects/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getpedmugshot/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getpeds/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getplayers/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getplayersinarea/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getvehicleindirection/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getvehicleproperties/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getvehicles/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/getvehiclesinarea/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/setvehicleproperties/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/spawnlocalobject/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/spawnlocalvehicle/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/spawnobject/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/spawnvehicle/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/teleport/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/game/utils/drawtext3d/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/scaleform/showbreakingnews/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/scaleform/showfreemodemessage/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/scaleform/showpopupmessage/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/scaleform/showtrafficmovie/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/scaleform/utils/requestscaleformmovie/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/streaming/requestanimdict/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/streaming/requestanimset/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/streaming/requestmodel/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/streaming/requeststreamedtexturedict/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/showinventoryitemnotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/hud/registerelement/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/hud/removeelement/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/hud/setdisplay/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/hud/updateelement/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/menu/close/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/menu/closeall/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/menu/getopened/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/menu/isopen/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/menu/open/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/functions/ui/menu/registertype/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/events/playerloaded/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/events/showadvancednotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/events/showhelpnotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/client/events/shownotification/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/createpickup/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/getitemlabel/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/getplayerfromid/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/getplayerfromidentifier/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/getplayers/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/registerservercallback/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/registerusableitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/saveplayer/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/saveplayers/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/trace/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/functions/useitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/addaccountmoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/addbank/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/addinventoryitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/addmoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/addweapon/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/displaybank/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/displaymoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getaccount/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getaccounts/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getbank/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getcoords/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getgroup/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getidentifier/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getinventory/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getinventoryitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getjob/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getlastposition/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getloadout/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getmissingaccounts/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getmoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getname/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getpermissions/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getplayer/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/getsessionvar/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/hasweapon/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/kick/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/removeaccountmoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/removebank/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/removeinventoryitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/removemoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/removeweapon/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setaccountmoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setbankbalance/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setcoords/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setinventoryitem/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setjob/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setmoney/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setname/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setpermissions/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/es_extended/server/xplayer/functions/setsessionvar/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
