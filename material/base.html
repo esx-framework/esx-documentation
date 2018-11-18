@@ -35,8 +35,8 @@
       ] %}
         <meta name="lang:{{ key }}" content="{{ lang.t(key) }}">
       {% endfor %}
-      <link rel="shortcut icon" href="{{ base_url }}/{{ config.theme.favicon }}">
-      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-2.9.2">
+      <link rel="shortcut icon" href="{{ config.theme.favicon | url }}">
+      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-3.1.0">
     {% endblock %}
     {% block htmltitle %}
       {% if page and page.meta and page.meta.title %}
@@ -48,9 +48,9 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application.ba0fd1a6.css">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/application.11e41852.css' | url }}">
       {% if palette.primary or palette.accent %}
-        <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application-palette.6079476c.css">
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/application-palette.22915126.css' | url }}">
       {% endif %}
       {% if palette.primary %}
         {% import "partials/palette.html" as map %}
@@ -61,11 +61,11 @@
       {% endif %}
     {% endblock %}
     {% block libs %}
-      <script src="{{ base_url }}/assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="{{ 'assets/javascripts/modernizr.20ef595d.js' | url }}"></script>
     {% endblock %}
     {% block fonts %}
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       {% if font != false %}
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
               font.text | replace(' ', '+')  + ':300,400,400i,700|' +
               font.code | replace(' ', '+')
@@ -73,9 +73,12 @@
         <style>body,input{font-family:"{{ font.text }}","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"{{ font.code }}","Courier New",Courier,monospace}</style>
       {% endif %}
     {% endblock %}
-    <link rel="stylesheet" href="{{ base_url }}/assets/fonts/material-icons.css">
-    {% for path in extra_css %}
-      <link rel="stylesheet" href="{{ path }}">
+    <link rel="stylesheet" href="{{ 'assets/fonts/material-icons.css' | url }}">
+    {% if config.extra.manifest %}
+      <link rel="manifest" href="{{ config.extra.manifest | url }}">
+    {% endif %}
+    {% for path in config["extra_css"] %}
+      <link rel="stylesheet" href="{{ path | url }}">
     {% endfor %}
     {% block extrahead %}{% endblock %}
   </head>
@@ -177,30 +180,30 @@
       {% endblock %}
     </div>
     {% block scripts %}
-      <script src="{{ base_url }}/assets/javascripts/application.d0060b13.js"></script>
+      <script src="{{ 'assets/javascripts/application.905597d0.js' | url }}"></script>
       {% if lang.t("search.language") != "en" %}
         {% set languages = lang.t("search.language").split(",") %}
         {% if languages | length and languages[0] != "" %}
-          {% set path = base_url + "/assets/javascripts/lunr" %}
-          <script src="{{ path }}/lunr.stemmer.support.js"></script>
+          {% set path = "assets/javascripts/lunr/" %}
+          <script src="{{ (path ~ 'lunr.stemmer.support.js') | url }}"></script>
           {% for language in languages | map("trim") %}
             {% if language != "en" %}
               {% if language == "jp" %}
-                <script src="{{ path }}/tinyseg.js"></script>
+                <script src="{{ (path ~ 'tinyseg.js') | url }}"></script>
               {% endif %}
               {% if language in ("da", "de", "du", "es", "fi", "fr", "hu", "it", "jp", "no", "pt", "ro", "ru", "sv", "tr") %}
-                <script src="{{ path }}/lunr.{{ language }}.js"></script>
+                <script src="{{ (path ~ 'lunr.' ~ language ~ '.js') | url }}"></script>
               {% endif %}
             {% endif %}
           {% endfor %}
           {% if languages | length > 1 %}
-            <script src="{{ path }}/lunr.multi.js"></script>
+            <script src="{{ (path ~ 'lunr.multi.js') | url }}"></script>
           {% endif %}
         {% endif %}
       {% endif %}
       <script>app.initialize({version:"{{ mkdocs_version }}",url:{base:"{{ base_url }}"}})</script>
-      {% for path in extra_javascript %}
-        <script src="{{ path }}"></script>
+      {% for path in config["extra_javascript"] %}
+        <script src="{{ path | url }}"></script>
       {% endfor %}
     {% endblock %}
     {% block analytics %}

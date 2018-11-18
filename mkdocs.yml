@@ -15,6 +15,7 @@ copyright: 'Copyright &copy; 2018 ESX'
 # Configuration
 docs_dir: 'docs'
 site_dir: 'site'
+strict: true
 
 theme:
   name: null
@@ -85,7 +86,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Pages
-pages:
+nav:
   - Home:
     - Index: 'index.md'
     - FAQ: 'faq.md'
