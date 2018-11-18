@@ -2,27 +2,27 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to ES Extended\n\u00b6\n\n\nThis is the official documentation for \nES Extended\n.\n\n\n\n\nCheck out our add-ons on the \nES Extended GitHub Page\n\n\n\n\nAbout\n\u00b6\n\n\nES Extended\n is a core / framework for your \nFiveM\n server to utilize. There are many add-ons that you can add / remove to suit your servers needs.\n\n\nDiscord\n\u00b6\n\n\nYou can join our \nDiscord\n to communicate with our Developers, or Community Members by clicking the link below.\n\n\n\n\nJoin our Discord",
+            "text": "Welcome to ES Extended\n\u00b6\n\n\nThis is the official documentation for \nES Extended\n.\n\n\n\n\nCheck out our official add-ons on the \nES Extended GitHub Page\n\n\n\n\nAbout\n\u00b6\n\n\nes_extended is a roleplay framework for FiveM. It is developed on top of \nEssentialMode\n (aka ES), thus commonly named ESX - the **Es**sentialMode **E**xtended framework for FiveM.\n\n\nDiscord\n\u00b6\n\n\nJoin our \nDevelopment Discord\n to communicate with our Developers, or Community Members by clicking the link.",
             "title": "Welcome to ES Extended"
         },
         {
             "location": "/#welcome-to-es-extended",
-            "text": "This is the official documentation for  ES Extended .   Check out our add-ons on the  ES Extended GitHub Page",
+            "text": "This is the official documentation for  ES Extended .   Check out our official add-ons on the  ES Extended GitHub Page",
             "title": "Welcome to ES Extended"
         },
         {
             "location": "/#about",
-            "text": "ES Extended  is a core / framework for your  FiveM  server to utilize. There are many add-ons that you can add / remove to suit your servers needs.",
+            "text": "es_extended is a roleplay framework for FiveM. It is developed on top of  EssentialMode  (aka ES), thus commonly named ESX - the **Es**sentialMode **E**xtended framework for FiveM.",
             "title": "About"
         },
         {
             "location": "/#discord",
-            "text": "You can join our  Discord  to communicate with our Developers, or Community Members by clicking the link below.   Join our Discord",
+            "text": "Join our  Development Discord  to communicate with our Developers, or Community Members by clicking the link.",
             "title": "Discord"
         },
         {
             "location": "/faq/",
-            "text": "F.A.Q\n\u00b6\n\n\nThis page has some helpful tips for all of \nES Extended\n.\n\n\nFiveM Start Order\n\u00b6\n\n\nWhen you're downloading scripts, especially \nES Extended\n scripts there are \"requirements\". Which are vital to them running properly. The start order of your scripts in your \nconfig.cfg\n is \nimportant\n. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.\n\n\nExample config.cfg\n\u00b6\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\nendpoint_add_tcp \"0.0.0.0:30120\"\nendpoint_add_udp \"0.0.0.0:30120\"\n\nset mysql_connection_string \"server=adress;database=dbname;userid=user;password=psswd\"\nset es_enableCustomData 1\nset sv_licenseKey \"XXXXXXXXXXXXXXXXXXX\"\nsv_scriptHookAllowed 1\nrcon_password blablablabla\nsv_hostname \"ESX PUBLIC SERVER\"\nset temp_convar \"ESX\"\n\n# disable announcing? clear out the master by uncommenting this\n#sv_master1 \"\"\n\n# want to only allow players authenticated with a third-party provider like Steam?\nsv_authMaxVariance 1\nsv_authMinTrust 1\n\n# add system admins\nadd_ace group.admin command allow # allow all commands\nadd_ace group.admin command.quit deny # but don't allow quit\nadd_ace resource.essentialmode command.add_ace allow\nadd_ace resource.essentialmode command.add_principal allow\nadd_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group\n\n# hide player endpoints in external log output\nsv_endpointprivacy true\n\n#### FIVEM DEFAULT ####\n    start mapmanager\n    start chat\n    start spawnmanager\n    start sessionmanager\n    restart sessionmanager\n    start fivem\n    start hardcap\n    start rconlog\n    start scoreboard\n    start baseevents\n\n#### MYSQL ASYNC\n    start mysql-async\n\n#### ESSENTIAL MODS\n    start essentialmode\n    start esplugin_mysql\n    start es_admin2\n    start es_extended\n\n#### ESX REQUIRED MODS\n    start instance\n    start cron\n    start skinchanger\n    start esx_skin\n    start esx_menu_default\n    start esx_menu_list\n    start esx_menu_dialog\n    start esx_phone\n    start esx_addonaccount\n    start esx_addoninventory\n    start esx_datastore\n    start esx_society\n    start esx_service\n    start esx_billing\n\n#### ESX JOBS\n    start esx_jobs\n    start esx_joblisting\n    start esx_taxijob\n    start esx_mecanojob\n    start esx_policejob\n    start esx_property\n    start esx_realestateagentjob\n    start esx_bankerjob\n    start esx_ambulancejob\n    start esx_vehicleshop\n\n#### ESX ANY OTHER MODS\n    start esx_status\n    start esx_basicneeds\n    start esx_clotheshop\n    start esx_garage\n    start esx_holdup\n    start esx_drugs\n    start esx_atm\n\n#### ANY NON ESX MODS\n    #start nonESXmod",
+            "text": "F.A.Q\n\u00b6\n\n\nThis page has some helpful tips for all of \nES Extended\n.\n\n\nFiveM Start Order\n\u00b6\n\n\nWhen you're downloading scripts, especially \nES Extended\n scripts there are \"requirements\". Which are vital to them running properly. The start order of your scripts in your \nconfig.cfg\n is \nimportant\n. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.\n\n\nExample config.cfg\n\u00b6\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\nendpoint_add_tcp \"0.0.0.0:30120\"\nendpoint_add_udp \"0.0.0.0:30120\"\n\nset mysql_connection_string \"server=adress;database=dbname;userid=user;password=psswd\"\nset es_enableCustomData 1\nset sv_licenseKey \"XXXXXXXXXXXXXXXXXXX\"\nsv_scriptHookAllowed 0\nrcon_password blablablabla\nsv_hostname \"ESX PUBLIC SERVER\"\nset temp_convar \"ESX\"\n\n# disable announcing? clear out the master by uncommenting this\n#sv_master1 \"\"\n\n# want to only allow players authenticated with a third-party provider like Steam?\nsv_authMaxVariance 1\nsv_authMinTrust 1\n\n# add system admins\nadd_ace group.admin command allow # allow all commands\nadd_ace group.admin command.quit deny # but don't allow quit\nadd_ace resource.essentialmode command.add_ace allow\nadd_ace resource.essentialmode command.add_principal allow\nadd_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group\n\n# hide player endpoints in external log output\nsv_endpointprivacy true\n\n#### FIVEM DEFAULT ####\n    start mapmanager\n    start chat\n    start spawnmanager\n    start sessionmanager\n    restart sessionmanager\n    start fivem\n    start hardcap\n    start rconlog\n    start scoreboard\n    start baseevents\n\n#### MYSQL ASYNC\n    start mysql-async\n\n#### ESSENTIAL MODS\n    start essentialmode\n    start esplugin_mysql\n    start es_admin2\n    start es_extended\n\n#### ESX REQUIRED MODS\n    start instance\n    start cron\n    start skinchanger\n    start esx_skin\n    start esx_menu_default\n    start esx_menu_list\n    start esx_menu_dialog\n    start esx_phone\n    start esx_addonaccount\n    start esx_addoninventory\n    start esx_datastore\n    start esx_society\n    start esx_service\n    start esx_billing\n\n#### ESX JOBS\n    start esx_jobs\n    start esx_joblisting\n    start esx_taxijob\n    start esx_mecanojob\n    start esx_policejob\n    start esx_property\n    start esx_realestateagentjob\n    start esx_bankerjob\n    start esx_ambulancejob\n    start esx_vehicleshop\n\n#### ESX ANY OTHER MODS\n    start esx_status\n    start esx_basicneeds\n    start esx_clotheshop\n    start esx_garage\n    start esx_holdup\n    start esx_drugs\n    start esx_atm\n\n#### ANY NON ESX MODS\n    #start nonESXmod",
             "title": "F.A.Q"
         },
         {
@@ -37,12 +37,12 @@
         },
         {
             "location": "/faq/#example-configcfg",
-            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88 endpoint_add_tcp \"0.0.0.0:30120\"\nendpoint_add_udp \"0.0.0.0:30120\"\n\nset mysql_connection_string \"server=adress;database=dbname;userid=user;password=psswd\"\nset es_enableCustomData 1\nset sv_licenseKey \"XXXXXXXXXXXXXXXXXXX\"\nsv_scriptHookAllowed 1\nrcon_password blablablabla\nsv_hostname \"ESX PUBLIC SERVER\"\nset temp_convar \"ESX\"\n\n# disable announcing? clear out the master by uncommenting this\n#sv_master1 \"\"\n\n# want to only allow players authenticated with a third-party provider like Steam?\nsv_authMaxVariance 1\nsv_authMinTrust 1\n\n# add system admins\nadd_ace group.admin command allow # allow all commands\nadd_ace group.admin command.quit deny # but don't allow quit\nadd_ace resource.essentialmode command.add_ace allow\nadd_ace resource.essentialmode command.add_principal allow\nadd_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group\n\n# hide player endpoints in external log output\nsv_endpointprivacy true\n\n#### FIVEM DEFAULT ####\n    start mapmanager\n    start chat\n    start spawnmanager\n    start sessionmanager\n    restart sessionmanager\n    start fivem\n    start hardcap\n    start rconlog\n    start scoreboard\n    start baseevents\n\n#### MYSQL ASYNC\n    start mysql-async\n\n#### ESSENTIAL MODS\n    start essentialmode\n    start esplugin_mysql\n    start es_admin2\n    start es_extended\n\n#### ESX REQUIRED MODS\n    start instance\n    start cron\n    start skinchanger\n    start esx_skin\n    start esx_menu_default\n    start esx_menu_list\n    start esx_menu_dialog\n    start esx_phone\n    start esx_addonaccount\n    start esx_addoninventory\n    start esx_datastore\n    start esx_society\n    start esx_service\n    start esx_billing\n\n#### ESX JOBS\n    start esx_jobs\n    start esx_joblisting\n    start esx_taxijob\n    start esx_mecanojob\n    start esx_policejob\n    start esx_property\n    start esx_realestateagentjob\n    start esx_bankerjob\n    start esx_ambulancejob\n    start esx_vehicleshop\n\n#### ESX ANY OTHER MODS\n    start esx_status\n    start esx_basicneeds\n    start esx_clotheshop\n    start esx_garage\n    start esx_holdup\n    start esx_drugs\n    start esx_atm\n\n#### ANY NON ESX MODS\n    #start nonESXmod",
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88 endpoint_add_tcp \"0.0.0.0:30120\"\nendpoint_add_udp \"0.0.0.0:30120\"\n\nset mysql_connection_string \"server=adress;database=dbname;userid=user;password=psswd\"\nset es_enableCustomData 1\nset sv_licenseKey \"XXXXXXXXXXXXXXXXXXX\"\nsv_scriptHookAllowed 0\nrcon_password blablablabla\nsv_hostname \"ESX PUBLIC SERVER\"\nset temp_convar \"ESX\"\n\n# disable announcing? clear out the master by uncommenting this\n#sv_master1 \"\"\n\n# want to only allow players authenticated with a third-party provider like Steam?\nsv_authMaxVariance 1\nsv_authMinTrust 1\n\n# add system admins\nadd_ace group.admin command allow # allow all commands\nadd_ace group.admin command.quit deny # but don't allow quit\nadd_ace resource.essentialmode command.add_ace allow\nadd_ace resource.essentialmode command.add_principal allow\nadd_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group\n\n# hide player endpoints in external log output\nsv_endpointprivacy true\n\n#### FIVEM DEFAULT ####\n    start mapmanager\n    start chat\n    start spawnmanager\n    start sessionmanager\n    restart sessionmanager\n    start fivem\n    start hardcap\n    start rconlog\n    start scoreboard\n    start baseevents\n\n#### MYSQL ASYNC\n    start mysql-async\n\n#### ESSENTIAL MODS\n    start essentialmode\n    start esplugin_mysql\n    start es_admin2\n    start es_extended\n\n#### ESX REQUIRED MODS\n    start instance\n    start cron\n    start skinchanger\n    start esx_skin\n    start esx_menu_default\n    start esx_menu_list\n    start esx_menu_dialog\n    start esx_phone\n    start esx_addonaccount\n    start esx_addoninventory\n    start esx_datastore\n    start esx_society\n    start esx_service\n    start esx_billing\n\n#### ESX JOBS\n    start esx_jobs\n    start esx_joblisting\n    start esx_taxijob\n    start esx_mecanojob\n    start esx_policejob\n    start esx_property\n    start esx_realestateagentjob\n    start esx_bankerjob\n    start esx_ambulancejob\n    start esx_vehicleshop\n\n#### ESX ANY OTHER MODS\n    start esx_status\n    start esx_basicneeds\n    start esx_clotheshop\n    start esx_garage\n    start esx_holdup\n    start esx_drugs\n    start esx_atm\n\n#### ANY NON ESX MODS\n    #start nonESXmod",
             "title": "Example config.cfg"
         },
         {
             "location": "/es_extended/",
-            "text": "Overview\n\u00b6\n\n\nInstructions on how to download and install \nES Extended\n.\n\n\nRequirements\n\u00b6\n\n\n\n\nessentialmode + es_admin2\n\n\nesplugin_mysql\n\n\nmysql-async\n\n\nasync\n\n\n\n\nDownloading\n\u00b6\n\n\nThere are three ways to download \nES Extended\n\n\n1. Using \nFVM Installer\n\u00b6\n\n\n1\n2\n3\n4\nfvm install --save --folder=essential esx-org/es_extended\nfvm install --save --folder=esx esx-org/esx_menu_default\nfvm install --save --folder=esx esx-org/esx_menu_dialog\nfvm install --save --folder=esx esx-org/esx_menu_list\n\n\n\n\n\n\n2. Using Git (\nPreferred\n)\n\u00b6\n\n\n1\n2\n3\n4\n5\ncd resources\ngit clone https://github.com/ESX-Org/es_extended [essential]/es_extended\ngit clone https://github.com/ESX-Org/esx_menu_default [esx]/[ui]/esx_menu_default\ngit clone https://github.com/ESX-Org/esx_menu_dialog [esx]/[ui]/esx_menu_dialog\ngit clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list\n\n\n\n\n\n\n3. Installing Manually\n\u00b6\n\n\n\n\nDownload \nes_extended\n\n\nPut it in \nresources/[essential]\n\n\n\n\n\n\nDownload \nesx_menu_default\n\n\nPut it in \nresources/[esx]/[ui]\n\n\n\n\n\n\nDownload \nesx_menu_dialog\n\n\nPut it in \nresources/[esx]/[ui]\n\n\n\n\n\n\nDownload \nesx_menu_list\n\n\nPut it in \nresources/[esx]/[ui]\n\n\n\n\n\n\n\n\nInstalling\n\u00b6\n\n\n\n\n\n\nImport es_extended.sql into your \nessentialmode\n database.\n\n\n\n\n\n\nAdd this in your server.cfg:\n\n\n\n\n\n\n1\n2\n3\n4\n5\nstart es_extended\n\nstart esx_menu_default\nstart esx_menu_dialog\nstart esx_menu_list",
+            "text": "Overview\n\u00b6\n\n\nInstructions on how to download and install \nES Extended\n.\n\n\nRequirements\n\u00b6\n\n\nThis order also applies in the startup order.\n\n\n\n\nmysql-async\n\n\nessentialmode\n\n\nesplugin_mysql\n\n\nasync\n\n\n\n\nDownload & Installation\n\u00b6\n\n\nUsing \nfvm\n\u00b6\n\n\n1\n2\n3\n4\nfvm install --save --folder=essential esx-org/es_extended\nfvm install --save --folder=esx esx-org/esx_menu_default\nfvm install --save --folder=esx esx-org/esx_menu_dialog\nfvm install --save --folder=esx esx-org/esx_menu_list\n\n\n\n\n\n\nUsing Git\n\u00b6\n\n\n1\n2\n3\n4\n5\ncd resources\ngit clone https://github.com/ESX-Org/es_extended [essential]/es_extended\ngit clone https://github.com/ESX-Org/esx_menu_default [esx]/[ui]/esx_menu_default\ngit clone https://github.com/ESX-Org/esx_menu_dialog [esx]/[ui]/esx_menu_dialog\ngit clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list\n\n\n\n\n\n\nManually\n\u00b6\n\n\n\n\nDownload \nhttps://github.com/ESX-Org/es_extended/releases/latest\n\n\nPut it in the \nresource/[essential]\n directory\n\n\nDownload \nhttps://github.com/ESX-Org/esx_menu_default/releases/latest\n\n\nPut it in the \nresource/[esx]/[ui]\n directory\n\n\nDownload \nhttps://github.com/ESX-Org/esx_menu_dialog/releases/latest\n\n\nPut it in the \nresource/[esx]/[ui]\n directory\n\n\nDownload \nhttps://github.com/ESX-Org/esx_menu_list/releases/latest\n\n\nPut it in the \nresource/[esx]/[ui]\n directory\n\n\n\n\nInstallation\n\u00b6\n\n\n\n\nImport \nes_extended.sql\n in your database\n\n\nConfigure your \nserver.cfg\n to look like this\n\n\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\nstart mysql-async\nstart essentialmode\nstart esplugin_mysql\n\nstart es_extended\n\nstart esx_menu_default\nstart esx_menu_list\nstart esx_menu_dialog",
             "title": "Overview"
         },
         {
@@ -52,33 +52,33 @@
         },
         {
             "location": "/es_extended/#requirements",
-            "text": "essentialmode + es_admin2  esplugin_mysql  mysql-async  async",
+            "text": "This order also applies in the startup order.   mysql-async  essentialmode  esplugin_mysql  async",
             "title": "Requirements"
         },
         {
-            "location": "/es_extended/#downloading",
-            "text": "There are three ways to download  ES Extended",
-            "title": "Downloading"
+            "location": "/es_extended/#download-installation",
+            "text": "",
+            "title": "Download &amp; Installation"
         },
         {
-            "location": "/es_extended/#1-using-fvm-installer",
+            "location": "/es_extended/#using-fvm",
             "text": "1\n2\n3\n4 fvm install --save --folder=essential esx-org/es_extended\nfvm install --save --folder=esx esx-org/esx_menu_default\nfvm install --save --folder=esx esx-org/esx_menu_dialog\nfvm install --save --folder=esx esx-org/esx_menu_list",
-            "title": "1. Using FVM Installer"
+            "title": "Using fvm"
         },
         {
-            "location": "/es_extended/#2-using-git-preferred",
+            "location": "/es_extended/#using-git",
             "text": "1\n2\n3\n4\n5 cd resources\ngit clone https://github.com/ESX-Org/es_extended [essential]/es_extended\ngit clone https://github.com/ESX-Org/esx_menu_default [esx]/[ui]/esx_menu_default\ngit clone https://github.com/ESX-Org/esx_menu_dialog [esx]/[ui]/esx_menu_dialog\ngit clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list",
-            "title": "2. Using Git (Preferred)"
+            "title": "Using Git"
         },
         {
-            "location": "/es_extended/#3-installing-manually",
-            "text": "Download  es_extended  Put it in  resources/[essential]    Download  esx_menu_default  Put it in  resources/[esx]/[ui]    Download  esx_menu_dialog  Put it in  resources/[esx]/[ui]    Download  esx_menu_list  Put it in  resources/[esx]/[ui]",
-            "title": "3. Installing Manually"
+            "location": "/es_extended/#manually",
+            "text": "Download  https://github.com/ESX-Org/es_extended/releases/latest  Put it in the  resource/[essential]  directory  Download  https://github.com/ESX-Org/esx_menu_default/releases/latest  Put it in the  resource/[esx]/[ui]  directory  Download  https://github.com/ESX-Org/esx_menu_dialog/releases/latest  Put it in the  resource/[esx]/[ui]  directory  Download  https://github.com/ESX-Org/esx_menu_list/releases/latest  Put it in the  resource/[esx]/[ui]  directory",
+            "title": "Manually"
         },
         {
-            "location": "/es_extended/#installing",
-            "text": "Import es_extended.sql into your  essentialmode  database.    Add this in your server.cfg:    1\n2\n3\n4\n5 start es_extended\n\nstart esx_menu_default\nstart esx_menu_dialog\nstart esx_menu_list",
-            "title": "Installing"
+            "location": "/es_extended/#installation",
+            "text": "Import  es_extended.sql  in your database  Configure your  server.cfg  to look like this   1\n2\n3\n4\n5\n6\n7\n8\n9 start mysql-async\nstart essentialmode\nstart esplugin_mysql\n\nstart es_extended\n\nstart esx_menu_default\nstart esx_menu_list\nstart esx_menu_dialog",
+            "title": "Installation"
         },
         {
             "location": "/es_extended/common/functions/getrandomstring/",
@@ -112,7 +112,7 @@
         },
         {
             "location": "/es_extended/common/functions/getweaponlist/",
-            "text": "ESX.GetWeaponList\n\u00b6\n\n\n1\nESX\n.\nGetWeaponList\n()\n\n\n\n\n\n\n\nThis function gets the complete weapon list and label.\n\n\nESX.GetWeaponList Example\n\u00b6\n\n\n1\n2\n3\n4\n5\nlocal\n \nlist\n \n=\n \nESX\n.\nGetWeaponList\n()\n\n\n\nfor\n \ni\n=\n1\n,\n \n#\nlist\n,\n \n1\n \ndo\n\n  \nprint\n(\nlist\n[\ni\n].\nname\n \n..\n \n' => '\n \n..\n \nlist\n[\ni\n].\nlabel\n)\n\n\nend",
+            "text": "ESX.GetWeaponList\n\u00b6\n\n\n1\nESX\n.\nGetWeaponList\n()\n\n\n\n\n\n\n\nThis function gets the complete weapon list and label.\n\n\nESX.GetWeaponList Example\n\u00b6\n\n\n1\n2\n3\n4\n5\nlocal\n \nlist\n \n=\n \nESX\n.\nGetWeaponList\n()\n\n\n\nfor\n \ni\n=\n1\n,\n \n#\nlist\n,\n \n1\n \ndo\n\n    \nprint\n(\nlist\n[\ni\n].\nname\n \n..\n \n' => '\n \n..\n \nlist\n[\ni\n].\nlabel\n)\n\n\nend",
             "title": "ESX.GetWeaponList"
         },
         {
@@ -122,27 +122,27 @@
         },
         {
             "location": "/es_extended/common/functions/getweaponlist/#esxgetweaponlist-example",
-            "text": "1\n2\n3\n4\n5 local   list   =   ESX . GetWeaponList ()  for   i = 1 ,   # list ,   1   do \n   print ( list [ i ]. name   ..   ' => '   ..   list [ i ]. label )  end",
+            "text": "1\n2\n3\n4\n5 local   list   =   ESX . GetWeaponList ()  for   i = 1 ,   # list ,   1   do \n     print ( list [ i ]. name   ..   ' => '   ..   list [ i ]. label )  end",
             "title": "ESX.GetWeaponList Example"
         },
         {
             "location": "/es_extended/common/functions/round/",
-            "text": "ESX.Round\n\u00b6\n\n\n1\nESX\n.\nRound\n(\nvalue\n)\n\n\n\n\n\n\n\nThis function rounds off a number, removing any decimals.\n\n\nESX.Round Example\n\u00b6\n\n\n1\n2\n3\n4\nlocal\n \nvalue\n \n-\n \n5.444\n\n\n\nprint\n(\n'value: '\n \n..\n \nvalue\n)\n \n-- returns 5.444\n\n\nprint\n(\n'value rounded: '\n \n..\n \nESX\n.\nRound\n(\nvalue\n))\n \n-- returns 5",
-            "title": "ESX.Round"
+            "text": "ESX.Math.Round\n\u00b6\n\n\n1\nESX\n.\nMath\n.\nRound\n(\nvalue\n,\n \nnumDecimalPlaces\n)\n\n\n\n\n\n\n\nThis function rounds off a number, and optionally you can parse how many decimals you want (defaults to 0)\n\n\nESX.Math.Round Example\n\u00b6\n\n\n1\n2\n3\n4\n5\nlocal\n \nvalue\n \n-\n \n5.444\n\n\n\nprint\n(\n'value: '\n \n..\n \nvalue\n)\n \n-- returns 5.444\n\n\nprint\n(\n'value rounded: '\n \n..\n \nESX\n.\nMath\n.\nRound\n(\nvalue\n))\n \n-- returns 5\n\n\nprint\n(\n'value rounded: '\n \n..\n \nESX\n.\nMath\n.\nRound\n(\nvalue\n,\n \n1\n))\n \n-- returns 5.4",
+            "title": "ESX.Math.Round"
         },
         {
-            "location": "/es_extended/common/functions/round/#esxround",
-            "text": "1 ESX . Round ( value )    This function rounds off a number, removing any decimals.",
-            "title": "ESX.Round"
+            "location": "/es_extended/common/functions/round/#esxmathround",
+            "text": "1 ESX . Math . Round ( value ,   numDecimalPlaces )    This function rounds off a number, and optionally you can parse how many decimals you want (defaults to 0)",
+            "title": "ESX.Math.Round"
         },
         {
-            "location": "/es_extended/common/functions/round/#esxround-example",
-            "text": "1\n2\n3\n4 local   value   -   5.444  print ( 'value: '   ..   value )   -- returns 5.444  print ( 'value rounded: '   ..   ESX . Round ( value ))   -- returns 5",
-            "title": "ESX.Round Example"
+            "location": "/es_extended/common/functions/round/#esxmathround-example",
+            "text": "1\n2\n3\n4\n5 local   value   -   5.444  print ( 'value: '   ..   value )   -- returns 5.444  print ( 'value rounded: '   ..   ESX . Math . Round ( value ))   -- returns 5  print ( 'value rounded: '   ..   ESX . Math . Round ( value ,   1 ))   -- returns 5.4",
+            "title": "ESX.Math.Round Example"
         },
         {
             "location": "/es_extended/common/functions/setimeout/",
-            "text": "ESX.SetTimeout\n\u00b6\n\n\n1\nESX\n.\nSetTimeout\n(\nmsec\n,\n \ncb\n)\n\n\n\n\n\n\n\nThis function sets a timeout requiring two arguments, msec (milliseconds), and cb (callback).\n\n\nESX.SetTimeout Example\n\u00b6\n\n\n1\n2\n3\nlocal\n \nid\n \n=\n \nESX\n.\nSetTimeout\n(\n5000\n,\n \nfunction\n()\n\n  \nprint\n(\n'foo'\n)\n\n\nend\n)",
+            "text": "ESX.SetTimeout\n\u00b6\n\n\n1\nESX\n.\nSetTimeout\n(\nmsec\n,\n \ncb\n)\n\n\n\n\n\n\n\nThis function sets a timeout requiring two arguments, msec (milliseconds), and cb (callback).\n\n\nESX.SetTimeout Example\n\u00b6\n\n\n1\n2\n3\nlocal\n \nid\n \n=\n \nESX\n.\nSetTimeout\n(\n5000\n,\n \nfunction\n()\n\n    \nprint\n(\n'foo'\n)\n\n\nend\n)",
             "title": "ESX.SetTimeout"
         },
         {
@@ -152,7 +152,7 @@
         },
         {
             "location": "/es_extended/common/functions/setimeout/#esxsettimeout-example",
-            "text": "1\n2\n3 local   id   =   ESX . SetTimeout ( 5000 ,   function () \n   print ( 'foo' )  end )",
+            "text": "1\n2\n3 local   id   =   ESX . SetTimeout ( 5000 ,   function () \n     print ( 'foo' )  end )",
             "title": "ESX.SetTimeout Example"
         },
         {
@@ -202,7 +202,7 @@
         },
         {
             "location": "/es_extended/common/events/onplayerdeath/",
-            "text": "esx:onPlayerDeath\n\u00b6\n\n\n1\n2\n3\nAddEventHandler\n(\n'esx:onPlayerDeath'\n,\n \nfunction\n(\ndata\n)\n\n\n\nend\n)\n\n\n\n\n\n\n\nData\n Table Information\n\u00b6\n\n\n\n\nvictimCoords\n \u2192 Victim coords in its own table\n\n\nweaponHash\n \u2192 Weapon hash used to kill the player\n\n\ndeathCause\n \u2192 Hash used of the object / model / weapon to kill the player\n\n\nkilled\n (boolean): Was the player killed by an online player?\n\n\nkillerPed\n\n\nkillerCoords\n\n\ndistance\n \u2192 Distance (in GTA Units) between the two players when killed\n\n\nkillerType\n \u2192 \nPed Type\n\n\nkillerinveh\n (boolean)\n\n\nkillervehseat\n\n\nkillervehname\n\n\n\n\nExample Server-Side Usage\n\u00b6\n\n\nSimple Kill Notifications\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\nRegisterServerEvent\n(\n'esx:onPlayerDeath'\n)\n\n\nAddEventHandler\n(\n'esx:onPlayerDeath'\n,\n \nfunction\n(\ndata\n)\n\n  \ndata\n.\nvictim\n \n=\n \nsource\n\n\n  \nif\n \ndata\n.\nkilled\n \nthen\n\n    \nTriggerClientEvent\n(\n'esx:showNotification'\n,\n \n-\n1\n,\n \nGetPlayerName\n(\ndata\n.\nvictim\n)\n \n..\n \n'was killed by '\n \n..\n \nGetPlayerName\n(\ndata\n.\nkillerPed\n)\n \n..\n \n' from '\n \n..\n \ndata\n.\ndistance\n \n..\n \n' units'\n)\n\n  \nelse\n\n    \nTriggerClientEvent\n(\n'esx:showNotification'\n,\n \n-\n1\n,\n \nGetPlayerName\n(\ndata\n.\nvictim\n)\n \n..\n \n' died'\n)\n\n  \nend\n\n\nend\n)\n\n\n\n\n\n\n\nExample Client-Side Usage\n\u00b6\n\n\nHere is a perfect example for checking if the player (client side) is dead, which is useful for a lot of things, for example only allowing menus to be open if alive.\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\nlocal\n \nIsDead\n \n=\n \nfalse\n\n\n\nAddEventHandler\n(\n'esx:onPlayerDeath'\n,\n \nfunction\n(\ndata\n)\n\n  \nIsDead\n \n=\n \ntrue\n\n\nend\n)\n\n\n\nAddEventHandler\n(\n'playerSpawned'\n,\n \nfunction\n(\nspawn\n)\n\n  \nIsDead\n \n=\n \nfalse\n\n\nend\n)",
+            "text": "esx:onPlayerDeath\n\u00b6\n\n\n1\n2\n3\nAddEventHandler\n(\n'esx:onPlayerDeath'\n,\n \nfunction\n(\ndata\n)\n\n\n\nend\n)\n\n\n\n\n\n\n\ndata\n Table Information\n\u00b6\n\n\n\n\n\n\n\n\nchild\n\n\ntype\n\n\nexplanation\n\n\n\n\n\n\n\n\n\n\nvictimCoords\n\n\ntable\n\n\n\n\n\n\n\n\nkillerCoords\n\n\ntable\n\n\n\n\n\n\n\n\ndeathCause\n\n\nstring\n\n\nReturns the hash of the weapon/model/object that killed the victim.\n\n\n\n\n\n\nkilledByPlayer\n\n\nboolean\n\n\nWas the player killed by another player? The data below is only generated when killed by a player.\n\n\n\n\n\n\ndistance\n\n\nnumber\n\n\nThe distance (in GTA units) between the victim and killer upon death\n\n\n\n\n\n\nkillerServerId\n\n\nnumber\n\n\nThe killers' server id\n\n\n\n\n\n\nkillerClientId\n\n\nnumber\n\n\nThe killers' client id\n\n\n\n\n\n\n\n\nExample Server-Side Usage\n\u00b6\n\n\nSimple Kill Notifications\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\nRegisterServerEvent\n(\n'esx:onPlayerDeath'\n)\n\n\nAddEventHandler\n(\n'esx:onPlayerDeath'\n,\n \nfunction\n(\ndata\n)\n\n    \ndata\n.\nvictim\n \n=\n \nsource\n\n\n    \nif\n \ndata\n.\nkilledByPlayer\n \nthen\n\n        \nTriggerClientEvent\n(\n'esx:showNotification'\n,\n \n-\n1\n,\n \nGetPlayerName\n(\ndata\n.\nvictim\n)\n \n..\n \n'was killed by '\n \n..\n \nGetPlayerName\n(\ndata\n.\nkillerServerId\n)\n \n..\n \n' from '\n \n..\n \ndata\n.\ndistance\n \n..\n \n' units'\n)\n\n    \nelse\n\n        \nTriggerClientEvent\n(\n'esx:showNotification'\n,\n \n-\n1\n,\n \nGetPlayerName\n(\ndata\n.\nvictim\n)\n \n..\n \n' died'\n)\n\n    \nend\n\n\nend\n)\n\n\n\n\n\n\n\nExample Client-Side Usage\n\u00b6\n\n\nHere is a perfect example for checking if the player (client side) is dead, which is useful for a lot of things, for example only allowing menus to be open if alive.\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\nlocal\n \nIsDead\n \n=\n \nfalse\n\n\n\nAddEventHandler\n(\n'esx:onPlayerDeath'\n,\n \nfunction\n(\ndata\n)\n\n    \nIsDead\n \n=\n \ntrue\n\n\nend\n)\n\n\n\nAddEventHandler\n(\n'playerSpawned'\n,\n \nfunction\n(\nspawn\n)\n\n    \nIsDead\n \n=\n \nfalse\n\n\nend\n)",
             "title": "esx:onPlayerDeath"
         },
         {
@@ -212,17 +212,17 @@
         },
         {
             "location": "/es_extended/common/events/onplayerdeath/#data-table-information",
-            "text": "victimCoords  \u2192 Victim coords in its own table  weaponHash  \u2192 Weapon hash used to kill the player  deathCause  \u2192 Hash used of the object / model / weapon to kill the player  killed  (boolean): Was the player killed by an online player?  killerPed  killerCoords  distance  \u2192 Distance (in GTA Units) between the two players when killed  killerType  \u2192  Ped Type  killerinveh  (boolean)  killervehseat  killervehname",
-            "title": "Data Table Information"
+            "text": "child  type  explanation      victimCoords  table     killerCoords  table     deathCause  string  Returns the hash of the weapon/model/object that killed the victim.    killedByPlayer  boolean  Was the player killed by another player? The data below is only generated when killed by a player.    distance  number  The distance (in GTA units) between the victim and killer upon death    killerServerId  number  The killers' server id    killerClientId  number  The killers' client id",
+            "title": "data Table Information"
         },
         {
             "location": "/es_extended/common/events/onplayerdeath/#example-server-side-usage",
-            "text": "Simple Kill Notifications   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10 RegisterServerEvent ( 'esx:onPlayerDeath' )  AddEventHandler ( 'esx:onPlayerDeath' ,   function ( data ) \n   data . victim   =   source \n\n   if   data . killed   then \n     TriggerClientEvent ( 'esx:showNotification' ,   - 1 ,   GetPlayerName ( data . victim )   ..   'was killed by '   ..   GetPlayerName ( data . killerPed )   ..   ' from '   ..   data . distance   ..   ' units' ) \n   else \n     TriggerClientEvent ( 'esx:showNotification' ,   - 1 ,   GetPlayerName ( data . victim )   ..   ' died' ) \n   end  end )",
+            "text": "Simple Kill Notifications   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10 RegisterServerEvent ( 'esx:onPlayerDeath' )  AddEventHandler ( 'esx:onPlayerDeath' ,   function ( data ) \n     data . victim   =   source \n\n     if   data . killedByPlayer   then \n         TriggerClientEvent ( 'esx:showNotification' ,   - 1 ,   GetPlayerName ( data . victim )   ..   'was killed by '   ..   GetPlayerName ( data . killerServerId )   ..   ' from '   ..   data . distance   ..   ' units' ) \n     else \n         TriggerClientEvent ( 'esx:showNotification' ,   - 1 ,   GetPlayerName ( data . victim )   ..   ' died' ) \n     end  end )",
             "title": "Example Server-Side Usage"
         },
         {
             "location": "/es_extended/common/events/onplayerdeath/#example-client-side-usage",
-            "text": "Here is a perfect example for checking if the player (client side) is dead, which is useful for a lot of things, for example only allowing menus to be open if alive.  1\n2\n3\n4\n5\n6\n7\n8\n9 local   IsDead   =   false  AddEventHandler ( 'esx:onPlayerDeath' ,   function ( data ) \n   IsDead   =   true  end )  AddEventHandler ( 'playerSpawned' ,   function ( spawn ) \n   IsDead   =   false  end )",
+            "text": "Here is a perfect example for checking if the player (client side) is dead, which is useful for a lot of things, for example only allowing menus to be open if alive.  1\n2\n3\n4\n5\n6\n7\n8\n9 local   IsDead   =   false  AddEventHandler ( 'esx:onPlayerDeath' ,   function ( data ) \n     IsDead   =   true  end )  AddEventHandler ( 'playerSpawned' ,   function ( spawn ) \n     IsDead   =   false  end )",
             "title": "Example Client-Side Usage"
         },
         {
@@ -657,42 +657,42 @@
         },
         {
             "location": "/es_extended/client/functions/streaming/requestanimdict/",
-            "text": "ESX.Streaming.RequestAnimDict\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestAnimDict\n(\nanimDict\n)\n\n\n\n\n\n\n\nThis function requests and returns the nimation directory parsed. A very common usage it to play animations using \nTaskPlayAnim()\n. You can use Alex Guirre's Animations List found on \nGithub\n.",
+            "text": "ESX.Streaming.RequestAnimDict\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestAnimDict\n(\nanimDict\n,\n \ncb\n)\n\n\n\n\n\n\n\nThis function requests and returns the nimation directory parsed. A very common usage it to play animations using \nTaskPlayAnim()\n. You can use Alex Guirre's Animations List found on \nGithub\n.",
             "title": "ESX.Streaming.RequestAnimDict"
         },
         {
             "location": "/es_extended/client/functions/streaming/requestanimdict/#esxstreamingrequestanimdict",
-            "text": "1 ESX . Streaming . RequestAnimDict ( animDict )    This function requests and returns the nimation directory parsed. A very common usage it to play animations using  TaskPlayAnim() . You can use Alex Guirre's Animations List found on  Github .",
+            "text": "1 ESX . Streaming . RequestAnimDict ( animDict ,   cb )    This function requests and returns the nimation directory parsed. A very common usage it to play animations using  TaskPlayAnim() . You can use Alex Guirre's Animations List found on  Github .",
             "title": "ESX.Streaming.RequestAnimDict"
         },
         {
             "location": "/es_extended/client/functions/streaming/requestanimset/",
-            "text": "ESX.Streaming.RequestAnimSet\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestAnimSet\n(\nanimSet\n)\n\n\n\n\n\n\n\nThis function requests and returns the animation set parsed. Animation sets provide movement styles, commonly used with \nSetPedMovementClipset()\n.",
+            "text": "ESX.Streaming.RequestAnimSet\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestAnimSet\n(\nanimSet\n,\n \ncb\n)\n\n\n\n\n\n\n\nThis function requests and returns the animation set parsed. Animation sets provide movement styles, commonly used with \nSetPedMovementClipset()\n.",
             "title": "ESX.Streaming.RequestAnimSet"
         },
         {
             "location": "/es_extended/client/functions/streaming/requestanimset/#esxstreamingrequestanimset",
-            "text": "1 ESX . Streaming . RequestAnimSet ( animSet )    This function requests and returns the animation set parsed. Animation sets provide movement styles, commonly used with  SetPedMovementClipset() .",
+            "text": "1 ESX . Streaming . RequestAnimSet ( animSet ,   cb )    This function requests and returns the animation set parsed. Animation sets provide movement styles, commonly used with  SetPedMovementClipset() .",
             "title": "ESX.Streaming.RequestAnimSet"
         },
         {
             "location": "/es_extended/client/functions/streaming/requestmodel/",
-            "text": "ESX.Streaming.RequestModel\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestModel\n(\nmodel\n)\n\n\n\n\n\n\n\nThis function requests and returns the specified model parsed, a very common usage is spawning objects, etc.",
+            "text": "ESX.Streaming.RequestModel\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestModel\n(\nmodel\n,\n \ncb\n)\n\n\n\n\n\n\n\nThis function requests and returns the specified model parsed, a very common usage is spawning objects, etc.",
             "title": "ESX.Streaming.RequestModel"
         },
         {
             "location": "/es_extended/client/functions/streaming/requestmodel/#esxstreamingrequestmodel",
-            "text": "1 ESX . Streaming . RequestModel ( model )    This function requests and returns the specified model parsed, a very common usage is spawning objects, etc.",
+            "text": "1 ESX . Streaming . RequestModel ( model ,   cb )    This function requests and returns the specified model parsed, a very common usage is spawning objects, etc.",
             "title": "ESX.Streaming.RequestModel"
         },
         {
             "location": "/es_extended/client/functions/streaming/requeststreamedtexturedict/",
-            "text": "ESX.Streaming.RequestStreamedTextureDict\n\u00b6\n\n\n1\nESX.Streaming.RequestStreamedTextureDict(textureDict)\n\n\n\n\n\n\nThis function requests and returns the texture directory parsed. This is commonly used when loading sprites, then draw them on screen using \nDrawSprite()\n, an example would be drawing a speedometer.",
+            "text": "ESX.Streaming.RequestStreamedTextureDict\n\u00b6\n\n\n1\nESX\n.\nStreaming\n.\nRequestStreamedTextureDict\n(\ntextureDict\n,\n \ncb\n)\n\n\n\n\n\n\n\nThis function requests and returns the texture directory parsed. This is commonly used when loading sprites, then draw them on screen using \nDrawSprite()\n, an example would be drawing a speedometer.",
             "title": "ESX.Streaming.RequestStreamedTextureDict"
         },
         {
             "location": "/es_extended/client/functions/streaming/requeststreamedtexturedict/#esxstreamingrequeststreamedtexturedict",
-            "text": "1 ESX.Streaming.RequestStreamedTextureDict(textureDict)   This function requests and returns the texture directory parsed. This is commonly used when loading sprites, then draw them on screen using  DrawSprite() , an example would be drawing a speedometer.",
+            "text": "1 ESX . Streaming . RequestStreamedTextureDict ( textureDict ,   cb )    This function requests and returns the texture directory parsed. This is commonly used when loading sprites, then draw them on screen using  DrawSprite() , an example would be drawing a speedometer.",
             "title": "ESX.Streaming.RequestStreamedTextureDict"
         },
         {
@@ -1241,6 +1241,16 @@
             "title": "xPlayer.getSessionVar"
         },
         {
+            "location": "/es_extended/server/xplayer/functions/hasweapon/",
+            "text": "xPlayer.hasWeapon\n\u00b6\n\n\n1\nxPlayer\n.\nhasWeapon\n(\nweaponName\n)\n\n\n\n\n\n\n\nThis functions returns if the player has the specified weapon.",
+            "title": "xPlayer.hasWeapon"
+        },
+        {
+            "location": "/es_extended/server/xplayer/functions/hasweapon/#xplayerhasweapon",
+            "text": "1 xPlayer . hasWeapon ( weaponName )    This functions returns if the player has the specified weapon.",
+            "title": "xPlayer.hasWeapon"
+        },
+        {
             "location": "/es_extended/server/xplayer/functions/kick/",
             "text": "xPlayer.kick\n\u00b6\n\n\n1\nxPlayer\n.\nkick\n(\nreason\n)\n\n\n\n\n\n\n\nThis function kicks a player with a reason.",
             "title": "xPlayer.kick"
@@ -1359,6 +1369,16 @@
             "location": "/es_extended/server/xplayer/functions/setmoney/#xplayersetmoney",
             "text": "1 xPlayer . setMoney ( money )    This function sets money.",
             "title": "xPlayer.setMoney"
+        },
+        {
+            "location": "/es_extended/server/xplayer/functions/setname/",
+            "text": "xPlayer.setName\n\u00b6\n\n\n1\nxPlayer\n.\nsetName\n(\nnewName\n)\n\n\n\n\n\n\n\nThis function sets the player name.",
+            "title": "xPlayer.setName"
+        },
+        {
+            "location": "/es_extended/server/xplayer/functions/setname/#xplayersetname",
+            "text": "1 xPlayer . setName ( newName )    This function sets the player name.",
+            "title": "xPlayer.setName"
         },
         {
             "location": "/es_extended/server/xplayer/functions/setpermissions/",
