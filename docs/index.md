@@ -10,4 +10,4 @@ es_extended is a roleplay framework for FiveM. It is developed on top of [Essent
 
 ### Discord
 
-Join our [Development Discord](https://discord.gg/ZX2rcJ3) to communicate with our Developers, or Community Members by clicking the link.
+Join our [Development Discord](https://discord.gg/MsWzPqE) to communicate with our Developers, or Community Members by clicking the link.
