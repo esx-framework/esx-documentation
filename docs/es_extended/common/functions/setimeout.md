@@ -10,6 +10,6 @@ This function sets a timeout requiring two arguments, msec (milliseconds), and c
 
 ```lua
 local id = ESX.SetTimeout(5000, function()
-  print('foo')
+	print('foo')
 end)
 ```

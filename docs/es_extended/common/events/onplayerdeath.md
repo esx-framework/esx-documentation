@@ -6,19 +6,17 @@ AddEventHandler('esx:onPlayerDeath', function(data)
 end)
 ```
 
-#### *Data* Table Information
+#### `data` Table Information
 
-* `victimCoords` --> Victim coords in its own table
-* `weaponHash` --> Weapon hash used to kill the player
-* `deathCause` --> Hash used of the object / model / weapon to kill the player
-* `killed` (boolean): Was the player killed by an online player?
-* `killerPed`
-* `killerCoords`
-* `distance` --> Distance (in GTA Units) between the two players when killed
-* `killerType` --> [Ped Type](https://runtime.fivem.net/doc/reference.html#_0xFF059E1E4C01E63C)
-* `killerinveh` (boolean)
-* `killervehseat`
-* `killervehname`
+| child          | type    | explanation                                                                                        |
+|----------------|---------|----------------------------------------------------------------------------------------------------|
+| victimCoords   | table   |                                                                                                    |
+| killerCoords   | table   |                                                                                                    |
+| deathCause     | string  | Returns the hash of the weapon/model/object that killed the victim.                                |
+| killedByPlayer | boolean | Was the player killed by another player? The data below is only generated when killed by a player. |
+| distance       | number  | The distance (in GTA units) between the victim and killer upon death                               |
+| killerServerId | number  | The killers' server id                                                                             |
+| killerClientId | number  | The killers' client id
 
 #### Example Server-Side Usage
 
@@ -27,13 +25,13 @@ Simple Kill Notifications
 ```lua
 RegisterServerEvent('esx:onPlayerDeath')
 AddEventHandler('esx:onPlayerDeath', function(data)
-  data.victim = source
+	data.victim = source
 
-  if data.killed then
-    TriggerClientEvent('esx:showNotification', -1, GetPlayerName(data.victim) .. 'was killed by ' .. GetPlayerName(data.killerPed) .. ' from ' .. data.distance .. ' units')
-  else
-    TriggerClientEvent('esx:showNotification', -1, GetPlayerName(data.victim) .. ' died')
-  end
+	if data.killedByPlayer then
+		TriggerClientEvent('esx:showNotification', -1, GetPlayerName(data.victim) .. 'was killed by ' .. GetPlayerName(data.killerServerId) .. ' from ' .. data.distance .. ' units')
+	else
+		TriggerClientEvent('esx:showNotification', -1, GetPlayerName(data.victim) .. ' died')
+	end
 end)
 ```
 
@@ -45,10 +43,10 @@ Here is a perfect example for checking if the player (client side) is dead, whic
 local IsDead = false
 
 AddEventHandler('esx:onPlayerDeath', function(data)
-  IsDead = true
+	IsDead = true
 end)
 
 AddEventHandler('playerSpawned', function(spawn)
-  IsDead = false
+	IsDead = false
 end)
 ```

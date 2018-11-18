@@ -95,7 +95,7 @@ pages:
         - ESX.GetRandomString: 'es_extended/common/functions/getrandomstring.md'
         - ESX.GetWeaponLabel: 'es_extended/common/functions/getweaponlabel.md'
         - ESX.GetWeaponList: 'es_extended/common/functions/getweaponlist.md'
-        - ESX.Round: 'es_extended/common/functions/round.md'
+        - ESX.Math.Round: 'es_extended/common/functions/round.md'
         - ESX.SetTimeout: 'es_extended/common/functions/setimeout.md'
         - ESX.ClearTimeout: 'es_extended/common/functions/cleartimeout.md'
         - ESX.DumpTable: 'es_extended/common/functions/dumptable.md'
@@ -206,6 +206,7 @@ pages:
           - xPlayer.getPermissions: 'es_extended/server/xplayer/functions/getpermissions.md'
           - xPlayer.getPlayer: 'es_extended/server/xplayer/functions/getplayer.md'
           - xPlayer.getSessionVar: 'es_extended/server/xplayer/functions/getsessionvar.md'
+          - xPlayer.hasWeapon: 'es_extended/server/xplayer/functions/hasweapon.md'
           - xPlayer.kick: 'es_extended/server/xplayer/functions/kick.md'
           - xPlayer.removeAccountMoney: 'es_extended/server/xplayer/functions/removeaccountmoney.md'
           - xPlayer.removeBank: 'es_extended/server/xplayer/functions/removebank.md'
@@ -218,6 +219,7 @@ pages:
           - xPlayer.setInventoryItem: 'es_extended/server/xplayer/functions/setinventoryitem.md'
           - xPlayer.setJob: 'es_extended/server/xplayer/functions/setjob.md'
           - xPlayer.setMoney: 'es_extended/server/xplayer/functions/setmoney.md'
+          - xPlayer.setName: 'es_extended/server/xplayer/functions/setname.md'
           - xPlayer.setPermissions: 'es_extended/server/xplayer/functions/setpermissions.md'
           - xPlayer.setSessionVar: 'es_extended/server/xplayer/functions/setsessionvar.md'
 
@@ -230,6 +232,6 @@ plugins:
 extra:
   social:
     - type: 'github-alt'
-      link: https://github.com/esx-org
+      link: https://github.com/ESX-Org
     - type: 'discord'
-      link: https://discord.me/fivem_esx
+      link: https://discord.gg/ZX2rcJ3

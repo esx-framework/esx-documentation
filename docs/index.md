@@ -2,14 +2,12 @@
 
 This is the official documentation for **ES Extended**.
 
-> Check out our add-ons on the [ES Extended GitHub Page](https://github.com/esx-org)
+> Check out our official add-ons on the [ES Extended GitHub Page](https://github.com/ESX-Org)
 
 ### About
 
-**ES Extended** is a core / framework for your [FiveM](https://fivem.net) server to utilize. There are many add-ons that you can add / remove to suit your servers needs.
+es_extended is a roleplay framework for FiveM. It is developed on top of [EssentialMode](https://essentialmode.com/) (aka ES), thus commonly named ESX - the **Es**sentialMode **E**xtended framework for FiveM.
 
 ### Discord
 
-You can join our [Discord](https://discordapp.com) to communicate with our Developers, or Community Members by clicking the link below.
-
-> [Join our Discord](https://discord.me/fivem_esx)
+Join our [Development Discord](https://discord.gg/ZX2rcJ3) to communicate with our Developers, or Community Members by clicking the link.

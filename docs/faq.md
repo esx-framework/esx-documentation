@@ -7,6 +7,7 @@ This page has some helpful tips for all of **ES Extended**.
 When you're downloading scripts, especially **ES Extended** scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your `config.cfg` is _**important**_. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.
 
 ##### Example config.cfg
+
 ```
 endpoint_add_tcp "0.0.0.0:30120"
 endpoint_add_udp "0.0.0.0:30120"
@@ -14,7 +15,7 @@ endpoint_add_udp "0.0.0.0:30120"
 set mysql_connection_string "server=adress;database=dbname;userid=user;password=psswd"
 set es_enableCustomData 1
 set sv_licenseKey "XXXXXXXXXXXXXXXXXXX"
-sv_scriptHookAllowed 1
+sv_scriptHookAllowed 0
 rcon_password blablablabla
 sv_hostname "ESX PUBLIC SERVER"
 set temp_convar "ESX"
