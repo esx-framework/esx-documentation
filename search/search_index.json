@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to ES Extended\n\u00b6\n\n\nThis is the official documentation for \nES Extended\n.\n\n\n\n\nCheck out our official add-ons on the \nES Extended GitHub Page\n\n\n\n\nAbout\n\u00b6\n\n\nes_extended is a roleplay framework for FiveM. It is developed on top of \nEssentialMode\n (aka ES), thus commonly named ESX - the **Es**sentialMode **E**xtended framework for FiveM.\n\n\nDiscord\n\u00b6\n\n\nJoin our \nDevelopment Discord\n to communicate with our Developers, or Community Members by clicking the link.",
+            "text": "Welcome to ES Extended\n\u00b6\n\n\nThis is the official documentation for \nES Extended\n.\n\n\n\n\nCheck out our official add-ons on the \nES Extended GitHub Page\n\n\n\n\nAbout\n\u00b6\n\n\nes_extended is a roleplay framework for FiveM. It is developed on top of \nEssentialMode\n (aka ES), thus commonly named ESX - the EssentialMode Extended framework for FiveM.\n\n\nDiscord\n\u00b6\n\n\nJoin our \nDevelopment Discord\n to communicate with our Developers, or Community Members by clicking the link.",
             "title": "Welcome to ES Extended"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#about",
-            "text": "es_extended is a roleplay framework for FiveM. It is developed on top of  EssentialMode  (aka ES), thus commonly named ESX - the **Es**sentialMode **E**xtended framework for FiveM.",
+            "text": "es_extended is a roleplay framework for FiveM. It is developed on top of  EssentialMode  (aka ES), thus commonly named ESX - the EssentialMode Extended framework for FiveM.",
             "title": "About"
         },
         {
