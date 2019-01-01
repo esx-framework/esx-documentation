@@ -95,9 +95,12 @@ nav:
     - Common:
       - Functions:
         - ESX.GetRandomString: 'es_extended/common/functions/getrandomstring.md'
+        - ESX.GetWeaponComponent: 'es_extended/common/functions/getweaponcomponent.md'
         - ESX.GetWeaponLabel: 'es_extended/common/functions/getweaponlabel.md'
         - ESX.GetWeaponList: 'es_extended/common/functions/getweaponlist.md'
+        - ESX.Math.GroupDigits: 'es_extended/common/functions/groupdigits.md'
         - ESX.Math.Round: 'es_extended/common/functions/round.md'
+        - ESX.Math.Trim: 'es_extended/common/functions/trim.md'
         - ESX.SetTimeout: 'es_extended/common/functions/setimeout.md'
         - ESX.ClearTimeout: 'es_extended/common/functions/cleartimeout.md'
         - ESX.DumpTable: 'es_extended/common/functions/dumptable.md'
@@ -130,6 +133,7 @@ nav:
           - ESX.Game.GetVehicleProperties: 'es_extended/client/functions/game/getvehicleproperties.md'
           - ESX.Game.GetVehicles: 'es_extended/client/functions/game/getvehicles.md'
           - ESX.Game.GetVehiclesInArea: 'es_extended/client/functions/game/getvehiclesinarea.md'
+          - ESX.Game.IsSpawnPointClear: 'es_extended/client/functions/game/isspawnpointclear.md'
           - ESX.Game.SetVehicleProperties: 'es_extended/client/functions/game/setvehicleproperties.md'
           - ESX.Game.SpawnLocalObject: 'es_extended/client/functions/game/spawnlocalobject.md'
           - ESX.Game.SpawnLocalVehicle: 'es_extended/client/functions/game/spawnlocalvehicle.md'
