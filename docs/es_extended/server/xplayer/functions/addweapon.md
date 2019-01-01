@@ -1,7 +1,7 @@
 # xPlayer.addWeapon
 
 ```lua
-xPlayer.addWeapon(name)
+xPlayer.addWeapon(weaponName)
 ```
 
 This function adds a weapon.

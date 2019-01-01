@@ -1,7 +1,7 @@
 # xPlayer.removeWeapon
 
 ```lua
-xPlayer.removeWeapon(name, ammo)
+xPlayer.removeWeapon(weaponName, ammo)
 ```
 
 This function removes a weapon from the player.
