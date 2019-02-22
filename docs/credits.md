@@ -19,7 +19,7 @@ The following users are credited with **ES Extended's** development. Some users 
 - [ddh3](https://github.com/ddh3)
 - [deviljin112](https://github.com/deviljin112)
 
-### ESX Contributers
+### ESX Contributors
 
 - [AdrineX](https://github.com/AdrineX)
 - [RomainLanz](https://github.com/RomainLanz)
