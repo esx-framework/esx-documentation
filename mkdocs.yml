@@ -10,7 +10,7 @@ edit_uri: ""
 
 
 # Copyright
-copyright: 'Copyright &copy; 2018 ESX'
+copyright: 'Copyright &copy; 2019 ESX'
 
 # Configuration
 docs_dir: 'docs'
@@ -18,8 +18,7 @@ site_dir: 'site'
 strict: true
 
 theme:
-  name: null
-  custom_dir: material
+  name: 'material'
 
   static_templates:
     - 404.html
@@ -35,11 +34,11 @@ theme:
     primary: blue
     accent: blue
   font:
-    text: Fira Sans
-    code: Fira Mono
+    text: 'Fira Sans'
+    code: 'Fira Mono'
   favicon: assets/images/favicon.png
   logo:
-    icon: "\uE80C"
+    icon: "school"
 
 # Extensions
 markdown_extensions:
@@ -90,6 +89,7 @@ nav:
   - Home:
     - Index: 'index.md'
     - FAQ: 'faq.md'
+    - Credits: 'credits.md'
   - ES Extended:
     - Overview: 'es_extended/index.md'
     - Common:
@@ -245,5 +245,3 @@ extra:
   social:
     - type: 'github-alt'
       link: https://github.com/ESX-Org
-    - type: 'discord'
-      link: https://discord.gg/MsWzPqE
