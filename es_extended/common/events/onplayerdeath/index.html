@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
     
     
       
@@ -44,9 +44,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/application.11e41852.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.982221ab.css">
       
-        <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.224b79ff.css">
       
       
         
@@ -55,7 +55,7 @@
       
     
     
-      <script src="../../../../assets/javascripts/modernizr.20ef595d.js"></script>
+      <script src="../../../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
@@ -66,6 +66,9 @@
     
     <link rel="stylesheet" href="../../../../assets/fonts/material-icons.css">
     
+    
+    
+      
     
     
   </head>
@@ -114,7 +117,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="../../../.." title="ESX Documentation" class="md-header-nav__button md-logo">
           
-            <i class="md-icon"></i>
+            <i class="md-icon">school</i>
           
         </a>
       </div>
@@ -124,22 +127,19 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                ESX Documentation
-              </span>
-              <span class="md-header-nav__topic">
-                esx:onPlayerDeath
-              </span>
-            
+            <span class="md-header-nav__topic">
+              ESX Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              esx:onPlayerDeath
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -162,7 +162,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -173,20 +172,18 @@
 
   
 
-
-  <a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      ESX Organization
+<a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    ESX Organization
+  </div>
+</a>
           </div>
         </div>
       
@@ -248,7 +245,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="../../../.." title="ESX Documentation" class="md-nav__button md-logo">
       
-        <i class="md-icon"></i>
+        <i class="md-icon">school</i>
       
     </a>
     ESX Documentation
@@ -260,20 +257,18 @@
 
   
 
-
-  <a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      ESX Organization
+<a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    ESX Organization
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -317,6 +312,18 @@
   <li class="md-nav__item">
     <a href="../../../../faq/" title="FAQ" class="md-nav__link">
       FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../credits/" title="Credits" class="md-nav__link">
+      Credits
     </a>
   </li>
 
@@ -2399,9 +2406,13 @@
                 
                 
                 <h1 id="esxonplayerdeath">esx:onPlayerDeath<a class="headerlink" href="#esxonplayerdeath" title="Permanent link">&para;</a></h1>
-<pre class="codehilite"><code class="language-lua linenums">AddEventHandler('esx:onPlayerDeath', function(data)
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">AddEventHandler</span><span class="p">(</span><span class="s1">&#39;esx:onPlayerDeath&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 
-end)</code></pre>
+<span class="kr">end</span><span class="p">)</span>
+</pre></div>
+</td></tr></table>
 
 <h4 id="data-table-information"><code>data</code> Table Information<a class="headerlink" href="#data-table-information" title="Permanent link">&para;</a></h4>
 <table>
@@ -2452,28 +2463,49 @@ end)</code></pre>
 </table>
 <h4 id="example-server-side-usage">Example Server-Side Usage<a class="headerlink" href="#example-server-side-usage" title="Permanent link">&para;</a></h4>
 <p>Simple Kill Notifications</p>
-<pre class="codehilite"><code class="language-lua linenums">RegisterServerEvent('esx:onPlayerDeath')
-AddEventHandler('esx:onPlayerDeath', function(data)
-    data.victim = source
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">RegisterServerEvent</span><span class="p">(</span><span class="s1">&#39;esx:onPlayerDeath&#39;</span><span class="p">)</span>
+<span class="n">AddEventHandler</span><span class="p">(</span><span class="s1">&#39;esx:onPlayerDeath&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">data</span><span class="p">.</span><span class="n">victim</span> <span class="o">=</span> <span class="n">source</span>
 
-    if data.killedByPlayer then
-        TriggerClientEvent('esx:showNotification', -1, GetPlayerName(data.victim) .. 'was killed by ' .. GetPlayerName(data.killerServerId) .. ' from ' .. data.distance .. ' units')
-    else
-        TriggerClientEvent('esx:showNotification', -1, GetPlayerName(data.victim) .. ' died')
-    end
-end)</code></pre>
+    <span class="kr">if</span> <span class="n">data</span><span class="p">.</span><span class="n">killedByPlayer</span> <span class="kr">then</span>
+        <span class="n">TriggerClientEvent</span><span class="p">(</span><span class="s1">&#39;esx:showNotification&#39;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">GetPlayerName</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">victim</span><span class="p">)</span> <span class="o">..</span> <span class="s1">&#39;was killed by &#39;</span> <span class="o">..</span> <span class="n">GetPlayerName</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">killerServerId</span><span class="p">)</span> <span class="o">..</span> <span class="s1">&#39; from &#39;</span> <span class="o">..</span> <span class="n">data</span><span class="p">.</span><span class="n">distance</span> <span class="o">..</span> <span class="s1">&#39; units&#39;</span><span class="p">)</span>
+    <span class="kr">else</span>
+        <span class="n">TriggerClientEvent</span><span class="p">(</span><span class="s1">&#39;esx:showNotification&#39;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">GetPlayerName</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">victim</span><span class="p">)</span> <span class="o">..</span> <span class="s1">&#39; died&#39;</span><span class="p">)</span>
+    <span class="kr">end</span>
+<span class="kr">end</span><span class="p">)</span>
+</pre></div>
+</td></tr></table>
 
 <h4 id="example-client-side-usage">Example Client-Side Usage<a class="headerlink" href="#example-client-side-usage" title="Permanent link">&para;</a></h4>
 <p>Here is a perfect example for checking if the player (client side) is dead, which is useful for a lot of things, for example only allowing menus to be open if alive.</p>
-<pre class="codehilite"><code class="language-lua linenums">local IsDead = false
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kd">local</span> <span class="n">IsDead</span> <span class="o">=</span> <span class="kc">false</span>
 
-AddEventHandler('esx:onPlayerDeath', function(data)
-    IsDead = true
-end)
+<span class="n">AddEventHandler</span><span class="p">(</span><span class="s1">&#39;esx:onPlayerDeath&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">IsDead</span> <span class="o">=</span> <span class="kc">true</span>
+<span class="kr">end</span><span class="p">)</span>
 
-AddEventHandler('playerSpawned', function(spawn)
-    IsDead = false
-end)</code></pre>
+<span class="n">AddEventHandler</span><span class="p">(</span><span class="s1">&#39;playerSpawned&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">spawn</span><span class="p">)</span>
+    <span class="n">IsDead</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="kr">end</span><span class="p">)</span>
+</pre></div>
+</td></tr></table>
                 
                   
                 
@@ -2531,7 +2563,7 @@ end)</code></pre>
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2018 ESX
+            Copyright &copy; 2019 ESX
           </div>
         
         powered by
@@ -2541,31 +2573,22 @@ end)</code></pre>
           Material for MkDocs</a>
       </div>
       
-        
   <div class="md-footer-social">
-    <!--<link rel="stylesheet" href="../../../../assets/fonts/font-awesome.css">-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/v4-shims.css">
+    <link rel="stylesheet" href="../../../../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/ESX-Org" class="md-footer-social__link fab fa-github-alt"></a>
-    
-      <a href="https://discord.gg/MsWzPqE" class="md-footer-social__link fab fa-discord"></a>
+      <a href="https://github.com/ESX-Org" class="md-footer-social__link fa fa-github-alt"></a>
     
   </div>
 
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../../../../assets/javascripts/application.905597d0.js"></script>
+      <script src="../../../../assets/javascripts/application.b806dc00.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
-      
-    
-    
       
     
   </body>

@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
     
     
       
@@ -44,9 +44,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.11e41852.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
       
-        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
       
       
         
@@ -55,7 +55,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.20ef595d.js"></script>
+      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
@@ -66,6 +66,9 @@
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
+    
+    
+      
     
     
   </head>
@@ -114,7 +117,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href=".." title="ESX Documentation" class="md-header-nav__button md-logo">
           
-            <i class="md-icon"></i>
+            <i class="md-icon">school</i>
           
         </a>
       </div>
@@ -124,22 +127,19 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                ESX Documentation
-              </span>
-              <span class="md-header-nav__topic">
-                FAQ
-              </span>
-            
+            <span class="md-header-nav__topic">
+              ESX Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              FAQ
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -162,7 +162,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -173,20 +172,18 @@
 
   
 
-
-  <a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      ESX Organization
+<a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    ESX Organization
+  </div>
+</a>
           </div>
         </div>
       
@@ -248,7 +245,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href=".." title="ESX Documentation" class="md-nav__button md-logo">
       
-        <i class="md-icon"></i>
+        <i class="md-icon">school</i>
       
     </a>
     ESX Documentation
@@ -260,20 +257,18 @@
 
   
 
-
-  <a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      ESX Organization
+<a href="https://github.com/esx-org/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    ESX Organization
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -371,6 +366,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../credits/" title="Credits" class="md-nav__link">
+      Credits
+    </a>
   </li>
 
         
@@ -2397,19 +2404,106 @@
 <h3 id="fivem-start-order">FiveM Start Order<a class="headerlink" href="#fivem-start-order" title="Permanent link">&para;</a></h3>
 <p>When you're downloading scripts, especially <strong>ES Extended</strong> scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your <code>config.cfg</code> is <em><strong>important</strong></em>. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.</p>
 <h5 id="example-configcfg">Example config.cfg<a class="headerlink" href="#example-configcfg" title="Permanent link">&para;</a></h5>
-<pre class="codehilite"><code class="linenums">endpoint_add_tcp "0.0.0.0:30120"
-endpoint_add_udp "0.0.0.0:30120"
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>endpoint_add_tcp &quot;0.0.0.0:30120&quot;
+endpoint_add_udp &quot;0.0.0.0:30120&quot;
 
-set mysql_connection_string "server=adress;database=dbname;userid=user;password=psswd"
+set mysql_connection_string &quot;server=adress;database=dbname;userid=user;password=psswd&quot;
 set es_enableCustomData 1
-set sv_licenseKey "XXXXXXXXXXXXXXXXXXX"
+set sv_licenseKey &quot;XXXXXXXXXXXXXXXXXXX&quot;
 sv_scriptHookAllowed 0
 rcon_password blablablabla
-sv_hostname "ESX PUBLIC SERVER"
-set temp_convar "ESX"
+sv_hostname &quot;ESX PUBLIC SERVER&quot;
+set temp_convar &quot;ESX&quot;
 
 # disable announcing? clear out the master by uncommenting this
-#sv_master1 ""
+#sv_master1 &quot;&quot;
 
 # want to only allow players authenticated with a third-party provider like Steam?
 sv_authMaxVariance 1
@@ -2417,7 +2511,7 @@ sv_authMinTrust 1
 
 # add system admins
 add_ace group.admin command allow # allow all commands
-add_ace group.admin command.quit deny # but don't allow quit
+add_ace group.admin command.quit deny # but don&#39;t allow quit
 add_ace resource.essentialmode command.add_ace allow
 add_ace resource.essentialmode command.add_principal allow
 add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group
@@ -2484,7 +2578,9 @@ sv_endpointprivacy true
     start esx_atm
 
 #### ANY NON ESX MODS
-    #start nonESXmod</code></pre>
+    #start nonESXmod
+</pre></div>
+</td></tr></table>
                 
                   
                 
@@ -2520,13 +2616,13 @@ sv_endpointprivacy true
           </a>
         
         
-          <a href="../es_extended/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../credits/" title="Credits" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Overview
+                Credits
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -2542,7 +2638,7 @@ sv_endpointprivacy true
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2018 ESX
+            Copyright &copy; 2019 ESX
           </div>
         
         powered by
@@ -2552,31 +2648,22 @@ sv_endpointprivacy true
           Material for MkDocs</a>
       </div>
       
-        
   <div class="md-footer-social">
-    <!--<link rel="stylesheet" href="../assets/fonts/font-awesome.css">-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/v4-shims.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/ESX-Org" class="md-footer-social__link fab fa-github-alt"></a>
-    
-      <a href="https://discord.gg/MsWzPqE" class="md-footer-social__link fab fa-discord"></a>
+      <a href="https://github.com/ESX-Org" class="md-footer-social__link fa fa-github-alt"></a>
     
   </div>
 
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../assets/javascripts/application.905597d0.js"></script>
+      <script src="../assets/javascripts/application.b806dc00.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
-      
-    
-    
       
     
   </body>
