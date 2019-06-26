@@ -6,8 +6,8 @@ ESX.GetPlayerData()
 
 This function gets player data.
 
-### ESX.GetPlayerData usage
-The following data can be fetched from the function
+### ESX.GetPlayerData Usage
+The function contains the following data:
 
 ```lua
 ESX.GetPlayerData().identifier    -- Steam identifier    
