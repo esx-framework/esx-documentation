@@ -10,7 +10,7 @@ edit_uri: ""
 
 
 # Copyright
-copyright: 'Copyright &copy; 2019 ESX'
+copyright: 'Copyright &copy; 2019 ESX-Org'
 
 # Configuration
 docs_dir: 'docs'
@@ -18,7 +18,7 @@ site_dir: 'site'
 strict: true
 
 theme:
-  name: 'material'
+  name: 'readthedocs'
 
   static_templates:
     - 404.html
@@ -104,7 +104,6 @@ nav:
         - ESX.SetTimeout: 'es_extended/common/functions/setimeout.md'
         - ESX.ClearTimeout: 'es_extended/common/functions/cleartimeout.md'
         - ESX.DumpTable: 'es_extended/common/functions/dumptable.md'
-        - ESX.TableContainsValue: 'es_extended/common/functions/tablecontainsvalue.md'
       - Events:
         - esx:onPlayerDeath: 'es_extended/common/events/onplayerdeath.md'
     - Client:
@@ -195,7 +194,9 @@ nav:
           - xPlayer.addInventoryItem: 'es_extended/server/xplayer/functions/addinventoryitem.md'
           - xPlayer.addMoney: 'es_extended/server/xplayer/functions/addmoney.md'
           - xPlayer.addWeapon: 'es_extended/server/xplayer/functions/addweapon.md'
+          - xPlayer.addWeaponAmmo: 'es_extended/server/xplayer/functions/addweaponammo.md'
           - xPlayer.addWeaponComponent: 'es_extended/server/xplayer/functions/addweaponcomponent.md'
+          - xPlayer.canCarryItem: 'es_extended/server/xplayer/functions/cancarryitem.md'
           - xPlayer.displayBank: 'es_extended/server/xplayer/functions/displaybank.md'
           - xPlayer.displayMoney: 'es_extended/server/xplayer/functions/displaymoney.md'
           - xPlayer.getAccount: 'es_extended/server/xplayer/functions/getaccount.md'
@@ -224,16 +225,20 @@ nav:
           - xPlayer.removeInventoryItem: 'es_extended/server/xplayer/functions/removeinventoryitem.md'
           - xPlayer.removeMoney: 'es_extended/server/xplayer/functions/removemoney.md'
           - xPlayer.removeWeapon: 'es_extended/server/xplayer/functions/removeweapon.md'
+          - xPlayer.removeWeaponAmmo: 'es_extended/server/xplayer/functions/removeweaponammo.md'
           - xPlayer.removeWeaponComponent: 'es_extended/server/xplayer/functions/removeweaponcomponent.md'
           - xPlayer.setAccountMoney: 'es_extended/server/xplayer/functions/setaccountmoney.md'
           - xPlayer.setBankBalance: 'es_extended/server/xplayer/functions/setbankbalance.md'
           - xPlayer.setCoords: 'es_extended/server/xplayer/functions/setcoords.md'
           - xPlayer.setInventoryItem: 'es_extended/server/xplayer/functions/setinventoryitem.md'
           - xPlayer.setJob: 'es_extended/server/xplayer/functions/setjob.md'
+          - xPlayer.setMaxWeight: 'es_extended/server/xplayer/functions/setmaxweight.md'
           - xPlayer.setMoney: 'es_extended/server/xplayer/functions/setmoney.md'
           - xPlayer.setName: 'es_extended/server/xplayer/functions/setname.md'
           - xPlayer.setPermissions: 'es_extended/server/xplayer/functions/setpermissions.md'
           - xPlayer.setSessionVar: 'es_extended/server/xplayer/functions/setsessionvar.md'
+          - xPlayer.showHelpNotification: 'es_extended/server/xplayer/functions/showhelpnotification.md'
+          - xPlayer.showNotification: 'es_extended/server/xplayer/functions/shownotification.md'
 
 # Plugins
 plugins:

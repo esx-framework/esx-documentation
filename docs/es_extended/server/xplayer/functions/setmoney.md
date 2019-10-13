@@ -4,4 +4,4 @@
 xPlayer.setMoney(money)
 ```
 
-This function sets money.
+This function sets the player cash balance.

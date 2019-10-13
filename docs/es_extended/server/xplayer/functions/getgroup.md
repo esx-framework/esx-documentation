@@ -4,4 +4,4 @@
 xPlayer.getGroup()
 ```
 
-This function gets a group.
+This function gets the current player group.

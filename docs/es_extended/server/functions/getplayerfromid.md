@@ -4,4 +4,4 @@
 ESX.GetPlayerFromId(source)
 ```
 
-This function gets a player from the ID.
+This function gets a player from server id.

@@ -23,5 +23,8 @@ The following users are credited with **ES Extended's** development. Some users 
 
 - [AdrineX](https://github.com/AdrineX)
 - [RomainLanz](https://github.com/RomainLanz)
-- Renaiku
+- [Renaiku](https://github.com/renaiku)
+- [ig0ne](https://github.com/ig0ne)
 - .flo
+
+A full list of contributers to the ESX project can be found at the individual GitHub repos' insights

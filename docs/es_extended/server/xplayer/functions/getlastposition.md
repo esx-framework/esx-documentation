@@ -4,4 +4,4 @@
 xPlayer.getLastPosition()
 ```
 
-This functins gets the last position of stuff.
+This returns returns the last position of the player. Should not be used

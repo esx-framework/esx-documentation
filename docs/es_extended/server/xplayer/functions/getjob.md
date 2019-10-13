@@ -4,4 +4,4 @@
 xPlayer.getJob()
 ```
 
-This function gets a job.
+This function returns the current player job.

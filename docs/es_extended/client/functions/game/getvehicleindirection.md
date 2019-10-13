@@ -4,7 +4,7 @@
 ESX.Game.GetVehicleInDirection()
 ```
 
-This function gets the closest vehicle in the players' direction within 5 units, utilizes ray-casts.
+This function gets the closest vehicle in the player's direction within 5 units, utilizes ray-casts.
 
 #### ESX.Game.GetVehicleInDirection Example
 

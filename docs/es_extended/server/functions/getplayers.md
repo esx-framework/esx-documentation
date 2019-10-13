@@ -14,16 +14,9 @@ You can use this to access each players data.
 local xPlayers = ESX.GetPlayers()
 
 for i=1, #xPlayers, 1 do
+	local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
 
-  local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
-
-  if xPlayer.getName() == "Gepetto" then
-
-    xPlayer.addMoney(100)
-
-    TriggerClientEvent('esx:showNotification', xPlayer.source, "Blablabla...")
-
-  end
-
+	xPlayer.addMoney(100)
+	xPlayer.showNotification('Here, take ~g~$100~s~ for free!')
 end
 ```

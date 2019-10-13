@@ -4,4 +4,4 @@
 xPlayer.getIdentifier()
 ```
 
-This function displays gets an identifier.
+This function returns the steam 64 identifier hexadecimal of the player.

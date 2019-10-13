@@ -4,4 +4,4 @@
 xPlayer.getInventory()
 ```
 
-This functions gets inventory.
+This functions gets the player's inventory.

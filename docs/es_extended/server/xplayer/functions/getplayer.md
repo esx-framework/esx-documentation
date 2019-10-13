@@ -4,4 +4,4 @@
 xPlayer.getPlayer()
 ```
 
-This function gets the **EssentialMode** player object.
+This function returns the **EssentialMode** player object.
