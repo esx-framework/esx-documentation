@@ -1760,9 +1760,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.addInventoryItem
+      </label>
+    
     <a href="./" title="xPlayer.addInventoryItem" class="md-nav__link md-nav__link--active">
       xPlayer.addInventoryItem
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#xplayeraddinventoryitem-example" class="md-nav__link">
+    xPlayer.addInventoryItem Example
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2380,6 +2409,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#xplayeraddinventoryitem-example" class="md-nav__link">
+    xPlayer.addInventoryItem Example
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2397,6 +2442,24 @@
 </td></tr></table>
 
 <p>This function adds an inventory item.</p>
+<h4 id="xplayeraddinventoryitem-example">xPlayer.addInventoryItem Example<a class="headerlink" href="#xplayeraddinventoryitem-example" title="Permanent link">&para;</a></h4>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This function will not check if the player weight limit exceeds. Recommended to use in comibation with <a href="../cancarryitem/">xPlayer.canCarryItem(item, count)</a></p>
+</div>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">if</span> <span class="n">targetXPlayer</span><span class="p">.</span><span class="n">canCarryItem</span><span class="p">(</span><span class="n">itemName</span><span class="p">,</span> <span class="n">itemCount</span><span class="p">)</span> <span class="kr">then</span>
+    <span class="n">sourceXPlayer</span><span class="p">.</span><span class="n">removeInventoryItem</span><span class="p">(</span><span class="n">itemName</span><span class="p">,</span> <span class="n">itemCount</span><span class="p">)</span>
+    <span class="n">targetXPlayer</span><span class="p">.</span><span class="n">addInventoryItem</span>   <span class="p">(</span><span class="n">itemName</span><span class="p">,</span> <span class="n">itemCount</span><span class="p">)</span>
+<span class="kr">else</span>
+    <span class="n">sourceXPlayer</span><span class="p">.</span><span class="n">showNotification</span><span class="p">(</span><span class="s1">&#39;Target player could not hold all of that.&#39;</span><span class="p">)</span>
+<span class="kr">end</span>
+</pre></div>
+</td></tr></table>
                 
                   
                 
