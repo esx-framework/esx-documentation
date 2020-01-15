@@ -10,9 +10,9 @@ This function gets an vehicle's properties.
 
 | Child             | Data Type | Explanation                                                         |
 |-------------------|-----------|---------------------------------------------------------------------|
-| model             | string    | The coords to search from                                           |
+| model             | number    | The vehicle hash                                                    |
 | plate             | number    | Vehicle plate, maximum 8 characters                                 |
-| plateIndex        |           | Plate style                                                         |
+| plateIndex        | number    | Plate style                                                         |
 | bodyHealth        | number    | Body health                                                         |
 | engineHealth      | number    | Engine health                                                       |
 | fuelLevel         | number    | Fuel level                                                          |
