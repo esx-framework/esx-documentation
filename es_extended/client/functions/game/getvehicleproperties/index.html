@@ -872,9 +872,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        ESX.Game.GetVehicleProperties
+      </label>
+    
     <a href="./" title="ESX.Game.GetVehicleProperties" class="md-nav__link md-nav__link--active">
       ESX.Game.GetVehicleProperties
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#returned-table-content" class="md-nav__link">
+    Returned Table Content
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2380,6 +2409,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#returned-table-content" class="md-nav__link">
+    Returned Table Content
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2396,7 +2441,329 @@
 </pre></div>
 </td></tr></table>
 
-<p>This function gets a vehicles properties.</p>
+<p>This function gets an vehicle's properties.</p>
+<h2 id="returned-table-content">Returned Table Content<a class="headerlink" href="#returned-table-content" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Child</th>
+<th>Data Type</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>model</td>
+<td>string</td>
+<td>The coords to search from</td>
+</tr>
+<tr>
+<td>plate</td>
+<td>number</td>
+<td>Vehicle plate, maximum 8 characters</td>
+</tr>
+<tr>
+<td>plateIndex</td>
+<td></td>
+<td>Plate style</td>
+</tr>
+<tr>
+<td>bodyHealth</td>
+<td>number</td>
+<td>Body health</td>
+</tr>
+<tr>
+<td>engineHealth</td>
+<td>number</td>
+<td>Engine health</td>
+</tr>
+<tr>
+<td>fuelLevel</td>
+<td>number</td>
+<td>Fuel level</td>
+</tr>
+<tr>
+<td>dirtLevel</td>
+<td>number</td>
+<td>Dirtiness level</td>
+</tr>
+<tr>
+<td>color1</td>
+<td>number</td>
+<td>Primary color</td>
+</tr>
+<tr>
+<td>color2</td>
+<td>number</td>
+<td>Secondary color</td>
+</tr>
+<tr>
+<td>pearlescentColor</td>
+<td>number</td>
+<td>Pearlescent color</td>
+</tr>
+<tr>
+<td>wheelColor</td>
+<td>number</td>
+<td>Wheel color</td>
+</tr>
+<tr>
+<td>wheels</td>
+<td>number</td>
+<td>Wheel type</td>
+</tr>
+<tr>
+<td>windowTint</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>neonEnabled</td>
+<td>table</td>
+<td>Table with hardcoded four childs for left, back, front &amp; back neons</td>
+</tr>
+<tr>
+<td>neonColor</td>
+<td>table</td>
+<td>Packed table with three childs for r,g,b</td>
+</tr>
+<tr>
+<td>extras</td>
+<td>table</td>
+<td>Pair table with id as index, and state as value</td>
+</tr>
+<tr>
+<td>tyreSmokeColor</td>
+<td>table</td>
+<td>Packed table with three childs for r,g,b</td>
+</tr>
+<tr>
+<td>modSpoilers</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modFrontBumper</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modRearBumper</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modSideSkirt</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modExhaust</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modFrame</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modGrille</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modHood</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modFender</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modRightFender</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modRoof</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modEngine</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modBrakes</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modTransmission</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modHorns</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modSuspension</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modArmor</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modTurbo</td>
+<td>boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>modSmokeEnabled</td>
+<td>boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>modXenon</td>
+<td>boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>modFrontWheels</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modBackWheels</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modPlateHolder</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modVanityPlate</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modTrimA</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modOrnaments</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modDashboard</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modDial</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modDoorSpeaker</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modSeats</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modSteeringWheel</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modShifterLeavers</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modAPlate</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modSpeakers</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modTrunk</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modHydrolic</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modEngineBlock</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modAirFilter</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modStruts</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modArchCover</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modAerials</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modTrimB</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modTank</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modWindows</td>
+<td>number</td>
+<td></td>
+</tr>
+<tr>
+<td>modLivery</td>
+<td>number</td>
+<td></td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

@@ -702,6 +702,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supported-color-syntax" class="md-nav__link">
     Supported Color Syntax
   </a>
@@ -2411,6 +2418,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supported-color-syntax" class="md-nav__link">
     Supported Color Syntax
   </a>
@@ -2435,28 +2449,116 @@
                 
                 
                 <h1 id="esxshownotification">ESX.ShowNotification<a class="headerlink" href="#esxshownotification" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowNotification</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowNotification</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">flash</span><span class="p">,</span> <span class="n">saveToBrief</span><span class="p">,</span> <span class="n">hudColorIndex</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
 <p>This function shows a basic notification to the player.</p>
-<h4 id="supported-color-syntax">Supported Color Syntax<a class="headerlink" href="#supported-color-syntax" title="Permanent link">&para;</a></h4>
-<ul>
-<li><code>~r~</code> &rarr; Red</li>
-<li><code>~b~</code> &rarr; Blue</li>
-<li><code>~g~</code> &rarr; Green</li>
-<li><code>~y~</code> &rarr; Yellow</li>
-<li><code>~p~</code> &rarr; Purple</li>
-<li><code>~o~</code> &rarr; Orange</li>
-<li><code>~c~</code> &rarr; Grey</li>
-<li><code>~m~</code> &rarr; Dark Grey</li>
-<li><code>~u~</code> &rarr; Black</li>
-<li><code>~n~</code> &rarr; New Line</li>
-<li><code>~s~</code> &rarr; White (<strong>Default</strong>)</li>
-<li><code>~w~</code> &rarr; White</li>
-<li><code>~h~</code> &rarr; Bold</li>
-<li><code>~nrt~</code> &rarr; ?</li>
-</ul>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>msg</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>The message to display</td>
+</tr>
+<tr>
+<td>flash</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>false</td>
+<td>Flash the notification?</td>
+</tr>
+<tr>
+<td>saveToBreif</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>true</td>
+<td>Save to breif? Located in Pause Menu &gt; Help</td>
+</tr>
+<tr>
+<td>hudColorIndex</td>
+<td>number</td>
+<td>Yes</td>
+<td>nil</td>
+<td>The background color, see <a href="https://gyazo.com/68bd384455fceb0a85a8729e48216e15">https://gyazo.com/68bd384455fceb0a85a8729e48216e15</a> for available colors</td>
+</tr>
+</tbody>
+</table>
+<h2 id="supported-color-syntax">Supported Color Syntax<a class="headerlink" href="#supported-color-syntax" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><sub>r</sub></td>
+<td>Red</td>
+</tr>
+<tr>
+<td><sub>b</sub></td>
+<td>Blue</td>
+</tr>
+<tr>
+<td><sub>g</sub></td>
+<td>Green</td>
+</tr>
+<tr>
+<td><sub>y</sub></td>
+<td>Yellow</td>
+</tr>
+<tr>
+<td><sub>p</sub></td>
+<td>Purple</td>
+</tr>
+<tr>
+<td><sub>o</sub></td>
+<td>Orange</td>
+</tr>
+<tr>
+<td><sub>c</sub></td>
+<td>Grey</td>
+</tr>
+<tr>
+<td><sub>m</sub></td>
+<td>Dark Grey</td>
+</tr>
+<tr>
+<td><sub>u</sub></td>
+<td>Black</td>
+</tr>
+<tr>
+<td><sub>n</sub></td>
+<td>New Line</td>
+</tr>
+<tr>
+<td><sub>s</sub></td>
+<td>White (default)</td>
+</tr>
+<tr>
+<td><sub>w</sub></td>
+<td>White</td>
+</tr>
+<tr>
+<td><sub>h</sub></td>
+<td>Toggle Bold</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

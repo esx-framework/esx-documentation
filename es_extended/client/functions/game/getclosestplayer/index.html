@@ -795,6 +795,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#esxgamegetclosestplayer-example" class="md-nav__link">
     ESX.Game.GetClosestPlayer Example
   </a>
@@ -2413,6 +2420,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#esxgamegetclosestplayer-example" class="md-nav__link">
     ESX.Game.GetClosestPlayer Example
   </a>
@@ -2442,7 +2456,28 @@
 </td></tr></table>
 
 <p>This function gets the closest player.</p>
-<h4 id="esxgamegetclosestplayer-example">ESX.Game.GetClosestPlayer Example<a class="headerlink" href="#esxgamegetclosestplayer-example" title="Permanent link">&para;</a></h4>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coords</td>
+<td>vector3</td>
+<td>Yes</td>
+<td>(player's coords)</td>
+<td>The coords to search from</td>
+</tr>
+</tbody>
+</table>
+<h2 id="esxgamegetclosestplayer-example">ESX.Game.GetClosestPlayer Example<a class="headerlink" href="#esxgamegetclosestplayer-example" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
 3
@@ -2452,9 +2487,9 @@
 7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kd">local</span> <span class="n">closestPlayer</span><span class="p">,</span> <span class="n">closestDistance</span> <span class="o">=</span> <span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetClosestPlayer</span><span class="p">()</span>
 
 <span class="kr">if</span> <span class="n">closestPlayer</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="ow">or</span> <span class="n">closestDistance</span> <span class="o">&gt;</span> <span class="mf">3.0</span> <span class="kr">then</span>
-  <span class="n">ESX</span><span class="p">.</span><span class="n">ShowNotification</span><span class="p">(</span><span class="s1">&#39;There</span><span class="se">\&#39;</span><span class="s1">s no players nearby!&#39;</span><span class="p">)</span>
+    <span class="n">ESX</span><span class="p">.</span><span class="n">ShowNotification</span><span class="p">(</span><span class="s1">&#39;There</span><span class="se">\&#39;</span><span class="s1">s no players nearby you!&#39;</span><span class="p">)</span>
 <span class="kr">else</span>
-  <span class="n">ESX</span><span class="p">.</span><span class="n">ShowNotification</span><span class="p">(</span><span class="s1">&#39;Don</span><span class="se">\&#39;</span><span class="s1">t get too close to &#39;</span> <span class="o">..</span> <span class="n">GetPlayerName</span><span class="p">(</span><span class="n">closestPlayer</span><span class="p">))</span>
+    <span class="n">ESX</span><span class="p">.</span><span class="n">ShowNotification</span><span class="p">((</span><span class="s1">&#39;Found %s, they are %s unit(s) away&#39;</span><span class="p">):</span><span class="n">format</span><span class="p">(</span><span class="n">GetPlayerName</span><span class="p">(</span><span class="n">closestPlayer</span><span class="p">),</span> <span class="n">closestDistance</span><span class="p">))</span>
 <span class="kr">end</span>
 </pre></div>
 </td></tr></table>

@@ -2458,9 +2458,9 @@
                 
                 <h1 id="faq">F.A.Q<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h1>
 <p>This page has some helpful tips for all of <strong>ES Extended</strong>.</p>
-<h3 id="fivem-start-order">FiveM Start Order<a class="headerlink" href="#fivem-start-order" title="Permanent link">&para;</a></h3>
+<h2 id="fivem-start-order">FiveM Start Order<a class="headerlink" href="#fivem-start-order" title="Permanent link">&para;</a></h2>
 <p>When you're downloading scripts, especially <strong>ES Extended</strong> scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your <code>config.cfg</code> is <em><strong>important</strong></em>. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.</p>
-<h5 id="example-configcfg">Example config.cfg<a class="headerlink" href="#example-configcfg" title="Permanent link">&para;</a></h5>
+<h3 id="example-configcfg">Example config.cfg<a class="headerlink" href="#example-configcfg" title="Permanent link">&para;</a></h3>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
  2
  3
@@ -2546,23 +2546,19 @@
 83
 84
 85
-86
-87
-88</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>endpoint_add_tcp &quot;0.0.0.0:30120&quot;
+86</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>endpoint_add_tcp &quot;0.0.0.0:30120&quot;
 endpoint_add_udp &quot;0.0.0.0:30120&quot;
+sv_listingIPOverride &quot;YOUR_IP_ADRESS&quot;
 
+set steam_webApiKey &quot;XXXXXXXXXXXXXXXXXXX&quot;
+set sv_licenseKey &quot;XXXXXXXXXXXXXXXXXXX&quot;
 set mysql_connection_string &quot;server=adress;database=dbname;userid=user;password=psswd&quot;
 set es_enableCustomData 1
-set sv_licenseKey &quot;XXXXXXXXXXXXXXXXXXX&quot;
-sv_scriptHookAllowed 0
-rcon_password blablablabla
+
+sv_maxclients 5
 sv_hostname &quot;ESX PUBLIC SERVER&quot;
-set temp_convar &quot;ESX&quot;
 
-# disable announcing? clear out the master by uncommenting this
-#sv_master1 &quot;&quot;
-
-# want to only allow players authenticated with a third-party provider like Steam?
+sv_scriptHookAllowed 0
 sv_authMaxVariance 1
 sv_authMinTrust 1
 
@@ -2571,7 +2567,7 @@ add_ace group.admin command allow # allow all commands
 add_ace group.admin command.quit deny # but don&#39;t allow quit
 add_ace resource.essentialmode command.add_ace allow
 add_ace resource.essentialmode command.add_principal allow
-add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group
+add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add an admin to the group
 
 # hide player endpoints in external log output
 sv_endpointprivacy true

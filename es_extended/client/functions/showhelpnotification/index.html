@@ -678,22 +678,16 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#esxshowhelpnotification-example" class="md-nav__link">
-    ESX.ShowHelpNotification Example
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#result" class="md-nav__link">
-    Result
+  <a href="#arguments" class="md-nav__link">
+    Arguments
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#esxshowhelpnotification-example" class="md-nav__link">
+    ESX.ShowHelpNotification Example
+  </a>
   
 </li>
       
@@ -2424,22 +2418,16 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#esxshowhelpnotification-example" class="md-nav__link">
-    ESX.ShowHelpNotification Example
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#result" class="md-nav__link">
-    Result
+  <a href="#arguments" class="md-nav__link">
+    Arguments
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#esxshowhelpnotification-example" class="md-nav__link">
+    ESX.ShowHelpNotification Example
+  </a>
   
 </li>
       
@@ -2461,17 +2449,58 @@
                 
                 
                 <h1 id="esxshowhelpnotification">ESX.ShowHelpNotification<a class="headerlink" href="#esxshowhelpnotification" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowHelpNotification</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowHelpNotification</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">thisFrame</span><span class="p">,</span> <span class="n">beep</span><span class="p">,</span> <span class="n">duration</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>This function shows a help notification with the parsed message. These help notification support displaying button inputs, see <a href="https://pastebin.com/HPg8pYwi">this list</a></p>
-<h4 id="esxshowhelpnotification-example">ESX.ShowHelpNotification Example<a class="headerlink" href="#esxshowhelpnotification-example" title="Permanent link">&para;</a></h4>
+<p>This function shows a help notification with a message. These help notification support displaying button inputs, see <a href="https://pastebin.com/HPg8pYwi">this list</a></p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>msg</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>The message to display</td>
+</tr>
+<tr>
+<td>thisFrame</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>false</td>
+<td>Only show this frame? Should be used with scripts that show notifications in a loop</td>
+</tr>
+<tr>
+<td>beep</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>true</td>
+<td>Play the beep sound?</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>number</td>
+<td>Yes</td>
+<td>-1 (5000 ms)</td>
+<td>Duration to show the help notification in milliseconds</td>
+</tr>
+</tbody>
+</table>
+<h2 id="esxshowhelpnotification-example">ESX.ShowHelpNotification Example<a class="headerlink" href="#esxshowhelpnotification-example" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowHelpNotification</span><span class="p">(</span><span class="s1">&#39;Hit ~INPUT_CONTEXT~ to do shit!&#39;</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<h5 id="result">Result<a class="headerlink" href="#result" title="Permanent link">&para;</a></h5>
 <p><img alt="ShowHelpNotification Example Picture" src="http://imgbin.org/images/26209.jpg" /></p>
                 
                   

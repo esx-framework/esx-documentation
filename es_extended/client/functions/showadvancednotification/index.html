@@ -666,35 +666,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#esxshowadvancednotification-example" class="md-nav__link">
     ESX.ShowAdvancedNotification Example
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#result" class="md-nav__link">
-    Result
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#arguments-explained" class="md-nav__link">
-    Arguments Explained
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#icons" class="md-nav__link">
-    Icons
+  <a href="#texture-directory" class="md-nav__link">
+    Texture Directory
   </a>
   
 </li>
@@ -2445,35 +2432,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#esxshowadvancednotification-example" class="md-nav__link">
     ESX.ShowAdvancedNotification Example
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#result" class="md-nav__link">
-    Result
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#arguments-explained" class="md-nav__link">
-    Arguments Explained
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#icons" class="md-nav__link">
-    Icons
+  <a href="#texture-directory" class="md-nav__link">
+    Texture Directory
   </a>
   
 </li>
@@ -2503,57 +2477,136 @@
                 
                 
                 <h1 id="esxshowadvancednotification">ESX.ShowAdvancedNotification<a class="headerlink" href="#esxshowadvancednotification" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowAdvancedNotification</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">subject</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">icon</span><span class="p">,</span> <span class="n">iconType</span><span class="p">)</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">ShowAdvancedNotification</span><span class="p">(</span><span class="n">sender</span><span class="p">,</span> <span class="n">subject</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">textureDict</span><span class="p">,</span> <span class="n">iconType</span><span class="p">,</span> <span class="n">flash</span><span class="p">,</span> <span class="n">saveToBrief</span><span class="p">,</span> <span class="n">hudColorIndex</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>This function shows an advanced notification. See <a href="#arguments-explained">Arguments Explained</a> for an explanation of what each argument does.</p>
-<h4 id="esxshowadvancednotification-example">ESX.ShowAdvancedNotification Example<a class="headerlink" href="#esxshowadvancednotification-example" title="Permanent link">&para;</a></h4>
+<p>This function shows an advanced notification.</p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sender</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Message header</td>
+</tr>
+<tr>
+<td>subject</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Message subject</td>
+</tr>
+<tr>
+<td>msg</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Message content</td>
+</tr>
+<tr>
+<td>textureDict</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Texture directory, see <a href="#Texture_Directory">Texture Directory</a> for accepted values</td>
+</tr>
+<tr>
+<td>iconType</td>
+<td>number</td>
+<td>No</td>
+<td>-</td>
+<td>Icon type, see <a href="#Icon_Types">Icon Types</a> for accepted values</td>
+</tr>
+<tr>
+<td>flash</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>false</td>
+<td>Flash the notification?</td>
+</tr>
+<tr>
+<td>savetoBreif</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>true</td>
+<td>Save to breif? Located in Pause Menu &gt; Help</td>
+</tr>
+<tr>
+<td>hudColorIndex</td>
+<td>number</td>
+<td>Yes</td>
+<td>nil</td>
+<td>The background color, see <a href="https://gyazo.com/68bd384455fceb0a85a8729e48216e15">https://gyazo.com/68bd384455fceb0a85a8729e48216e15</a> for available colors</td>
+</tr>
+</tbody>
+</table>
+<h2 id="esxshowadvancednotification-example">ESX.ShowAdvancedNotification Example<a class="headerlink" href="#esxshowadvancednotification-example" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
 3
 4
-5
-6
-7
-8
-9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">function</span> <span class="nf">notification</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-
-  <span class="kd">local</span> <span class="n">mugshot</span><span class="p">,</span> <span class="n">mugshotStr</span> <span class="o">=</span> <span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetPedMugshot</span><span class="p">(</span><span class="n">GetPlayerPed</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
-
-  <span class="n">ESX</span><span class="p">.</span><span class="n">ShowAdvancedNotification</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;subject&#39;</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">,</span> <span class="n">mugshotStr</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-
-  <span class="n">UnregisterPedheadshot</span><span class="p">(</span><span class="n">mugshot</span><span class="p">)</span>
-
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">function</span> <span class="nf">notification</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+    <span class="kd">local</span> <span class="n">mugshot</span><span class="p">,</span> <span class="n">mugshotStr</span> <span class="o">=</span> <span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetPedMugshot</span><span class="p">(</span><span class="n">PlayerPedId</span><span class="p">())</span>
+    <span class="n">ESX</span><span class="p">.</span><span class="n">ShowAdvancedNotification</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;subject&#39;</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">,</span> <span class="n">mugshotStr</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">UnregisterPedheadshot</span><span class="p">(</span><span class="n">mugshot</span><span class="p">)</span>
 <span class="kr">end</span>
 </pre></div>
 </td></tr></table>
 
-<h5 id="result">Result<a class="headerlink" href="#result" title="Permanent link">&para;</a></h5>
 <p><img alt="Advanced Notification Example Picture" src="https://i.imgur.com/bX1oxrF.jpg" /></p>
-<h4 id="arguments-explained">Arguments Explained<a class="headerlink" href="#arguments-explained" title="Permanent link">&para;</a></h4>
-<ul>
-<li><code>title</code> &rarr; Title / Header</li>
-<li><code>subject</code> &rarr; Sub-Title / Subject</li>
-<li><code>msg</code> &rarr; Message / Content</li>
-<li><code>icon</code> &rarr; Icon, see <a href="#icons">Icons</a> for accepted values below.</li>
-<li><code>iconType</code> &rarr; The Icon at the top-right corner, see <a href="#icons-types">Icon Types</a> for accepted values below.</li>
-</ul>
-<h4 id="icons">Icons<a class="headerlink" href="#icons" title="Permanent link">&para;</a></h4>
-<p>To specify an icon you can either simply parse an already existing notification image, or you can create a player mugshot with ESX.</p>
+<h2 id="texture-directory">Texture Directory<a class="headerlink" href="#texture-directory" title="Permanent link">&para;</a></h2>
+<p>To specify an texture directory you can either simply parse an already existing notification image, or you can for example create a player mugshot with ESX.</p>
 <ul>
 <li><a href="https://wiki.gtanet.work/index.php?title=Notification_Pictures">Existing Image</a></li>
 <li><a href="../game/getpedmugshot/">Player Mugshots</a></li>
 </ul>
-<h4 id="icon-types">Icon Types<a class="headerlink" href="#icon-types" title="Permanent link">&para;</a></h4>
-<ul>
-<li><code>1</code> &rarr; Chat Box</li>
-<li><code>2</code> &rarr; Email</li>
-<li><code>3</code> &rarr; Add Friend Request</li>
-<li><code>7</code> &rarr; Right Jumping Arrow</li>
-<li><code>8</code> &rarr; RP Icon</li>
-<li><code>9</code> &rarr; $ Icon</li>
-</ul>
+<h2 id="icon-types">Icon Types<a class="headerlink" href="#icon-types" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Icon Type</th>
+<th>Explantation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Chat Box</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Email</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Add Friend Request</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Right Jumping Arrow</td>
+</tr>
+<tr>
+<td>8</td>
+<td>RP Icon</td>
+</tr>
+<tr>
+<td>9</td>
+<td>$ Icon</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
