@@ -4,4 +4,4 @@
 ESX.Game.GetVehiclesInArea(coords, radius)
 ```
 
-This function gets vehicles in a given radius.
+This function gets vehicles within a given radius.

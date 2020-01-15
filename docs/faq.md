@@ -2,28 +2,26 @@
 
 This page has some helpful tips for all of **ES Extended**.
 
-### FiveM Start Order
+## FiveM Start Order
 
 When you're downloading scripts, especially **ES Extended** scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your `config.cfg` is _**important**_. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.
 
-##### Example config.cfg
+### Example config.cfg
 
 ```
 endpoint_add_tcp "0.0.0.0:30120"
 endpoint_add_udp "0.0.0.0:30120"
+sv_listingIPOverride "YOUR_IP_ADRESS"
 
+set steam_webApiKey "XXXXXXXXXXXXXXXXXXX"
+set sv_licenseKey "XXXXXXXXXXXXXXXXXXX"
 set mysql_connection_string "server=adress;database=dbname;userid=user;password=psswd"
 set es_enableCustomData 1
-set sv_licenseKey "XXXXXXXXXXXXXXXXXXX"
-sv_scriptHookAllowed 0
-rcon_password blablablabla
+
+sv_maxclients 5
 sv_hostname "ESX PUBLIC SERVER"
-set temp_convar "ESX"
 
-# disable announcing? clear out the master by uncommenting this
-#sv_master1 ""
-
-# want to only allow players authenticated with a third-party provider like Steam?
+sv_scriptHookAllowed 0
 sv_authMaxVariance 1
 sv_authMinTrust 1
 
@@ -32,7 +30,7 @@ add_ace group.admin command allow # allow all commands
 add_ace group.admin command.quit deny # but don't allow quit
 add_ace resource.essentialmode command.add_ace allow
 add_ace resource.essentialmode command.add_principal allow
-add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add the admin to the group
+add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add an admin to the group
 
 # hide player endpoints in external log output
 sv_endpointprivacy true

@@ -15,8 +15,8 @@ end)
 | deathCause     | string  | Returns the hash of the weapon/model/object that killed the victim.                                |
 | killedByPlayer | boolean | Was the player killed by another player? The data below is only generated when killed by a player. |
 | distance       | number  | The distance (in GTA units) between the victim and killer upon death                               |
-| killerServerId | number  | The killers' server id                                                                             |
-| killerClientId | number  | The killers' client id
+| killerServerId | number  | The killer's server id                                                                             |
+| killerClientId | number  | The killer's client id
 
 #### Example Server-Side Usage
 

@@ -4,4 +4,4 @@
 ESX.Game.SetVehicleProperties(vehicle, props)
 ```
 
-This function sets the properties for a vehicle.
+This function sets various properties for an vehicle object.

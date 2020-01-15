@@ -4,4 +4,4 @@
 ESX.Game.SpawnVehicle(modelOrHash, coords, heading, cb)
 ```
 
-This function spawns a vehicle.
+This function spawns an vehicle.
