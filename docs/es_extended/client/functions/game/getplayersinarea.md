@@ -10,6 +10,5 @@ This function gets players in a given radius.
 
 | Argument | Data Type | Optional | Default Value | Explanation                  |
 |----------|-----------|----------|---------------|------------------------------|
-| coords   | vector3   | No       | -             | The coords to search from    |
+| coords   | vector3   | No       | -             | The coords to search at      |
 | area     | number    | No       | -             | The maxmimum search distance |
-
