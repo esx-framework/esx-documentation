@@ -20,9 +20,9 @@ This function spawns an object visible to everyone on the server.
 ## ESX.Game.SpawnObject Example
 
 ```lua
-	ESX.Game.SpawnObject('prop_cs_cuffs_01', vector3(120.0, -200.0, 30.0), function(object)
-		print(DoesEntityExist(object), 'this code is async!')
-	end)
+ESX.Game.SpawnObject('prop_cs_cuffs_01', vector3(120.0, -200.0, 30.0), function(object)
+	print(DoesEntityExist(object), 'this code is async!')
+end)
 
-	print('this code is sync!')
+print('this code is sync!')
 ```

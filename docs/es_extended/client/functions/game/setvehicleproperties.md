@@ -9,15 +9,16 @@ This function sets various properties for an vehicle object.
 ## ESX.Game.SetVehicleProperties Example
 
 ```lua
-	local playerPed = PlayerPedId()
-	if IsPedInAnyVehicle(playerPed, false) then
-		local vehicle = GetVehiclePedIsIn(playerPed, false)
+local playerPed = PlayerPedId()
 
-		ESX.Game.SetVehicleProperties(vehicle, {
-			plate = 'ESX',
-			modTurbo = true
-		})
-	end
+if IsPedInAnyVehicle(playerPed, false) then
+	local vehicle = GetVehiclePedIsIn(playerPed, false)
+
+	ESX.Game.SetVehicleProperties(vehicle, {
+		plate = 'ESX',
+		modTurbo = true
+	})
+end
 ```
 
 ## Valid Table Content

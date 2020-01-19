@@ -10,7 +10,7 @@ This function clears a timeout from the `ESX.SetTimeout` function.
 
 ```lua
 local id = ESX.SetTimeout(5000, function()
-  print('foo')
+	print('foo')
 end)
 
 ESX.ClearTimeout(id)

@@ -21,9 +21,9 @@ This function spawns an vehicle visible to everyone on the server.
 ## ESX.Game.SpawnVehicle Example
 
 ```lua
-	ESX.Game.SpawnVehicle('blista', vector3(120.0, -200.0, 30.0), 100.0, function(vehicle)
-		print(DoesEntityExist(vehicle), 'this code is async!')
-	end)
+ESX.Game.SpawnVehicle('blista', vector3(120.0, -200.0, 30.0), 100.0, function(vehicle)
+	print(DoesEntityExist(vehicle), 'this code is async!')
+end)
 
-	print('this code is sync!')
+print('this code is sync!')
 ```
