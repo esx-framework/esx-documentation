@@ -4,4 +4,4 @@
 xPlayer.getMoney()
 ```
 
-This function gets money.
+This function gets the current cash balance.

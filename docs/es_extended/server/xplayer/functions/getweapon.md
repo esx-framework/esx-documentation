@@ -4,9 +4,15 @@
 xPlayer.getWeapon(weaponName)
 ```
 
-This functions returns if the `loadoutNum` and a weapon object for the weapon if the player has it.
+This functions returns the `loadoutNum` and a weapon object for the weapon if the player has it.
 
-#### xPlayer.getWeapon Example
+## Argument
+
+| Argument   | Data Type | Optional | Default Value | Explanation |
+|------------|-----------|----------|---------------|-------------|
+| weaponName | string    | No       | -             | Weapon name |
+
+## xPlayer.getWeapon Example
 
 ```lua
 	local loadoutNum, weapon = xPlayer.getWeapon('WEAPON_PISTOL')

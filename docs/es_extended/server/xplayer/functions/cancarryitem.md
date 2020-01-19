@@ -6,7 +6,14 @@ xPlayer.canCarryItem(item, count)
 
 This function is used to determinate if a player can carry an item, and is the successor to the previous item limit checks
 
-#### xPlayer.canCarryItem Example
+## Arguments
+
+| Argument | Data Type | Optional | Default Value | Explanation |
+|----------|-----------|----------|---------------|-------------|
+| item     | string    | No       | -             | Item name   |
+| count    | number    | No       | -             | Item count  |
+
+## xPlayer.canCarryItem Example
 
 ```lua
 if targetXPlayer.canCarryItem(itemName, itemCount) then
