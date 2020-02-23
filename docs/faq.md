@@ -1,98 +1,81 @@
 # F.A.Q
 
-This page has some helpful tips for all of **ES Extended**.
+Here's some answers to frequently asked questions
 
-## FiveM Start Order
+## FXServer Start Order
 
 When you're downloading scripts, especially **ES Extended** scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your `config.cfg` is _**important**_. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.
 
-### Example config.cfg
+??? note "Example config.cfg"
+    ```
+    endpoint_add_tcp "0.0.0.0:30120"
+    endpoint_add_udp "0.0.0.0:30120"
+    sv_listingIPOverride "YOUR_IP_ADRESS"
 
-```
-endpoint_add_tcp "0.0.0.0:30120"
-endpoint_add_udp "0.0.0.0:30120"
-sv_listingIPOverride "YOUR_IP_ADRESS"
+    set sv_licenseKey "XXXXXXXXXXXXXXXXXXX" # https://keymaster.fivem.net/
+    set steam_webApiKey "none"
+    set mysql_connection_string "server=adress;database=dbname;userid=user;password=psswd"
 
-set steam_webApiKey "XXXXXXXXXXXXXXXXXXX"
-set sv_licenseKey "XXXXXXXXXXXXXXXXXXX"
-set mysql_connection_string "server=adress;database=dbname;userid=user;password=psswd"
-set es_enableCustomData 1
+    sv_maxClients 5
+    sv_hostname "Your Server Label"
+    sv_scriptHookAllowed 0
+    sv_endpointPrivacy true
 
-sv_maxclients 5
-sv_hostname "ESX PUBLIC SERVER"
+    add_ace resource.es_extended command.add_ace allow
+    add_ace resource.es_extended command.add_principal allow
 
-sv_scriptHookAllowed 0
-sv_authMaxVariance 1
-sv_authMinTrust 1
+    #### FIVEM DEFAULT ####
+        start mapmanager
+        start chat
+        start spawnmanager
+        start sessionmanager
+        restart sessionmanager
+        start fivem
+        start hardcap
+        start rconlog
+        start scoreboard
 
-# add system admins
-add_ace group.admin command allow # allow all commands
-add_ace group.admin command.quit deny # but don't allow quit
-add_ace resource.essentialmode command.add_ace allow
-add_ace resource.essentialmode command.add_principal allow
-add_principal identifier.steam:XXXXXXXXXXXXX group.admin # add an admin to the group
+    #### ESSENTIAL
+        start mysql-async
+        start es_extended
 
-# hide player endpoints in external log output
-sv_endpointprivacy true
+    #### ESX REQUIRED MODS
+        start instance
+        start cron
+        start skinchanger
+        start esx_skin
+        start esx_menu_default
+        start esx_menu_list
+        start esx_menu_dialog
+        start esx_phone
+        start esx_addonaccount
+        start esx_addoninventory
+        start esx_datastore
+        start esx_society
+        start esx_service
+        start esx_billing
 
-#### FIVEM DEFAULT ####
-    start mapmanager
-    start chat
-    start spawnmanager
-    start sessionmanager
-    restart sessionmanager
-    start fivem
-    start hardcap
-    start rconlog
-    start scoreboard
-    start baseevents
+    #### ESX JOBS
+        start esx_jobs
+        start esx_joblisting
+        start esx_taxijob
+        start esx_mecanojob
+        start esx_policejob
+        start esx_property
+        start esx_realestateagentjob
+        start esx_bankerjob
+        start esx_ambulancejob
+        start esx_vehicleshop
 
-#### MYSQL ASYNC
-    start mysql-async
+    #### ESX ANY OTHER MODS
+        start esx_status
+        start esx_basicneeds
+        start esx_clotheshop
+        start esx_garage
+        start esx_holdup
+        start esx_drugs
+        start esx_atm
 
-#### ESSENTIAL MODS
-    start essentialmode
-    start esplugin_mysql
-    start es_admin2
-    start es_extended
-
-#### ESX REQUIRED MODS
-    start instance
-    start cron
-    start skinchanger
-    start esx_skin
-    start esx_menu_default
-    start esx_menu_list
-    start esx_menu_dialog
-    start esx_phone
-    start esx_addonaccount
-    start esx_addoninventory
-    start esx_datastore
-    start esx_society
-    start esx_service
-    start esx_billing
-
-#### ESX JOBS
-    start esx_jobs
-    start esx_joblisting
-    start esx_taxijob
-    start esx_mecanojob
-    start esx_policejob
-    start esx_property
-    start esx_realestateagentjob
-    start esx_bankerjob
-    start esx_ambulancejob
-    start esx_vehicleshop
-
-#### ESX ANY OTHER MODS
-    start esx_status
-    start esx_basicneeds
-    start esx_clotheshop
-    start esx_garage
-    start esx_holdup
-    start esx_drugs
-    start esx_atm
-
-#### ANY NON ESX MODS
-    #start nonESXmod
-```
+    #### ANY NON ESX MODS
+        #start nonESXmod
+    ```
