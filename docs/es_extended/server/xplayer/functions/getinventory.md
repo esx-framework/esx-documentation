@@ -1,10 +1,16 @@
 # xPlayer.getInventory
 
 ```lua
-xPlayer.getInventory()
+xPlayer.getInventory(minimal)
 ```
 
-This function reads out the entire player inventory
+This function returns the entire player inventory.
+
+## Argument
+
+| Argument | Data Type | Optional | Default Value | Explanation                                                                                                       |
+|----------|-----------|----------|---------------|-------------------------------------------------------------------------------------------------------------------|
+| minimal  | boolean   | Yes      | -             | Return inventory in a key-value table where key is item name, and only add items with count over 0 to that table. |
 
 ## Returned Table Content
 

@@ -228,6 +228,7 @@ nav:
           - xPlayer.setMaxWeight: 'es_extended/server/xplayer/functions/setmaxweight.md'
           - xPlayer.setMoney: 'es_extended/server/xplayer/functions/setmoney.md'
           - xPlayer.setName: 'es_extended/server/xplayer/functions/setname.md'
+          - xPlayer.setWeaponTint: 'es_extended/server/xplayer/functions/setweapontint.md'
           - xPlayer.showHelpNotification: 'es_extended/server/xplayer/functions/showhelpnotification.md'
           - xPlayer.showNotification: 'es_extended/server/xplayer/functions/shownotification.md'
           - xPlayer.triggerEvent: 'es_extended/server/xplayer/functions/triggerevent.md'
