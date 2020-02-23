@@ -4,4 +4,4 @@
 xPlayer.getIdentifier()
 ```
 
-This function returns the steam 64 hexadecimal identifier of the player.
+This function returns the Rockstar identifier used

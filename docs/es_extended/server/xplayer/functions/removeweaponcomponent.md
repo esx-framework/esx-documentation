@@ -4,9 +4,14 @@
 xPlayer.removeWeaponComponent(weaponName, weaponComponent)
 ```
 
-This function removes a weapon component from a player, if the player has it.
+This function removes a weapon component from a player, if the player has it. The available component list can be found in the weapon configuration file (`config.weapons.lua`).
 
-The available component list can be found in the weapon config file.
+## Arguments
+
+| Argument        | Data Type | Optional | Default Value | Explanation      |
+|-----------------|-----------|----------|---------------|------------------|
+| weaponName      | string    | No       | -             | Weapon name      |
+| weaponComponent | string    | No       | -             | Weapon component |
 
 #### xPlayer.removeWeaponComponent Example
 

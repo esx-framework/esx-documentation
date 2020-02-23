@@ -197,7 +197,6 @@ nav:
           - xPlayer.addWeaponComponent: 'es_extended/server/xplayer/functions/addweaponcomponent.md'
           - xPlayer.canCarryItem: 'es_extended/server/xplayer/functions/cancarryitem.md'
           - xPlayer.canSwapItem: 'es_extended/server/xplayer/functions/canswapitem.md'
-          - xPlayer.displayMoney: 'es_extended/server/xplayer/functions/displaymoney.md'
           - xPlayer.getAccount: 'es_extended/server/xplayer/functions/getaccount.md'
           - xPlayer.getAccounts: 'es_extended/server/xplayer/functions/getaccounts.md'
           - xPlayer.getCoords: 'es_extended/server/xplayer/functions/getcoords.md'

@@ -4,4 +4,8 @@
 xPlayer.removeMoney(money)
 ```
 
-This function removes money.
+## Argument
+
+| Argument | Data Type | Optional | Default Value | Explanation               |
+|----------|-----------|----------|---------------|---------------------------|
+| money    | number    | No       | -             | Amount of money to remove |

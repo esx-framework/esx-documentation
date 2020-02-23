@@ -1,10 +1,13 @@
 # xPlayer.removeWeapon
 
 ```lua
-xPlayer.removeWeapon(weaponName, ammo)
+xPlayer.removeWeapon(weaponName)
 ```
 
 This function removes a weapon from the player.
 
-!!! warning
-      The `ammo` variable is optional to delete a certain amount of ammo. **Not specifying it will remove all available ammo.**
+## Argument
+
+| Argument   | Data Type | Optional | Default Value | Explanation |
+|------------|-----------|----------|---------------|-------------|
+| weaponName | string    | No       | -             | Weapon name |
