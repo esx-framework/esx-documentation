@@ -40,7 +40,7 @@
     
     
       
-        <title>xPlayer.getPlayer - ESX Documentation</title>
+        <title>xPlayer.setWeaponTint - ESX Documentation</title>
       
     
     
@@ -89,7 +89,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#xplayergetplayer" tabindex="1" class="md-skip">
+      <a href="#xplayersetweapontint" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -115,7 +115,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                xPlayer.getPlayer
+                xPlayer.setWeaponTint
               
             </span>
           
@@ -1824,18 +1824,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../displaymoney/" title="xPlayer.displayMoney" class="md-nav__link">
-      xPlayer.displayMoney
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getaccount/" title="xPlayer.getAccount" class="md-nav__link">
       xPlayer.getAccount
     </a>
@@ -1971,27 +1959,6 @@
     <a href="../getname/" title="xPlayer.getName" class="md-nav__link">
       xPlayer.getName
     </a>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="xPlayer.getPlayer" class="md-nav__link md-nav__link--active">
-      xPlayer.getPlayer
-    </a>
-    
   </li>
 
         
@@ -2215,6 +2182,56 @@
           
           
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.setWeaponTint
+      </label>
+    
+    <a href="./" title="xPlayer.setWeaponTint" class="md-nav__link md-nav__link--active">
+      xPlayer.setWeaponTint
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
 
   <li class="md-nav__item">
     <a href="../showhelpnotification/" title="xPlayer.showHelpNotification" class="md-nav__link">
@@ -2296,6 +2313,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2307,12 +2340,40 @@
               
                 
                 
-                <h1 id="xplayergetplayer">xPlayer.getPlayer<a class="headerlink" href="#xplayergetplayer" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">xPlayer</span><span class="p">.</span><span class="n">getPlayer</span><span class="p">()</span>
+                <h1 id="xplayersetweapontint">xPlayer.setWeaponTint<a class="headerlink" href="#xplayersetweapontint" title="Permanent link">&para;</a></h1>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">xPlayer</span><span class="p">.</span><span class="n">setWeaponTint</span><span class="p">(</span><span class="n">weaponName</span><span class="p">,</span> <span class="n">weaponTintIndex</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>This function returns the <strong>EssentialMode</strong> player object.</p>
+<p>This function sets the player weapon tint from the tint index</p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>weaponName</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Weapon name</td>
+</tr>
+<tr>
+<td>weaponTintIndex</td>
+<td>number</td>
+<td>No</td>
+<td>-</td>
+<td>Weapon tint index</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -2333,7 +2394,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../getname/" title="xPlayer.getName" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../setname/" title="xPlayer.setName" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -2342,19 +2403,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                xPlayer.getName
+                xPlayer.setName
               </span>
             </div>
           </a>
         
         
-          <a href="../getweapon/" title="xPlayer.getWeapon" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../showhelpnotification/" title="xPlayer.showHelpNotification" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                xPlayer.getWeapon
+                xPlayer.showHelpNotification
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

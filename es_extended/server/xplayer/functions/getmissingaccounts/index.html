@@ -1824,18 +1824,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../displaymoney/" title="xPlayer.displayMoney" class="md-nav__link">
-      xPlayer.displayMoney
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getaccount/" title="xPlayer.getAccount" class="md-nav__link">
       xPlayer.getAccount
     </a>
@@ -1952,9 +1940,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.getMissingAccounts
+      </label>
+    
     <a href="./" title="xPlayer.getMissingAccounts" class="md-nav__link md-nav__link--active">
       xPlayer.getMissingAccounts
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#argument" class="md-nav__link">
+    Argument
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#returned-table-content" class="md-nav__link">
+    Returned Table Content
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1979,18 +2003,6 @@
   <li class="md-nav__item">
     <a href="../getname/" title="xPlayer.getName" class="md-nav__link">
       xPlayer.getName
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../getplayer/" title="xPlayer.getPlayer" class="md-nav__link">
-      xPlayer.getPlayer
     </a>
   </li>
 
@@ -2217,6 +2229,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../setweapontint/" title="xPlayer.setWeaponTint" class="md-nav__link">
+      xPlayer.setWeaponTint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../showhelpnotification/" title="xPlayer.showHelpNotification" class="md-nav__link">
       xPlayer.showHelpNotification
     </a>
@@ -2296,6 +2320,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#argument" class="md-nav__link">
+    Argument
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#returned-table-content" class="md-nav__link">
+    Returned Table Content
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2308,11 +2355,48 @@
                 
                 
                 <h1 id="xplayergetmissingaccounts">xPlayer.getMissingAccounts<a class="headerlink" href="#xplayergetmissingaccounts" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">xPlayer</span><span class="p">.</span><span class="n">getMissingAccounts</span><span class="p">()</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">xPlayer</span><span class="p">.</span><span class="n">getMissingAccounts</span><span class="p">(</span><span class="n">cb</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>This function gets missing accounts.</p>
+<p>This function gets missing accounts. It's an internal function used when saving player data to database and should not be used.</p>
+<h2 id="argument">Argument<a class="headerlink" href="#argument" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cb</td>
+<td>function</td>
+<td>No</td>
+<td>-</td>
+<td>Callback function with <code>missingAccounts</code> (index-value table) as argument</td>
+</tr>
+</tbody>
+</table>
+<h2 id="returned-table-content">Returned Table Content<a class="headerlink" href="#returned-table-content" title="Permanent link">&para;</a></h2>
+<p>The returned table contains an index-value table, and for each child there is a key-value table with the following content:</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account name</td>
+<td>Account label</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

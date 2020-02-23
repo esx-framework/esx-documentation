@@ -1824,18 +1824,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../displaymoney/" title="xPlayer.displayMoney" class="md-nav__link">
-      xPlayer.displayMoney
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getaccount/" title="xPlayer.getAccount" class="md-nav__link">
       xPlayer.getAccount
     </a>
@@ -1980,18 +1968,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../getplayer/" title="xPlayer.getPlayer" class="md-nav__link">
-      xPlayer.getPlayer
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getweapon/" title="xPlayer.getWeapon" class="md-nav__link">
       xPlayer.getWeapon
     </a>
@@ -2036,9 +2012,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.hasWeaponComponent
+      </label>
+    
     <a href="./" title="xPlayer.hasWeaponComponent" class="md-nav__link md-nav__link--active">
       xPlayer.hasWeaponComponent
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2217,6 +2222,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../setweapontint/" title="xPlayer.setWeaponTint" class="md-nav__link">
+      xPlayer.setWeaponTint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../showhelpnotification/" title="xPlayer.showHelpNotification" class="md-nav__link">
       xPlayer.showHelpNotification
     </a>
@@ -2296,6 +2313,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2312,8 +2345,35 @@
 </pre></div>
 </td></tr></table>
 
-<p>This functions returns (boolean) if the player has the specified weapon component for a given weapon.</p>
-<p>The available component list can be found in the weapon config file.</p>
+<p>This functions returns an boolean if the player has the specified weapon component for a given weapon. The available component list can be found in the weapon configuration file (<code>config.weapons.lua</code>).</p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>weaponName</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Weapon name</td>
+</tr>
+<tr>
+<td>weaponComponent</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Weapon component</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

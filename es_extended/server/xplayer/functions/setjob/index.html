@@ -1824,18 +1824,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../displaymoney/" title="xPlayer.displayMoney" class="md-nav__link">
-      xPlayer.displayMoney
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getaccount/" title="xPlayer.getAccount" class="md-nav__link">
       xPlayer.getAccount
     </a>
@@ -1970,18 +1958,6 @@
   <li class="md-nav__item">
     <a href="../getname/" title="xPlayer.getName" class="md-nav__link">
       xPlayer.getName
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../getplayer/" title="xPlayer.getPlayer" class="md-nav__link">
-      xPlayer.getPlayer
     </a>
   </li>
 
@@ -2168,9 +2144,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.setJob
+      </label>
+    
     <a href="./" title="xPlayer.setJob" class="md-nav__link md-nav__link--active">
       xPlayer.setJob
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2207,6 +2212,18 @@
   <li class="md-nav__item">
     <a href="../setname/" title="xPlayer.setName" class="md-nav__link">
       xPlayer.setName
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../setweapontint/" title="xPlayer.setWeaponTint" class="md-nav__link">
+      xPlayer.setWeaponTint
     </a>
   </li>
 
@@ -2296,6 +2313,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2312,7 +2345,35 @@
 </pre></div>
 </td></tr></table>
 
-<p>This functions sets the player job</p>
+<p>This functions sets the player job, the job must be defined in the <code>jobs</code> database table.</p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Job name</td>
+</tr>
+<tr>
+<td>grade</td>
+<td>string&amp;number</td>
+<td>No</td>
+<td>-</td>
+<td>Job grade</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

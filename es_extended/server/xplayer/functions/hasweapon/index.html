@@ -1824,18 +1824,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../displaymoney/" title="xPlayer.displayMoney" class="md-nav__link">
-      xPlayer.displayMoney
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getaccount/" title="xPlayer.getAccount" class="md-nav__link">
       xPlayer.getAccount
     </a>
@@ -1980,18 +1968,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../getplayer/" title="xPlayer.getPlayer" class="md-nav__link">
-      xPlayer.getPlayer
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getweapon/" title="xPlayer.getWeapon" class="md-nav__link">
       xPlayer.getWeapon
     </a>
@@ -2024,9 +2000,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.hasWeapon
+      </label>
+    
     <a href="./" title="xPlayer.hasWeapon" class="md-nav__link md-nav__link--active">
       xPlayer.hasWeapon
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#argument" class="md-nav__link">
+    Argument
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xplayerhasweapon-example" class="md-nav__link">
+    xPlayer.hasWeapon Example
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2217,6 +2229,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../setweapontint/" title="xPlayer.setWeaponTint" class="md-nav__link">
+      xPlayer.setWeaponTint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../showhelpnotification/" title="xPlayer.showHelpNotification" class="md-nav__link">
       xPlayer.showHelpNotification
     </a>
@@ -2296,6 +2320,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#argument" class="md-nav__link">
+    Argument
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xplayerhasweapon-example" class="md-nav__link">
+    xPlayer.hasWeapon Example
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2313,6 +2360,39 @@
 </td></tr></table>
 
 <p>This functions returns if the player has the specified weapon.</p>
+<h2 id="argument">Argument<a class="headerlink" href="#argument" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>weaponName</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Weapon name</td>
+</tr>
+</tbody>
+</table>
+<h2 id="xplayerhasweapon-example">xPlayer.hasWeapon Example<a class="headerlink" href="#xplayerhasweapon-example" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>    <span class="kr">if</span> <span class="n">xPlayer</span><span class="p">.</span><span class="n">hasWeapon</span><span class="p">(</span><span class="s1">&#39;WEAPON_PISTOL&#39;</span><span class="p">)</span> <span class="kr">then</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;found weapon&#39;</span><span class="p">)</span>
+    <span class="kr">else</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;weapon not found!&#39;</span><span class="p">)</span>
+    <span class="kr">end</span>
+</pre></div>
+</td></tr></table>
                 
                   
                 

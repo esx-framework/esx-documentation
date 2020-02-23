@@ -1824,18 +1824,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../displaymoney/" title="xPlayer.displayMoney" class="md-nav__link">
-      xPlayer.displayMoney
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../getaccount/" title="xPlayer.getAccount" class="md-nav__link">
       xPlayer.getAccount
     </a>
@@ -1970,18 +1958,6 @@
   <li class="md-nav__item">
     <a href="../getname/" title="xPlayer.getName" class="md-nav__link">
       xPlayer.getName
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../getplayer/" title="xPlayer.getPlayer" class="md-nav__link">
-      xPlayer.getPlayer
     </a>
   </li>
 
@@ -2156,9 +2132,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        xPlayer.setInventoryItem
+      </label>
+    
     <a href="./" title="xPlayer.setInventoryItem" class="md-nav__link md-nav__link--active">
       xPlayer.setInventoryItem
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2207,6 +2212,18 @@
   <li class="md-nav__item">
     <a href="../setname/" title="xPlayer.setName" class="md-nav__link">
       xPlayer.setName
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../setweapontint/" title="xPlayer.setWeaponTint" class="md-nav__link">
+      xPlayer.setWeaponTint
     </a>
   </li>
 
@@ -2296,6 +2313,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2313,6 +2346,34 @@
 </td></tr></table>
 
 <p>This function sets an inventory item count</p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>item</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>Item name, valid items can be found in database table <code>items</code></td>
+</tr>
+<tr>
+<td>count</td>
+<td>number</td>
+<td>No</td>
+<td>-</td>
+<td>New item count</td>
+</tr>
+</tbody>
+</table>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>This function will not check if the player weight limit exceeds. Recommended to use in comibation with <a href="../cancarryitem/">xPlayer.canCarryItem(item, count)</a></p>
