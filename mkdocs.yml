@@ -209,7 +209,6 @@ nav:
           - xPlayer.getMissingAccounts: 'es_extended/server/xplayer/functions/getmissingaccounts.md'
           - xPlayer.getMoney: 'es_extended/server/xplayer/functions/getmoney.md'
           - xPlayer.getName: 'es_extended/server/xplayer/functions/getname.md'
-          - xPlayer.getPlayer: 'es_extended/server/xplayer/functions/getplayer.md'
           - xPlayer.getWeapon: 'es_extended/server/xplayer/functions/getweapon.md'
           - xPlayer.getWeight: 'es_extended/server/xplayer/functions/getweight.md'
           - xPlayer.hasWeapon: 'es_extended/server/xplayer/functions/hasweapon.md'
