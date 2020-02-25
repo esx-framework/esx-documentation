@@ -8,7 +8,7 @@ This is the official documentation for **ES Extended**.
 
 es_extended is a roleplay framework for FiveM. ESX is short for EssentialMode Extended. The to-go framework for creating an economy based roleplay server on FiveM and most popular on the platform, too!
 
-Featuring many extra resource to fit roleplayig servers, here's a taste of what's available:
+Featuring many extra resources to fit roleplaying servers, here's a taste of what's available:
 
 - esx_ambulancejob: play as a medic to revive players who are bleeding out. Complete with garages and respawn & bleedout system
 - esx_policejob: patrol the city and arrest players commiting crime, with armory, outfit room and garages
