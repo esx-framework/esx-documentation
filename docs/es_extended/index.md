@@ -4,8 +4,6 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ## Requirements
 
-This order also applies in the startup order.
-
 - [mysql-async](https://github.com/brouznouf/fivem-mysql-async)
 - [async](https://github.com/ESX-Org/async)
 
@@ -47,8 +45,10 @@ git clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list
 - Configure your `server.cfg` to look like this
 
 ```
+add_principal group.admin group.user
 add_ace resource.es_extended command.add_ace allow
 add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.remove_principal allow
 
 start mysql-async
 start es_extended

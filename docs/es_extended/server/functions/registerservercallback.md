@@ -8,10 +8,10 @@ This function registers a server callback.
 
 ## Arguments
 
-| Argument | Data Type | Optional | Default Value | Explanation                                       |
-|----------|-----------|----------|---------------|---------------------------------------------------|
-| name     | string    | No       | -             | Server callback name                              |
-| cb       | function  | No       | -             | Callback function, which contains three arguments |
+| Argument | Data Type | Optional | Default Value | Explanation                                                                                                      |
+|----------|-----------|----------|---------------|------------------------------------------------------------------------------------------------------------------|
+| name     | string    | No       | -             | Server callback name                                                                                             |
+| cb       | function  | No       | -             | Callback function, which contains an varied size of arguments depending on how many arguments parsed from client |
 
 ## ESX.RegisterServerCallback Example
 

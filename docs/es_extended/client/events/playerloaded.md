@@ -1,9 +1,10 @@
 # esx:playerLoaded
 
 ```lua
-AddEventHandler('esx:playerLoader', function(xPlayer) end)
+RegisterNetEvent('esx:playerLoaded')
+AddEventHandler('esx:playerLoaded', function(playerData)
 
-TriggerEvent('esx:playerLoaded', xPlayer)
+end)
 ```
 
-Player loaded
+This event is triggered when the player has connected to the server

@@ -21,8 +21,10 @@ When you're downloading scripts, especially **ES Extended** scripts there are "r
     sv_scriptHookAllowed 0
     sv_endpointPrivacy true
 
+    add_principal group.admin group.user
     add_ace resource.es_extended command.add_ace allow
     add_ace resource.es_extended command.add_principal allow
+    add_ace resource.es_extended command.remove_principal allow
 
     #### FIVEM DEFAULT ####
         start mapmanager
