@@ -2407,7 +2407,9 @@
 67
 68
 69
-70</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>endpoint_add_tcp &quot;0.0.0.0:30120&quot;
+70
+71
+72</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>endpoint_add_tcp &quot;0.0.0.0:30120&quot;
 endpoint_add_udp &quot;0.0.0.0:30120&quot;
 sv_listingIPOverride &quot;YOUR_IP_ADRESS&quot;
 
@@ -2420,8 +2422,10 @@ sv_hostname &quot;Your Server Label&quot;
 sv_scriptHookAllowed 0
 sv_endpointPrivacy true
 
+add_principal group.admin group.user
 add_ace resource.es_extended command.add_ace allow
 add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.remove_principal allow
 
 #### FIVEM DEFAULT ####
     start mapmanager

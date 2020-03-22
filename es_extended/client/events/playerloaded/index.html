@@ -2296,13 +2296,15 @@
                 <h1 id="esxplayerloaded">esx:playerLoaded<a class="headerlink" href="#esxplayerloaded" title="Permanent link">&para;</a></h1>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
-3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">AddEventHandler</span><span class="p">(</span><span class="s1">&#39;esx:playerLoader&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">xPlayer</span><span class="p">)</span> <span class="kr">end</span><span class="p">)</span>
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">RegisterNetEvent</span><span class="p">(</span><span class="s1">&#39;esx:playerLoaded&#39;</span><span class="p">)</span>
+<span class="n">AddEventHandler</span><span class="p">(</span><span class="s1">&#39;esx:playerLoaded&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">playerData</span><span class="p">)</span>
 
-<span class="n">TriggerEvent</span><span class="p">(</span><span class="s1">&#39;esx:playerLoaded&#39;</span><span class="p">,</span> <span class="n">xPlayer</span><span class="p">)</span>
+<span class="kr">end</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>Player loaded</p>
+<p>This event is triggered when the player has connected to the server</p>
                 
                   
                 

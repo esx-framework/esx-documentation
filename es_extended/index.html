@@ -2419,7 +2419,6 @@
                 <h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
 <p>Instructions on how to download and install the basics of <strong>ES Extended</strong>.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
-<p>This order also applies in the startup order.</p>
 <ul>
 <li><a href="https://github.com/brouznouf/fivem-mysql-async">mysql-async</a></li>
 <li><a href="https://github.com/ESX-Org/async">async</a></li>
@@ -2465,16 +2464,20 @@ git clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list
 <li>Import <code>es_extended.sql</code> in your database</li>
 <li>Configure your <code>server.cfg</code> to look like this</li>
 </ul>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2
-3
-4
-5
-6
-7
-8
-9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>add_ace resource.es_extended command.add_ace allow
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>add_principal group.admin group.user
+add_ace resource.es_extended command.add_ace allow
 add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.remove_principal allow
 
 start mysql-async
 start es_extended

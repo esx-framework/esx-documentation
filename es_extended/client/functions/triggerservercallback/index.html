@@ -695,9 +695,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        ESX.TriggerServerCallback
+      </label>
+    
     <a href="./" title="ESX.TriggerServerCallback" class="md-nav__link md-nav__link--active">
       ESX.TriggerServerCallback
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esxtriggerservercallback-example" class="md-nav__link">
+    ESX.TriggerServerCallback Example
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -2282,6 +2318,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esxtriggerservercallback-example" class="md-nav__link">
+    ESX.TriggerServerCallback Example
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2298,7 +2357,64 @@
 </pre></div>
 </td></tr></table>
 
-<p>This function triggers a server callback.</p>
+<p>This function triggers a server callback. See <a href="../../../server/functions/registerservercallback/">ESX.RegisterServerCallback</a> on registering server callbacks.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is an async function and must be treated as one, xxamples on how to properly use the async function callback is shown below.</p>
+</div>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>No</td>
+<td>-</td>
+<td>A valid server callback name</td>
+</tr>
+<tr>
+<td>cb</td>
+<td>function</td>
+<td>No</td>
+<td>-</td>
+<td>The returned function when the async task has completed. The invoked function a varied size of arguments depending on how many arguments are parsed from the server</td>
+</tr>
+<tr>
+<td>args</td>
+<td>any</td>
+<td>Yes</td>
+<td>-</td>
+<td>Any arguments to parse to the async function</td>
+</tr>
+</tbody>
+</table>
+<h2 id="esxtriggerservercallback-example">ESX.TriggerServerCallback Example<a class="headerlink" href="#esxtriggerservercallback-example" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>local myAgument = &#39;hello&#39;
+
+ESX.TriggerServerCallback(&#39;esx_example:test&#39;, function(isBusy, numKills)
+    print(isBusy, numKills)
+    print(&#39;this code is an asynchronous task&#39;)
+end, myAgument)
+
+print(&#39;this code is running in sync&#39;)
+</pre></div>
+</td></tr></table>
                 
                   
                 
