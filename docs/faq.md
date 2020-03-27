@@ -4,9 +4,9 @@ Here's some answers to frequently asked questions
 
 ## FXServer Start Order
 
-When you're downloading scripts, especially **ES Extended** scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your `config.cfg` is _**important**_. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.
+When you're downloading scripts, especially **ES Extended** scripts there are "requirements". Which are vital to them running properly. The start order of your scripts in your `server.cfg` is _**important**_. Requirements for a script must be above the script that requires it, if it's loaded afterwards the script may not work as intended. So having your start order correct is vital.
 
-??? note "Example config.cfg"
+??? note "Example server.cfg"
     ```
     endpoint_add_tcp "0.0.0.0:30120"
     endpoint_add_udp "0.0.0.0:30120"
@@ -27,15 +27,10 @@ When you're downloading scripts, especially **ES Extended** scripts there are "r
     add_ace resource.es_extended command.remove_principal allow
 
     #### FIVEM DEFAULT ####
-        start mapmanager
         start chat
-        start spawnmanager
         start sessionmanager
         restart sessionmanager
-        start fivem
         start hardcap
-        start rconlog
-        start scoreboard
 
     #### ESSENTIAL
         start mysql-async
