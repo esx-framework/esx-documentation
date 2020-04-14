@@ -10,7 +10,6 @@ The following users are credited with **ES Extended's** development. Some users 
 
 ### Translators
 
-- [nearbyplayer](https://github.com/nearbyplayer)
 - [ddh3](https://github.com/ddh3)
 - [deviljin112](https://github.com/deviljin112)
 - [majormarcin](https://github.com/majormarcin)
