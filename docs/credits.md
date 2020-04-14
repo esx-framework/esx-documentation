@@ -20,8 +20,6 @@ The following users are credited with **ES Extended's** development. Some users 
 - [Vanheden](https://github.com/Vanheden)
 - [userMacieG](https://github.com/userMacieG)
 - [redoper1](https://github.com/redoper1)
-- [rex2630](https://github.com/rex2630)
-- [rex2630](https://github.com/rex2630)
 - .. and many more!
 
 ### Contributors
