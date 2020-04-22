@@ -208,7 +208,7 @@
     <li class="md-tabs__item">
       
         <a href="../../../../" class="md-tabs__link md-tabs__link--active">
-          ES Extended
+          ES Extended Docs
         </a>
       
     </li>
@@ -295,6 +295,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../../../installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../../../faq/" title="FAQ" class="md-nav__link">
       FAQ
     </a>
@@ -330,11 +342,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
-      ES Extended
+      ES Extended Docs
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        ES Extended
+        ES Extended Docs
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -345,8 +357,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../../" title="Overview" class="md-nav__link">
-      Overview
+    <a href="../../../../" title="Index" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -2341,11 +2353,11 @@
                 
                 
                 <h1 id="esxgamegetplayersinarea">ESX.Game.GetPlayersInArea<a class="headerlink" href="#esxgamegetplayersinarea" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetPlayersInArea</span><span class="p">(</span><span class="n">coords</span><span class="p">,</span> <span class="n">radius</span><span class="p">)</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetPlayersInArea</span><span class="p">(</span><span class="n">coords</span><span class="p">,</span> <span class="n">maxDistance</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>This function gets players in a given radius.</p>
+<p>This function gets all players within the max distance of a coord.</p>
 <h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -2360,13 +2372,13 @@
 <tbody>
 <tr>
 <td>coords</td>
-<td>vector3</td>
-<td>No</td>
-<td>-</td>
+<td>table&amp;vector3</td>
+<td>Yes</td>
+<td>(your player ped coords)</td>
 <td>The coords to search at</td>
 </tr>
 <tr>
-<td>area</td>
+<td>maxDistance</td>
 <td>number</td>
 <td>No</td>
 <td>-</td>
@@ -2431,7 +2443,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2019 ESX-Org
+            Copyright &copy; 2019-2020 ESX-Org
           </div>
         
         powered by

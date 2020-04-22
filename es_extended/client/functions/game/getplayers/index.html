@@ -208,7 +208,7 @@
     <li class="md-tabs__item">
       
         <a href="../../../../" class="md-tabs__link md-tabs__link--active">
-          ES Extended
+          ES Extended Docs
         </a>
       
     </li>
@@ -295,6 +295,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../../../installation/" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../../../faq/" title="FAQ" class="md-nav__link">
       FAQ
     </a>
@@ -330,11 +342,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
-      ES Extended
+      ES Extended Docs
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        ES Extended
+        ES Extended Docs
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -345,8 +357,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../../" title="Overview" class="md-nav__link">
-      Overview
+    <a href="../../../../" title="Index" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -853,6 +865,13 @@
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#esxgamegetplayers-example" class="md-nav__link">
@@ -2317,6 +2336,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#arguments" class="md-nav__link">
+    Arguments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#esxgamegetplayers-example" class="md-nav__link">
     ESX.Game.GetPlayers Example
   </a>
@@ -2341,11 +2367,46 @@
                 
                 
                 <h1 id="esxgamegetplayers">ESX.Game.GetPlayers<a class="headerlink" href="#esxgamegetplayers" title="Permanent link">&para;</a></h1>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetPlayers</span><span class="p">()</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">ESX</span><span class="p">.</span><span class="n">Game</span><span class="p">.</span><span class="n">GetPlayers</span><span class="p">(</span><span class="n">onlyOtherPlayers</span><span class="p">,</span> <span class="n">returnKeyValue</span><span class="p">,</span> <span class="n">returnPeds</span><span class="p">)</span>
 </pre></div>
 </td></tr></table>
 
-<p>This function gets all active players in the server, returns a table list with player's client id's.</p>
+<p>This function is used to get all the active players.</p>
+<h2 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Data Type</th>
+<th>Optional</th>
+<th>Default Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>onlyOtherPlayers</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>nil (false)</td>
+<td>Only return other players than yourself?</td>
+</tr>
+<tr>
+<td>returnKeyValue</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>nil (false)</td>
+<td>If set to true it will return in a key-value table where key is player client id and key being the ped handle. Otherwise it create a index-value table, with value being either the ped handle or client id depending on <code>returnPeds</code></td>
+</tr>
+<tr>
+<td>returnPeds</td>
+<td>boolean</td>
+<td>Yes</td>
+<td>nil (false)</td>
+<td>If set to true it will return the ped handle for that player, otherwise it will return the player client id</td>
+</tr>
+</tbody>
+</table>
 <h2 id="esxgamegetplayers-example">ESX.Game.GetPlayers Example<a class="headerlink" href="#esxgamegetplayers-example" title="Permanent link">&para;</a></h2>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
@@ -2417,7 +2478,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2019 ESX-Org
+            Copyright &copy; 2019-2020 ESX-Org
           </div>
         
         powered by
