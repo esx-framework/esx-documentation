@@ -4,4 +4,4 @@
 ESX.Game.GetObjects()
 ```
 
-This function gets objects found in the game world.
+This function gets all objects found in the game world.

@@ -1,6 +1,6 @@
 # Welcome to ES Extended
 
-This is the official documentation for **ES Extended**.
+This is the official website for **ES Extended**.
 
 > Check out our official add-ons on the [ES Extended GitHub Page](https://github.com/ESX-Org)
 

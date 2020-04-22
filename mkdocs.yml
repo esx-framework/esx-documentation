@@ -10,7 +10,7 @@ edit_uri: ""
 
 
 # Copyright
-copyright: 'Copyright &copy; 2019 ESX-Org'
+copyright: 'Copyright &copy; 2019-2020 ESX-Org'
 
 # Configuration
 docs_dir: 'docs'
@@ -88,10 +88,11 @@ markdown_extensions:
 nav:
   - Home:
     - Index: 'index.md'
+    - Installation: 'installation.md'
     - FAQ: 'faq.md'
     - Credits: 'credits.md'
-  - ES Extended:
-    - Overview: 'es_extended/index.md'
+  - ES Extended Docs:
+    - Index: 'es_extended/index.md'
     - Common:
       - Functions:
         - ESX.GetRandomString: 'es_extended/common/functions/getrandomstring.md'

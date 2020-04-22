@@ -4,7 +4,7 @@
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
 ```
 
-This function generates a Mugshot of the ped usable in various applications.
+This function generates a mugshot of the ped usable in various applications.
 
 ## Argument
 

@@ -1,14 +1,14 @@
 # ESX.Game.GetClosestPed
 
 ```lua
-ESX.Game.GetClosestPed(coords, ignoreList)
+ESX.Game.GetClosestPed(coords, modelFilter)
 ```
 
-This function gets the closest ped.
+This function returns the closest ped handle, and distance to the ped.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value | Explanation                         |
-|------------|-----------|----------|---------------|-------------------------------------|
-| coords     | table     | No       | -             | A whitelist table with object names |
-| ignoreList | table     | Yes      | {}            | An table of peds to ignore          |
+| Argument    | Data Type     | Optional | Default Value            | Explanation                                                                                                                         |
+|-------------|---------------|----------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| coords      | table         | Yes      | (your player ped coords) | Coords to search at                                                                                                                 |
+| modelFilter | table&vector3 | Yes      | -                        | Enables whitelist mode for getting closest ped. The table must be key-value where the key is the model hash, and value set to true. |

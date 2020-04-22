@@ -30,6 +30,7 @@ end
 | plateIndex        | number    | Plate style                                                         |
 | bodyHealth        | number    | Body health                                                         |
 | engineHealth      | number    | Engine health                                                       |
+| tankHealth        | number    | Petrol Tank health                                                  |
 | fuelLevel         | number    | Fuel level                                                          |
 | dirtLevel         | number    | Dirtiness level                                                     |
 | color1            | number    | Primary color                                                       |

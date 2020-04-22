@@ -4,4 +4,4 @@
 ESX.Game.GetVehicles()
 ```
 
-Returns all spawned vehicles at a given time.
+Returns all vehicles in the world.
