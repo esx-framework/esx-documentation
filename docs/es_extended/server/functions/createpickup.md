@@ -1,7 +1,7 @@
 # ESX.CreatePickup
 
 ```lua
-ESX.CreatePickup(type, name, count, label, playerId, components)
+ESX.CreatePickup(type, name, count, label, playerId, components, tintIndex)
 ```
 
 This function creates a pickup.
@@ -15,4 +15,5 @@ This function creates a pickup.
 | count      | number    | No       | -             | The count of the item, cash, account or weapon ammo                                                                                          |
 | label      | string    | No       | -             | The pickup label drawn                                                                                                                       |
 | playerId   | number    | No       | -             | The player server id who created the pickup, used to determine pickup spawn point                                                            |
-| components | table     | Yes      | -             | Only used when `type` is `item_weapon`, an ipairs table with components                                                                      |
+| components | table     | Yes      | -             | Only used when `type` is `item_weapon`, an index-value table with components                                                                 |
+| tintIndex  | number    | Yes      | -             | Only used when `type` is `item_weapon`, a tint index                                                                                         |
