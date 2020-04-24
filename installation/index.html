@@ -2486,10 +2486,14 @@ git clone https://github.com/ESX-Org/esx_menu_list [esx]/[ui]/esx_menu_list
  8
  9
 10
-11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>add_principal group.admin group.user
+11
+12
+13</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>add_principal group.admin group.user
 add_ace resource.es_extended command.add_ace allow
 add_ace resource.es_extended command.add_principal allow
 add_ace resource.es_extended command.remove_principal allow
+add_ace resource.es_extended command.stop allow
+
 
 start mysql-async
 start es_extended
