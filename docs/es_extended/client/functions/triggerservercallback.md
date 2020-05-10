@@ -7,7 +7,7 @@ ESX.TriggerServerCallback(name, cb, args)
 This function triggers a server callback. See [ESX.RegisterServerCallback](../../server/functions/registerservercallback.md) on registering server callbacks.
 
 !!! warning
-      This is an async function and must be treated as one, xxamples on how to properly use the async function callback is shown below.
+      This is an async function and must be treated as one, examples on how to properly use the async function callback is shown below.
 
 ## Arguments
 

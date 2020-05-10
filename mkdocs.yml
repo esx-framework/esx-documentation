@@ -1,48 +1,64 @@
 site_name: ESX Documentation
 site_description: Official ES Extended Documentation
 site_author: ES Extended Development Team
-#site_url: https://esx-org.github.io
 
 # Repository
 repo_name: ESX Organization
 repo_url: https://github.com/esx-org/
 edit_uri: ""
 
-
 # Copyright
-copyright: 'Copyright &copy; 2019-2020 ESX-Org'
+copyright: Copyright &copy; 2017-2020 ESX Organization
 
 # Configuration
-docs_dir: 'docs'
-site_dir: 'site'
+docs_dir: docs
+site_dir: site
 strict: true
 
+# Theme
 theme:
-  name: 'material'
+  name: material
 
+  # 404 Page
   static_templates:
     - 404.html
 
+  # Don't include MKDoc's JavaScript
   include_search_page: false
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
   language: en
-  feature:
-    tabs: true
+  features:
+    - tabs
   palette:
     primary: blue
     accent: blue
   font:
-    text: 'Fira Sans'
-    code: 'Fira Mono'
+    text: Fira Sans
+    code: Fira Mono
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github-alt
   favicon: assets/images/favicon.png
-  logo:
-    icon: "school"
+
+# Plugins
+plugins:
+  - search
+  - awesome-pages
+
+# Social
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ESX-Org
+    - icon: fontawesome/brands/discord
+      link: https://discord.me/esx
 
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
+  - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
       guess_lang: false
       linenums: true
@@ -51,14 +67,14 @@ markdown_extensions:
   - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
-  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -79,167 +95,10 @@ markdown_extensions:
         }
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.superfences
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-# Pages
-nav:
-  - Home:
-    - Index: 'index.md'
-    - Installation: 'installation.md'
-    - FAQ: 'faq.md'
-    - Credits: 'credits.md'
-  - ES Extended Docs:
-    - Index: 'es_extended/index.md'
-    - Common:
-      - Functions:
-        - ESX.GetRandomString: 'es_extended/common/functions/getrandomstring.md'
-        - ESX.GetWeaponComponent: 'es_extended/common/functions/getweaponcomponent.md'
-        - ESX.GetWeaponLabel: 'es_extended/common/functions/getweaponlabel.md'
-        - ESX.GetWeaponList: 'es_extended/common/functions/getweaponlist.md'
-        - ESX.Math.GroupDigits: 'es_extended/common/functions/groupdigits.md'
-        - ESX.Math.Round: 'es_extended/common/functions/round.md'
-        - ESX.Math.Trim: 'es_extended/common/functions/trim.md'
-        - ESX.SetTimeout: 'es_extended/common/functions/setimeout.md'
-        - ESX.ClearTimeout: 'es_extended/common/functions/cleartimeout.md'
-        - ESX.DumpTable: 'es_extended/common/functions/dumptable.md'
-      - Events:
-        - esx:onPlayerDeath: 'es_extended/common/events/onplayerdeath.md'
-    - Client:
-      - Functions:
-        - ESX.GetPlayerData: 'es_extended/client/functions/getplayerdata.md'
-        - ESX.IsPlayerLoaded: 'es_extended/client/functions/isplayerloaded.md'
-        - ESX.SetPlayerData: 'es_extended/client/functions/setplayerdata.md'
-        - ESX.ShowAdvancedNotification: 'es_extended/client/functions/showadvancednotification.md'
-        - ESX.ShowHelpNotification: 'es_extended/client/functions/showhelpnotification.md'
-        - ESX.ShowInventory: 'es_extended/client/functions/showinventory.md'
-        - ESX.ShowNotification: 'es_extended/client/functions/shownotification.md'
-        - ESX.TriggerServerCallback: 'es_extended/client/functions/triggerservercallback.md'
-        - Game:
-          - ESX.Game.DeleteObject: 'es_extended/client/functions/game/deleteobject.md'
-          - ESX.Game.DeleteVehicle: 'es_extended/client/functions/game/deletevehicle.md'
-          - ESX.Game.GetClosestObject: 'es_extended/client/functions/game/getclosestobject.md'
-          - ESX.Game.GetClosestPed: 'es_extended/client/functions/game/getclosestped.md'
-          - ESX.Game.GetClosestPlayer: 'es_extended/client/functions/game/getclosestplayer.md'
-          - ESX.Game.GetClosestVehicle: 'es_extended/client/functions/game/getclosestvehicle.md'
-          - ESX.Game.GetObjects: 'es_extended/client/functions/game/getobjects.md'
-          - ESX.Game.GetPedMugshot: 'es_extended/client/functions/game/getpedmugshot.md'
-          - ESX.Game.GetPeds: 'es_extended/client/functions/game/getpeds.md'
-          - ESX.Game.GetPlayers: 'es_extended/client/functions/game/getplayers.md'
-          - ESX.Game.GetPlayersInArea: 'es_extended/client/functions/game/getplayersinarea.md'
-          - ESX.Game.GetVehicleInDirection: 'es_extended/client/functions/game/getvehicleindirection.md'
-          - ESX.Game.GetVehicleProperties: 'es_extended/client/functions/game/getvehicleproperties.md'
-          - ESX.Game.GetVehicles: 'es_extended/client/functions/game/getvehicles.md'
-          - ESX.Game.GetVehiclesInArea: 'es_extended/client/functions/game/getvehiclesinarea.md'
-          - ESX.Game.IsSpawnPointClear: 'es_extended/client/functions/game/isspawnpointclear.md'
-          - ESX.Game.SetVehicleProperties: 'es_extended/client/functions/game/setvehicleproperties.md'
-          - ESX.Game.SpawnLocalObject: 'es_extended/client/functions/game/spawnlocalobject.md'
-          - ESX.Game.SpawnLocalVehicle: 'es_extended/client/functions/game/spawnlocalvehicle.md'
-          - ESX.Game.SpawnObject: 'es_extended/client/functions/game/spawnobject.md'
-          - ESX.Game.SpawnVehicle: 'es_extended/client/functions/game/spawnvehicle.md'
-          - ESX.Game.Teleport: 'es_extended/client/functions/game/teleport.md'
-          - Utils:
-            - ESX.Game.Utils.DrawText3D: 'es_extended/client/functions/game/utils/drawtext3d.md'
-        - Scaleform:
-          - ESX.Scaleform.ShowBreakingNews: 'es_extended/client/functions/scaleform/showbreakingnews.md'
-          - ESX.Scaleform.ShowFreemodeMessage: 'es_extended/client/functions/scaleform/showfreemodemessage.md'
-          - ESX.Scaleform.ShowPopupMessage: 'es_extended/client/functions/scaleform/showpopupmessage.md'
-          - ESX.Scaleform.ShowTrafficMovie: 'es_extended/client/functions/scaleform/showtrafficmovie.md'
-          - Utils:
-            - ESX.Scaleform.RequestScaleformMovie: 'es_extended/client/functions/scaleform/utils/requestscaleformmovie.md'
-        - Streaming:
-          - ESX.Streaming.RequestAnimDict: 'es_extended/client/functions/streaming/requestanimdict.md'
-          - ESX.Streaming.RequestAnimSet: 'es_extended/client/functions/streaming/requestanimset.md'
-          - ESX.Streaming.RequestModel: 'es_extended/client/functions/streaming/requestmodel.md'
-          - ESX.Streaming.RequestNamedPtfxAsset: 'es_extended/client/functions/streaming/requestnamedptfxasset.md'
-          - ESX.Streaming.RequestStreamedTextureDict: 'es_extended/client/functions/streaming/requeststreamedtexturedict.md'
-          - ESX.Streaming.RequestWeaponAsset: 'es_extended/client/functions/streaming/requestweaponasset.md'
-        - UI:
-          - ESX.UI.ShowInventoryItemNotification: 'es_extended/client/functions/ui/showinventoryitemnotification.md'
-          - HUD:
-            - ESX.UI.HUD.RegisterElement: 'es_extended/client/functions/ui/hud/registerelement.md'
-            - ESX.UI.HUD.RemoveElement: 'es_extended/client/functions/ui/hud/removeelement.md'
-            - ESX.UI.HUD.SetDisplay: 'es_extended/client/functions/ui/hud/setdisplay.md'
-            - ESX.UI.HUD.UpdateElement: 'es_extended/client/functions/ui/hud/updateelement.md'
-          - Menu:
-              - ESX.UI.Menu.Close: 'es_extended/client/functions/ui/menu/close.md'
-              - ESX.UI.Menu.CloseAll: 'es_extended/client/functions/ui/menu/closeall.md'
-              - ESX.UI.Menu.GetOpened: 'es_extended/client/functions/ui/menu/getopened.md'
-              - ESX.UI.Menu.IsOpen: 'es_extended/client/functions/ui/menu/isopen.md'
-              - ESX.UI.Menu.Open: 'es_extended/client/functions/ui/menu/open.md'
-              - ESX.UI.Menu.RegisterType: 'es_extended/client/functions/ui/menu/registertype.md'
-      - Events:
-        - esx:playerLoaded: 'es_extended/client/events/playerloaded.md'
-        - esx:showAdvancedNotification: 'es_extended/client/events/showadvancednotification.md'
-        - esx:showHelpNotification: 'es_extended/client/events/showhelpnotification.md'
-        - esx:showNotification: 'es_extended/client/events/shownotification.md'
-    - Server:
-      - Functions:
-        - ESX.CreatePickup: 'es_extended/server/functions/createpickup.md'
-        - ESX.GetItemLabel: 'es_extended/server/functions/getitemlabel.md'
-        - ESX.GetPlayerFromId: 'es_extended/server/functions/getplayerfromid.md'
-        - ESX.GetPlayerFromIdentifier: 'es_extended/server/functions/getplayerfromidentifier.md'
-        - ESX.GetPlayers: 'es_extended/server/functions/getplayers.md'
-        - ESX.RegisterServerCallback: 'es_extended/server/functions/registerservercallback.md'
-        - ESX.RegisterUsableItem: 'es_extended/server/functions/registerusableitem.md'
-        - ESX.SavePlayer: 'es_extended/server/functions/saveplayer.md'
-        - ESX.SavePlayers: 'es_extended/server/functions/saveplayers.md'
-        - ESX.Trace: 'es_extended/server/functions/trace.md'
-        - ESX.UseItem: 'es_extended/server/functions/useitem.md'
-      - xPlayer:
-        - Functions:
-          - xPlayer.addAccountMoney: 'es_extended/server/xplayer/functions/addaccountmoney.md'
-          - xPlayer.addInventoryItem: 'es_extended/server/xplayer/functions/addinventoryitem.md'
-          - xPlayer.addMoney: 'es_extended/server/xplayer/functions/addmoney.md'
-          - xPlayer.addWeapon: 'es_extended/server/xplayer/functions/addweapon.md'
-          - xPlayer.addWeaponAmmo: 'es_extended/server/xplayer/functions/addweaponammo.md'
-          - xPlayer.addWeaponComponent: 'es_extended/server/xplayer/functions/addweaponcomponent.md'
-          - xPlayer.canCarryItem: 'es_extended/server/xplayer/functions/cancarryitem.md'
-          - xPlayer.canSwapItem: 'es_extended/server/xplayer/functions/canswapitem.md'
-          - xPlayer.getAccount: 'es_extended/server/xplayer/functions/getaccount.md'
-          - xPlayer.getAccounts: 'es_extended/server/xplayer/functions/getaccounts.md'
-          - xPlayer.getCoords: 'es_extended/server/xplayer/functions/getcoords.md'
-          - xPlayer.getGroup: 'es_extended/server/xplayer/functions/getgroup.md'
-          - xPlayer.getIdentifier: 'es_extended/server/xplayer/functions/getidentifier.md'
-          - xPlayer.getInventory: 'es_extended/server/xplayer/functions/getinventory.md'
-          - xPlayer.getInventoryItem: 'es_extended/server/xplayer/functions/getinventoryitem.md'
-          - xPlayer.getJob: 'es_extended/server/xplayer/functions/getjob.md'
-          - xPlayer.getLoadout: 'es_extended/server/xplayer/functions/getloadout.md'
-          - xPlayer.getMissingAccounts: 'es_extended/server/xplayer/functions/getmissingaccounts.md'
-          - xPlayer.getMoney: 'es_extended/server/xplayer/functions/getmoney.md'
-          - xPlayer.getName: 'es_extended/server/xplayer/functions/getname.md'
-          - xPlayer.getWeapon: 'es_extended/server/xplayer/functions/getweapon.md'
-          - xPlayer.getWeight: 'es_extended/server/xplayer/functions/getweight.md'
-          - xPlayer.hasWeapon: 'es_extended/server/xplayer/functions/hasweapon.md'
-          - xPlayer.hasWeaponComponent: 'es_extended/server/xplayer/functions/hasweaponcomponent.md'
-          - xPlayer.kick: 'es_extended/server/xplayer/functions/kick.md'
-          - xPlayer.removeAccountMoney: 'es_extended/server/xplayer/functions/removeaccountmoney.md'
-          - xPlayer.removeInventoryItem: 'es_extended/server/xplayer/functions/removeinventoryitem.md'
-          - xPlayer.removeMoney: 'es_extended/server/xplayer/functions/removemoney.md'
-          - xPlayer.removeWeapon: 'es_extended/server/xplayer/functions/removeweapon.md'
-          - xPlayer.removeWeaponAmmo: 'es_extended/server/xplayer/functions/removeweaponammo.md'
-          - xPlayer.removeWeaponComponent: 'es_extended/server/xplayer/functions/removeweaponcomponent.md'
-          - xPlayer.setAccountMoney: 'es_extended/server/xplayer/functions/setaccountmoney.md'
-          - xPlayer.setCoords: 'es_extended/server/xplayer/functions/setcoords.md'
-          - xPlayer.setInventoryItem: 'es_extended/server/xplayer/functions/setinventoryitem.md'
-          - xPlayer.setJob: 'es_extended/server/xplayer/functions/setjob.md'
-          - xPlayer.setMaxWeight: 'es_extended/server/xplayer/functions/setmaxweight.md'
-          - xPlayer.setMoney: 'es_extended/server/xplayer/functions/setmoney.md'
-          - xPlayer.setName: 'es_extended/server/xplayer/functions/setname.md'
-          - xPlayer.setWeaponTint: 'es_extended/server/xplayer/functions/setweapontint.md'
-          - xPlayer.showHelpNotification: 'es_extended/server/xplayer/functions/showhelpnotification.md'
-          - xPlayer.showNotification: 'es_extended/server/xplayer/functions/shownotification.md'
-          - xPlayer.triggerEvent: 'es_extended/server/xplayer/functions/triggerevent.md'
-          - xPlayer.updateCoords: 'es_extended/server/xplayer/functions/updatecoords.md'
-# Plugins
-plugins:
-  - search
-  - awesome-pages
-
-# Customization
-extra:
-  social:
-    - type: 'github-alt'
-      link: https://github.com/ESX-Org

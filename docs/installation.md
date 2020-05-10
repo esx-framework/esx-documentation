@@ -9,15 +9,6 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ## Download
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-
-```
-fvm install --save --folder=essential esx-org/es_extended
-fvm install --save --folder=esx esx-org/esx_menu_default
-fvm install --save --folder=esx esx-org/esx_menu_dialog
-fvm install --save --folder=esx esx-org/esx_menu_list
-```
-
 ### Using Git
 
 ```

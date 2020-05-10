@@ -1,10 +1,17 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
 {% if config.extra.social %}
   <div class="md-footer-social">
-    <!--<link rel="stylesheet" href="{{ 'assets/fonts/font-awesome.css' | url }}">-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/v4-shims.css">
     {% for social in config.extra.social %}
-      <a href="{{ social.link }}" class="md-footer-social__link fab fa-{{ social.type }}"></a>
+      {% set title = social.name %}
+      {% if not title and "//" in social.link %}
+        {% set _,url = social.link.split("//") %}
+        {% set title = url.split("/")[0] %}
+      {% endif %}
+      <a href="{{ social.link }}" target="_blank" rel="noopener" title="{{ title }}" class="md-footer-social__link">
+        {% include ".icons/" ~ social.icon ~ ".svg" %}
+      </a>
     {% endfor %}
   </div>
 {% endif %}
