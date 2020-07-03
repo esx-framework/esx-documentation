@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: master
+          fetch-depth: 2
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
