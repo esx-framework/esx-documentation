@@ -6,7 +6,7 @@ title: Index
 
 This is the official documentation for **ES Extended**.
 
-> Check out our official add-ons on the [ES Extended GitHub Page](https://github.com/esx-org)
+> Check out our official add-ons on the [ES Extended GitHub Page](https://github.com/esx-framework)
 
 ## About
 
