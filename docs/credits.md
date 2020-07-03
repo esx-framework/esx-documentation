@@ -7,7 +7,7 @@ Here is the wall of fame for everyone who has aided the project! We're linking t
 If you want to get in touch with us then the fastest way is to contact us via our development discord.
 
 - [GiZz](https://github.com/indilo53): owner
-- [Hawaii_Beach](https://github.com/ElPumpo) (aka ElPumpo): maintainer & snail murderer
+- [FuraXx](https://github.com/FuraXx): administration
 - [nearbyplayer](https://github.com/nearbyplayer): administration
 
 ## Contributors & Retired Staff Members
@@ -26,6 +26,7 @@ If you want to get in touch with us then the fastest way is to contact us via ou
 - [RedAlex](https://github.com/RedAlex)
 - [LifeGoal](https://github.com/LifeGoal)
 - [SaltyGrandpa](https://github.com/SaltyGrandpa)
+- [Hawaii_Beach](https://github.com/ElPumpo)
 - .. and many more!
 
 ## Translators
