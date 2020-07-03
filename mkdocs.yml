@@ -1,0 +1,105 @@
+site_name: ESX Documentation
+site_description: Official ES Extended Documentation
+site_author: ES Extended Development Team
+
+# Repository
+repo_name: ESX Framework
+repo_url: https://github.com/esx-framework/
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2017-2020 ESX Framework
+
+# Configuration
+docs_dir: docs
+site_dir: site
+strict: true
+
+# Theme
+theme:
+  name: material
+
+  # 404 Page
+  static_templates:
+    - 404.html
+
+  # Don't include MKDoc's JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+  palette:
+    scheme: slate
+    primary: blue
+    accent: blue
+  font:
+    text: Fira Sans
+    code: Fira Mono
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github-alt
+  favicon: assets/images/favicon.png
+
+# Plugins
+plugins:
+  - search
+  - awesome-pages
+
+# Social
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/esx-framework
+    - icon: fontawesome/brands/discord
+      link: https://discord.me/esx
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+      linenums: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      provider: 'github'
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      labels:
+        {
+
+          'commit': 'Commit',
+          'compare': 'Compare',
+          'issue': 'Issue',
+          'pr': 'Pull Request',
+          'mention': 'User',
+          'repo': 'Repository'
+
+        }
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
