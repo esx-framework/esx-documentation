@@ -1,0 +1,11 @@
+.gitignore
+*/.gitignore
+*/.gitkeep
+.git-ftp-ignore
+.git-ftp-include
+.github/*
+.editorconfig
+CONTRIBUTING.md
+requirements.txt
+mkdocs.yml
+docs/*
