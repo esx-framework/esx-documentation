@@ -40,7 +40,7 @@ theme:
     code: Fira Mono
   icon:
     logo: material/school
-    repo: fontawesome/brands/github-alt
+    repo: fontawesome/brands/github
   favicon: assets/images/favicon.png
 
 # Plugins
@@ -51,10 +51,10 @@ plugins:
 # Social
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/esx-framework
     - icon: fontawesome/brands/discord
-      link: https://discord.me/esx
+      link: https://discord.gg/4nHPJtn
 
 # Extensions
 markdown_extensions:

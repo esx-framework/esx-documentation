@@ -1,0 +1,5 @@
+title: ESX v2 Docs
+arrange:
+  - index.md
+  - scripting manual
+  - common
