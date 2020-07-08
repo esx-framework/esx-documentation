@@ -1,0 +1,5 @@
+title: ES Extended v2 Docs
+arrange:
+  - index.md
+  - scripting_manual
+  - common
