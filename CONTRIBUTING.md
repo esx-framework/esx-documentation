@@ -2,7 +2,7 @@
 
 Thank you for taking the time to contribute!
 
-Please don't file an issue to ask a question, this is what our [Discord](https://discord.me/esx) is for!
+Please don't file an issue to ask a question, this is what our [Discord](https://discord.gg/ztzKWAF) is for!
 
 If you need support utilize our [Forum](https://forum.esx-framework.org).
 

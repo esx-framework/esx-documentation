@@ -54,7 +54,7 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/esx-framework
     - icon: fontawesome/brands/discord
-      link: https://discord.me/esx
+      link: https://discord.gg/ztzKWAF
 
 # Extensions
 markdown_extensions:
