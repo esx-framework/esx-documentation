@@ -18,6 +18,7 @@ strict: true
 # Theme
 theme:
   name: material
+  custom_dir: overrides
 
   # 404 Page
   static_templates:
