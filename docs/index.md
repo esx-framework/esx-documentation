@@ -23,3 +23,8 @@ ESX was initially developed by Gizz back in 2017 for his friend as the were crea
 ## Discord
 
 Join our [Development Discord](https://discord.gg/ztzKWAF) to discuss FiveM & ESX development with the staff and members. It's not a Discord to ask for help for inproper ESX installs, etc.
+
+
+## Forum
+
+Join our [Forum](https://forum.esx-framework.org) to get support for ESX. This is the proper place to ask for help.
