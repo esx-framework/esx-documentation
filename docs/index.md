@@ -28,3 +28,7 @@ Join our [Development Discord](https://discord.gg/ztzKWAF) to discuss FiveM & ES
 ## Forum
 
 Join our [Forum](https://forum.esx-framework.org) to get support for ESX. This is the proper place to ask for help.
+
+## Reddit
+
+Join our [Reddit](https://reddit.com/esxframework/) if you really love ESX!
