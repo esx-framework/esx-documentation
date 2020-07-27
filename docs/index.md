@@ -31,4 +31,4 @@ Join our [Forum](https://forum.esx-framework.org) to get support for ESX. This i
 
 ## Reddit
 
-Join our [Reddit](https://reddit.com/esxframework/) if you really love ESX!
+Join our [Reddit](https://reddit.com/r/esxframework/) if you really love ESX!
