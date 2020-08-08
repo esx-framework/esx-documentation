@@ -37,3 +37,5 @@ for k,v in ipairs(weapon.components) do
 	print(v.label) -- Returns components labels
 end
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/weapon/get.md)

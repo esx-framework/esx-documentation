@@ -5,26 +5,28 @@ utils.ui.showNotification(msg)
 ```
 This function shows a basic notification to the player.
 
-## Supported Color Syntax
-- \~r~ → Red
-- \~b~ → Blue
-- \~g~ → Green
-- \~y~ → Yellow
-- \~p~ → Purple
-- \~o~ → Orange
-- \~c~ → Grey
-- \~m~ → Dark Grey
-- \~u~ → Black
-- \~n~ → New Line
-- \~s~ → White (Default)
-- \~w~ → White
-- \~h~ → Bold
-- \~nrt~ → ?
+### Arguments
 
-## Example
+| Argument  | Data Type | Optional | Default Value | Explanation   |
+|-----------|-----------|----------|---------------|----|
+| msg | string | No | - | The message to display |
+
+!!! note
+    *Supported color syntax [here](https://pastebin.com/TEcnXVJU).*
+
+### Dependency
 ```lua
-local utils = M('utils')
+local utils = M("utils")
+```
 
+### Example
+```lua
 utils.ui.showNotification('Basic Notification')
 ```
+<center>
+
 ![](https://i.imgur.com/BwQFntI.png)
+
+</center>
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/client/functions/ui/notification/shownotification.md)

@@ -22,3 +22,5 @@ local str = utils.string.random(9, true)
 
 print(str) -- Returns random string
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/string/random.md)

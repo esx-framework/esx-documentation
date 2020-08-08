@@ -15,3 +15,5 @@ ESX.SetInterval(100, function() -- 100ms interval (0.1 seconds)
 	end
 end)
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/client/functions/game/enumeratepeds.md)

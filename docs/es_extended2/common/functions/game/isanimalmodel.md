@@ -24,3 +24,5 @@ local isAnimal = utils.game.isAnimalModel('a_c_fish')
 
 print(isAnimal) -- Returns true
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/game/isanimalmodel.md)

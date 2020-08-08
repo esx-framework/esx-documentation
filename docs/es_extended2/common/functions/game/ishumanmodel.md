@@ -24,3 +24,5 @@ local isHuman = utils.game.isHumanModel('u_m_y_abner')
 
 print(isHuman) -- Returns true
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/game/ishumanmodel.md)

@@ -20,3 +20,5 @@ print('value rounded: ' .. math.roundVec3(value)) -- Returns -269, -955, 31
 print('value rounded: ' .. math.roundVec3(value, 1)) -- Returns -269.4, -955.3, 31.2
 print('value rounded: ' .. math.roundVec3(value, 2)) -- Returns -269.44, -955.33, 31.22
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/math/roundvec3.md)

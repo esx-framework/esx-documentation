@@ -24,3 +24,5 @@ local isFreemode = utils.game.isFreemodeModel('mp_m_freemode_01')
 
 print(isFreemode) -- Returns true
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/game/isfreemodemodel.md)

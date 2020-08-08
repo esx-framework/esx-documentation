@@ -46,3 +46,5 @@ onServer('esx:player:death', function(data)
 	end
 end)
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/events/esxplayerdeath.md)

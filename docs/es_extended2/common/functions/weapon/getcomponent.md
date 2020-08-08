@@ -35,3 +35,5 @@ local weaponComponent = utils.weapon.getComponent('WEAPON_ASSAULTRIFLE', "COMPON
 
 print(weaponComponent.label) -- Returns component label of weapon
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/weapon/getcomponent.md)
