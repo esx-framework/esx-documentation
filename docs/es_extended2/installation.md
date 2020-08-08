@@ -38,7 +38,7 @@ git clone https://github.com/es_extended/tree/develop
     7. Run `sudo yum install mariadb-server`
     8. Add `sql_mode='MYSQL40'` below `[mariadb]` in `/etc/my.cnf.d/server.cnf`
     9. Run `mariadb-upgrade`
-    10 Run `service mysql restart`
+    10. Run `service mysql restart`
     
 1. Put the resources in the `cfx-server-data/resources` directory
 2. Import `es_extended.sql` in your database

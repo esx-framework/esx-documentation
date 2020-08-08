@@ -20,3 +20,5 @@ print('value rounded: ' .. math.round(value)) -- Returns 5.0
 print('value rounded: ' .. math.round(value, 1)) -- Returns 5.4
 print('value rounded: ' .. math.round(value, 2)) -- Returns 5.44
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/math/round.md)

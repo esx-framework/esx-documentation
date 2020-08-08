@@ -38,3 +38,5 @@ utils.game.doSpawn({
 	-- Code after spawn
 end)
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/client/functions/game/dospawn.md)

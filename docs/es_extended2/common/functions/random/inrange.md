@@ -22,3 +22,5 @@ local range = utils.random.inRange(1, 10)
 
 print(range) -- Returns a number between 1 and 10
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/random/inrange.md)

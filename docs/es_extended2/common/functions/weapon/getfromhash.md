@@ -30,3 +30,5 @@ local weaponHash = utils.weapon.getFromHash(-1074790547) -- 'WEAPON_ASSAULRIFLE'
 
 print(weaponHash.description) -- Returns description of weapon
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/weapon/getfromhash.md)

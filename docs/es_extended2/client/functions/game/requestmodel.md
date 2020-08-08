@@ -22,3 +22,5 @@ utils.game.requestModel('s_m_m_paramedic_01', function()
 	CreatePed(20, 's_m_m_paramedic_01', 341.0, -1397.3, 32.5, 0.0, true, false)
 end)
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/client/functions/game/requestmodel.md)

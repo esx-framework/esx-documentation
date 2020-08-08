@@ -17,3 +17,5 @@ local valueGrouped = math.groupDigits(value)
 
 print(value, valueGrouped) -- Returns 5555, 5,555
 ```
+
+[Improve this documentation](https://github.com/esx-framework/esx-framework.github.io/blob/development/docs/es_extended2/common/functions/math/groupdigits.md)
