@@ -16,9 +16,10 @@ This function registers a server callback.
 ## ESX.RegisterServerCallback Example
 
 ```lua
-ESX.RegisterServerCallback('esx_myscript:setNewName', function(playerId, newName, cb))
+ESX.RegisterServerCallback('esx_myscript:setNewName', function(playerId, newName, cb)
 	local xPlayer = ESX.GetPlayerFromId(playerId)
 	xPlayer.setName(newName)
 
 	cb(true)
+end)
 ```
