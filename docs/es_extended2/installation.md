@@ -43,7 +43,7 @@ git clone https://github.com/es_extended/tree/develop
 1. Put the resources in the `cfx-server-data/resources` directory
 2. Import `es_extended.sql` in your database
 3. Open a cmd in the es_extended resource.
-4. Type `npm i` or `yarn` in-order-to install dependents packages.
+4. Type `npm i` or `yarn install` in-order-to install node_modules. If you want to use Node.js, install it from: https://nodejs.org/en/. If you want to use yarn, install it from: https://classic.yarnpkg.com/en/docs/install/#windows-stable. Choose the stable version. This is only if you haven't already installed it. NOTE: Do not change the directory!
 5. Copy the part of the `server.cfg` sample and paste it to yours.
 
 ```
