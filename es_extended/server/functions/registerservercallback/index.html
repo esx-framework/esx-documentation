@@ -3661,11 +3661,12 @@
 </tbody>
 </table>
 <h2 id="esxregisterservercallback-example">ESX.RegisterServerCallback Example<a class="headerlink" href="#esxregisterservercallback-example" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="n">ESX</span><span class="p">.</span><span class="n">RegisterServerCallback</span><span class="p">(</span><span class="s1">&#39;esx_myscript:setNewName&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">playerId</span><span class="p">,</span> <span class="n">newName</span><span class="p">,</span> <span class="n">cb</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><code><span class="n">ESX</span><span class="p">.</span><span class="n">RegisterServerCallback</span><span class="p">(</span><span class="s1">&#39;esx_myscript:setNewName&#39;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">playerId</span><span class="p">,</span> <span class="n">newName</span><span class="p">,</span> <span class="n">cb</span><span class="p">)</span>
     <span class="kd">local</span> <span class="n">xPlayer</span> <span class="o">=</span> <span class="n">ESX</span><span class="p">.</span><span class="n">GetPlayerFromId</span><span class="p">(</span><span class="n">playerId</span><span class="p">)</span>
     <span class="n">xPlayer</span><span class="p">.</span><span class="n">setName</span><span class="p">(</span><span class="n">newName</span><span class="p">)</span>
 
     <span class="n">cb</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span>
+<span class="kr">end</span><span class="p">)</span>
 </code></pre></div>
                 
               
