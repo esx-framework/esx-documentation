@@ -13,7 +13,7 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ```
 cd resources
-git clone https://github.com/esx-framework/es_extended [essential]/es_extended
+git clone https://github.com/esx-framework/es_extended/tree/legacy [essential]/es_extended
 git clone https://github.com/esx-framework/esx_menu_default [esx]/[ui]/esx_menu_default
 git clone https://github.com/esx-framework/esx_menu_dialog [esx]/[ui]/esx_menu_dialog
 git clone https://github.com/esx-framework/esx_menu_list [esx]/[ui]/esx_menu_list
