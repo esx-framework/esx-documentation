@@ -13,5 +13,5 @@ local HUD  = M('game.hud')
 
 ### Example
 ```lua
-HUD.RegisterElement('JobHud', 2, 0, "<div>Tırcılık seviyesi {level}}</div>", {level = 1})
+HUD.RegisterElement('JobHud', 2, 0, "<div>Trucking Level : {level}}</div>", {level = 1})
 ```
