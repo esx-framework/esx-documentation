@@ -21,7 +21,7 @@ git clone https://github.com/esx-framework/esx_menu_list [esx]/[ui]/esx_menu_lis
 
 ### Manually
 
-- Download https://github.com/esx-framework/es_extended/releases/latest
+- Download https://github.com/esx-framework/es_extended/tree/legacy
 - Put it in the `resource/[essential]` directory
 - Download https://github.com/esx-framework/esx_menu_default/releases/latest
 - Put it in the `resource/[esx]/[ui]` directory
