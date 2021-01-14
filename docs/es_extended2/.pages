@@ -2,7 +2,7 @@ title: ES Extended v2 Docs
 arrange:
   - index.md
   - installation.md
-  - modules.md
-  - scripting_manual
+  - modules
+  - development_resources
   - common
   - client

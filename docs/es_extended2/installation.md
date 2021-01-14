@@ -1,13 +1,20 @@
 # Installation
 
-Instructions on how to download and install **es_extended** *develop branch*.
+Here are some simple instructions on how to download and install
+**experimental** build for ESX v2.
 
 ## Requirements
-- [MariaDB Server](https://downloads.mariadb.org/) (we will not support MySQL)
+- [MariaDB Server](https://downloads.mariadb.org/)
 - [Mysql-Async](https://github.com/brouznouf/fivem-mysql-async)
 - [NodeJs 8+](https://nodejs.org/en/)
 - [Async](https://github.com/esx-framework/async)
 - [Cron](https://github.com/esx-framework/cron)
+
+> **Important**
+>
+> Unlike the previous of ESX, ESX v2 only supports MariaDB as its database
+> provider. **You cannot use a MySQL server, as it does not support
+> the datatypes needed for ESX v2**
 
 ## Download
 ### Using Git
@@ -39,7 +46,7 @@ git clone https://github.com/es_extended/tree/develop
     8. Add `sql_mode='MYSQL40'` below `[mariadb]` in `/etc/my.cnf.d/server.cnf`
     9. Run `mariadb-upgrade`
     10. Run `service mysql restart`
-    
+
 1. Put the resources in the `cfx-server-data/resources` directory
 2. Import `es_extended.sql` in your database
 3. Open a cmd in the es_extended resource.
