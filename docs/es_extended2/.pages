@@ -4,5 +4,4 @@ arrange:
   - installation.md
   - modules
   - development_resources
-  - common
-  - client
+  - API_reference
