@@ -4,9 +4,13 @@ title: Getting Started
 
 # ES Extended v2 Docs
 
-ES Extended v2 is an entirely new framework built from the ground up with an enitrely new
-architecture. Practically all aspects of the framework have changed from the ESX v1
-style.
+***ESX v2 is still under the development, it is not reccomended you
+use this in production***
+
+TODO: Will rephrase this to be less gimmicky and more introductory
+
+ES Extended v2 is the next iteration of ESX. Built from the ground up practically all aspects of the
+framework have changed in how they perform, operate, and interact.
 
 We recommend you take a look at some of the larger architectural changes listed below
 
