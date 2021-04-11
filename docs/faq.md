@@ -15,10 +15,13 @@ The Rockstar identification tied to the game copy, this way if people want to fo
 
 ## Do you provide any suppport, can I receive help?
 
-No we do not provide any support for our projects. It's a full time job to "help" people who are in constant need of help.
+We do not provide offical support!
 
-The majority of the FiveM scripting "community" are sadly a kind of people who don't want to learn anything and only ask others to fix their problems.
+> However You can join our [Discord](https://discord.gg/ztzKWAF) and the community may help you with your issues.
 
 ## Do I need essentialmode?
 
 No you do not. Furthermore ES has a SQL injection vulnerability, we recommend you stay away from that ancient framework.
+
+## What is the difference between 1.2 and v1-final
+1.2 is the version before v1-final, final does things like accounts differently. Final also has a year's worth more bug fixes aswell.
