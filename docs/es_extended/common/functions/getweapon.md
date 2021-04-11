@@ -4,4 +4,4 @@
 ESX.GetWeapon(weaponName)
 ```
 
-This function Returns The weapon weapon the full weapon name.
+This function Returns The weapon and its full weapon name.
