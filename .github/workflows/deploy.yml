@@ -50,15 +50,15 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: ${{ github.event.head_commit.message }}
 
-      - uses: actions/checkout@v2
-        with:
-          ref: master
-          fetch-depth: 2
+      #- uses: actions/checkout@v2
+      #  with:
+      #    ref: master
+      #    fetch-depth: 2
 
-      - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
-          git-ftp-args: --branch=master -n --changed-only
+      #- name: Deploy to FTP
+      #  uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      #  with:
+      #    ftp-server: ${{ secrets.FTP_SERVER }}
+      #    ftp-username: ${{ secrets.FTP_USERNAME }}
+      #    ftp-password: ${{ secrets.FTP_PASSWORD }}
+      #    git-ftp-args: --branch=master -n --changed-only
