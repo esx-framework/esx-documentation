@@ -16,4 +16,4 @@ This command sets the group of the user.
 
 ###### Note
 
-The Main groups are user and admin! Superadmin **Does not** Exit.
+The Main groups are user and admin! Superadmin **does not** exist.
