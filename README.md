@@ -16,7 +16,17 @@ In order to run this site, you must have the following pip packages
 * mkdocs-material-extensions>=1.0
 * mkdocs-awesome-pages-plugin>=2.2.1
 
-### Development
+## Development
+
+### Setup
+This project is easily bootstrapped with `pip`, run the following command
+
+```bash
+# Will setup the required dependencies
+pip install -r requirements.txt
+```
+
+### Live Reload
 To start a live server for development purposes,
 run the following command in a terminal of your
 choice after ensuring dependencies
