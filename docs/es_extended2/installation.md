@@ -1,26 +1,24 @@
 # Installation
 
-Instructions on how to download and install **es_extended** *develop branch*.
+Instructions on how to download and install **esx-reborn**.
 
 ## Requirements
-- [MariaDB Server](https://downloads.mariadb.org/) (we will not support MySQL)
-- [Mysql-Async](https://github.com/brouznouf/fivem-mysql-async)
-- [NodeJs 8+](https://nodejs.org/en/)
-- [Async](https://github.com/esx-framework/async)
-- [Cron](https://github.com/esx-framework/cron)
-
-## Download
-### Using Git
-```
-git clone https://github.com/es_extended/tree/develop
-```
-
-### Manually
-- Download https://github.com/esx-framework/es_extended/tree/develop
+- [An installed MariaDB Server](https://downloads.mariadb.org/) (we will not support MySQL)
+- [ghmattimysql by GHMatti](https://github.com/GHMatti/ghmattimysql/releases/tag/1.3.2)
+- [Node.Js 10+](https://nodejs.org/en/)
+- [cron](https://github.com/esx-framework/cron)
 
 
-### How to Install
+### How to install
+1. Grab the resource, install it as usual (place it in the `/resource` subfolder of your FXServer).
+2. Open a cmd in the `esx-reborn` resource.
+3. Type `npm i` or `yarn` in-order-to install dependents packages.
+4. Copy the part of the `server.cfg` sample and paste it to yours.
+5. Remove config.json in the ghmattimysql resource, unless you plan to use it instead of set mysql_connection_string.
+6. Import `esx-reborn.sql` in your database.
 
+
+### MariaDB
 ??? note "How install MariaDB on linux"
     1. Run `sudo nano /etc/yum.repos.d/MariaDB.repo`
     2. Paste the following:
@@ -40,16 +38,23 @@ git clone https://github.com/es_extended/tree/develop
     9. Run `mariadb-upgrade`
     10. Run `service mysql restart`
     
-1. Put the resources in the `cfx-server-data/resources` directory
-2. Import `es_extended.sql` in your database
-3. Open a cmd in the es_extended resource.
-4. Type `npm i` or `yarn install` in-order-to install node_modules. If you want to use Node.js, install it from: https://nodejs.org/en/. If you want to use yarn, install it from: https://classic.yarnpkg.com/en/docs/install/#windows-stable. Choose the stable version. This is only if you haven't already installed it. NOTE: Do not change the directory!
-5. Copy the part of the `server.cfg` sample and paste it to yours.
-
+??? note "How to install MariaDB on windows"
+    1. [download MariaDB](https://downloads.mariadb.org/)
+    2. Double click the installer and follow the steps.
+       2.1. Read the end-user license agreement and click the next button.
+       2.2. Choose the directory that stores the MariaDB files and click the Next button. The default location on Windows is C:\Program Files\MariaDB 10.4\.
+       2.3. Type a password for the root user account. You will use this password to connect to MariaDB later.  The root user is the default user of the MariaDB, which has all privileges. The Use UTF8 as the default server's character set option allows you to use the UTF8 as the default character set when you create new databases and tables. Click next.
+       2.4. Hit the "install as a service" box. Configure your port and click next.
+       2.5. Click next.
+       2.6. Click install. You will now install MariaDB.
+       2.7. Click finish. 
+     3. You can find the MariaDB tools in the startup menu.
+     [More information](https://www.mariadbtutorial.com/getting-started/install-mariadb/)
+     
 ```
 # minimum resources and config to get it working
 
-set mysql_connection_string "mysql://user:password@localhost/es_extended?charset=utf8mb4"
+set mysql_connection_string "mysql://user:password@localhost/esx-reborn?charset=utf8mb4&multipleStatements=true"
 
 stop webadmin
 
@@ -63,20 +68,21 @@ ensure baseevents
 
 ensure yarn
 
-ensure mysql-async
+ensure ghmattimysql
 ensure cron
 
-ensure es_extended # Will now auto-generate fxmanifest.lua to prevent platform-dependant behavior, will prompt you to type ensure es_extended in console when fxmanifest has changed. To save some typing, uncomment below lines
+ensure esx-reborn # Will now auto-generate fxmanifest.lua to prevent platform-dependant behavior, will prompt you to type ensure esx-reborn in console when fxmanifest has changed. To save some typing, uncomment below lines
 
-# stop es_extended
-# start es_extended
+# stop esx-reborn
+# start esx-reborn
 
-# Add permission for es_extended to execute ACL commands
-add_ace resource.es_extended command.add_ace allow
-add_ace resource.es_extended command.remove_principal allow
-add_ace resource.es_extended command.add_principal allow
-add_ace resource.es_extended command.remove_ace allow
-add_ace resource.es_extended command.list_aces allow
-add_ace resource.es_extended command.list_principals allow
-add_ace resource.es_extended command.remove_aces_for_object allow
+# REQUIRED
+# Add permission for esx-reborn to execute ACL commands
+add_ace resource.esx-reborn command.add_ace allow
+add_ace resource.esx-reborn command.remove_principal allow
+add_ace resource.esx-reborn command.add_principal allow
+add_ace resource.esx-reborn command.remove_ace allow
+add_ace resource.esx-reborn command.list_aces allow
+add_ace resource.esx-reborn command.list_principals allow
+add_ace resource.esx-reborn command.remove_aces_for_object allow
 ```
