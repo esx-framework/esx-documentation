@@ -1,4 +1,4 @@
-# HUD.RegisterElement
+# HUD.RemoveElement
 
 ```lua
 HUD.RemoveElement(name)
