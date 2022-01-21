@@ -2,7 +2,7 @@
 
 Here's some answers to frequently asked questions
 
-## Why does ESX not use Steam as identification anymore? 
+## Why does ESX not use Steam as identification anymore?
 
 Steam identification was ditched the same time as when we ditched essentialmode. The reason is that the Steam identifier does not always belong to a Steam account that owns the game.
 
@@ -15,7 +15,7 @@ The Rockstar identification tied to the game copy, this way if people want to fo
 
 ## Do you provide any suppport, can I receive help?
 
-We do not provide offical support!
+We do **NOT** provide offical support!
 
 > However You can join our [Discord](https://discord.gg/ztzKWAF) and the community may help you with your issues.
 
@@ -23,5 +23,7 @@ We do not provide offical support!
 
 No you do not. Furthermore ES has a SQL injection vulnerability, we recommend you stay away from that ancient framework.
 
-## What is the difference between 1.2 and v1-final
+## What is the difference between 1.2 and v1-final and legacy
+
 1.2 is the version before v1-final, final does things like accounts differently. Final also has a year's worth more bug fixes aswell.
+Legacy Brings offical Multicharacter support,brings back spawnmanager, brings loads of optimisations, add new commands and refactors some old code.
