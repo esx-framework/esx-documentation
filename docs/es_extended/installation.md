@@ -11,31 +11,22 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ### Using Git
 
-```
-cd resources
-git clone https://github.com/esx-framework/es_extended/tree/legacy [essential]/es_extended
-git clone https://github.com/esx-framework/esx_menu_default [esx]/[ui]/esx_menu_default
-git clone https://github.com/esx-framework/esx_menu_dialog [esx]/[ui]/esx_menu_dialog
-git clone https://github.com/esx-framework/esx_menu_list [esx]/[ui]/esx_menu_list
+```diff
+ cd resources
+ git clone https://github.com/esx-framework/esx-legacy 
 ```
 
 ### Manually
 
-- Download https://github.com/esx-framework/es_extended/tree/legacy
-- Put it in the `resource/[essential]` directory
-- Download https://github.com/esx-framework/esx_menu_default/releases/latest
-- Put it in the `resource/[esx]/[ui]` directory
-- Download https://github.com/esx-framework/esx_menu_dialog/releases/latest
-- Put it in the `resource/[esx]/[ui]` directory
-- Download https://github.com/esx-framework/esx_menu_list/releases/latest
-- Put it in the `resource/[esx]/[ui]` directory
+- Download <https://github.com/esx-framework/esx-legacy>
+- Put it in the `resource` directory
 
 ## Install
 
 - Import `es_extended.sql` in your database
-- Configure your `server.cfg` to look like this
+- Make sure your `server.cfg` to looks similar to this
 
-```
+```diff
 add_principal group.admin group.user
 add_ace resource.es_extended command.add_ace allow
 add_ace resource.es_extended command.add_principal allow
@@ -50,3 +41,10 @@ start esx_menu_default
 start esx_menu_list
 start esx_menu_dialog
 ```
+
+- Make Sure you are **NOT** running an of these resources:
+  - `essentialmode`
+  - `basic-gamemode`
+  - `fivem-map-skater`
+  - `fivem-map-hipster`
+  - `default_spawnpoint`
