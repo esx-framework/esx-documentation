@@ -15,6 +15,4 @@ This command deletes all vehicles within the radius.
 |------------|-----------|----------|---------------|--------------------------------|
 | Radius     | Number    | yes      | -             | the radius of cars to delete   |
 
-###### Note
-
-This may not work as intended when using a large radius.
+> This may not work as intended when using a large radius.
