@@ -48,7 +48,6 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - mkdocstrings
 
 # Social
 extra:
