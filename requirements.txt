@@ -6,3 +6,4 @@ pymdown-extensions>=7.0
 mkdocs-material-extensions>=1.0
 mkdocs-awesome-pages-plugin>=2.2.1
 mkdocs-material>=8.1.7
+mkdocsstrings>=0.17.0
