@@ -72,7 +72,7 @@ const config = {
           {
             to: "/docs/infinity/installation",
             label: "Tutorials",
-            position: "left"
+            position: "right"
           },
           {
             href: "https://github.com/esx-framework",
