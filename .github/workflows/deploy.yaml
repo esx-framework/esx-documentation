@@ -39,6 +39,16 @@ jobs:
       #    user_email: 'github-actions[bot]@users.noreply.github.com'
       #    commit_message: ${{ github.event.head_commit.message }}
 
+      - name: Wipe FTP
+        uses: StephanThierry/ftp-delete-action@v1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          remoteFiles: "*"
+          remoteDirectories: "."
+          ignoreSSL: "1"
+
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
