@@ -25,13 +25,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/esx-framework/esx-docs.github.io/tree/develop"
+            "https://github.com/esx-framework/esx-documentation"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/esx-framework/esx-docs.github.io/tree/develop/"
+            "https://github.com/esx-framework/esx-documentation"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss")

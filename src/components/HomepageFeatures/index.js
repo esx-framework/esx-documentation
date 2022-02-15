@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>
         ESX was designed from the core, to be the one-stop-shop for anything you
-        need for your RP server. With simple, easy to use Configs and d&d
+        need for your RP server. With simple, easy to use configs and d&d
         nature, It requires no coding knowledge to setup.
       </>
     )
@@ -20,8 +20,8 @@ const FeatureList = [
     description: (
       <>
         ESX has a very large and helpful Community! They are always there to
-        help you and guide you. Need a resouce that the team Hasn't
-        made? Don't worry, someone in the community has probably made it!
+        help you and guide you. Need a resouce that the team hasn't
+        made? Don't worry, someone in the community probably has!
       </>
     )
   },
