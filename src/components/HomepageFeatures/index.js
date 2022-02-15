@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        ESX Was designed from the core, to be the one-stop-shop for anything you
+        ESX was designed from the core, to be the one-stop-shop for anything you
         need for your RP server. With simple, easy to use Configs and d&d
         nature, It requires no coding knowledge to setup.
       </>
@@ -19,9 +19,9 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        ESX Has a very large and helpful Community! They are always there to
-        help you and guide you. Need A resouce that the Offical Team Hasn`t
-        made? Don`t Worry, someone in the community has probably made it :)
+        ESX has a very large and helpful Community! They are always there to
+        help you and guide you. Need a resouce that the team Hasn't
+        made? Don't worry, someone in the community has probably made it!
       </>
     )
   },
@@ -30,8 +30,8 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your sever with the endless Configuration and
-        Community Scripts that are available!
+        Extend or customize your sever with the endless configuration and
+        community scripts that are available!
       </>
     )
   }

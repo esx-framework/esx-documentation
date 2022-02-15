@@ -1,6 +1,8 @@
-# Installation
+---
+title: Installation
+---
 
-Instructions on how to download and install the basics of **ESX Infinity**.
+Offical guide to installing **ESX Infinity**.
 
 ## Requirements
 
@@ -18,15 +20,16 @@ Instructions on how to download and install the basics of **ESX Infinity**.
 ### Manually
 
 - Download <https://github.com/esx-framework/esx-infinity>
-- Extract the `[Gamemodes]`, `[base]` and `[addons]` folders
+- Extract the `[gamemodes]`, `[base]` and `[addons]` folders
 - Put it them into the `resource` directory
 
 ## Install
 
-- Make Sure you are **NOT** running an of these resources:
+- Make sure you are **NOT** running any of these resources:
   - `essentialmode`
   - `es_extended`
   - `basic-gamemode`
+  - `mapmanager`
   - `fivem-map-skater`
   - `fivem-map-hipster`
   - `default_spawnpoint`

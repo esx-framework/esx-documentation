@@ -1,8 +1,8 @@
 ---
-title: Install Guide
+title: Installation
 ---
 
-The Offical Guide to Installing **ESX LEGACY**.
+Offical guide to installing **ESX Legacy**.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ The Offical Guide to Installing **ESX LEGACY**.
 
 ### Manually
 
-- Download and Install [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
+- Install [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
 - Download [ESX Legacy](https://github.com/esx-framework/esx-legacy/archive/refs/heads/main.zip)
 
 ## Install
@@ -31,10 +31,11 @@ The Offical Guide to Installing **ESX LEGACY**.
 
   - Import `legacy.sql` in your database
 
-- Make Sure you are **NOT** Using any of these resources:
+- Make sure you are **NOT** using any of these resources:
 
   - `essentialmode`
   - `basic-gamemode`
+  - `mapmanager`
   - `fivem-map-skater`
   - `fivem-map-hipster`
   - `default_spawnpoint`

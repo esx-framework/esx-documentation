@@ -7,10 +7,7 @@ import Hero from "@theme/Hero";
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="The Leading FiveM Framework"
-    >
+    <Layout title={`Homepage`} description="Industry Leading FiveM Framework">
       <Hero />
       <main>
         <HomepageFeatures />
