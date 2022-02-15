@@ -1,0 +1,53 @@
+name: Deploy Documentation
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout develop branch
+        uses: actions/checkout@v2
+        with:
+          ref: develop
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: npm
+
+      - name: Upgrade npm
+        run: |
+          # Install latest npm
+          npm install -g npm@latest
+
+      - name: Build website
+        run: |
+          npm ci --legacy-peer-deps
+          npm run build
+
+      - name: Deploy website
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
+          publish_dir: ./build
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: ${{ github.event.head_commit.message }}
+
+      # - name: FTP-Deploy-Action
+      #   uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      #   env:
+      #     REPO: self
+      #     BRANCH: build # The branch name where you want to push the assets
+      #     FOLDER: build # The directory where your assets are generated
+      #   with:
+      #     local-dir: ./build/
+      #     server: ${{ secrets.FTP_SERVER }}
+      #     username: ${{ secrets.FTP_USERNAME }}
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     port: 21

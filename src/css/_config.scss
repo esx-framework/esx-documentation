@@ -1,0 +1,78 @@
+$primary-blue: #0C0E10;
+$secondary-blue: #0565FF;
+$red: rgb(44, 200, 220);
+$white: #FFFFFF;
+$black: #000000;
+$primary-black: #0C0E10;
+$secondary-black: #2E2E2E;
+$zircon: #F8FAFF;
+$grey: #707070;
+$grey-light: #E0DFDF;
+$grey-dark: #C2C0C0;
+$purple: rgb(107, 113, 235);
+$purple-hover: rgb(74, 184, 199);
+$purple-light: #F2F5FE;
+$purple-lighter: #F9FAFF;
+
+$lato: 'Lato',
+sans-serif;
+
+$roboto: 'Roboto Mono',
+monospace;
+
+:root {
+  --primary-blue: #161F31;
+  --secondary-blue: #0565FF;
+  --red: #DC382C;
+  --white: #FFFFFF;
+  --black: #000000;
+  --primary-black: #0C0E10;
+  --secondary-black: #2E2E2E;
+  --zircon: #F8FAFF;
+  --grey: #707070;
+  --grey-light: #E0DFDF;
+  --grey-dark: #C2C0C0;
+  --purple: #5961FF;
+  --purple-hover: #3F41A0;
+  --purple-light: #F2F5FE;
+  --purple-lighter: #F9FAFF;
+}
+
+/* dark mode */
+
+@mixin dark {
+  html[data-theme="dark"] & {
+    @content;
+  }
+}
+
+/* media queries */
+@mixin desktop {
+  @media only screen and (min-width: 997px) {
+    @content;
+  }
+}
+
+@mixin desktop-tablet {
+  @media only screen and (min-width: 751px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 751px) and (max-width: 996px) {
+    @content;
+  }
+}
+
+@mixin tablet-mobile {
+  @media only screen and (max-width: 996px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media only screen and (max-width: 750px) {
+    @content;
+  }
+}
