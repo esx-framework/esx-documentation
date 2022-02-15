@@ -13,25 +13,15 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png",
-  organizationName: "esx-framework", // Usually your GitHub org/user name.
-  projectName: "esx-infinity", // Usually your repo name.
-
+  organizationName: "esx-framework",
   presets: [
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/esx-framework/esx-documentation"
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/esx-framework/esx-documentation"
+          path: "legacy",
+          routeBasePath: "legacy"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss")
@@ -39,7 +29,14 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense"],
+  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
+    "@docusaurus/plugin-content-docs",
+    {
+      id: "infinity",
+      path: "infinity",
+      routeBasePath: "infinity"
+    }
+  ]],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -53,74 +50,37 @@ const config = {
         title: "ESX Framework",
         logo: {
           alt: "ESX Logo",
-          src:
-            "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png"
+          src: "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png"
         },
         items: [
           {
             type: "doc",
-            docId: "legacy/installation",
+            docId: "installation",
             position: "left",
             label: "ESX Legacy"
           },
           {
             type: "doc",
-            docId: "infinity/installation",
+            docId: "installation",
+            docsPluginId: "infinity",
             position: "left",
             label: "ESX Infinity"
           },
           {
-            to: "/docs/infinity/installation",
-            label: "Tutorials",
+            href: "https://github.com/esx-framework",
+            label: "GitHub",
             position: "right"
           },
           {
-            href: "https://github.com/esx-framework",
-            label: "GitHub",
+            href: "https://discord.gg/ztzKWAF",
+            label: "Discord",
             position: "right"
           }
         ]
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "ESX Legacy",
-                to: "/docs/legacy/installation"
-              },
-              {
-                label: "ESX Infinity",
-                to: "/docs/infinity/installation"
-              }
-            ]
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/ztzKWAF"
-              }
-            ]
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Tutorials",
-                to: "/docs/infinity/installation"
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/esx-framework"
-              }
-            ]
-          }
-        ],
-        copyright: `Copyright &copy; ${new Date().getFullYear()} ESX Framework.`
+        copyright: `Copyright &copy; ${new Date().getFullYear()} ESX Framework`
       },
       prism: {
         theme: lightCodeTheme,

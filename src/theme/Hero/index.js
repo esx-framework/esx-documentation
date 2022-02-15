@@ -47,7 +47,7 @@ function Hero() {
                   </span>
                 </div>
                 <a
-                  href={useBaseUrl("/docs/legacy/installation")}
+                  href={useBaseUrl("/legacy/installation")}
                   className="link"
                 >
                   Read More
@@ -69,7 +69,7 @@ function Hero() {
                   </span>
                 </div>
                 <a
-                  href={useBaseUrl("/docs/legacy/installation")}
+                  href={useBaseUrl("/legacy/installation")}
                   className="link"
                 >
                   Read More
