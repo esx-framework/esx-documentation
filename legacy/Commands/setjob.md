@@ -18,6 +18,6 @@ This command sets the users job and job grade.
 | Job Name   | string    | No       | -             | The name of the job.      |
 | Job Grade  | number    | No       | -             | The grade to set the user to. |
 
-###### Note
+## Note
 
 You can find the list of jobs and their grade in the jobs table in your database.
