@@ -16,20 +16,10 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: Cache npm dependencies
-        uses: actions/cache@v2
-        id: npm-cache
-        with:
-          path: '~/.npm'
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-npm-
-
-      - name: Install dependencies
-        if: steps.npm-cache.outputs.cache-hit != 'true'
-        run: npm ci
-
       - name: Build website
-        run: npm run build
+        run: |
+          npm ci
+          npm run build
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
