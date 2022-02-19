@@ -18,12 +18,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 17.x
-          cache: npm
-
-      - name: Upgrade npm
-        run: |
-          # Install latest npm
-          npm install -g npm@latest
 
       - name: Build website
         run: |
