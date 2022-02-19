@@ -11,29 +11,31 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png",
   organizationName: "esx-framework",
-  presets: [
-    [
-      "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          path: "legacy",
-          routeBasePath: "legacy"
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.scss")
-        }
-      })
-    ]
+  presets: [],
+  plugins: [
+    "docusaurus-plugin-google-adsense",
+    "docusaurus-plugin-sass",
+    "content-pages",
+    ["content-docs",
+      {
+        path: "legacy",
+        routeBasePath: "legacy"
+      }
+    ],
+    ["content-docs",
+      {
+        id: "infinity",
+        path: "infinity",
+        routeBasePath: "infinity"
+      }
+    ],
   ],
-  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
-    "@docusaurus/plugin-content-docs",
+  themes: [
+    ["classic",
     {
-      id: "infinity",
-      path: "infinity",
-      routeBasePath: "infinity"
-    }
-  ]],
+      customCss: [require.resolve("./src/css/custom.scss")]
+    }]
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
