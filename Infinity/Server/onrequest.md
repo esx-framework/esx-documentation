@@ -1,10 +1,10 @@
-# On Request
+# OnRequest
 
 ```lua
 ESX.OnRequest(name, cb)
 ```
 
-This function registers a Server Request.
+This function registers a server request.
 
 ## Arguments
 

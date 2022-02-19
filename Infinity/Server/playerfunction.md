@@ -1,11 +1,11 @@
-# Player Function
+# PlayerFunction
 
 ```lua
 ESX.PlayerFunction(name , function(self,...))
 ```
 
-Defines A Player Function.
-Automatically Adds A usable Function to the xPlayer Table.
+Defines a player function.
+Automatically adds a usable function to the xPlayer Table.
 
 ## Argument
 
@@ -18,7 +18,6 @@ Automatically Adds A usable Function to the xPlayer Table.
 ## Example
 
 ```lua
-
 ---- Create Function -----------------------
 ESX.PlayerFunction('getName',function(self)
     return self.name

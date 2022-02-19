@@ -4,7 +4,7 @@
 ESX.GetPlayerFromId(playerId)
 ```
 
-This function gets a ESX player object from a server id. Returns `nil` for invalid players.
+This function gets a ESX player object from a server ID. Returns `nil` for invalid players.
 
 ## Argument
 

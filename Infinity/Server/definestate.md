@@ -1,11 +1,11 @@
-# Define State
+# DefineState
 
 ```lua
 ESX.DefineStates(states)
 ```
 
-Defines A PlayerData State.
-Automatically Adds Data to the xPlayer Table.
+Defines a PlayerData state.
+Automatically adds data to the xPlayer Table.
 
 ## Argument
 
@@ -19,7 +19,7 @@ Automatically Adds Data to the xPlayer Table.
     ["statename"] = {
         value = "", -- Default Value (any type)
         type = "VARCHAR(255)", -- Data Type to Store (string)
-        save = true -- Save To Database (bool)
+        save = true -- Save to Database (bool)
     }
 ```
 

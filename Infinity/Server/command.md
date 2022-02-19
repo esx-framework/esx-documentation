@@ -1,10 +1,10 @@
 # Command
 
 ```lua
-ESX.Command(name, Permissions, cb, allowConsole,suggestion)
+ESX.Command(name, Permissions, cb, allowConsole, suggestion)
 ```
 
-Registers A command using ESX functions.
+Registers a command using ESX functions.
 
 ## Example
 

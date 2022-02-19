@@ -1,11 +1,10 @@
-# Discord Log
+# DiscordLog
 
 ```lua
 ESX.DiscordLog(name, title, color, message, tag_everyone)
 ```
 
-Defines A PlayerData State.
-Automatically Adds Data to the xPlayer Table.
+This function logs to a Discord Webhook.
 
 ## Argument
 

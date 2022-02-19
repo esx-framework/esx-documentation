@@ -1,10 +1,10 @@
-# Create Blip
+# CreateBlip
 
 ```lua
 ESX.CreateBlip(name, text, coords, sprite, size, color)
 ```
 
-Registers A Blip for the client.
+Registers a blip for the client.
 
 ## Example
 

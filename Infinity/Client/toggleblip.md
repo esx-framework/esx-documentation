@@ -1,10 +1,10 @@
-# Toggle Blip
+# ToggleBlip
 
 ```lua
 ESX.ToggleBlip(name)
 ```
 
-Will Toggle Visibility Of A Blip (Register with ESX.CreateBlip).
+Will toggle visibility of a blip (register with ESX.CreateBlip).
 
 ## Example
 
