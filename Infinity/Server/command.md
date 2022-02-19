@@ -1,7 +1,7 @@
-# RegisterCommand
+# Command
 
 ```lua
-ESX.RegisterCommand(name, Permissions, cb, allowConsole,suggestion)
+ESX.Command(name, Permissions, cb, allowConsole,suggestion)
 ```
 
 Registers A command using ESX functions.
@@ -9,17 +9,16 @@ Registers A command using ESX functions.
 ## Example
 
 ```lua
-ESX.RegisterCommand({'clear', 'cls'}, 'user', function(xPlayer, args, showError)
-  xPlayer.triggerEvent('chat:clear')
-end, false, {help = _U('command_clear')})
+ESX.Command('heal', 'admin', function(xPlayer, args, show_error)
+    xPlayer.heal()
+end, false)
 ```
 
 ```lua
-ESX.RegisterCommand({'cardel', 'dv'}, 'admin', function(xPlayer, args, showError)
-  if not args.radius then args.radius = 4 end
-  xPlayer.triggerEvent('esx:deleteVehicle', args.radius)
-end, false, {help = _U('command_cardel'), arguments = {name = 'radius', help = _U('command_cardel_radius'), type = 'any'}
-}})
+ESX.Command('car', 'admin', function(xPlayer, args, show_error)
+  if not args.model then args.model = "t20" end
+  xPlayer.emit("esx:createVehicle",args.model)
+end, false, { help = 'Spawn a vehicle', validate = false, arguments = {{name = 'model', type = 'any'}}})
 ```
 
 ## Function Arguments

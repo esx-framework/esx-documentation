@@ -72,6 +72,11 @@ const config = {
             position: "right"
           },
           {
+            href: "https://guilded.gg/ESX-Framework-OFFICIAL",
+            label: "Guilded",
+            position: "right"
+          },
+          {
             href: "https://discord.gg/ztzKWAF",
             label: "Discord",
             position: "right"

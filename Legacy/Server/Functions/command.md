@@ -1,4 +1,4 @@
-# RegisterCommand
+# Command
 
 ```lua
 ESX.RegisterCommand(name, Permissions, cb, allowConsole,suggestion)
@@ -12,7 +12,7 @@ Registers A command using ESX functions.
 ESX.RegisterCommand({'clear', 'cls'}, 'user', function(xPlayer, args, showError)
   xPlayer.triggerEvent('chat:clear')
 end, false, {help = _U('command_clear')})
-```
+``
 
 ```lua
 ESX.RegisterCommand({'cardel', 'dv'}, 'admin', function(xPlayer, args, showError)
