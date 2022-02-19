@@ -7,7 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v2
@@ -17,17 +16,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 17.x
+          node-version: 16.x
           cache: npm
-
-      - name: Upgrade npm
-        run: |
-          # Install latest npm
-          npm install -g npm@latest
 
       - name: Build website
         run: |
-          npm ci --legacy-peer-deps
+          npm ci
           npm run build
 
       - name: Deploy to FTP
