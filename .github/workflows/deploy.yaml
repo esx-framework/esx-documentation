@@ -22,7 +22,7 @@ jobs:
           npm run build
 
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         if: ${{ success() }}
         with:
           local-dir: ./build/
