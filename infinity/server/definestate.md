@@ -1,7 +1,7 @@
 # DefineState
 
 ```lua
-ESX.DefineStates(states)
+ESX.DefineState(states)
 ```
 
 Defines a PlayerData state.
