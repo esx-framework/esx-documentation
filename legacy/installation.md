@@ -32,6 +32,7 @@ Offical guide to installing **ESX Legacy**.
 - Make sure you are **NOT** using any of these resources:
 
   - `essentialmode`
+  - `QBcore` **WILL BREAK HEAVILY**
   - `basic-gamemode`
   - `mapmanager`
   - `fivem-map-skater`
