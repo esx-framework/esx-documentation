@@ -50,7 +50,6 @@ add_ace resource.es_extended command.stop allow
 
 set mysql_connection_string "mysql://username:password@localhost:port/esx_legacy?charset=utf8mb4&multipleStatements=true"
 
-
 ensure oxmysql
 ensure spawnmanager
 ensure es_extended
