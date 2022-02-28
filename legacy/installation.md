@@ -4,7 +4,7 @@ Offical guide to installing **ESX Legacy**.
 
 ## Requirements
 
-- [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
+- [oxmysql](https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip)
 - spawnmanager
 
 ## Download
@@ -18,7 +18,7 @@ Offical guide to installing **ESX Legacy**.
 
 ### Manually
 
-- Install [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
+- Install [oxmysql](https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip)
 - Download [ESX Legacy](https://github.com/esx-framework/esx-legacy/archive/refs/heads/main.zip)
 
 ## Install
