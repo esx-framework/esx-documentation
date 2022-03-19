@@ -19,7 +19,7 @@ function Hero() {
         <div className="row">
           <div className="col col--7">
             <h1 className="hero-title">
-              The Home of
+              The home of
               <br /> ESX Developers
             </h1>
 
@@ -39,19 +39,13 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Create</h3>
                   <p className="description">
-                    Create a new Roleplay Server using git, txAdmin or from
-                    sources
+                    Create a new Roleplay Server using git, or txAdmin.
                   </p>
                   <span className="more">
-                    Create a Server <SvgArrowRight color="#DC382C" />
+                    Create a server <SvgArrowRight color="#3498db" />
                   </span>
                 </div>
-                <a
-                  href={useBaseUrl("/legacy/installation")}
-                  className="link"
-                >
-                  Read More
-                </a>
+                <a href={useBaseUrl("/legacy/installation")} className="link">Read More</a>
               </div>
 
               <div className="box box-develop">
@@ -62,18 +56,13 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Develop</h3>
                   <p className="description">
-                    Develop your Scripts using optimised and effortless Code.
+                    Develop your scripts using optimized and effortless code.
                   </p>
                   <span className="more">
-                    Develop your Script <SvgArrowRight color="#DC382C" />
+                    Develop your script <SvgArrowRight color="#3498db" />
                   </span>
                 </div>
-                <a
-                  href={useBaseUrl("/legacy/installation")}
-                  className="link"
-                >
-                  Read More
-                </a>
+                <a href={useBaseUrl("/legacy/installation")} className="link">Read More</a>
               </div>
 
               <div className="box box-explore">
@@ -84,17 +73,14 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Explore</h3>
                   <p className="description">
-                    Explore the wide, supportive Community that Make ESX what is
-                    it is Today
+                    Explore our community on Discord.
                   </p>
                   <span className="more">
-                    Explore The Community
-                    <SvgArrowRight color="#DC382C" />
+                    Explore
+                    <SvgArrowRight color="#3498db" />
                   </span>
                 </div>
-                <a href={"https://discord.gg/ztzKWAF"} className="link">
-                  Read More
-                </a>
+                <a href={"https://discord.gg/ztzKWAF"} className="link">Read More</a>
               </div>
             </div>
           </div>

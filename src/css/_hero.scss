@@ -2,8 +2,6 @@
   margin-top: -63px;
   padding: 114px 0 65px;
   border-radius: 0 0 10px 10px;
-  background-color: $primary-blue;
-  color: $white;
 
   @media only screen and (min-width: 997px) and (max-width: 1100px) {
     padding-left: 15px;
@@ -87,7 +85,7 @@
     .box {
       flex: 1;
       position: relative;
-      border: 1px dashed $red;
+      border: 1px dashed $esx;
       border-radius: 3px;
       transition: background-color .2s ease-in-out;
 
@@ -97,7 +95,7 @@
       }
 
       &:hover {
-        background-color: $red;
+        background-color: $esx;
       }
 
       &:not(:first-child) {

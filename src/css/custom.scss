@@ -6,34 +6,29 @@
 */
 
 @import './config';
-
 @import './hero';
 
-/* You can override the default Infima variables here. */
+// Custom Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// Override Colors
 :root {
-  --ifm-color-primary: #1a95ad;
-  --ifm-color-primary-dark: #17869c;
-  --ifm-color-primary-darker: #167f93;
-  --ifm-color-primary-darkest: #126879;
-  --ifm-color-primary-light: #136d7e;
-  --ifm-color-primary-lighter: #136d7e;
-  --ifm-color-primary-lightest: #147487;
+  --ifm-font-family-monospace: 'Roboto Mono';
+  --ifm-font-family-base: 'Roboto';
 }
 
-html[data-theme="dark"] {
-  --ifm-color-primary: #5acfed;
-  --ifm-color-primary-dark: #4eccec;
-  --ifm-color-primary-darker: #4eccec;
-  --ifm-color-primary-darkest: #18b5dd;
-  --ifm-color-primary-light: #77d8f0;
-  --ifm-color-primary-lighter: #86dcf2;
-  --ifm-color-primary-lightest: #b2e9f7;
+[data-theme='dark'] {
+  --ifm-color-primary: #3498db;
+  --ifm-color-primary-dark: #258bcf;
+  --ifm-color-primary-darker: #2383c4;
+  --ifm-color-primary-darkest: #1d6ca1;
+  --ifm-color-primary-light: #4ba4df;
+  --ifm-color-primary-lighter: #57aae1;
+  --ifm-color-primary-lightest: #79bbe7;
 }
 
-.container {
-  max-width: 1140px;
-}
-
+// Hide Overflow
 .home-main {
   overflow: hidden;
 }

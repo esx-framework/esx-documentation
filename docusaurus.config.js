@@ -18,15 +18,17 @@ const config = {
     "content-pages",
     ["content-docs",
       {
+        routeBasePath: "legacy",
+        breadcrumbs: false,
         path: "legacy",
-        routeBasePath: "legacy"
       }
     ],
     ["content-docs",
       {
-        id: "infinity",
+        routeBasePath: "infinity",
+        breadcrumbs: false,
         path: "infinity",
-        routeBasePath: "infinity"
+        id: "infinity",
       }
     ],
   ],
@@ -40,7 +42,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: "dark"
+        disableSwitch: true,
+        defaultMode: "dark",
       },
       googleAdsense: {
         dataAdClient: "ca-pub-9580213111363531"

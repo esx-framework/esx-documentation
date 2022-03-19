@@ -15,10 +15,10 @@
     "dev": "docusaurus start"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.15",
-    "@docusaurus/plugin-content-docs": "^2.0.0-beta.15",
-    "@docusaurus/plugin-content-pages": "^2.0.0-beta.15",
-    "@docusaurus/theme-classic": "^2.0.0-beta.15",
+    "@docusaurus/core": "2.0.0-beta.17",
+    "@docusaurus/plugin-content-docs": "^2.0.0-beta.17",
+    "@docusaurus/plugin-content-pages": "^2.0.0-beta.17",
+    "@docusaurus/theme-classic": "^2.0.0-beta.17",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "docusaurus-plugin-google-adsense": "^0.3.1",
@@ -43,7 +43,7 @@
   "description": "",
   "keywords": [],
   "devDependencies": {
-    "@docusaurus/types": "^2.0.0-beta.15",
+    "@docusaurus/types": "^2.0.0-beta.17",
     "sass": "^1.49.7",
     "sass-loader": "^12.5.0",
     "webpack": "^5.68.0"
