@@ -79,7 +79,7 @@ const config = {
             position: "right"
           },
           {
-            href: "https:// discord.esx-framework.org/",
+            href: "https://discord.esx-framework.org/",
             label: "Discord",
             position: "right"
           }
