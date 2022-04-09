@@ -16,7 +16,7 @@ Download and follow the setup process for the following:
 - Press Start on the top [2 boxes](https://prnt.sc/fIyfBJK3o2zM)
 - This should turn `Apache` and `MySQL` [Green](https://prnt.sc/uByIP-SC6Z1f)
   
-## Step 2: Creating A Database
+## Step 3: Creating A Database
 
 - Open`HeidiSQL` and Click the [New Button](https://prnt.sc/xrkqUAaB3b9K) and Enter Any name
 - Press [`Open`](https://prnt.sc/-cUmXc3yzfE5)
