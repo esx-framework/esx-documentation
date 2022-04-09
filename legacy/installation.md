@@ -2,6 +2,8 @@
 
 Offical guide to installing **ESX Legacy**.
 
+Make sure you have successfully Installed and setup your [database](../tutorials/database) before you start! :)
+
 ## Requirements
 
 - [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)

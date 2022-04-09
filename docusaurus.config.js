@@ -32,8 +32,17 @@ const config = {
       id: "infinity",
       path: "infinity",
       routeBasePath: "infinity"
-    }
-  ]],
+    },
+  ],
+  [
+    "@docusaurus/plugin-content-docs",
+    {
+      id: "tutorials",
+      path: "tutorials",
+      routeBasePath: "tutorials"
+    },
+  ],
+],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -62,6 +71,13 @@ const config = {
             docsPluginId: "infinity",
             position: "left",
             label: "ESX Infinity"
+          },
+          {
+            type: "doc",
+            docId: "database",
+            docsPluginId: "tutorials",
+            position: "left",
+            label: "Tutorials"
           },
           {
             href: "https://github.com/esx-framework",
