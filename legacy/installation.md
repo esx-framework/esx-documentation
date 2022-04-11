@@ -38,6 +38,8 @@ Make sure you have successfully Installed and setup your [database](../tutorials
   - `mapmanager`
   - `fivem-map-skater`
   - `fivem-map-hipster`
+  - `mysql-async`
+  - `QBCore`
   - `default_spawnpoint`
 
 - Use The `server.cfg` provided or:
