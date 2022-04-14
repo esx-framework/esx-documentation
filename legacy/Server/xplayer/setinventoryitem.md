@@ -14,5 +14,4 @@ This function sets an inventory item count
 | count    | number    | No       | -             | New item count                                                |
 
 ## NOTE
-
-> This function will not check if the player weight limit exceeds. Recommended to use in comibation with [canCarryItem(item, count)](./cancarryitem.md)
+ >This function will not check if the player weight limit exceeds. Recommended to use in comibation with [canCarryItem(item, count)](./cancarryitem.md)
