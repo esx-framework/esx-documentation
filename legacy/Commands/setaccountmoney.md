@@ -24,7 +24,7 @@ This command sets the users account balance.
 - Money
 - Black
 
-###### Note
+## Note
 
-- Money = Cash
-- Black = Black/Dirty money
+> Money = Cash
+> Black = Dirty money

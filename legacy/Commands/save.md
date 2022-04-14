@@ -8,7 +8,7 @@ sidebar_label: save
 save [ID]
 ```
 
-This command saves the playerdata of the user.
+This command saves the playerdata of the specified user.
 
 ## Arguments
 
@@ -16,6 +16,6 @@ This command saves the playerdata of the user.
 |------------|-----------|----------|---------------|---------------------------|
 | ID         | number    | No       | -             | The ServerID of the user. |
 
-###### Note
+## Note
 
-This will only save the playerdata of the ID specified.
+> This will only save the playerdata of the ID specified.

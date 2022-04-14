@@ -4,7 +4,7 @@
 xPlayer.updateCoords(coords)
 ```
 
-This is an internal function used to update player coords, do not use it.
+This is an internal function used to update player coords, **do not use it**.
 
 ## Argument
 

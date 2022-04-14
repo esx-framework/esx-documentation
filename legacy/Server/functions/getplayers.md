@@ -4,6 +4,9 @@
 ESX.GetPlayers()
 ```
 
+> NOT RECOMMENDED FOR USE.
+> Use [ESX.GetExtendedPlayers](getextendedplayers.md) instead!
+
 This function returns an array of all online players ID's.
 
 You can use this to access each players data.

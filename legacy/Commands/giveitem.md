@@ -18,6 +18,6 @@ This command gives an item to the user.
 | item       | string    | No       | -             | item to give.             |
 | Count      | number    | No       | -             | Amount to give.           |
 
-###### Note
+## Note
 
-You can find the list of items in the items table in your database.
+> You can find the list of items in the items table in your database.

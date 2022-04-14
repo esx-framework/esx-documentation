@@ -16,6 +16,6 @@ This command removes all weapons from the user.
 |------------|-----------|----------|---------------|---------------------------|
 | ID         | number    | No       | -             | The ServerID of the user. |
 
-###### Note
+## Note
 
-This remove **ALL** of the players weapons.
+> This remove **ALL** of the players weapons.

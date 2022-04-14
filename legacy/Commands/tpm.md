@@ -8,5 +8,4 @@ sidebar_label: tpm
 tpm
 ```
 
-`Teleport To Marker` - taken from esx_adminplus
-This command Teleports the player to a selected waypoint.
+`Teleport To Marker`- This command Teleports the player (and their vehicle) to a selected waypoint.

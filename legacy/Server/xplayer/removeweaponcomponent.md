@@ -16,9 +16,9 @@ This function removes a weapon component from a player, if the player has it. Th
 ## Example
 
 ```lua
-local weaponName, weaponComponent = 'WEAPON_PISTOL', 'clip_extended'
+local weaponName, weaponComponent = 'WEAPON_PISTOL', 'clip_extended' -- Specify a valid weapon and Component
 
-if xPlayer.hasWeaponComponent(weaponName, weaponComponent) then
-  xPlayer.removeWeaponComponent(weaponName, weaponComponent)
+if xPlayer.hasWeaponComponent(weaponName, weaponComponent) then -- Check they have the weapon and Component
+  xPlayer.removeWeaponComponent(weaponName, weaponComponent) -- if they have them, remove the Component
 end
 ```

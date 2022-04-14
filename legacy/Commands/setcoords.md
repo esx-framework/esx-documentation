@@ -18,6 +18,6 @@ This command sets the users coordinates to the args specified.
 | y          | Number    | no       | -             | the Y coordinate to teleport to |
 | z          | Number    | no       | -             | the Z coordinate to teleport to |
 
-###### Note
+### Note
 
-These Have to be Seperate Arguments
+> Make sure each argument is seperated with a Space, not a `,`
