@@ -4,7 +4,7 @@
 ESX.ClearTimeout(id)
 ```
 
-This function clears a timeout from the [ESX.SetTimeout](./setimeout.md) function.
+This function clears a timeout from the **ESX.SetTimeout** function.
 
 ## Example
 
