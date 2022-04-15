@@ -7,7 +7,7 @@ ESX.GetExtendedPlayers(key, val)
 This function returns an array of all users. 
 You can use this function to filter players to find specific types of people such as police or admins.
 
-## Example
+## Examples
 
 ```lua title="Get All Players"
 local xPlayers = ESX.GetExtendedPlayers() -- Returns all xPlayers
@@ -20,8 +20,7 @@ local xPlayers = ESX.GetExtendedPlayers() -- Returns all xPlayers
 ```lua title="Kick all non-admin Players"
 local xPlayers = ESX.GetExtendedPlayers("group", "user")
 
-for i=1, #xPlayers, 1 do
-  local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
+for _, xPlayer in pairs(xPlayers) do
   xPlayer.kick("you are not an admin!")
 end
 ```
@@ -29,8 +28,7 @@ end
 ```lua title="Give Item to all police"
 local xPlayers = ESX.GetExtendedPlayers("job", "police")
 
-for i=1, #xPlayers, 1 do
-  local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
+for _, xPlayer in pairs(xPlayers) do
   xPlayer.giveInventoryItem("bread", 5)
   xPlayer.showNotification('Here, have some free bread!')
 end
