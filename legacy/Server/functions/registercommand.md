@@ -19,7 +19,7 @@ ESX.RegisterCommand({'cardel', 'dv'}, 'admin', function(xPlayer, args, showError
   if not args.radius then args.radius = 4 end
   xPlayer.triggerEvent('esx:deleteVehicle', args.radius)
 end, false, {help = _U('command_cardel'), arguments = {name = 'radius', help = _U('command_cardel_radius'), type = 'any'}
-}})
+})
 ```
 
 ## Function Arguments
