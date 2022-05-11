@@ -26,7 +26,7 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
+  plugins: ["docusaurus-lunr-search","docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
     "@docusaurus/plugin-content-docs",
     {
       id: "infinity",
