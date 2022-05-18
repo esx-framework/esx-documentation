@@ -1,7 +1,7 @@
 # showNotification
 
 ```lua
-	TriggerClientEvent('esx:showNotification', source, 'Hello world!', "info", time)
+TriggerClientEvent('esx:showNotification', source, 'Hello world!', "info", time)
 ```
 
 This event shows a basic notification to the player. This is what you'll want to use server side when you wan to send a notification.
