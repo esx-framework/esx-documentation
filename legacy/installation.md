@@ -60,3 +60,5 @@ ensure esx_menu_default
 ensure esx_menu_list
 ensure esx_menu_dialog
 ```
+
+- [Exand your server with unique, multiplayer high quality scripts & minigames From Rcore, Use creator code `ESX` for 10% off](https://store.rcore.cz/esx)

@@ -79,20 +79,19 @@ function Hero() {
               <div className="box box-explore">
                 <SvgExploreBg color="#FFFFFF" className="bg" />
                 <span className="icon">
-                  <SvgExplore color="#FFFFFF" />
+                <img src="https://dunb17ur4ymx4.cloudfront.net/webstore/logos/3161f3d321b88381015ef8deb78b9ffe38f6f6d6.png"/>
                 </span>
                 <div className="text">
-                  <h3 className="title">Explore</h3>
+                  <h3 className="title"></h3>
                   <p className="description">
-                    Explore the wide, supportive Community that Make ESX what is
-                    it is Today
+                    Expand your server with unique, multiplayer high quality scripts & minigames. Use creator code <b>ESX</b> for 10% off at checkout
                   </p>
                   <span className="more">
-                    Explore The Community
+                    Explore Their Store!
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={"https://discord.gg/ztzKWAF"} className="link">
+                <a href={"https://store.rcore.cz/esx"} className="link">
                   Read More
                 </a>
               </div>
