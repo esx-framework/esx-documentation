@@ -9,7 +9,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png",
+  favicon: "https://cdn.discordapp.com/attachments/944789399852417096/980154434170552340/ESX_7.png",
   organizationName: "esx-framework",
   presets: [
     [
@@ -56,7 +56,7 @@ const config = {
         title: "ESX Framework",
         logo: {
           alt: "ESX Logo",
-          src: "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png"
+          src: "https://cdn.discordapp.com/attachments/944789399852417096/980154384069591040/ESX_8.png"
         },
         items: [
           {
