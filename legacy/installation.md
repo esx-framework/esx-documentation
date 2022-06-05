@@ -2,7 +2,7 @@
 
 Offical guide to installing **ESX Legacy**.
 
-Make sure you have successfully Installed and setup your [database](https://docs.esx-framework.org/tutorials/database) before you start! :)
+Make sure you have successfully Installed and setup your [database](../tutorials/database) before you start! :)
 
 ## Requirements
 
