@@ -21,7 +21,6 @@ jobs:
 
       - name: Build website
         run: |
-          npm install
           npm ci --legacy-peer-deps
           npm run build
 
