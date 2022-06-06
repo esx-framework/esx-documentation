@@ -3,6 +3,8 @@
 Offical guide to installing **ESX Legacy**.
 
 Make sure you have successfully Installed and setup your [database](../../tutorials/database) before you start! :)
+- [Exand your server with scripts From Rcore, Use creator code `ESX` for 10% off](https://store.rcore.cz/esx)
+
 
 ## Requirements
 
@@ -60,5 +62,3 @@ ensure esx_menu_default
 ensure esx_menu_list
 ensure esx_menu_dialog
 ```
-
-- [Exand your server with unique, multiplayer high quality scripts & minigames From Rcore, Use creator code `ESX` for 10% off](https://store.rcore.cz/esx)
