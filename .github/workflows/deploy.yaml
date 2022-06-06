@@ -21,15 +21,15 @@ jobs:
 
       - name: Build website
         run: |
+          npm install
           npm ci --legacy-peer-deps
           npm run build
 
-      - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.2.0
-        if: success()
-        with:
-          local-dir: ./build/
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          dangerous-clean-slate: true
+      - name: Push
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: build # The branch name where you want to push the assets
+          FOLDER: build # The directory where your assets are generated
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+          MESSAGE: "Build: ({sha}) {msg}" # The commit message
