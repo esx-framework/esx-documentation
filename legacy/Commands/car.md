@@ -5,7 +5,7 @@ sidebar_label: car
 # Car
 
 ```lua
-Car [SpawnName]
+car [SpawnName]
 ```
 
 This command spawns a vehicle.
