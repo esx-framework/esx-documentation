@@ -18,7 +18,7 @@ Download and follow the setup process for the following:
   
 ## Step 3: Creating A Database
 
-- Open`HeidiSQL` and Click the [New Button](https://prnt.sc/xrkqUAaB3b9K) and Enter Any name
+- Open `HeidiSQL` and Click the [New Button](https://prnt.sc/xrkqUAaB3b9K) and Enter Any name
 - Press [`Open`](https://prnt.sc/-cUmXc3yzfE5)
 - Right Click the `left pane` and Highlight `Create New` and then select `database`
 - Give it a Name that is easy to remember (for example `esx-framework`) as this will be needed later
