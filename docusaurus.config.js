@@ -26,7 +26,7 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-lunr-search","docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
+  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
     "@docusaurus/plugin-content-docs",
     {
       id: "infinity",
@@ -104,7 +104,13 @@ const config = {
         darkTheme: require("prism-react-renderer/themes/vsDark"),
         theme: require("prism-react-renderer/themes/github"),
         additionalLanguages: ["lua"]
-      }
+      },
+      algolia: {
+        appId: 'GNDCWAKF4K',
+        apiKey: 'efdbb4c666d4c00582bc14a621519410',
+        indexName: 'esx-framework',
+        contextualSearch: false
+      },
     })
 };
 

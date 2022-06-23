@@ -18,6 +18,7 @@
   --ifm-color-primary-light: #136d7e;
   --ifm-color-primary-lighter: #136d7e;
   --ifm-color-primary-lightest: #147487;
+
 }
 
 html[data-theme="dark"] {
@@ -36,4 +37,11 @@ html[data-theme="dark"] {
 
 .home-main {
   overflow: hidden;
+}
+
+.DocSearch-Hit[aria-selected='true'] a {
+  background-color: #147487 !important;
+}
+.DocSearch-Button {
+  background: #171717 !important;
 }
