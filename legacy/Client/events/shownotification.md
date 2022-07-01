@@ -22,7 +22,6 @@ This event shows a basic notification to the player. This is what you'll want to
 | time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
 | Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
 
-
 ## Note
 
 Do not use this event for client side, instead use [ESX.ShowNotification](./../functions/shownotification)

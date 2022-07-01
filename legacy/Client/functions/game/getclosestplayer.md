@@ -18,8 +18,8 @@ This function gets the closest player client id, and distance to the player.
 local closestPlayer, closestPlayerDistance = ESX.Game.GetClosestPlayer()
 
 if closestPlayer == -1 or closestPlayerDistance > 3.0 then
- ESX.ShowNotification('There\'s no player near you!')
+ ESX.ShowNotification('There\'s no player near you!', "error")
 else
- ESX.ShowNotification(('Found %s, they are %s unit(s) away'):format(GetPlayerName(closestPlayer), closestPlayerDistance))
+ ESX.ShowNotification(('Found %s, they are %s unit(s) away'):format(GetPlayerName(closestPlayer), closestPlayerDistance), "success")
 end
 ```

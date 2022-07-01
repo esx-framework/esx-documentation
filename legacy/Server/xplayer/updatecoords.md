@@ -11,3 +11,11 @@ This is an internal function used to update player coords, **do not use it**.
 | Argument | Data Type     | Optional | Default Value | Explanation       |
 |----------|---------------|----------|---------------|-------------------|
 | coords   | table&vector3 | No       | -             | New player coords |
+
+## Example
+
+```lua
+
+-- No Example since you shouldnt use this :)
+
+```

@@ -19,8 +19,10 @@ RegisterNetEvent('esx_ambulancejob:healMe')
 AddEventHandler('esx_ambulancejob:healMe', function()
   local xPlayer = ESX.GetPlayerFromId(source)
 
-  if xPlayer.getJob().name == 'ambulance' then
+  if xPlayer.job.name == 'ambulance' then
     xPlayer.triggerEvent('esx_basicneeds:healPlayer')
+  else 
+    print("Player ".. xPlayer.getName() .. "Tried to Heal someone!")
   end
 end)
 ```

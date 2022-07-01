@@ -41,7 +41,7 @@ This Guide will show the quick and easy way to setup a FiveM server using txAdmi
 
 ## Step 4: Deploying Your Server
 
-- The Recipe Deployer will take you to an overview of the reicpe selected.
+- The Recipe Deployer will take you to an overview of the Recipe selected.
 - By default, these should be correct, so scroll to the bottom and press `Next`.
 - It will then ask for your [Cfx.re licence key](https://keymaster.fivem.net/).
 - Once Entered, Press `Run Recipe`.

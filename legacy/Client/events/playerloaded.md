@@ -2,8 +2,8 @@
 
 ```lua
 RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(playerData)
-
+AddEventHandler('esx:playerLoaded',function(xPlayer, isNew, skin)
+ -- ESX.PlayerData = xPlayer
 end)
 ```
 

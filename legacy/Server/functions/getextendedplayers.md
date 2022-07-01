@@ -4,7 +4,7 @@
 ESX.GetExtendedPlayers(key, val)
 ```
 
-This function returns an array of all users. 
+This function returns an array of all users.
 You can use this function to filter players to find specific types of people such as police or admins.
 
 ## Examples
