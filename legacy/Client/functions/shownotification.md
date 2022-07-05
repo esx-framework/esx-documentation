@@ -28,7 +28,7 @@ This function shows a notification to the player.
 | Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
 
 ## Color Codes 
-
+```
 ~r~ = Red
 ~b~ = Blue
 ~g~ = Green
@@ -38,5 +38,7 @@ This function shows a notification to the player.
 ~m~ = Dark Grey
 ~u~ = Black
 ~o~ = Orange
+
+```
 
 
