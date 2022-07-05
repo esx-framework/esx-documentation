@@ -28,17 +28,17 @@ This function shows a notification to the player.
 | Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
 
 ## Color Codes 
-```
-~r~ = Red
-~b~ = Blue
-~g~ = Green
-~y~ = Yellow
-~p~ = Purple
-~c~ = Grey
-~m~ = Dark Grey
-~u~ = Black
-~o~ = Orange
 
-```
+|-----------|--------|
+| ~r~  |  Red      |
+| ~b~  |  Blue     |
+| ~g~  | Green     |
+| ~y~  | Yellow    |
+| ~p~  | Purple    |
+| ~c~  |  Grey     |
+| ~m~  | Dark Grey |
+| ~u~  | Black     |
+| ~o~  | Orange    |
+ 
 
 
