@@ -4,6 +4,20 @@
 TriggerClientEvent('esx:showNotification', source, 'Hello world!', "info", time)
 ```
 
+## Color Codes
+
+```lua
+~r~ = Red
+~b~ = Blue
+~g~ = Green
+~y~ = Yellow
+~p~ = Purple
+~c~ = Grey
+~m~ = Dark Grey
+~u~ = Black
+~o~ = Orange
+```
+
 This event shows a basic notification to the player. This is what you'll want to use server side when you wan to send a notification.
 
 ## String Types
@@ -22,19 +36,6 @@ This event shows a basic notification to the player. This is what you'll want to
 | time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
 | Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
 
-## Color Codes
-
-```
-~r~ = Red
-~b~ = Blue
-~g~ = Green
-~y~ = Yellow
-~p~ = Purple
-~c~ = Grey
-~m~ = Dark Grey
-~u~ = Black
-~o~ = Orange
-```
 
 ## Note
 
