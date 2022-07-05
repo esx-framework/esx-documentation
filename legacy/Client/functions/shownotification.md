@@ -9,6 +9,20 @@ ESX.ShowNotification(msg, time, type)
 ESX.ShowNotification("I i ~r~love~s~ donuts", "success", 3000)
 ```
 
+
+## Color Codes 
+```lua
+~r~ = Red
+~b~ = Blue
+~g~ = Green
+~y~ = Yellow
+~p~ = Purple
+~c~ = Grey
+~m~ = Dark Grey
+~u~ = Black
+~o~ = Orange
+```
+
 This function shows a notification to the player.
 
 ## String Types
@@ -27,18 +41,7 @@ This function shows a notification to the player.
 | time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
 | Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
 
-## Color Codes 
 
-|-----------|--------|
-| ~r~  |  Red      |
-| ~b~  |  Blue     |
-| ~g~  | Green     |
-| ~y~  | Yellow    |
-| ~p~  | Purple    |
-| ~c~  |  Grey     |
-| ~m~  | Dark Grey |
-| ~u~  | Black     |
-| ~o~  | Orange    |
  
 
 
