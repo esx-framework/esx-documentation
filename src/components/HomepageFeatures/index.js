@@ -15,6 +15,15 @@ const FeatureList = [
     )
   },
   {
+    title: <a href={"https://forge.plebmasters.de"}>Pleb Masters: Forge</a>,
+    Svg: require("@site/static/img/plebmasters.svg").default,
+    description: (
+      <>
+        Pleb Masters offers the biggest collection of GTA 5 modding & scripting tools. An essential website that will help you with searching stuff needed for resource configurations or FiveM scripting.
+      </>
+    )
+  },
+  {
     title: "Community",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
@@ -22,16 +31,6 @@ const FeatureList = [
         ESX has a very large and helpful Community! They are always there to
         help you and guide you. Need a resouce that the team hasn't
         made? Don't worry, someone in the community probably has!
-      </>
-    )
-  },
-  {
-    title: "Expandability",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    description: (
-      <>
-        Extend or customize your sever with the endless configuration and
-        community scripts that are available!
       </>
     )
   }
