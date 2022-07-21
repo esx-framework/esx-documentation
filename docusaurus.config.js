@@ -42,6 +42,14 @@ const config = {
       routeBasePath: "tutorials"
     },
   ],
+  [
+    "@docusaurus/plugin-content-docs",
+    {
+      id: "addons",
+      path: "addons",
+      routeBasePath: "addons"
+    },
+  ],
 ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -63,14 +71,21 @@ const config = {
             type: "doc",
             docId: "installation",
             position: "left",
-            label: "ESX Legacy"
+            label: "Legacy"
+          },
+          {
+            type: "doc",
+            docId: "menu_defualt/create_menu",
+            docsPluginId: "addons",
+            position: "left",
+            label: "Legacy Addons"
           },
           {
             type: "doc",
             docId: "installation",
             docsPluginId: "infinity",
             position: "left",
-            label: "ESX Infinity"
+            label: "Infinity"
           },
           {
             type: "doc",
@@ -79,6 +94,7 @@ const config = {
             position: "left",
             label: "Tutorials"
           },
+
           {
             href: "https://github.com/esx-framework",
             label: "GitHub",
@@ -98,7 +114,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright &copy; ${new Date().getFullYear()} ESX Framework`
+        copyright: `Copyright &copy; ${new Date().getFullYear()} ESX-Framework - All rights reserved.`
       },
       prism: {
         darkTheme: require("prism-react-renderer/themes/vsDark"),
