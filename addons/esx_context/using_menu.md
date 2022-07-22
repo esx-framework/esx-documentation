@@ -191,7 +191,7 @@ ESX.OpenContext("right" , Elements,
   end
 
   if element.name == "numberinput1" then
-    print("Age - " element.inputValue)
+    print("Age - ".. element.inputValue)
   end
 
   ESX.CloseContext()
