@@ -1,6 +1,6 @@
 # Creating a Menu
 
-ESX Menu Defualt is a great way to create easy to use Menus for players. However, it is not always clear how to use it, this tutorial will show you exactly how to!
+ESX Menu Default is a great way to create easy to use Menus for players. However, it is not always clear how to use it, this tutorial will show you exactly how to!
 
 ## Structure
 
