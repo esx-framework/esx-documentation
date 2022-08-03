@@ -88,35 +88,35 @@ end
 Once you combine all these parts, you get a Menu Interface in which you can interact with :)
 
 ```lua
-local Elements = {
-  {label = "I`m An Element", name = "element1"},
-  {label = "Bread - £200", name = "bread", value = 1, type = 'slider', min = 1,max = 100},
-  {label = '<span style="color:green;">HEY! IM GREEN!/span>', name = "geen_element"}
-}
-
-ESX.UI.Menu.Open("defualt", GetCurrentResourceName(), "Example_Menu", {
-  title = "Example Menu" -- The Name of Menu to show to users,
-  align    = 'top-left', -- top-left | top-right | bottom-left | bottom-right | center |
-  elements = Elements -- define elements as the pre-created table
-}, function(data,menu) -- OnSelect Function
-  --- for a simple element
-  if data.current.name == "element1" then
-    print("Element 1 Selected")
-    menu.close()
-  end
-
-  -- for slider elements 
-
-  if data.current.name == "bread" then 
-    print(data.current.value)
-
-    if data.current.value == 69 then 
-      print("Nice!")
-      menu.close()
-    end
-  end
-end, funcion(data, menu) -- Cancel Function
-  print("Closing Menu")
-  menu.close() -- close menu
-end)
+    local Elements = {
+        {label = "I`m An Element", name = "element1"},
+        {label = "Bread - £200", name = "bread", value = 1, type = 'slider', min = 1,max = 100},
+        {label = '<span style="color:green;">HEY! IM GREEN!/span>', name = "geen_element"}
+      }
+      
+      ESX.UI.Menu.Open("defualt", GetCurrentResourceName(), "Example_Menu", {
+        title = "Example Menu", -- The Name of Menu to show to users,
+        align    = 'top-left', -- top-left | top-right | bottom-left | bottom-right | center |
+        elements = Elements -- define elements as the pre-created table
+      }, function(data,menu) -- OnSelect Function
+        --- for a simple element
+        if data.current.name == "element1" then
+          print("Element 1 Selected")
+          menu.close()
+        end
+      
+        -- for slider elements 
+      
+        if data.current.name == "bread" then 
+          print(data.current.value)
+      
+          if data.current.value == 69 then 
+            print("Nice!")
+            menu.close()
+          end
+        end
+      end, function(data, menu) -- Cancel Function
+        print("Closing Menu")
+        menu.close() -- close menu
+      end)
 ```
