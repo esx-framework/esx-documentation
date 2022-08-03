@@ -94,7 +94,7 @@ Once you combine all these parts, you get a Menu Interface in which you can inte
         {label = '<span style="color:green;">HEY! IM GREEN!/span>', name = "geen_element"}
       }
       
-      ESX.UI.Menu.Open("defualt", GetCurrentResourceName(), "Example_Menu", {
+      ESX.UI.Menu.Open("default", GetCurrentResourceName(), "Example_Menu", {
         title = "Example Menu", -- The Name of Menu to show to users,
         align    = 'top-left', -- top-left | top-right | bottom-left | bottom-right | center |
         elements = Elements -- define elements as the pre-created table
