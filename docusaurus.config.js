@@ -4,12 +4,12 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "ESX Documentation",
-  tagline: "Industry Leading FiveM Framework",
+  tagline: "The Leading FiveM Framework",
   url: "https://docs.esx-framework.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://cdn.discordapp.com/attachments/944789399852417096/980154434170552340/ESX_7.png",
+  favicon: "https://cdn.discordapp.com/attachments/999497215955451944/1003495386511577119/imageedit_1_2564956129.png",
   organizationName: "esx-framework",
   presets: [
     [
@@ -26,7 +26,7 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
+  plugins: ["docusaurus-plugin-sass", [
     "@docusaurus/plugin-content-docs",
     {
       id: "infinity",
@@ -57,14 +57,11 @@ const config = {
       colorMode: {
         defaultMode: "dark"
       },
-      googleAdsense: {
-        dataAdClient: "ca-pub-9580213111363531"
-      },
       navbar: {
-        title: "ESX Framework",
+        title: "Home Page",
         logo: {
           alt: "ESX Logo",
-          src: "https://cdn.discordapp.com/attachments/944789399852417096/980154384069591040/ESX_8.png"
+          src: "https://cdn.discordapp.com/attachments/944789399852417096/1005183899455983707/aaaaaa.png"
         },
         items: [
           {
@@ -94,7 +91,6 @@ const config = {
             position: "left",
             label: "Tutorials"
           },
-
           {
             href: "https://github.com/esx-framework",
             label: "GitHub",
