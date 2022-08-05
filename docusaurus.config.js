@@ -35,6 +35,13 @@ const config = {
     },
   ],
   [
+    '@docusaurus/plugin-google-gtag',
+    {
+      trackingID: 'G-W69R4D1SG1',
+      anonymizeIP: true,
+    },
+  ],
+  [
     "@docusaurus/plugin-content-docs",
     {
       id: "tutorials",
