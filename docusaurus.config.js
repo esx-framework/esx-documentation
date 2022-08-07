@@ -26,7 +26,7 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-plugin-sass", [
+  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense", [
     "@docusaurus/plugin-content-docs",
     {
       id: "infinity",
@@ -63,6 +63,9 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark"
+      },
+      googleAdsense: {
+        dataAdClient: 'ca-pub-7747595309902664',
       },
       navbar: {
         title: "Home Page",
