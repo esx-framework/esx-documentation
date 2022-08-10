@@ -1,7 +1,7 @@
 # ShowNotification
 
 ```lua
-ESX.ShowNotification(msg, time, type)
+ESX.ShowNotification(msg, type, time)
 ```
 
 ## Example 
@@ -38,8 +38,8 @@ This function shows a notification to the player.
 | Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
 |---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
 | msg           | string    | No       | -             | The message to display                                                                            |
-| time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
 | Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
+| time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
 
 
  
