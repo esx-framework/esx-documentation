@@ -18,7 +18,7 @@ It Also has the benifit of not requiring you to wait into it has recived the obj
 The import can be used by simply adding this into the `fxmanifest.lua`:
 
 ```lua
-shard_script '@es_extended/imports.lua'
+shared_script '@es_extended/imports.lua'
 ```
 
 The import is the **best** and recommended way to use ESX within a script, this is because it will automatically sync data between ESX and the script,
