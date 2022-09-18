@@ -8,7 +8,6 @@ import SvgCreate from "@site/src/svg/Create";
 import SvgCreateBg from "@site/src/svg/CreateBg";
 import SvgDevelop from "@site/src/svg/Develop";
 import SvgDevelopBg from "@site/src/svg/DevelopBg";
-import SvgExplore from "@site/src/svg/Explore";
 import SvgExploreBg from "@site/src/svg/ExploreBg";
 import SvgArrowRight from "@site/src/svg/ArrowRight";
 
@@ -25,7 +24,7 @@ function Hero() {
 
             <h2 className="hero-subtitle">
               <Typed
-                strings={[">_ Industry Leading Roleplay Framework"]}
+                strings={[">_ Creating a roleplay server has never been easier."]}
                 typeSpeed={75}
               ></Typed>
             </h2>
@@ -39,11 +38,11 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Create</h3>
                   <p className="description">
-                    Create a new Roleplay Server using git, txAdmin or from
-                    sources
+                    Create A Roleplay Server With Ease using txAdmin or
+                    Github!
                   </p>
                   <span className="more">
-                    Create a Server <SvgArrowRight color="#DC382C" />
+                    Create Your Server <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
                 <a
@@ -62,7 +61,7 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Develop</h3>
                   <p className="description">
-                    Develop your Scripts using optimised and effortless Code.
+                    Learn how to effortlessly create your own resources
                   </p>
                   <span className="more">
                     Develop your Script <SvgArrowRight color="#DC382C" />

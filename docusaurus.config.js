@@ -4,13 +4,13 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "ESX Documentation",
-  tagline: "The Leading FiveM Framework",
+  tagline: "Creating a roleplay server has never been easier!",
   url: "https://docs.esx-framework.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://cdn.discordapp.com/attachments/999497215955451944/1003495386511577119/imageedit_1_2564956129.png",
-  organizationName: "esx-framework",
+  favicon: "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png",
+  organizationName: "ESX",
   presets: [
     [
       "classic",
@@ -68,10 +68,10 @@ const config = {
         dataAdClient: 'ca-pub-7747595309902664',
       },
       navbar: {
-        title: "Home Page",
+        title: "Home",
         logo: {
           alt: "ESX Logo",
-          src: "https://cdn.discordapp.com/attachments/944789399852417096/1005183899455983707/aaaaaa.png"
+          src: "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png"
         },
         items: [
           {
@@ -120,7 +120,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright &copy; ${new Date().getFullYear()} ESX-Framework - All rights reserved.`
+        copyright: `Copyright &copy; ${new Date().getFullYear()} ESX - All rights reserved.`
       },
       prism: {
         darkTheme: require("prism-react-renderer/themes/vsDark"),
