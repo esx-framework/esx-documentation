@@ -68,10 +68,10 @@ const config = {
         dataAdClient: 'ca-pub-7747595309902664',
       },
       navbar: {
-        title: "Home",
         logo: {
-          alt: "ESX Logo",
-          src: "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png"
+          alt: "ESX",
+          srcDark: "https://esx.s3.fr-par.scw.cloud/blanc-800x800.png",
+          src: 'https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png',
         },
         items: [
           {
@@ -87,13 +87,14 @@ const config = {
             position: "left",
             label: "Legacy Addons"
           },
+          /*
           {
             type: "doc",
             docId: "installation",
             docsPluginId: "infinity",
             position: "left",
             label: "Infinity"
-          },
+          },*/
           {
             type: "doc",
             docId: "database",
@@ -103,18 +104,23 @@ const config = {
           },
           {
             href: "https://github.com/esx-framework",
-            label: "GitHub",
-            position: "right"
-          },
-          {
-            href: "https://guilded.gg/ESX-Framework-OFFICIAL",
-            label: "Guilded",
+            className: "pseudo-icon github-icon",
             position: "right"
           },
           {
             href: "https://discord.esx-framework.org/",
-            label: "Discord",
+            className: "pseudo-icon discord-icon",
             position: "right"
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
+          {
+            href: "https://oxygenserv.com",
+            position: 'right',
+            label: 'Hosting',
+            className: "dev-portal-link"
           }
         ]
       },
