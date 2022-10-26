@@ -6,7 +6,7 @@ import Typed from "react-typed";
 import SvgCreate from "@site/src/svg/Create";
 import SvgDevelop from "@site/src/svg/Develop";
 import SvgArrowRight from "@site/src/svg/ArrowRight";
-import SvgHero from "@site/src/svg/topEditor.svg";
+import SvgHero from "@site/src/svg/developer.svg";
 
 function Hero() {
   return (
@@ -72,7 +72,7 @@ function Hero() {
               
 
               <div className="box">
-                <a className=" pseudo-icon oxygenserv-logo"/>
+                <img className="icon" src=""/>
                 <div className="text">
                   <h3 className="title"></h3>
                   <p className="description">
@@ -83,13 +83,12 @@ function Hero() {
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={"https://store.rcore.cz/esx"} className="link">
+                <a href={"https://oxygenserv.com"} className="link">
                   Read More
                 </a>
               </div>
             </div>
           </div>
-
           <div className="col col--5">
             <SvgHero className="illustration" />
           </div>

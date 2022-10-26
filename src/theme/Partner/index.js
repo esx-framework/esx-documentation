@@ -3,7 +3,6 @@ import React from 'react';
 function Partners() {
   return (
     <section className="rds-languages" id="partners">
-      <div className="container">
         <h2 className="section-title">Our partners ❤</h2>
 
         <ul className="partners-list">
@@ -28,7 +27,6 @@ function Partners() {
             </a>
           </li>
         </ul>
-      </div>
     </section>
   );
 }

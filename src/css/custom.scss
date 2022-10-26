@@ -28,13 +28,6 @@
   src: url(/static/fonts/Inter-italic.var.woff2) format('woff2');
 }
 
-@font-face {
-  font-family: Fira Code VF;
-  font-weight: 300 700;
-  font-style: normal;
-  src: url(/static/fonts/FiraCode-VF.woff2) format('woff2-variations'),
-    url(/static/fonts/FiraCode-VF.woff) format('woff-variations');
-}
 
 pre,
 code {
@@ -46,7 +39,6 @@ code {
 :root {
   /* Default values */
 
-  --ifm-spacing-horizontal: 1.5rem;
 
   /* Theme colors */
   --ifm-color-primary: #fd9800;
@@ -61,24 +53,23 @@ code {
 
   --ifm-table-border-color: var(--docs-color-border);
   --code-border-color: var(--docs-color-border);
-
-  --ifm-code-font-size: 92%;
-  --docusaurus-highlighted-code-line-bg: rgba(147, 178, 244, 0.38);
 }
 
 html[data-theme='dark'] {
   --ifm-color-primary: #fd9800;
 
   --ifm-background-color-gray: #121212;
-  --ifm-footer-background-color: #1c1c1c;
+  --ifm-footer-background-color: #141414;
 
   --ifm-navbar-background-color: #161616;
   --ifm-navbar-shadow: none;
-
-  --docusaurus-highlighted-code-line-bg: rgba(105, 105, 105, 0.3);
 }
 
 .rds-hero {
+  background-color: var(--ifm-navbar-background-color);
+}
+
+.rds-languages {
   background-color: var(--ifm-navbar-background-color);
 }
 
@@ -86,6 +77,11 @@ html[data-theme='dark'] {
   opacity: 0.8;
   padding: 0.25rem;
   margin: 0 0.5rem;
+}
+
+.section-title {
+  font-size: 26px;
+  text-align: center;
 }
 
 .pseudo-icon:hover {
@@ -106,13 +102,9 @@ nav.navbar {
   background-color: var(--ifm-navbar-background-color);
 }
 
-.oxygenserv-logo {
-    background-image: url("https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png");
-}
-
 .logo-partner {
   height: 90px !important;
-  padding: 10px 50px 20px;
+  padding: 20px 50px 20px;
 }
 
 .background-box {
@@ -121,15 +113,22 @@ nav.navbar {
 
 
 html[data-theme='dark'] .background-box {
-    background-color: #1c1c1c;
+    background-color: #161616;
 }
 
+html[data-theme='dark']  .rds-languages .partners-list li a {
+  box-shadow: #47525d8c 0px 1px 5px 0px, rgb(0 0 0 / 10%) 0px 7px 17px 0px;
+}
 
-.navbar-sidebar .oxygenserv-logo::after {
-  content: 'Oxygenserv';
+.oxygenserv-logo {
+  width: 150px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.oxygenserv.com/wp-content/uploads/2022/06/logo_oxygenserv.svg");
 }
 
 html[data-theme='dark'] .oxygenserv-logo {
+
     background-image: url("https://esx.s3.fr-par.scw.cloud/blanc-800x800.png");
 }
 
@@ -182,10 +181,12 @@ html[data-theme='dark'] .discord-icon::before {
   content: 'Discord';
 }
 
+
 .footer__description {
   color: var(--docs-color-text-100);
   font-size: 14px;
 }
+
 
 .footer__copyright {
   margin-top: 32px;
@@ -231,7 +232,7 @@ html[data-theme='dark'] .discord-icon::before {
 
 .footer__title {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 500;
   color: var(--docs-color-text-100);
   margin-bottom: 0.5rem;
 }
@@ -263,6 +264,12 @@ html[data-theme='dark'] .discord-icon::before {
 .navbar-sidebar .dev-portal-link {
   padding: 0.75rem;
   margin-top: 1rem;
+
+}
+
+.container-footer {
+  max-width: 1140px;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -270,6 +277,7 @@ html[data-theme='dark'] .discord-icon::before {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 
 .home-main {
   overflow: hidden;

@@ -95,7 +95,7 @@
       }
 
       &:hover {
-        background-color: #FD9800;
+        background-color: #fd98006c;
       }
 
       &:not(:first-child) {
@@ -221,10 +221,11 @@
   }
 
   .illustration {
-    max-width: 100%;
+    width: 400px;
+    height: 400px;
 
     @include desktop {
-      margin-left: 66px;
+      margin-left: 100px;
     }
 
     @media only screen and (min-width: 997px) and (max-width: 1100px) {
