@@ -11,19 +11,11 @@ export default function FooterLayout({ style, links, logo, copyright }) {
       <div className="container container-fluid">
         {logo && <div className="margin-bottom--sm">{logo}</div>}
         <p className="footer__description">
-          Dyte provides developer friendly live video SDKs that allows you to easily add 1:1 calls,
-          group calls and webinars right within your platform. Our low code approach and user
-          friendly documentation means you are ready to go live with less lines of code. We support
-          use cases such as live classes, telehealth, online fitness, remote work, social meetups,
-          dating and B2B sales.
+          The Best open source framework for FiveM to allow anyone to build their own custom servers with ease.
+          Our biggest project? ESX Legacy. It's the Best-In-Class, most performant and user friendly version of ESX ! 
+          It offers the Best and most advanced methods in FiveM, while delivering unbeatable performance!
         </p>
         <div className="footer__row">
-          <div className="footer__data">
-            <div className="footer__cta">
-              <p>Signup to get 10,000 minutes free every month!</p>
-              <Link href="https://dev.dyte.in/signup">Sign Up</Link>
-            </div>
-          </div>
           <div className="links">{links}</div>
         </div>
         {copyright && <div className="footer__bottom text--center">{copyright}</div>}

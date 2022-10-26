@@ -7,6 +7,7 @@
 
 @import './config';
 
+@import './partners';
 @import './hero';
 
 @font-face {
@@ -106,11 +107,30 @@ nav.navbar {
 }
 
 .oxygenserv-logo {
-  background-image: url("https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png");
+    background-image: url("https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png");
+}
+
+.logo-partner {
+  height: 90px !important;
+  padding: 10px 50px 20px;
+}
+
+.background-box {
+  background-color: #FFFFFF;
+}
+
+
+html[data-theme='dark'] .background-box {
+    background-color: #1c1c1c;
+}
+
+
+.navbar-sidebar .oxygenserv-logo::after {
+  content: 'Oxygenserv';
 }
 
 html[data-theme='dark'] .oxygenserv-logo {
-  background-image: url("https://esx.s3.fr-par.scw.cloud/blanc-800x800.png");
+    background-image: url("https://esx.s3.fr-par.scw.cloud/blanc-800x800.png");
 }
 
 .navbar-sidebar__item {

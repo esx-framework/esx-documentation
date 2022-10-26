@@ -134,19 +134,19 @@ const config = {
         },
         links: [
           {
-            title: 'Product',
+            title: 'Features',
             items: [
               {
-                label: 'Demo',
-                href: 'https://app.dyte.io',
-              },
-              {
-                label: 'Developer Portal',
-                href: 'https://dev.dyte.io',
+                label: 'Patreon',
+                href: 'https://www.patreon.com/esx',
               },
               {
                 label: 'Pricing',
-                href: 'https://dyte.io/#pricing',
+                href: 'https://www.esx-framework.org/#pricing',
+              },
+              {
+                label: 'Hosting',
+                href: 'https://www.oxygenserv.com/',
               },
             ],
           },
@@ -162,12 +162,8 @@ const config = {
                 href: 'https://dyte.freshteam.com/jobs',
               },
               {
-                label: 'Privacy Policy',
-                href: 'https://dyte.io/privacy-policy',
-              },
-              {
                 label: 'Contact Us',
-                href: 'mailto:support@dyte.in',
+                href: 'mailto:esxframework@gmail.com',
               },
             ],
           },
@@ -175,16 +171,16 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'Documentation',
-                href: 'https://docs.dyte.io',
+                label: 'Legacy',
+                href: 'https://docs.esx-framework.org/legacy/installation',
               },
               {
-                label: 'Blog',
-                href: 'https://dyte.io/blog',
+                label: 'Addons',
+                href: 'https://docs.esx-framework.org/addons/menu_default/create_menu',
               },
               {
                 label: 'Community',
-                href: 'https://community.dyte.io',
+                href: 'https://docs.esx-framework.org/tutorials/database',
               },
             ],
           },

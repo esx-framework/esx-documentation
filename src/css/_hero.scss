@@ -44,8 +44,8 @@
   .hero-title {
     margin: 0;
     line-height: 1.1;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 60px;
+    font-weight: 600;
 
     @include tablet-mobile {
       text-align: center;
@@ -85,7 +85,7 @@
     .box {
       flex: 1;
       position: relative;
-      border: 1px dashed $red;
+      border: 1px dashed #FD9800;
       border-radius: 3px;
       transition: background-color .2s ease-in-out;
 
@@ -95,7 +95,7 @@
       }
 
       &:hover {
-        background-color: $red;
+        background-color: #FD9800;
       }
 
       &:not(:first-child) {
