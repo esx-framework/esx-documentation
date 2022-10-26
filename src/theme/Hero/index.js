@@ -31,9 +31,8 @@ function Hero() {
 
             <div className="boxes">
               <div className="box box-create">
-                <SvgCreateBg color="#FFFFFF" className="bg" />
                 <span className="icon">
-                  <SvgCreate color="#FFFFFF" />
+                  <SvgCreate color="#fd9800" />
                 </span>
                 <div className="text">
                   <h3 className="title">Create</h3>
@@ -54,9 +53,8 @@ function Hero() {
               </div>
 
               <div className="box box-develop">
-                <SvgDevelopBg color="#FFFFFF" className="bg" />
                 <span className="icon">
-                  <SvgDevelop color="#FFFFFF" />
+                  <SvgDevelop color="#fd9800"/>
                 </span>
                 <div className="text">
                   <h3 className="title">Develop</h3>
@@ -74,16 +72,14 @@ function Hero() {
                   Read More
                 </a>
               </div>
+              
 
-              <div className="box box-explore">
-                <SvgExploreBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                <img src="https://dunb17ur4ymx4.cloudfront.net/webstore/logos/3161f3d321b88381015ef8deb78b9ffe38f6f6d6.png"/>
-                </span>
+              <div className="box">
+                <a className="icon oxygenserv-logo"></a>
                 <div className="text">
                   <h3 className="title"></h3>
                   <p className="description">
-                    Expand your server with unique, multiplayer high quality scripts & minigames. Use creator code <b>ESX</b> for 10% off at checkout
+                  The most ecological, high performance and high end hosting for your game servers. 15% off with the code <b>ESX</b>
                   </p>
                   <span className="more">
                     Explore Their Store!
@@ -98,7 +94,7 @@ function Hero() {
           </div>
 
           <div className="col col--5">
-            <SvgHero color="#FFFFFF" className="illustration" />
+            <SvgHero className="illustration" />
           </div>
         </div>
       </div>

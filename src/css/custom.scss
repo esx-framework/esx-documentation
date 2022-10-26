@@ -50,6 +50,8 @@ code {
   /* Theme colors */
   --ifm-color-primary: #fd9800;
 
+  --ifm-background-color-gray: hsla(240,7%,97%,1);
+
   --ifm-navbar-background-color: #FFFFFF;
   --ifm-navbar-shadow: none;
 
@@ -66,10 +68,17 @@ code {
 html[data-theme='dark'] {
   --ifm-color-primary: #fd9800;
 
+  --ifm-background-color-gray: #121212;
+  --ifm-footer-background-color: #1c1c1c;
+
   --ifm-navbar-background-color: #161616;
   --ifm-navbar-shadow: none;
 
   --docusaurus-highlighted-code-line-bg: rgba(105, 105, 105, 0.3);
+}
+
+.rds-hero {
+  background-color: var(--ifm-navbar-background-color);
 }
 
 .pseudo-icon {
@@ -93,6 +102,15 @@ html[data-theme='dark'] {
 
 nav.navbar {
   border-bottom: 1px solid var(--ifm-toc-border-color);
+  background-color: var(--ifm-navbar-background-color);
+}
+
+.oxygenserv-logo {
+  background-image: url("https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png");
+}
+
+html[data-theme='dark'] .oxygenserv-logo {
+  background-image: url("https://esx.s3.fr-par.scw.cloud/blanc-800x800.png");
 }
 
 .navbar-sidebar__item {
@@ -144,6 +162,70 @@ html[data-theme='dark'] .discord-icon::before {
   content: 'Discord';
 }
 
+.footer__description {
+  color: var(--docs-color-text-100);
+  font-size: 14px;
+}
+
+.footer__copyright {
+  margin-top: 32px;
+  font-size: 14px;
+  color: var(--docs-color-text-100);
+}
+
+.footer__row {
+  display: flex;
+}
+
+.footer__cta {
+  padding-right: 24px;
+  font-size: 14px;
+}
+
+.footer__cta p {
+  margin: 0;
+}
+
+.footer__cta a {
+  --ifm-link-hover-color: #fff;
+  margin-top: 0.25rem;
+  display: inline-block;
+  padding: 0.25rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--docs-color-primary);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__cta a:hover {
+  background-color: var(--ifm-color-primary-darker);
+}
+
+.footer__data {
+  flex: 2;
+}
+
+.footer__row .links {
+  flex: 3;
+}
+
+.footer__title {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--docs-color-text-100);
+  margin-bottom: 0.5rem;
+}
+
+.footer__item {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--docs-color-text);
+}
+
+.footer__link-item:hover {
+  text-decoration: none;
+}
+
 .dev-portal-link {
   background-color: var(--ifm-color-primary);
   border-radius: 4px;
@@ -165,15 +247,10 @@ html[data-theme='dark'] .discord-icon::before {
 
 .container {
   max-width: 1140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .home-main {
   overflow: hidden;
-}
-
-.DocSearch-Hit[aria-selected='true'] a {
-  background-color: #147487 !important;
-}
-.DocSearch-Button {
-  background: #171717 !important;
 }

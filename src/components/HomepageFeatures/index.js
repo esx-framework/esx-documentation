@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Ease of Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/undraw_options.svg").default,
     description: (
       <>
         ESX was designed from the core, to be the one-stop-shop for anything you
@@ -15,17 +15,17 @@ const FeatureList = [
     )
   },
   {
-    title: <a href={"https://forge.plebmasters.de"}>Pleb Masters: Forge</a>,
-    Svg: require("@site/static/img/plebmasters.svg").default,
+    title: "Recurring update",
+    Svg: require("@site/static/img/undraw_updates.svg").default,
     description: (
       <>
-        Pleb Masters offers the biggest collection of GTA 5 modding & scripting tools. An essential website that will help you with searching stuff needed for resource configurations or FiveM scripting.
+        We make sure the framework is always updated with new practices and security fixes. We also make sure to keep the framework as stable as possible while listing to the community.
       </>
     )
   },
   {
     title: "Community",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/undraw_community.svg").default,
     description: (
       <>
         ESX has a very large and helpful Community! They are always there to

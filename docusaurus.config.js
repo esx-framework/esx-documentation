@@ -17,7 +17,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: "legacy",
+          path: "docs/legacy",
           routeBasePath: "legacy"
         },
         theme: {
@@ -30,7 +30,7 @@ const config = {
     "@docusaurus/plugin-content-docs",
     {
       id: "infinity",
-      path: "infinity",
+      path: "docs/infinity",
       routeBasePath: "infinity"
     },
   ],
@@ -45,7 +45,7 @@ const config = {
     "@docusaurus/plugin-content-docs",
     {
       id: "tutorials",
-      path: "tutorials",
+      path: "docs/tutorials",
       routeBasePath: "tutorials"
     },
   ],
@@ -53,7 +53,7 @@ const config = {
     "@docusaurus/plugin-content-docs",
     {
       id: "addons",
-      path: "addons",
+      path: "docs/addons",
       routeBasePath: "addons"
     },
   ],
@@ -82,7 +82,7 @@ const config = {
           },
           {
             type: "doc",
-            docId: "menu_defualt/create_menu",
+            docId: "menu_default/create_menu",
             docsPluginId: "addons",
             position: "left",
             label: "Legacy Addons"
@@ -125,7 +125,70 @@ const config = {
         ]
       },
       footer: {
-        style: "dark",
+        logo: {
+          href: '/',
+          srcDark: "https://esx.s3.fr-par.scw.cloud/blanc-800x800.png",
+          src: 'https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png',
+          alt: 'ESX',
+          height: '36px',
+        },
+        links: [
+          {
+            title: 'Product',
+            items: [
+              {
+                label: 'Demo',
+                href: 'https://app.dyte.io',
+              },
+              {
+                label: 'Developer Portal',
+                href: 'https://dev.dyte.io',
+              },
+              {
+                label: 'Pricing',
+                href: 'https://dyte.io/#pricing',
+              },
+            ],
+          },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'About Us',
+                href: 'https://dyte.io',
+              },
+              {
+                label: 'Join Us',
+                href: 'https://dyte.freshteam.com/jobs',
+              },
+              {
+                label: 'Privacy Policy',
+                href: 'https://dyte.io/privacy-policy',
+              },
+              {
+                label: 'Contact Us',
+                href: 'mailto:support@dyte.in',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Documentation',
+                href: 'https://docs.dyte.io',
+              },
+              {
+                label: 'Blog',
+                href: 'https://dyte.io/blog',
+              },
+              {
+                label: 'Community',
+                href: 'https://community.dyte.io',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright &copy; ${new Date().getFullYear()} ESX - All rights reserved.`
       },
       prism: {
