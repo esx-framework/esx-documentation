@@ -155,11 +155,11 @@ const config = {
             items: [
               {
                 label: 'About Us',
-                href: 'https://dyte.io',
+                href: 'https://www.esx-framework.org',
               },
               {
                 label: 'Join Us',
-                href: 'https://dyte.freshteam.com/jobs',
+                href: 'https://discord.gg/esx-framework',
               },
               {
                 label: 'Contact Us',
