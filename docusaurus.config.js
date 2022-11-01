@@ -17,7 +17,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: "legacy",
+          path: "docs/legacy",
           routeBasePath: "legacy"
         },
         theme: {
@@ -30,7 +30,7 @@ const config = {
     "@docusaurus/plugin-content-docs",
     {
       id: "infinity",
-      path: "infinity",
+      path: "docs/infinity",
       routeBasePath: "infinity"
     },
   ],
@@ -45,7 +45,7 @@ const config = {
     "@docusaurus/plugin-content-docs",
     {
       id: "tutorials",
-      path: "tutorials",
+      path: "docs/tutorials",
       routeBasePath: "tutorials"
     },
   ],
@@ -53,7 +53,7 @@ const config = {
     "@docusaurus/plugin-content-docs",
     {
       id: "addons",
-      path: "addons",
+      path: "docs/addons",
       routeBasePath: "addons"
     },
   ],
@@ -68,10 +68,10 @@ const config = {
         dataAdClient: 'ca-pub-7747595309902664',
       },
       navbar: {
-        title: "Home",
         logo: {
-          alt: "ESX Logo",
-          src: "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png"
+          alt: "ESX",
+          srcDark: "https://esx.s3.fr-par.scw.cloud/blanc-800x800.png",
+          src: 'https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png',
         },
         items: [
           {
@@ -82,18 +82,19 @@ const config = {
           },
           {
             type: "doc",
-            docId: "menu_defualt/create_menu",
+            docId: "menu_default/create_menu",
             docsPluginId: "addons",
             position: "left",
             label: "Legacy Addons"
           },
+          /*
           {
             type: "doc",
             docId: "installation",
             docsPluginId: "infinity",
             position: "left",
             label: "Infinity"
-          },
+          },*/
           {
             type: "doc",
             docId: "database",
@@ -103,23 +104,87 @@ const config = {
           },
           {
             href: "https://github.com/esx-framework",
-            label: "GitHub",
-            position: "right"
-          },
-          {
-            href: "https://guilded.gg/ESX-Framework-OFFICIAL",
-            label: "Guilded",
+            className: "pseudo-icon github-icon",
             position: "right"
           },
           {
             href: "https://discord.esx-framework.org/",
-            label: "Discord",
+            className: "pseudo-icon discord-icon",
             position: "right"
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
+          {
+            href: "https://oxygenserv.com",
+            position: 'right',
+            label: 'Hosting',
+            className: "dev-portal-link"
           }
         ]
       },
       footer: {
-        style: "dark",
+        logo: {
+          href: '/',
+          srcDark: "https://esx.s3.fr-par.scw.cloud/blanc-800x800.png",
+          src: 'https://esx.s3.fr-par.scw.cloud/noir-fonce-800x800.png',
+          alt: 'ESX',
+          height: '36px',
+        },
+        links: [
+          {
+            title: 'Features',
+            items: [
+              {
+                label: 'Patreon',
+                href: 'https://www.patreon.com/esx',
+              },
+              {
+                label: 'Pricing',
+                href: 'https://www.esx-framework.org/#pricing',
+              },
+              {
+                label: 'Hosting',
+                href: 'https://www.oxygenserv.com/',
+              },
+            ],
+          },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'About Us',
+                href: 'https://dyte.io',
+              },
+              {
+                label: 'Join Us',
+                href: 'https://dyte.freshteam.com/jobs',
+              },
+              {
+                label: 'Contact Us',
+                href: 'mailto:esxframework@gmail.com',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Legacy',
+                href: 'https://docs.esx-framework.org/legacy/installation',
+              },
+              {
+                label: 'Addons',
+                href: 'https://docs.esx-framework.org/addons/menu_default/create_menu',
+              },
+              {
+                label: 'Community',
+                href: 'https://docs.esx-framework.org/tutorials/database',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright &copy; ${new Date().getFullYear()} ESX - All rights reserved.`
       },
       prism: {
