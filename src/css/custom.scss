@@ -79,6 +79,13 @@ html[data-theme='dark'] {
   margin: 0 0.5rem;
 }
 
+.icon-logo {
+    display: flex;
+    align-items: center;
+    padding: 5px  10px 0;
+    height: 85px;
+}
+
 .section-title {
   font-size: 26px;
   text-align: center;

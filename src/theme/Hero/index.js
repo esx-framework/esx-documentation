@@ -8,7 +8,12 @@ import SvgDevelop from "@site/src/svg/Develop";
 import SvgArrowRight from "@site/src/svg/ArrowRight";
 import SvgHero from "@site/src/svg/developer.svg";
 
+
+import {useColorMode} from '@docusaurus/theme-common';
+
+
 function Hero() {
+  const {colorMode, setColorMode} = useColorMode();
   return (
     <header className="rds-hero">
       <div className="container">
@@ -72,7 +77,7 @@ function Hero() {
               
 
               <div className="box">
-                <img className="icon" src=""/>
+                <img className="icon-logo" src={colorMode === 'dark' ? 'https://esx.s3.fr-par.scw.cloud/logo_white.png' : 'https://esx.s3.fr-par.scw.cloud/logo_black.png'}/>
                 <div className="text">
                   <h3 className="title"></h3>
                   <p className="description">
