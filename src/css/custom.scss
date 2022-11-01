@@ -261,6 +261,10 @@ html[data-theme='dark'] .discord-icon::before {
   transition-property: all;
 }
 
+.dev-portal-link:hover {
+  color: #FFFFFF;
+}
+
 .dev-portal-link svg {
   display: inline-block;
   vertical-align: middle;
