@@ -22,4 +22,4 @@ shared_script '@es_extended/imports.lua'
 ```
 
 The import is the **best** and recommended way to use ESX within a script, this is because it will automatically sync data between ESX and the script,
-meaing the script will have automatic knowlege of ESX.PlayerData aswell as if you are loaded in aswell as the ability to detect when you are Relogging and/or switching characters, meaning no vulnerable events needed, to having to grab the entire playerdata table every time u want to use it, its just there, and working and amazing.
+meaing the script will have automatic knowlege of ESX.PlayerData aswell as if you are loaded in aswell as the ability to detect when you are Relogging and/or switching characters, meaning no vulnerable events needed, to having to grab the entire playerdata table every time you want to use it, its just there, and working and amazing.
