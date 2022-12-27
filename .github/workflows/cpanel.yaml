@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/esxfgufp/docs.esx-framework.org/
-    - /bin/cp ./build $DEPLOYPATH

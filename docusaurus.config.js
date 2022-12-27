@@ -5,7 +5,7 @@
 const config = {
   title: "ESX Documentation",
   tagline: "Creating a roleplay server has never been easier!",
-  url: "https://docs.esx-framework.org",
+  url: "https://documentation.esx-framework.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -163,7 +163,7 @@ const config = {
               },
               {
                 label: 'Contact Us',
-                href: 'mailto:esxframework@gmail.com',
+                href: 'Email: esxframework@gmail.com',
               },
             ],
           },
@@ -172,15 +172,15 @@ const config = {
             items: [
               {
                 label: 'Legacy',
-                href: 'https://docs.esx-framework.org/legacy/installation',
+                href: 'https://documentation.esx-framework.org/legacy/installation',
               },
               {
                 label: 'Addons',
-                href: 'https://docs.esx-framework.org/addons/menu_default/create_menu',
+                href: 'https://documentation.esx-framework.org/addons/menu_default/create_menu',
               },
               {
                 label: 'Community',
-                href: 'https://docs.esx-framework.org/tutorials/database',
+                href: 'https://documentation.esx-framework.org/tutorials/database',
               },
             ],
           },
