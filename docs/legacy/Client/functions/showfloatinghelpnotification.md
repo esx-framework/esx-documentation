@@ -19,4 +19,3 @@ This function shows a help notification with a message. These help notification 
 local coords = GetEntityCoords(PlayerPedId())
 ESX.ShowFloatingHelpNotification('Your Notification', vector3(coords.x, coords.y, coords.z))
 ```
-

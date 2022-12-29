@@ -1,9 +1,7 @@
-# PlayerData.name
+# Name
 
-```lua 
+```lua
 ESX.PlayerData.name
 ```
 
-> This function returns the players full name
-
-
+This function returns the players full name

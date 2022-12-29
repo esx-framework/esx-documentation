@@ -4,7 +4,7 @@ sidebar_label: giveaccountmoney
 
 # Give Account Money
 
-```
+```lua
 giveaccountmoney [ID] [Account] [amount]
 ```
 
@@ -24,7 +24,4 @@ This command adds to the users account balance.
 - Money
 - Black
 
-###### Note
-
-- Money = Cash
-- Black = Black/Dirty Money
+> "Money" is the players cash and "Black" is their "dirty money"

@@ -1,10 +1,14 @@
-# PlayerData.accounts
+---
+sidebar_label: Accounts
+---
+
+# accounts
 
 ```lua
 ESX.PlayerData.accounts
 ```
 
-### Accounts
+## Accounts
 
 - Bank
 - Money
