@@ -1,7 +1,10 @@
+---
+sidebar_label: Job Label
+---
 # job.label
 
-```lua 
+```lua
 ESX.PlayerData.job.label
 ```
 
-> This function returns the players jobs label
+This function returns the players jobs label

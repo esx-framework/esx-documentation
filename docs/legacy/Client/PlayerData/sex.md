@@ -1,7 +1,10 @@
-# PlayerData.sex
+---
+sidebar_label: Sex
+---
+# sex
 
-```lua 
+```lua
 ESX.PlayerData.sex
 ```
 
-> This function returns the players sex
+This function returns the players sex (Male or Female)
