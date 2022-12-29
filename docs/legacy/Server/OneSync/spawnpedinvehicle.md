@@ -1,4 +1,4 @@
-# SpawnObject
+# SpawnPedInVehicle
 
 ```lua
 ESX.OneSync.SpawnPedInVehicle(model, vehicle, seat, cb)
