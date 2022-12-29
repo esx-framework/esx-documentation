@@ -4,7 +4,7 @@
 ESX.RegisterServerCallback(name, handler)
 ```
 
-This function registers a server callback.
+This function registers a server callback, which is used for sending Server Data, to a client.
 
 ## Arguments
 
