@@ -32,7 +32,7 @@ This Guide will show the quick and easy way to setup a FiveM server using txAdmi
   - CFX Default - A plain server with **0** community resources.
   - [QBCore](https://github.com/qbcore-framework/qb-core) -> An alternative famework to ESX.
   - ESX Legacy -> The offical ESX-Framework Template.
-  - ZAP Hosting ESX Pack -> A tweaked ESX Template, maintained by ZAP hosting.
+  - ZAP Hosting ESX Pack -> A tweaked ESX Template, maintained by ZAP hosting - **not recommended**.
 
 > For QBCore, ESX Legacy and ZAP Hosting ESX Pack, you will require a database, [see here for how to set this up](./database.md).
 
