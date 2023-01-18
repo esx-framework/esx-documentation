@@ -25,12 +25,16 @@ Make sure you have successfully Installed and setup your [database](../../tutori
 ### Manually
 
 - Download [ESX Legacy](https://github.com/esx-framework/esx-legacy/archive/refs/heads/main.zip)
+- Download the addons you want to use from the [github](https://github.com/esx-framework)
 
 ## Install
 
-- Extract the `[esx]` and `[esx_addons]` folders
-- Place Them into the `Resouces` folder in your server.
-- Go into the `[SQL]` Folder:
+- Extract the `[core]` folder
+- Place it into the `Resouces` folder in your server.
+- Extract the addons you have downloaded.
+- Create a `[addons]` folder in your `Resouces` folder.
+- Place the exacted addons into `[addons]`.
+- Go into the `[SQL]` Folder from `ESX Legacy`:
 
   - Import `legacy.sql` in your database
 
