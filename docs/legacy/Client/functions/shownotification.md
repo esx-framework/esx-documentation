@@ -1,16 +1,17 @@
 # ShowNotification
 
 ```lua
-ESX.ShowNotification(msg, time, type)
+ESX.ShowNotification(msg, type, time)
 ```
 
-## Example 
+## Example
+
 ```lua
 ESX.ShowNotification("I i ~r~love~s~ donuts", "success", 3000)
 ```
 
+## Color Codes
 
-## Color Codes 
 ```lua
 ~r~ = Red
 ~b~ = Blue
@@ -27,21 +28,16 @@ This function shows a notification to the player.
 
 ## String Types
 
-| Syntax | Types           |
-|-----------|----------------------|
+| Syntax    | Types                |
+| --------- | -------------------- |
 | "info"    | Info Notification    |
 | "success" | Success Notification |
 | "error"   | Error Notification   |
 
 ## Arguments
 
-| Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
-|---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
-| msg           | string    | No       | -             | The message to display                                                                            |
-| time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
-| Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
-
-
- 
-
-
+| Argument | Data Type | Optional | Default Value | Explanation                               |
+| -------- | --------- | -------- | ------------- | ----------------------------------------- |
+| msg      | string    | No       | -             | The message to display                    |
+| Type     | string    | Yes      | "info"        | What type the notification would be       |
+| time     | number    | Yes      | 3000          | For how long the notification should show |
