@@ -4,7 +4,7 @@
 ESX.RegisterCommand(name, Permissions, cb, allowConsole,suggestion)
 ```
 
-Registers A command using ESX functions.
+Registers A command using ESX functions, these use ACE permissions to automatically assign which groups can access the command. It Also has argument types, allowing for better control over the arguments.
 
 ## Example
 

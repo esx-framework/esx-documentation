@@ -1,7 +1,7 @@
 # SpawnVehicle
 
 ```lua
-ESX.Game.SpawnVehicle(modelOrHash, coords, heading, cb)
+ESX.Game.SpawnVehicle(model, coords, heading, cb)
 ```
 
 This function spawns an vehicle visible to everyone on the server.
@@ -13,7 +13,7 @@ This function spawns an vehicle visible to everyone on the server.
 
 | Argument    | Data Type     | Optional | Default Value | Explanation                                                                                                                 |
 |-------------|---------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| modelOrHash | string&number | No       | -             | You can either specify a model, for example `blista`, or a vehicle hash.                                                    |
+| model | string&number | No       | -             | You can either specify a model, for example `blista`, or a vehicle hash.                                                    |
 | coords      | table         | No       | -             | The coords where the vehicle should be spawned. You can also parse an vector type without any issues                        |
 | heading     | number        | No       | -             | The heading of the spawned vehicle, must contain a decimal                                                                  |
 | cb          | function      | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has one argument, which is the vehicle handle |

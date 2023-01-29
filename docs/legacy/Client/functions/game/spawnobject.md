@@ -1,7 +1,7 @@
 # SpawnObject
 
 ```lua
-ESX.Game.SpawnObject(modelOrHash, coords, cb)
+ESX.Game.SpawnObject(model, coords, cb)
 ```
 
 This function spawns an object visible to everyone on the server.
@@ -13,7 +13,7 @@ This function spawns an object visible to everyone on the server.
 
 | Argument    | Data Type     | Optional | Default Value | Explanation                                                                                                                |
 |-------------|---------------|----------|---------------|----------------------------------------------------------------------------------------------------------------------------|
-| modelOrHash | string&number | No       | -             | You can either specify a model, for example `prop_cs_cuffs_01`, or a object hash                                           |
+| model | string&number | No       | -             | You can either specify a model, for example `prop_cs_cuffs_01`, or a object hash                                           |
 | coords      | table         | No       | -             | The coords where the object should be spawned. You can also parse an vector type without any issues                        |
 | cb          | function      | Yes      | -             | The returned function when the object has been spawned. The invoked function has one argument, which is the object handle. |
 
