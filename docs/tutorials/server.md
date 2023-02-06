@@ -2,6 +2,8 @@
 
 This Guide will show the quick and easy way to setup a FiveM server using txAdmin!
 
+- [Host your server with Oxygenserv, use code `ESX` for 40% off](https://www.oxygenserv.com/en/hosting/gta-v-server/)
+
 ## Starting Notes
 
 - make sure to register a free licence key at [Cfx.re Keymaster](https://keymaster.fivem.net/)

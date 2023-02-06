@@ -81,7 +81,7 @@ function Hero() {
                 <div className="text">
                   <h3 className="title"></h3>
                   <p className="description">
-                  The most ecological, high performance and high end hosting for your game servers. 10% off with the code <b>ESX</b>
+                  The most ecological, high performance and high end hosting for your game servers. 40% off with the code <b>ESX</b>
                   </p>
                   <span className="more">
                     Explore Their Store!
