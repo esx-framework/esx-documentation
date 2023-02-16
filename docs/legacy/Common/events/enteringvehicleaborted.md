@@ -8,14 +8,14 @@ This event is triggered when the player aborted vehicle enter
 
 ```lua
 AddEventHandler('esx:enteringVehicleAborted', function()
-	print('vehicle enter aborted')
+    print('esx:enteringVehicleAborted')
 end)
 ```
 
 ### Example Server-Side Usage
 
 ```lua
-RegisterNetEvent('esx:enteringVehicleAborted', function()
-	print(('player %s has aborted vehicle enter'):format(GetPlayerName(source)))
+AddEventHandler('esx:enteringVehicleAborted', function()
+    print('esx:enteringVehicleAborted', source)
 end)
 ```
