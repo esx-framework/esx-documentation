@@ -15,7 +15,7 @@ end)
 ### Example Server-Side Usage
 
 ```lua
-AddEventHandler('esx:enteringVehicleAborted', function()
+RegisterNetEvent('esx:enteringVehicleAborted', function()
     print('esx:enteringVehicleAborted', source)
 end)
 ```

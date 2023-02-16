@@ -25,7 +25,7 @@ end)
 ### Example Server-Side Usage
 
 ```lua
-AddEventHandler('esx:enteredVehicle', function(plate, seat, displayName, netId)
+RegisterNetEvent('esx:enteredVehicle', function(plate, seat, displayName, netId)
     print('esx:enteredVehicle', 'source', source, 'plate', plate, 'seat', seat, 'displayName', displayName, 'netId', netId)
 end)
 ```
