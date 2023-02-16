@@ -22,6 +22,8 @@ This function gets an vehicle's properties.
 | color2            | number    | Secondary color                                                     |
 | pearlescentColor  | number    | Pearlescent color                                                   |
 | wheelColor        | number    | Wheel color                                                         |
+| dashboardColor    | number    | Dashboard color                                                     |
+| interiorColor     | number    | Interior color                                                      |
 | wheels            | number    | Wheel type                                                          |
 | windowTint        | number    |                                                                     |
 | neonEnabled       | table     | Table with hardcoded four childs for left, back, front & back neons |
