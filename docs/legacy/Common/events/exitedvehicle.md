@@ -17,15 +17,15 @@ This event is triggered when the player entered the vehicle
 ### Example Client-Side Usage
 
 ```lua
-AddEventHandler('esx:exitedVehicle', function(vehicle, plate, seat, displayName, netID)
-	print('entered vehicle, plate:', plate, 'vehicleName:', displayName)
+AddEventHandler('esx:exitedVehicle', function(vehicle, plate, seat, displayName, netId)
+    print('esx:exitedVehicle', 'vehicle', vehicle, 'plate', plate, 'seat', seat, 'displayName', displayName, 'netId', netId)
 end)
 ```
 
 ### Example Server-Side Usage
 
 ```lua
-RegisterNetEvent('esx:exitedVehicle', function(vehicle, plate, seat, displayName, netID)
-	print(('player %s entering vehicle (%s) plate: %s, netID: %s'):format(GetPlayerName(source), displayName, plate, netID))
+RegisterNetEvent('esx:exitedVehicle', function(plate, seat, displayName, netId)
+    print('esx:exitedVehicle', 'source', source, 'plate', plate, 'seat', seat, 'displayName', displayName, 'netId', netId)
 end)
 ```
