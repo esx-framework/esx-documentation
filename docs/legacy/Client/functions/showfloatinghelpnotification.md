@@ -8,10 +8,10 @@ This function shows a help notification with a message. These help notification 
 
 ## Arguments
 
-| Argument  | Data Type | Optional | Default Value | Explanation                                                                         |
-|-----------|-----------|----------|---------------|-------------------------------------------------------------------------------------|
-| msg       | string    | No       | -             | The message to display                                                              |
-| coords    | Vector3   | No       | -             | The coordinates to show to notifcation at                                           |
+| Argument | Data Type | Optional | Default Value | Explanation                               |
+| -------- | --------- | -------- | ------------- | ----------------------------------------- |
+| msg      | string    | No       | -             | The message to display                    |
+| coords   | Vector3   | No       | -             | The coordinates to show to notifcation at |
 
 ## ShowFloatingHelpNotification Example
 

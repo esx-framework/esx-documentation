@@ -24,22 +24,22 @@ end, false, {help = _U('command_cardel'), arguments = {{name = 'radius', help = 
 
 ## Function Arguments
 
-|   **Argument**   |  **Data Type** | **Optional** |      **Default Value**       |       **Explanation**       |
-|--------------|------------|----------|--------------------------|--------------------------|
-|     name     |  string    | No       | -                        | Name of Command          |
-|  Permissions |  string    | No       | -                        | Minimum Permission Group |
-|      cb      |  Function  | No       | xPlayer, args, showError | Function to run          |
-| AllowConsole |  bool      | No       | -                        | Can Be ran from console  |
-|  suggestion  |  table     | Yes      | -                        | Chat Suggestion          |
-|     args     |  table     | Yes      | -                        | Command Arguments        |
+| **Argument** | **Data Type** | **Optional** | **Default Value**        | **Explanation**          |
+| ------------ | ------------- | ------------ | ------------------------ | ------------------------ |
+| name         | string        | No           | -                        | Name of Command          |
+| Permissions  | string        | No           | -                        | Minimum Permission Group |
+| cb           | Function      | No           | xPlayer, args, showError | Function to run          |
+| AllowConsole | bool          | No           | -                        | Can Be ran from console  |
+| suggestion   | table         | Yes          | -                        | Chat Suggestion          |
+| args         | table         | Yes          | -                        | Command Arguments        |
 
 ## Command Argument Types
 
-|   **Type**    |              **Explanation**                  |
-|-----------|--------------------------------------------|
-|  number   | Requires a Integer Value                   |
-|  player   | Requires A playerID, returns player object |
-|  string   | String Input                               |
-|  item     | Checks if input is a valid item            |
-|  weapon   | Checks if input is a Weapon                |
-|  any      | Any Input allowed                          |
+| **Type** | **Explanation**                            |
+| -------- | ------------------------------------------ |
+| number   | Requires a Integer Value                   |
+| player   | Requires A playerID, returns player object |
+| string   | String Input                               |
+| item     | Checks if input is a valid item            |
+| weapon   | Checks if input is a Weapon                |
+| any      | Any Input allowed                          |

@@ -13,7 +13,7 @@
     left: calc(50% - 154px);
 
     @include mobile {
-      zoom: .5;
+      zoom: 0.5;
       top: 380px;
       left: -150px;
     }
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    margin: 0 auto .5rem;
+    margin: 0 auto 0.5rem;
     padding-top: 20px;
     max-width: 1000px;
     list-style: none;
@@ -69,8 +69,8 @@
           line-height: 1.3;
           font-size: 16px;
           font-weight: 500;
-          color: #FD9800;
-          transition: background-color .2s ease-in-out, color .2s ease-in-out;
+          color: #fd9800;
+          transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
           @include mobile {
             font-size: 14px;
@@ -78,7 +78,7 @@
         }
 
         &:hover .btn {
-          background-color: #FD9800;
+          background-color: #fd9800;
           color: $white;
         }
       }

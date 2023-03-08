@@ -24,6 +24,7 @@ Offical guide to installing **ESX Infinity**.
 ## Install
 
 - Make sure you are **NOT** running any of these resources:
+
   - `essentialmode`
   - `es_extended`
   - `basic-gamemode`

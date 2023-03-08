@@ -12,12 +12,12 @@ An Async function that Creates a Server-Sided Ped and then Places them into a sp
 
 ## Arguments
 
-| Argument    | Data Type     | Optional | Default Value | Explanation                                                                                                                 |
-|-------------|---------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| model | string & number | No       | -             | Model of the Ped - can either be a String or a hash |
-| vehicle      | number         | No       | -             | The Handle of the vehicle the ped will be spawned into   |
-| seat     | number        | No       | -             | Seat Index that the ped will be sat in |
-| cb          | function      | Yes      | -             | The returned function when the ped has been spawned. The invoked function has 1 argument which is the Entity Handle. |
+| Argument | Data Type       | Optional | Default Value | Explanation                                                                                                          |
+| -------- | --------------- | -------- | ------------- | -------------------------------------------------------------------------------------------------------------------- |
+| model    | string & number | No       | -             | Model of the Ped - can either be a String or a hash                                                                  |
+| vehicle  | number          | No       | -             | The Handle of the vehicle the ped will be spawned into                                                               |
+| seat     | number          | No       | -             | Seat Index that the ped will be sat in                                                                               |
+| cb       | function        | Yes      | -             | The returned function when the ped has been spawned. The invoked function has 1 argument which is the Entity Handle. |
 
 ## Example
 

@@ -9,7 +9,7 @@ This function shows a help notification with a message. These help notification 
 ## Arguments
 
 | Argument  | Data Type | Optional | Default Value | Explanation                                                                         |
-|-----------|-----------|----------|---------------|-------------------------------------------------------------------------------------|
+| --------- | --------- | -------- | ------------- | ----------------------------------------------------------------------------------- |
 | msg       | string    | No       | -             | The message to display                                                              |
 | thisFrame | boolean   | Yes      | false         | Only show this frame? Should be used with scripts that show notifications in a loop |
 | beep      | boolean   | Yes      | true          | Play the beep sound?                                                                |

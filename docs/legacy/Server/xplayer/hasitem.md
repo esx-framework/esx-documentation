@@ -8,10 +8,10 @@ This functions checks if the player has the specified item, if they do, it will 
 
 ## Argument
 
-| Argument   | Data Type | Optional | Default Value | Explanation |
-|------------|-----------|----------|---------------|-------------|
-| item  | string    | No       | -             | Item name |
-| metadata  | string    | yes      | -             | Item metadata |
+| Argument | Data Type | Optional | Default Value | Explanation   |
+| -------- | --------- | -------- | ------------- | ------------- |
+| item     | string    | No       | -             | Item name     |
+| metadata | string    | yes      | -             | Item metadata |
 
 ## Example
 

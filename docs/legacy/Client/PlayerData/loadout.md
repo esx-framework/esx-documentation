@@ -1,6 +1,7 @@
 ---
 sidebar_label: loadout
 ---
+
 # loadout
 
 ```lua

@@ -10,12 +10,12 @@ An Async function that Creates Server-Sided Objects.
 
 ## Arguments
 
-| Argument    | Data Type     | Optional | Default Value | Explanation                                                                                                                 |
-|-------------|---------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| model | string & number | No       | -             | Model of the Object - can either be a String or a hash |
-| coords      | vector & table         | No       | -             | The coords where the Object should be spawned.                      |
-| heading     | number        | No       | -             | The Heading the object Will be facing |
-| cb          | function      | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has 1 argument which is the Entity Handle. |
+| Argument | Data Type       | Optional | Default Value | Explanation                                                                                                              |
+| -------- | --------------- | -------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| model    | string & number | No       | -             | Model of the Object - can either be a String or a hash                                                                   |
+| coords   | vector & table  | No       | -             | The coords where the Object should be spawned.                                                                           |
+| heading  | number          | No       | -             | The Heading the object Will be facing                                                                                    |
+| cb       | function        | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has 1 argument which is the Entity Handle. |
 
 ## Example
 

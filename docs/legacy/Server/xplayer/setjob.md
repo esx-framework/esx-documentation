@@ -9,7 +9,7 @@ This functions sets the player job, the job must be defined in the `jobs` databa
 ## Arguments
 
 | Argument | Data Type     | Optional | Default Value | Explanation |
-|----------|---------------|----------|---------------|-------------|
+| -------- | ------------- | -------- | ------------- | ----------- |
 | name     | string        | No       | -             | Job name    |
 | grade    | string&number | No       | -             | Job grade   |
 
@@ -22,5 +22,5 @@ local Grade = 4 -- highest police grade
 
 if ESX.DoesJobExist(Job, Grade) then -- make sure the Job and Grade are both defined in the database
   xPlayer.setJob(Job, Grade)
-end 
+end
 ```

@@ -12,6 +12,6 @@ This command teleports The target player to The source player.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value |            Explanation             |
-|------------|-----------|----------|---------------|------------------------------------|
-| ID         | number    | No       | -             | The ServerID of the Target Player. |
+| Argument | Data Type | Optional | Default Value | Explanation                        |
+| -------- | --------- | -------- | ------------- | ---------------------------------- |
+| ID       | number    | No       | -             | The ServerID of the Target Player. |

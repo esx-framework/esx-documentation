@@ -9,11 +9,11 @@ Automatically adds a usable function to the xPlayer Table.
 
 ## Argument
 
-| Argument | Data Type | Optional | Default Value | Explanation          |
-|----------|-----------|----------|---------------|----------------------|
-| name   | string     | No        | -              | Name Of Function     |
-| Function   | function     | No  | -              | Function to run     |
-| self   | Table     | No        | -              | Returns xPlayer Table     |
+| Argument | Data Type | Optional | Default Value | Explanation           |
+| -------- | --------- | -------- | ------------- | --------------------- |
+| name     | string    | No       | -             | Name Of Function      |
+| Function | function  | No       | -             | Function to run       |
+| self     | Table     | No       | -             | Returns xPlayer Table |
 
 ## Example
 

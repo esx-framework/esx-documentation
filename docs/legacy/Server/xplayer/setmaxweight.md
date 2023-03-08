@@ -9,7 +9,7 @@ This functions sets the max weight that the player can hold in their inventory.
 ## Argument
 
 | Argument  | Data Type | Optional | Default Value | Explanation    |
-|-----------|-----------|----------|---------------|----------------|
+| --------- | --------- | -------- | ------------- | -------------- |
 | newWeight | number    | No       | -             | New max weight |
 
 ## Example

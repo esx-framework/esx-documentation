@@ -12,12 +12,12 @@ An Async function that Creates Server-Sided Peds.
 
 ## Arguments
 
-| Argument    | Data Type     | Optional | Default Value | Explanation                                                                                                                 |
-|-------------|---------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| model | string & number | No       | -             | Model of the Ped - can either be a String or a hash |
-| coords      | vector & table         | No       | -             | The coords where the ped should be spawned.                      |
-| heading     | number        | No       | -             | The Heading the Ped Will be facing |
-| cb          | function      | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has 1 argument which is the Ped Entity Handle. |
+| Argument | Data Type       | Optional | Default Value | Explanation                                                                                                                  |
+| -------- | --------------- | -------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| model    | string & number | No       | -             | Model of the Ped - can either be a String or a hash                                                                          |
+| coords   | vector & table  | No       | -             | The coords where the ped should be spawned.                                                                                  |
+| heading  | number          | No       | -             | The Heading the Ped Will be facing                                                                                           |
+| cb       | function        | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has 1 argument which is the Ped Entity Handle. |
 
 ## Example
 

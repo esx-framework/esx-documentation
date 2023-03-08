@@ -22,20 +22,19 @@ This event shows a basic notification to the player. This is what you'll want to
 
 ## String Types
 
-| Syntax | Types           |
-|-----------|----------------------|
+| Syntax    | Types                |
+| --------- | -------------------- |
 | "info"    | Info Notification    |
 | "success" | Success Notification |
 | "error"   | Error Notification   |
 
 ## Arguments
 
-| Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
-|---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
-| msg           | string    | No       | -             | The message to display                                                                            |
-| time          | number    | Yes      | 3000          | For how long the notification should show                                                         |
-| Type          | string    | Yes      | "info"        | What type the notification would be                                                               |
-
+| Argument | Data Type | Optional | Default Value | Explanation                               |
+| -------- | --------- | -------- | ------------- | ----------------------------------------- |
+| msg      | string    | No       | -             | The message to display                    |
+| time     | number    | Yes      | 3000          | For how long the notification should show |
+| Type     | string    | Yes      | "info"        | What type the notification would be       |
 
 ## Note
 

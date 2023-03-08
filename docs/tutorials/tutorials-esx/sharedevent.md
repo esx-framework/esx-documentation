@@ -25,14 +25,16 @@ This Is great if your working on a multi-framework script so that the user does 
 It Also has the benifit of not requiring you to wait into it has recived the object and prevents Race conditions.
 
 ## Example
+
 We will show how exactly this is done in the following example. I don't recommend this script to anyone, but we'll show it anyway.
 
 We will demonstrate this on the deprecated [esx_communityservice](https://github.com/apoiat/ESX_CommunityService).
 
 ### Import
-First, we will show the **recommended** and most advantageous method, the import method. 
 
-Delete lines `13` and `28`-> `33` from the `client/main.lua` file. 
+First, we will show the **recommended** and most advantageous method, the import method.
+
+Delete lines `13` and `28`-> `33` from the `client/main.lua` file.
 
 ```lua
 ESX = nil
@@ -44,7 +46,6 @@ Citizen.CreateThread(function()
 	end
 end)
 ```
-
 
 Subsequently, we will also remove the lines `1` and `3` from the `server/main.lua`.
 
@@ -62,6 +63,7 @@ shared_script '@es_extended/imports.lua'
 ```
 
 ### Export
+
 As the second and last option, we will show the export method. We will again delete the same lines from the client and server file as the `import` method above.
 
 However, unlike the import, we now export the ESX table into our resource.

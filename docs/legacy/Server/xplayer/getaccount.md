@@ -7,11 +7,12 @@ xPlayer.getAccount(account)
 This function gets details (returned in an table) for an account.
 
 # Valid Account Names
-| Argument | Data Type  |
-| -------- | ---------- | 
-| "bank"       | string |
-| "money"      | string |
-| "black_money | string |
+
+| Argument     | Data Type |
+| ------------ | --------- |
+| "bank"       | string    |
+| "money"      | string    |
+| "black_money | string    |
 
 ## Argument
 

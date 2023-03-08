@@ -4,13 +4,13 @@
 
 #### Available StateBags
 
-| Argument    | Type   | Explanation |
-| ----------- | ------ | ----------- |
-| identifier  | string |             |
-| license     | string |             |
-| job         | table  |             |
-| group       | string |             |
-| name        | string |             |
+| Argument   | Type   | Explanation |
+| ---------- | ------ | ----------- |
+| identifier | string |             |
+| license    | string |             |
+| job        | table  |             |
+| group      | string |             |
+| name       | string |             |
 
 ### Example Client-Side Usage
 
@@ -39,5 +39,3 @@ RegisterCommand("stateBagsServer", function(source, args, rawCommand)
     print('Name: '..playerState.name)
 end)
 ```
-
-

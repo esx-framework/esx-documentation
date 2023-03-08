@@ -16,4 +16,3 @@ ESX.SetPlayerData("IsArrested", false)
 -- This can then be accessed wih:
 ESX.PlayerData.IsArrested
 ```
-

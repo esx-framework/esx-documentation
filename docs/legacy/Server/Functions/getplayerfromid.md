@@ -8,9 +8,9 @@ This function gets a ESX player object from a server id. Returns `nil` for inval
 
 ## Argument
 
-| Argument | Data Type | Optional | Default Value | Explanation          |
-|----------|-----------|----------|---------------|----------------------|
-| playerId | number    | No       | -             | The Server ID of the Target Player|
+| Argument | Data Type | Optional | Default Value | Explanation                        |
+| -------- | --------- | -------- | ------------- | ---------------------------------- |
+| playerId | number    | No       | -             | The Server ID of the Target Player |
 
 ## Example
 
@@ -21,7 +21,7 @@ RegisterNetEvent('esx_ambulancejob:healMe', function()
 
   if xPlayer.job.name == 'ambulance' then -- use the object to geb the job name of the player.
     xPlayer.triggerEvent('esx_basicneeds:healPlayer') -- trigger an event from the player
-  else 
+  else
     print("Player ".. xPlayer.getName() .. "Tried to Heal someone!")
   end
 end)

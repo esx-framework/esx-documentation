@@ -9,7 +9,7 @@ This function registers an item as usable.
 ## Arguments
 
 | Argument | Data Type | Optional | Default Value | Explanation                |
-|----------|-----------|----------|---------------|----------------------------|
+| -------- | --------- | -------- | ------------- | -------------------------- |
 | item     | string    | No       | -             | Item to register as usable |
 | cb       | function  | No       | -             | Callback function          |
 

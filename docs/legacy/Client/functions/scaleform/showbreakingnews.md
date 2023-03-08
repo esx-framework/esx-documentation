@@ -9,7 +9,7 @@ This function shows the 'Breaking News' scaleform used multiple times in the cam
 ## Arguments
 
 | Argument | Data Type | Optional | Default Value | Explanation                        |
-|----------|-----------|----------|---------------|------------------------------------|
+| -------- | --------- | -------- | ------------- | ---------------------------------- |
 | title    | string    | No       | -             | Title text                         |
 | msg      | string    | No       | -             | Message text, supports HTML syntax |
 | bottom   | string    | No       | -             | Footer text, supports HTML syntax  |

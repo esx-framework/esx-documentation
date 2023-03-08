@@ -8,13 +8,13 @@ An Async function that Creates Server-Sided Vehicles, this allows them to be per
 
 ## Arguments
 
-| Argument    | Data Type     | Optional | Default Value | Explanation                                                                                                                 |
-|-------------|---------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| model | string & number | No       | -             | You can either specify a model, for example `blista`, or a vehicle hash.                                                    |
-| coords      | vector & table         | No       | -             | The coords where the vehicle should be spawned. You can also parse an vector type without any issues                        |
-| heading     | number        | No       | -             | The heading to spawn the vehicle at                                                                 |
-| Properties     | table        | Yes       |  {}          | Sets the properties that the vehicle spawns with, uses the same structure as [ESX.Game.SetVehicleProperties](./../../Client/functions/game/setvehicleproperties.md) |
-| cb          | function      | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has 1 argument which is the **NetId** of the vehicle |
+| Argument   | Data Type       | Optional | Default Value | Explanation                                                                                                                                                         |
+| ---------- | --------------- | -------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| model      | string & number | No       | -             | You can either specify a model, for example `blista`, or a vehicle hash.                                                                                            |
+| coords     | vector & table  | No       | -             | The coords where the vehicle should be spawned. You can also parse an vector type without any issues                                                                |
+| heading    | number          | No       | -             | The heading to spawn the vehicle at                                                                                                                                 |
+| Properties | table           | Yes      | {}            | Sets the properties that the vehicle spawns with, uses the same structure as [ESX.Game.SetVehicleProperties](./../../Client/functions/game/setvehicleproperties.md) |
+| cb         | function        | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has 1 argument which is the **NetId** of the vehicle                                  |
 
 ## Example
 

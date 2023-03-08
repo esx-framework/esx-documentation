@@ -9,7 +9,7 @@ This function gets the closest player client id, and distance to the player.
 ## Argument
 
 | Argument | Data Type     | Optional | Default Value            | Explanation         |
-|----------|---------------|----------|--------------------------|---------------------|
+| -------- | ------------- | -------- | ------------------------ | ------------------- |
 | coords   | table&vector3 | Yes      | (your player ped coords) | Coords to search at |
 
 ## Example
