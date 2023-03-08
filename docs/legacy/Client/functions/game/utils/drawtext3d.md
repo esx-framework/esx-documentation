@@ -16,7 +16,7 @@ CreateThread(function()
     local PlayerPed = ESX.PlayerData.ped
     local PlayerCoords = GetEntityCoords(PlayerPed)
 
-    ESX.Game.Utils.DrawText3D(Location, "Hello World!", 1.0, 1) -- Show a 3D "Hello World!" At `Location`.
+    ESX.Game.Utils.DrawText3D(Location, 'Hello World!', 1.0, 1) -- Show a 3D "Hello World!" At `Location`.
 
     Wait(Sleep) -- IMPORTANT: Without this, the thread will crash the client.
   end

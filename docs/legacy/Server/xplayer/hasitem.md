@@ -16,10 +16,10 @@ This functions checks if the player has the specified item, if they do, it will 
 ## Example
 
 ```lua
-local item = xPlayer.hasItem("bread")
+local item = xPlayer.hasItem('bread')
 if item then
-  print("you have ".. item.count .. " " .. item.label)
+  print('you have '.. item.count .. ' ' .. item.label)
 else
-  print('you do not have any bread!")
+  print('you do not have any bread!')
 end
 ```

@@ -22,12 +22,12 @@ An Async function that Creates Server-Sided Peds.
 ## Example
 
 ```lua
-local model = "a_m_y_vinewood_02" -- Model can be either a string or a hash
+local model = 'a_m_y_vinewood_02' -- Model can be either a string or a hash
 local coords = vector3(120.0, -200.0, 30.0) -- Coords Can either be vector or a table (such as {x = 0, y = 0, z = 0})
 local Heading = 0 -- Sets the Rotation/Heading the ped spawns at, can be any number
 ESX.OneSync.SpawnVehicle(model,coords, Heading, function(Ped)
   Wait(100) -- While not needed, it is best to wait a few milliseconds to ensure the ped is available
   local Exists = DoesEntityExist(Ped) -- returns true/false depending on if the ped exists.
-  print(Exists and "Successfully Spawned Ped!" or "Failed to Spawn Ped!")
+  print(Exists and 'Successfully Spawned Ped!' or 'Failed to Spawn Ped!')
 end)
 ```

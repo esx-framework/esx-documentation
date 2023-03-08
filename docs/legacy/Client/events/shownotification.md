@@ -1,7 +1,7 @@
 # showNotification
 
 ```lua
-TriggerClientEvent('esx:showNotification', source, 'Hello world!', "info", time)
+TriggerClientEvent('esx:showNotification', source, 'Hello world!', 'info', time)
 ```
 
 ## Color Codes

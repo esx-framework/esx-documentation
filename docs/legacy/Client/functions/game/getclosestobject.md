@@ -22,7 +22,7 @@ CreateThread(function()
     local PlayerPed = ESX.PlayerData.ped
     local PlayerCoords = GetEntityCoords(PlayerPed)
 
-    local Object = ESX.Game.GetClosestObject(PlayerCoords, {[`police`] = true}) -- will grab the closest Police Car to the player
+    local Object = ESX.Game.GetClosestObject(PlayerCoords, {["police"] = true}) -- will grab the closest Police Car to the player
     ESX.Game.DeleteObject(Object) -- Deletes the Police Car
 
   Wait(0) -- IMPORTANT: Without this, the thread will crash the client.

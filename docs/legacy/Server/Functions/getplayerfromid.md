@@ -22,7 +22,7 @@ RegisterNetEvent('esx_ambulancejob:healMe', function()
   if xPlayer.job.name == 'ambulance' then -- use the object to geb the job name of the player.
     xPlayer.triggerEvent('esx_basicneeds:healPlayer') -- trigger an event from the player
   else
-    print("Player ".. xPlayer.getName() .. "Tried to Heal someone!")
+    print('Player '.. xPlayer.getName() .. 'Tried to Heal someone!')
   end
 end)
 ```

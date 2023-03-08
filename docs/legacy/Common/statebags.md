@@ -17,7 +17,7 @@
 ```lua
 local playerState = LocalPlayer.state
 
-RegisterCommand("stateBags", function(source, args, rawCommand)
+RegisterCommand('stateBags', function(source, args, rawCommand)
     print('Identifier: '..playerState.identifier)
     print('License: '..playerState.license)
     print('Job: '..json.encode(playerState.job, {indent = true}))
@@ -29,7 +29,7 @@ end)
 ### Example Server-Side Usage
 
 ```lua
-RegisterCommand("stateBagsServer", function(source, args, rawCommand)
+RegisterCommand('stateBagsServer', function(source, args, rawCommand)
     local playerState = Player(source).state
 
     print('Identifier: '..playerState.identifier)

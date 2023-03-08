@@ -37,10 +37,10 @@ This function shows a basic notification to the player.
 
 ```lua
 local xPlayer = ESX.GetPlayerFromId(source)
-local breadCount = xPlayer.getInventoryItem("bread").count -- how much bread the player has
+local breadCount = xPlayer.getInventoryItem('bread').count -- how much bread the player has
 if breadCount > 1 then -- checks if they have more than 1 bread
-  xPlayer.showNotification("Congrats!, you have ".. breadCount .. " Bread!") -- send them a happy message, telling them how much bread they have
+  xPlayer.showNotification('Congrats!, you have '.. breadCount .. ' Bread!') -- send them a happy message, telling them how much bread they have
 else -- if they have no bread
- xPlayer.showNotification("oh no! you have no bread!") -- send them a sad message expressing your disapointment
+ xPlayer.showNotification('oh no! you have no bread!') -- send them a sad message expressing your disapointment
 end
 ```

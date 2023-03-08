@@ -7,7 +7,7 @@ ESX.ShowNotification(msg, type, time)
 ## Example
 
 ```lua
-ESX.ShowNotification("I i ~r~love~s~ donuts", "success", 3000)
+ESX.ShowNotification('I i ~r~love~s~ donuts', 'success', 3000)
 ```
 
 ## Color Codes

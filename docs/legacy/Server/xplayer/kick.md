@@ -14,7 +14,7 @@ This function kicks a player with a reason.
 
 ```lua
 
-if xPlayer.getName() == "offensive name" then -- Check for a certain name
-  xPlayer.kick("offensive Name") -- kick them
+if xPlayer.getName() == 'offensive name' then -- Check for a certain name
+  xPlayer.kick('offensive Name') -- kick them
 end
 ```
