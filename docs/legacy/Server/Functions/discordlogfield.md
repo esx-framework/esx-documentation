@@ -10,9 +10,9 @@ This function logs to a Discord Webhook.
 
 | Argument | Data Type | Optional | Default Value | Explanation          |
 |----------|-----------|----------|---------------|----------------------|
-| name     | string     | Yes       | Default             | Webhook Name (found in `Config/logs.lua`)|
+| name     | string     | Yes       | Default             | Webhook Name (found in `Config.logs.lua`)|
 | title    | string     | No       | -             | Webhook Title     |
-| color    | string     | Yes       | Default             | Webhook Colour (found in `Config/logs.lua`)     |
+| color    | string     | Yes       | Default             | Webhook Colour (found in `Config.logs.lua`)     |
 | fields   | table     | No       | -             | Fields To Log     |
 
 ## Example
