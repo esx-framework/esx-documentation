@@ -11,6 +11,7 @@
 | job         | table  |             |
 | group       | string |             |
 | name        | string |             |
+| metadata    | table  |             |
 
 ### Example Client-Side Usage
 
@@ -23,6 +24,7 @@ RegisterCommand("stateBags", function(source, args, rawCommand)
     print('Job: '..json.encode(playerState.job, {indent = true}))
     print('Group: '..playerState.group)
     print('Name: '..playerState.name)
+    print('Metadata: '..json.encode(playerState.metadata))
 end)
 ```
 
@@ -37,6 +39,7 @@ RegisterCommand("stateBagsServer", function(source, args, rawCommand)
     print('Job: '..json.encode(playerState.job, {indent = true}))
     print('Group: '..playerState.group)
     print('Name: '..playerState.name)
+    print('Metadata: '..json.encode(playerState.metadata))
 end)
 ```
 
