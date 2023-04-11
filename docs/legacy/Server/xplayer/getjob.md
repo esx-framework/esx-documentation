@@ -9,7 +9,7 @@ This function returns the current player job object.
 ## Returned Table Content
 
 | Child        | Data Type | Explanation       |
-|--------------|-----------|-------------------|
+| ------------ | --------- | ----------------- |
 | id           | number    | Job identifier id |
 | name         | string    | Job name          |
 | label        | string    | Job label         |

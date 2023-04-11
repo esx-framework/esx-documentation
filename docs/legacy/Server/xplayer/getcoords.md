@@ -9,7 +9,7 @@ This function returns the player's current coordinates on the server. The option
 ## Argument
 
 | Argument  | Data Type | Optional | Default Value | Explanation                                                                          |
-|-----------|-----------|----------|---------------|--------------------------------------------------------------------------------------|
+| --------- | --------- | -------- | ------------- | ------------------------------------------------------------------------------------ |
 | useVector | boolean   | Yes      | -             | Returns an vector3 type if set to `true`, and normally a table with x, y and z pairs |
 
 ## Example

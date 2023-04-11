@@ -12,16 +12,18 @@ const FeatureList = [
         need for your RP server. With simple, easy to use configs and d&d
         nature, It requires no coding knowledge to setup.
       </>
-    )
+    ),
   },
   {
     title: "Recurring update",
     Svg: require("@site/static/img/undraw_updates.svg").default,
     description: (
       <>
-        We make sure the framework is always updated with new practices and security fixes. We also make sure to keep the framework as stable as possible while listing to the community.
+        We make sure the framework is always updated with new practices and
+        security fixes. We also make sure to keep the framework as stable as
+        possible while listing to the community.
       </>
-    )
+    ),
   },
   {
     title: "Community",
@@ -29,11 +31,11 @@ const FeatureList = [
     description: (
       <>
         ESX has a very large and helpful Community! They are always there to
-        help you and guide you. Need a resouce that the team hasn't
-        made? Don't worry, someone in the community probably has!
+        help you and guide you. Need a resouce that the team hasn't made? Don't
+        worry, someone in the community probably has!
       </>
-    )
-  }
+    ),
+  },
 ];
 
 function Feature({ Svg, title, description }) {

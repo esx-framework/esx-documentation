@@ -5,18 +5,18 @@
 * work well for content-centric websites.
 */
 
-@import './config';
+@import "./config";
 
-@import './partners';
-@import './hero';
+@import "./partners";
+@import "./hero";
 
 @font-face {
   font-family: Inter var;
   font-weight: 100 900;
   font-display: block;
   font-style: normal;
-  font-named-instance: 'Regular';
-  src: url(/static/fonts/Inter-roman.var.woff2) format('woff2');
+  font-named-instance: "Regular";
+  src: url(/static/fonts/Inter-roman.var.woff2) format("woff2");
 }
 
 @font-face {
@@ -24,28 +24,25 @@
   font-weight: 100 900;
   font-display: block;
   font-style: italic;
-  font-named-instance: 'Italic';
-  src: url(/static/fonts/Inter-italic.var.woff2) format('woff2');
+  font-named-instance: "Italic";
+  src: url(/static/fonts/Inter-italic.var.woff2) format("woff2");
 }
-
 
 pre,
 code {
   font-variant-ligatures: none;
 }
 
-
 /* You can override the default Infima variables here. */
 :root {
   /* Default values */
 
-
   /* Theme colors */
   --ifm-color-primary: #fd9800;
 
-  --ifm-background-color-gray: hsla(240,7%,97%,1);
+  --ifm-background-color-gray: hsla(240, 7%, 97%, 1);
 
-  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-navbar-background-color: #ffffff;
   --ifm-navbar-shadow: none;
 
   --ifm-navbar-shadow: none;
@@ -55,7 +52,7 @@ code {
   --code-border-color: var(--docs-color-border);
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-color-primary: #fd9800;
 
   --ifm-background-color-gray: #121212;
@@ -80,10 +77,10 @@ html[data-theme='dark'] {
 }
 
 .icon-logo {
-    display: flex;
-    align-items: center;
-    padding: 5px  10px 0;
-    height: 85px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 0;
+  height: 85px;
 }
 
 .section-title {
@@ -96,7 +93,7 @@ html[data-theme='dark'] {
 }
 
 .pseudo-icon::before {
-  content: '';
+  content: "";
   display: block;
   width: 32px;
   height: 32px;
@@ -115,15 +112,14 @@ nav.navbar {
 }
 
 .background-box {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-
-html[data-theme='dark'] .background-box {
-    background-color: #161616;
+html[data-theme="dark"] .background-box {
+  background-color: #161616;
 }
 
-html[data-theme='dark']  .rds-languages .partners-list li a {
+html[data-theme="dark"] .rds-languages .partners-list li a {
   box-shadow: #47525d8c 0px 1px 5px 0px, rgb(0 0 0 / 10%) 0px 7px 17px 0px;
 }
 
@@ -134,9 +130,8 @@ html[data-theme='dark']  .rds-languages .partners-list li a {
   background-image: url("https://www.oxygenserv.com/wp-content/uploads/2022/06/logo_oxygenserv.svg");
 }
 
-html[data-theme='dark'] .oxygenserv-logo {
-
-    background-image: url("https://esx.s3.fr-par.scw.cloud/blanc-800x800.png");
+html[data-theme="dark"] .oxygenserv-logo {
+  background-image: url("https://esx.s3.fr-par.scw.cloud/blanc-800x800.png");
 }
 
 .navbar-sidebar__item {
@@ -152,7 +147,7 @@ html[data-theme='dark'] .oxygenserv-logo {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' aria-hidden='true' focusable='false' fill='%23000000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z' clip-rule='evenodd'%3E%3C/path%3E%3C/svg%3E");
 }
 
-html[data-theme='dark'] .github-icon::before {
+html[data-theme="dark"] .github-icon::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' aria-hidden='true' focusable='false' fill='%23b4b4b4' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z' clip-rule='evenodd'%3E%3C/path%3E%3C/svg%3E");
 }
 
@@ -162,7 +157,7 @@ html[data-theme='dark'] .github-icon::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 28 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.967 0c-.278.497-.525 1.01-.741 1.537a20.488 20.488 0 0 0-6.401 0A14.164 14.164 0 0 0 10.085 0c-1.998.341-3.94.953-5.773 1.817A24.22 24.22 0 0 0 .12 18.015a23.2 23.2 0 0 0 7.085 3.62 18.01 18.01 0 0 0 1.552-2.432 13.48 13.48 0 0 1-2.39-1.16c.207-.138.404-.293.587-.462a16.296 16.296 0 0 0 14.143 0c.196.168.392.322.587.462-.76.46-1.56.853-2.39 1.174.433.87.938 1.702 1.51 2.487a22.977 22.977 0 0 0 7.072-3.62 24.066 24.066 0 0 0-4.193-16.197A22.487 22.487 0 0 0 17.967 0ZM9.386 14.745a2.712 2.712 0 0 1-2.516-2.796 2.697 2.697 0 0 1 2.516-2.795A2.697 2.697 0 0 1 11.9 11.95a2.697 2.697 0 0 1-2.515 2.796Zm9.28 0a2.712 2.712 0 0 1-2.516-2.796 2.698 2.698 0 0 1 2.515-2.795 2.684 2.684 0 0 1 2.516 2.795 2.684 2.684 0 0 1-2.516 2.796Z' fill='%23000000'%3E%3C/path%3E%3C/svg%3E");
 }
 
-html[data-theme='dark'] .discord-icon::before {
+html[data-theme="dark"] .discord-icon::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 28 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.967 0c-.278.497-.525 1.01-.741 1.537a20.488 20.488 0 0 0-6.401 0A14.164 14.164 0 0 0 10.085 0c-1.998.341-3.94.953-5.773 1.817A24.22 24.22 0 0 0 .12 18.015a23.2 23.2 0 0 0 7.085 3.62 18.01 18.01 0 0 0 1.552-2.432 13.48 13.48 0 0 1-2.39-1.16c.207-.138.404-.293.587-.462a16.296 16.296 0 0 0 14.143 0c.196.168.392.322.587.462-.76.46-1.56.853-2.39 1.174.433.87.938 1.702 1.51 2.487a22.977 22.977 0 0 0 7.072-3.62 24.066 24.066 0 0 0-4.193-16.197A22.487 22.487 0 0 0 17.967 0ZM9.386 14.745a2.712 2.712 0 0 1-2.516-2.796 2.697 2.697 0 0 1 2.516-2.795A2.697 2.697 0 0 1 11.9 11.95a2.697 2.697 0 0 1-2.515 2.796Zm9.28 0a2.712 2.712 0 0 1-2.516-2.796 2.698 2.698 0 0 1 2.515-2.795 2.684 2.684 0 0 1 2.516 2.795 2.684 2.684 0 0 1-2.516 2.796Z' fill='%23b4b4b4'%3E%3C/path%3E%3C/svg%3E");
 }
 
@@ -172,7 +167,7 @@ html[data-theme='dark'] .discord-icon::before {
 }
 
 .navbar-sidebar .pseudo-icon::after {
-  content: 'GitHub';
+  content: "GitHub";
   margin-left: 12px;
 }
 
@@ -181,19 +176,17 @@ html[data-theme='dark'] .discord-icon::before {
 }
 
 .navbar-sidebar .github-icon::after {
-  content: 'GitHub';
+  content: "GitHub";
 }
 
 .navbar-sidebar .discord-icon::after {
-  content: 'Discord';
+  content: "Discord";
 }
-
 
 .footer__description {
   color: var(--docs-color-text-100);
   font-size: 14px;
 }
-
 
 .footer__copyright {
   margin-top: 32px;
@@ -262,7 +255,7 @@ html[data-theme='dark'] .discord-icon::before {
 }
 
 .dev-portal-link:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .dev-portal-link svg {
@@ -271,11 +264,9 @@ html[data-theme='dark'] .discord-icon::before {
   margin-bottom: 0.2rem;
 }
 
-
 .navbar-sidebar .dev-portal-link {
   padding: 0.75rem;
   margin-top: 1rem;
-
 }
 
 .container-footer {
@@ -288,7 +279,6 @@ html[data-theme='dark'] .discord-icon::before {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
 .home-main {
   overflow: hidden;

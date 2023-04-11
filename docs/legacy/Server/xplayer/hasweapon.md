@@ -9,7 +9,7 @@ This functions returns if the player has the specified weapon.
 ## Argument
 
 | Argument   | Data Type | Optional | Default Value | Explanation |
-|------------|-----------|----------|---------------|-------------|
+| ---------- | --------- | -------- | ------------- | ----------- |
 | weaponName | string    | No       | -             | Weapon name |
 
 ## Example

@@ -9,7 +9,7 @@ This function creates a pickup.
 ## Arguments
 
 | Argument   | Data Type | Optional | Default Value | Explanation                                                                                                                                  |
-|------------|-----------|----------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------- | --------- | -------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | type       | string    | No       | -             | The pickup type, valid inputs: `item_standard` for items, `item_money` for cash, `item_account` for an account and `item_weapon` for weapons |
 | name       | string    | No       | -             | The name of either the item, account or weapon                                                                                               |
 | count      | number    | No       | -             | The count of the item, cash, account or weapon ammo                                                                                          |

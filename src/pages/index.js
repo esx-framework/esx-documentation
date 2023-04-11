@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <main>
         <HomepageFeatures />
-        <Partners/>
+        <Partners />
       </main>
     </Layout>
   );

@@ -12,11 +12,11 @@ This command sets the users job and job grade.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value |       Explanation         |
-|------------|-----------|----------|---------------|---------------------------|
-| ID         | number    | No       | -             | The ServerID of the user. |
-| Job Name   | string    | No       | -             | The name of the job.      |
-| Job Grade  | number    | No       | -             | The grade to set the user to. |
+| Argument  | Data Type | Optional | Default Value | Explanation                   |
+| --------- | --------- | -------- | ------------- | ----------------------------- |
+| ID        | number    | No       | -             | The ServerID of the user.     |
+| Job Name  | string    | No       | -             | The name of the job.          |
+| Job Grade | number    | No       | -             | The grade to set the user to. |
 
 ## Note
 

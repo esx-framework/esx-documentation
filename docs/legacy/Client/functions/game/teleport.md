@@ -7,12 +7,12 @@ ESX.Game.Teleport(entity, coords, cb)
 This function teleports an entity.
 
 !!! warning
-      This is an async function because it awaits collision to be loaded, there is an example below on how to properly utilize it.
+This is an async function because it awaits collision to be loaded, there is an example below on how to properly utilize it.
 
 ## Arguments
 
 | Argument | Data Type     | Optional | Default Value | Explanation                                                                                                                                                              |
-|----------|---------------|----------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------- | ------------- | -------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | entity   | string        | No       | -             | The entity to teleport                                                                                                                                                   |
 | coords   | table&vector3 | No       | -             | The coords to be teleported to. Supports both vector3 and table types. If using a table type you can also specify `heading` to set the entity heading upon teleportation |
 | cb       | function      | Yes      | -             | The returned function when the entity has been teleported                                                                                                                |

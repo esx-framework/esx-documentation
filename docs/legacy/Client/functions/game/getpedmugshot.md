@@ -15,7 +15,7 @@ This function generates a mugshot of the ped usable in various applications.
 ## Example
 
 !!! warning
-    Be sure to use `UnregisterPedheadshot(mugshot)` after using it, because the game only allows you 34 mugshots, and you won't be allowed to use mugshot once this limit is reached if you don't unregister it.
+Be sure to use `UnregisterPedheadshot(mugshot)` after using it, because the game only allows you 34 mugshots, and you won't be allowed to use mugshot once this limit is reached if you don't unregister it.
 
 ```lua
 function Notify(msg)

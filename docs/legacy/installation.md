@@ -7,7 +7,6 @@ Make sure you have successfully installed and setup your [database](../../tutori
 - [Host your server with Oxygenserv, use code `ESX` for 10% off](https://www.oxygenserv.com/en/hosting/gta-v-server/)
 - [Exand your server with scripts From Rcore, Use creator code `ESX` for 10% off](https://store.rcore.cz/esx)
 
-
 ## Requirements
 
 - [oxmysql](https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip)
@@ -52,7 +51,7 @@ Make sure you have successfully installed and setup your [database](../../tutori
 - Use The `server.cfg` provided or:
   - Make sure your `server.cfg` to looks similar to this
 
-```diff  title="server.cfg"
+```diff title="server.cfg"
 add_principal group.admin group.user
 add_ace resource.es_extended command.add_ace allow
 add_ace resource.es_extended command.add_principal allow

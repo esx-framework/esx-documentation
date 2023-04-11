@@ -9,9 +9,9 @@ Automatically adds data to the xPlayer Table.
 
 ## Argument
 
-| Argument | Data Type | Optional | Default Value | Explanation          |
-|----------|-----------|----------|---------------|----------------------|
-| states   | Table     | No       | -             | States To Define     |
+| Argument | Data Type | Optional | Default Value | Explanation      |
+| -------- | --------- | -------- | ------------- | ---------------- |
+| states   | Table     | No       | -             | States To Define |
 
 ## Table Layout
 

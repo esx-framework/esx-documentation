@@ -14,6 +14,6 @@ This command UnFreezes the Target Player so that they can move again.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value |            Explanation             |
-|------------|-----------|----------|---------------|------------------------------------|
-| ID         | number    | No       | -             | The ServerID of the Target Player. |
+| Argument | Data Type | Optional | Default Value | Explanation                        |
+| -------- | --------- | -------- | ------------- | ---------------------------------- |
+| ID       | number    | No       | -             | The ServerID of the Target Player. |

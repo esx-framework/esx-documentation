@@ -16,6 +16,6 @@ Please Use [OnUse](./onuse.md) Instead!
 
 ### Arguments
 
-| Argument   | Data Type | Optional |    Default Value    |       Explanation           |
-|------------|-----------|----------|---------------------|-----------------------------|
-| Prop Name  | string    |   Yes    | "prop_cs_burger_01" | The Prop To Use When Eating |
+| Argument  | Data Type | Optional | Default Value       | Explanation                 |
+| --------- | --------- | -------- | ------------------- | --------------------------- |
+| Prop Name | string    | Yes      | "prop_cs_burger_01" | The Prop To Use When Eating |

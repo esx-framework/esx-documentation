@@ -12,11 +12,11 @@ This command gives a weapon to the user.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value |        Explanation            |
-|------------|-----------|----------|---------------|-------------------------------|
-| ID         | number    | No       | -             | The ServerID of the user.     |
-| weapon     | string    | No       | -             | weapon to give.               |
-| ammo       | number    | No       | -             | Amount of ammo in the weapon. |
+| Argument | Data Type | Optional | Default Value | Explanation                   |
+| -------- | --------- | -------- | ------------- | ----------------------------- |
+| ID       | number    | No       | -             | The ServerID of the user.     |
+| weapon   | string    | No       | -             | weapon to give.               |
+| ammo     | number    | No       | -             | Amount of ammo in the weapon. |
 
 ## Note
 

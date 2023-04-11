@@ -8,14 +8,14 @@ ESX Menu Default is a great way to create easy to use Menus for players. However
 
 There are a couple key parts to creating a menu:
 
-| Part      | Data Type |                            Explanation                                    |
-|-----------|-----------|---------------------------------------------------------------------------|
-| type      | string    | The Type of menu to display, in this case, `defualt`                      |
-| namespace | string    | Where to store the menu, normally `GetCurrentResourceName()` is used      |
-| name      | string    | Unique Name For the menu                                                  |
-| data      | table     | The Elements to show in the menu                                          |
-| OnSelect  | function  | Triggers when an element is chosen                                        |
-| cancel    | function  | Triggers when they attempt to close a menu                                |
+| Part      | Data Type | Explanation                                                          |
+| --------- | --------- | -------------------------------------------------------------------- |
+| type      | string    | The Type of menu to display, in this case, `defualt`                 |
+| namespace | string    | Where to store the menu, normally `GetCurrentResourceName()` is used |
+| name      | string    | Unique Name For the menu                                             |
+| data      | table     | The Elements to show in the menu                                     |
+| OnSelect  | function  | Triggers when an element is chosen                                   |
+| cancel    | function  | Triggers when they attempt to close a menu                           |
 
 ## Elements
 
@@ -64,9 +64,9 @@ funcion(data, menu)
     menu.close()
   end
 
-  -- for slider elements 
+  -- for slider elements
 
-  if data.current.name == "bread" then 
+  if data.current.name == "bread" then
     print(data.current.value)
   end
 end
@@ -93,7 +93,7 @@ Once you combine all these parts, you get a Menu Interface in which you can inte
         {label = "Bread - £200", name = "bread", value = 1, type = 'slider', min = 1,max = 100},
         {label = '<span style="color:green;">HEY! IM GREEN!/span>', name = "geen_element"}
       }
-      
+
       ESX.UI.Menu.Open("default", GetCurrentResourceName(), "Example_Menu", {
         title = "Example Menu", -- The Name of Menu to show to users,
         align    = 'top-left', -- top-left | top-right | bottom-left | bottom-right | center |
@@ -104,13 +104,13 @@ Once you combine all these parts, you get a Menu Interface in which you can inte
           print("Element 1 Selected")
           menu.close()
         end
-      
-        -- for slider elements 
-      
-        if data.current.name == "bread" then 
+
+        -- for slider elements
+
+        if data.current.name == "bread" then
           print(data.current.value)
-      
-          if data.current.value == 69 then 
+
+          if data.current.value == 69 then
             print("Nice!")
             menu.close()
           end

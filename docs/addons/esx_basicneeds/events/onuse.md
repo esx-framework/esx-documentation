@@ -12,10 +12,10 @@ This Event is triggered whenever a player Uses a food or drink item, it is used 
 
 ## Arguments
 
-| Argument   | Data Type | Optional |    Default Value    |       Explanation           |
-|------------|-----------|----------|---------------------|-----------------------------|
-| Type       | string    |   No    | - | The Type of item used (either "food" or "drink") |
-| Prop Name  | string    |   Yes    | "prop_cs_burger_01" or "prop_ld_flow_bottle2 | The Prop To Use When Eating |
+| Argument  | Data Type | Optional | Default Value                                | Explanation                                      |
+| --------- | --------- | -------- | -------------------------------------------- | ------------------------------------------------ |
+| Type      | string    | No       | -                                            | The Type of item used (either "food" or "drink") |
+| Prop Name | string    | Yes      | "prop_cs_burger_01" or "prop_ld_flow_bottle2 | The Prop To Use When Eating                      |
 
 ## Example
 

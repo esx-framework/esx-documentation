@@ -1,6 +1,7 @@
 ---
 sidebar_label: Money
 ---
+
 # money
 
 ```lua

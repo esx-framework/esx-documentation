@@ -1,41 +1,39 @@
-$primary-blue: #0C0E10;
-$secondary-blue: #0565FF;
+$primary-blue: #0c0e10;
+$secondary-blue: #0565ff;
 $red: rgb(44, 200, 220);
-$white: #FFFFFF;
+$white: #ffffff;
 $black: #000000;
-$primary-black: #0C0E10;
-$secondary-black: #2E2E2E;
-$zircon: #F8FAFF;
+$primary-black: #0c0e10;
+$secondary-black: #2e2e2e;
+$zircon: #f8faff;
 $grey: #707070;
-$grey-light: #E0DFDF;
-$grey-dark: #C2C0C0;
+$grey-light: #e0dfdf;
+$grey-dark: #c2c0c0;
 $purple: rgb(107, 113, 235);
 $purple-hover: rgb(74, 184, 199);
-$purple-light: #F2F5FE;
-$purple-lighter: #F9FAFF;
+$purple-light: #f2f5fe;
+$purple-lighter: #f9faff;
 
-$lato: 'Lato',
-sans-serif;
+$lato: "Lato", sans-serif;
 
-$roboto: 'Roboto Mono',
-monospace;
+$roboto: "Roboto Mono", monospace;
 
 :root {
-  --primary-blue: #161F31;
-  --secondary-blue: #0565FF;
-  --red: #DC382C;
-  --white: #FFFFFF;
+  --primary-blue: #161f31;
+  --secondary-blue: #0565ff;
+  --red: #dc382c;
+  --white: #ffffff;
   --black: #000000;
-  --primary-black: #0C0E10;
-  --secondary-black: #2E2E2E;
-  --zircon: #F8FAFF;
+  --primary-black: #0c0e10;
+  --secondary-black: #2e2e2e;
+  --zircon: #f8faff;
   --grey: #707070;
-  --grey-light: #E0DFDF;
-  --grey-dark: #C2C0C0;
-  --purple: #5961FF;
-  --purple-hover: #3F41A0;
-  --purple-light: #F2F5FE;
-  --purple-lighter: #F9FAFF;
+  --grey-light: #e0dfdf;
+  --grey-dark: #c2c0c0;
+  --purple: #5961ff;
+  --purple-hover: #3f41a0;
+  --purple-light: #f2f5fe;
+  --purple-lighter: #f9faff;
 }
 
 /* dark mode */

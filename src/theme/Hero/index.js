@@ -8,12 +8,10 @@ import SvgDevelop from "@site/src/svg/Develop";
 import SvgArrowRight from "@site/src/svg/ArrowRight";
 import SvgHero from "@site/src/svg/developer.svg";
 
-
-import {useColorMode} from '@docusaurus/theme-common';
-
+import { useColorMode } from "@docusaurus/theme-common";
 
 function Hero() {
-  const {colorMode, setColorMode} = useColorMode();
+  const { colorMode, setColorMode } = useColorMode();
   return (
     <header className="rds-hero">
       <div className="container">
@@ -26,7 +24,9 @@ function Hero() {
 
             <h2 className="hero-subtitle">
               <Typed
-                strings={[">_ Creating a roleplay server has never been easier."]}
+                strings={[
+                  ">_ Creating a roleplay server has never been easier.",
+                ]}
                 typeSpeed={75}
               ></Typed>
             </h2>
@@ -39,24 +39,20 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Create</h3>
                   <p className="description">
-                    Create A Roleplay Server With Ease using txAdmin or
-                    Github!
+                    Create A Roleplay Server With Ease using txAdmin or Github!
                   </p>
                   <span className="more">
                     Create Your Server <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a
-                  href={useBaseUrl("/legacy/installation")}
-                  className="link"
-                >
+                <a href={useBaseUrl("/legacy/installation")} className="link">
                   Read More
                 </a>
               </div>
 
               <div className="box box-develop">
                 <span className="icon">
-                  <SvgDevelop color="#fd9800"/>
+                  <SvgDevelop color="#fd9800" />
                 </span>
                 <div className="text">
                   <h3 className="title">Develop</h3>
@@ -67,28 +63,35 @@ function Hero() {
                     Develop your Script <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a
-                  href={useBaseUrl("/legacy/installation")}
-                  className="link"
-                >
+                <a href={useBaseUrl("/legacy/installation")} className="link">
                   Read More
                 </a>
               </div>
-              
 
               <div className="box">
-                <img className="icon-logo" src={colorMode === 'dark' ? 'https://esx.s3.fr-par.scw.cloud/logo_white.png' : 'https://esx.s3.fr-par.scw.cloud/logo_black.png'}/>
+                <img
+                  className="icon-logo"
+                  src={
+                    colorMode === "dark"
+                      ? "https://esx.s3.fr-par.scw.cloud/logo_white.png"
+                      : "https://esx.s3.fr-par.scw.cloud/logo_black.png"
+                  }
+                />
                 <div className="text">
                   <h3 className="title"></h3>
                   <p className="description">
-                  The most ecological, high performance and high end hosting for your game servers. 40% off with the code <b>ESX</b>
+                    The most ecological, high performance and high end hosting
+                    for your game servers. 40% off with the code <b>ESX</b>
                   </p>
                   <span className="more">
                     Explore Their Store!
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={"https://www.oxygenserv.com/en/hosting/gta-v-server/"} className="link">
+                <a
+                  href={"https://www.oxygenserv.com/en/hosting/gta-v-server/"}
+                  className="link"
+                >
                   Read More
                 </a>
               </div>

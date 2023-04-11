@@ -6,12 +6,12 @@ ESX Context is a great way to make light weight menus for ESX. this tutorial wil
 
 ESX Context Has a very easy to use structure where you have 4 Key elements:
 
-| Part      | Data Type |                            Explanation                    |
-|-----------|-----------|-----------------------------------------------------------|
-| position  | string    |  left | center | right                                    |
-| elements  | table     | The Elements to show in the menu                          |
-| OnSelect  | function  | Triggers when an element is clicked on                    |
-| onClose   | function  | Triggers when the Context Menu Is Closed                  |
+| Part     | Data Type | Explanation                              |
+| -------- | --------- | ---------------------------------------- | ------ | ----- |
+| position | string    | left                                     | center | right |
+| elements | table     | The Elements to show in the menu         |
+| OnSelect | function  | Triggers when an element is clicked on   |
+| onClose  | function  | Triggers when the Context Menu Is Closed |
 
 ## Elements
 
@@ -105,9 +105,9 @@ function onSelect(menu,element)
     ESX.CloseContext()
   end
 
-  -- for slider elements 
+  -- for slider elements
 
-  if element.name == "textinput1" then 
+  if element.name == "textinput1" then
     print("Name - ".. element.inputValue)
   end
 
@@ -174,7 +174,7 @@ local Elements = {
    },
 }
 
-ESX.OpenContext("right" , Elements, 
+ESX.OpenContext("right" , Elements,
   function(menu,element) -- On Select Function
   print("Element Selected - ",element.title)
 
@@ -184,9 +184,9 @@ ESX.OpenContext("right" , Elements,
     ESX.CloseContext()
   end
 
-  -- for slider elements 
+  -- for slider elements
 
-  if element.name == "textinput1" then 
+  if element.name == "textinput1" then
     print("Name - ".. element.inputValue)
   end
 

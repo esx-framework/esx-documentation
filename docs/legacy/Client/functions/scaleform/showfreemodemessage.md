@@ -9,7 +9,7 @@ This function displays a freemode message for the player.
 ## Arguments
 
 | Argument | Data Type | Optional | Default Value | Explanation                       |
-|----------|-----------|----------|---------------|-----------------------------------|
+| -------- | --------- | -------- | ------------- | --------------------------------- |
 | title    | string    | No       | -             | Title text                        |
 | msg      | string    | No       | -             | Message text                      |
 | sec      | number    | No       | -             | Time in seconds to show scaleform |

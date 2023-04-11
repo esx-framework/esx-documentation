@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import React from "react";
+import Link from "@docusaurus/Link";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function FooterLinkItem({ item }) {
   const { to, href, label, prependBaseUrlToHref, ...props } = item;
@@ -16,7 +16,8 @@ export default function FooterLinkItem({ item }) {
         : {
             to: toUrl,
           })}
-      {...props}>
+      {...props}
+    >
       {label}
     </Link>
   );

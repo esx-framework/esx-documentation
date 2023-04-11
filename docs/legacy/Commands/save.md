@@ -12,9 +12,9 @@ This command saves the playerdata of the specified user.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value |       Explanation         |
-|------------|-----------|----------|---------------|---------------------------|
-| ID         | number    | No       | -             | The ServerID of the user. |
+| Argument | Data Type | Optional | Default Value | Explanation               |
+| -------- | --------- | -------- | ------------- | ------------------------- |
+| ID       | number    | No       | -             | The ServerID of the user. |
 
 ## Note
 

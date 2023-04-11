@@ -1,6 +1,7 @@
 ---
 sidebar_label: Inventory
 ---
+
 # inventory
 
 ```lua

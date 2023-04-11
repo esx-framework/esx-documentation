@@ -13,4 +13,4 @@ All you have to do is to set useResourceIntegration to true in the config.
     "toggleCommand": "phone",
     "defaultLanguage": "en"
 },
- ```
+```

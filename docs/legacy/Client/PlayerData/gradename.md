@@ -1,6 +1,7 @@
 ---
 sidebar_label: Grade Name
 ---
+
 # job.grade_name
 
 ```lua
