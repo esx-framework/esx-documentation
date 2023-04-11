@@ -4,22 +4,10 @@
 ESX.GetPlayers()
 ```
 
-> NOT RECOMMENDED FOR USE.
-> Use [ESX.GetExtendedPlayers](./getextendedplayers.md) instead!
+## ⚠️⚠️ WARNING ⚠️⚠️
 
-This function returns an array of all online players ID's.
+As of version **1.9**, this function has been deprecated and removed!
 
-You can use this to access each players data.
+Calling this function will return [ESX.GetExtendedPlayers](./getextendedplayers.md).
 
-## Example
 
-```lua
-local xPlayers = ESX.GetPlayers()
-
-for i=1, #xPlayers, 1 do
-  local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
-
-  xPlayer.addMoney(100)
-  xPlayer.showNotification('Here, take ~g~$100~s~ for free!')
-end
-```
