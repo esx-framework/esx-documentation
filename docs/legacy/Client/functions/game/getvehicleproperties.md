@@ -9,7 +9,7 @@ This function gets an vehicle's properties.
 ## Returned Table Content
 
 | Child             | Data Type | Explanation                                                         |
-|-------------------|-----------|---------------------------------------------------------------------|
+| ----------------- | --------- | ------------------------------------------------------------------- |
 | model             | number    | The vehicle hash                                                    |
 | plate             | number    | Vehicle plate, maximum 8 characters                                 |
 | plateIndex        | number    | Plate style                                                         |

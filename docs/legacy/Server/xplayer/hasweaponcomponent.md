@@ -9,6 +9,6 @@ This functions returns an boolean if the player has the specified weapon compone
 ## Arguments
 
 | Argument        | Data Type | Optional | Default Value | Explanation      |
-|-----------------|-----------|----------|---------------|------------------|
+| --------------- | --------- | -------- | ------------- | ---------------- |
 | weaponName      | string    | No       | -             | Weapon name      |
 | weaponComponent | string    | No       | -             | Weapon component |

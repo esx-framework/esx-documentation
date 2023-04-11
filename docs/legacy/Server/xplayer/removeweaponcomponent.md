@@ -9,7 +9,7 @@ This function removes a weapon component from a player, if the player has it. Th
 ## Arguments
 
 | Argument        | Data Type | Optional | Default Value | Explanation      |
-|-----------------|-----------|----------|---------------|------------------|
+| --------------- | --------- | -------- | ------------- | ---------------- |
 | weaponName      | string    | No       | -             | Weapon name      |
 | weaponComponent | string    | No       | -             | Weapon component |
 

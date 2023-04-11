@@ -4,21 +4,21 @@
 
 #### Available StateBags
 
-| Argument    | Type   | Explanation |
-| ----------- | ------ | ----------- |
-| identifier  | string |             |
-| license     | string |             |
-| job         | table  |             |
-| group       | string |             |
-| name        | string |             |
-| metadata    | table  |             |
+| Argument   | Type   | Explanation |
+| ---------- | ------ | ----------- |
+| identifier | string |             |
+| license    | string |             |
+| job        | table  |             |
+| group      | string |             |
+| name       | string |             |
+| metadata   | table  |             |
 
 ### Example Client-Side Usage
 
 ```lua
 local playerState = LocalPlayer.state
 
-RegisterCommand("stateBags", function(source, args, rawCommand)
+RegisterCommand('stateBags', function(source, args, rawCommand)
     print('Identifier: '..playerState.identifier)
     print('License: '..playerState.license)
     print('Job: '..json.encode(playerState.job, {indent = true}))
@@ -31,7 +31,7 @@ end)
 ### Example Server-Side Usage
 
 ```lua
-RegisterCommand("stateBagsServer", function(source, args, rawCommand)
+RegisterCommand('stateBagsServer', function(source, args, rawCommand)
     local playerState = Player(source).state
 
     print('Identifier: '..playerState.identifier)
@@ -42,5 +42,3 @@ RegisterCommand("stateBagsServer", function(source, args, rawCommand)
     print('Metadata: '..json.encode(playerState.metadata))
 end)
 ```
-
-

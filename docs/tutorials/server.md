@@ -21,7 +21,7 @@ This Guide will show the quick and easy way to setup a FiveM server using txAdmi
 ## Step 2: Starting Your Server
 
 - In the Extacted folder, find `FXserver.exe` and double click it.
--This site should open in your browser, if it does not, open your browser and goto `localhost:40120`.
+  -This site should open in your browser, if it does not, open your browser and goto `localhost:40120`.
 - Make sure the PIN is filled in and then press `Link Account`.
 - You will then be prompted to log into your [Cfx.re](https://forum.cfx.re/) account, click `Yes, Allow` once done.
 - You will then be promted to create a backup password, incase CFX.re auth does not work.

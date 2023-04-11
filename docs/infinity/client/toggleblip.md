@@ -15,6 +15,6 @@ ESX.ToggleBlip("shops|")
 
 ## Arguments
 
-|   **Argument**   |  **Data Type** | **Optional** |      **Default Value**       |       **Explanation**       |
-|--------------|------------|----------|--------------------------|-----------------|
-|  name        |  string    | No       | -                        | Name of Blip    |
+| **Argument** | **Data Type** | **Optional** | **Default Value** | **Explanation** |
+| ------------ | ------------- | ------------ | ----------------- | --------------- |
+| name         | string        | No           | -                 | Name of Blip    |

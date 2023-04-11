@@ -9,7 +9,7 @@ This functions returns the `loadoutNum` and a weapon object for the weapon if th
 ## Argument
 
 | Argument   | Data Type | Optional | Default Value | Explanation |
-|------------|-----------|----------|---------------|-------------|
+| ---------- | --------- | -------- | ------------- | ----------- |
 | weaponName | string    | No       | -             | Weapon name |
 
 ## Example

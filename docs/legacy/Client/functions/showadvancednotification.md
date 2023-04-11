@@ -8,15 +8,15 @@ This function shows an advanced notification.
 
 ## Arguments
 
-| Argument      | Data Type | Optional | Default Value | Explanation                                                                                       |
-|---------------|-----------|----------|---------------|---------------------------------------------------------------------------------------------------|
-| sender        | string    | No       | -             | Message header                                                                                    |
-| subject       | string    | No       | -             | Message subject                                                                                   |
-| msg           | string    | No       | -             | Message content                                                                                   |
-| textureDict   | string    | No       | -             | Texture directory, see [Texture Directory](#Texture_Directory) for accepted values                |
-| iconType      | number    | No       | -             | Icon type, see [Icon Types](#Icon_Types) for accepted values                                      |
-| flash         | boolean   | Yes      | false         | Flash the notification?                                                                           |
-| savetoBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                       |
+| Argument      | Data Type | Optional | Default Value | Explanation                                                                                         |
+| ------------- | --------- | -------- | ------------- | --------------------------------------------------------------------------------------------------- |
+| sender        | string    | No       | -             | Message header                                                                                      |
+| subject       | string    | No       | -             | Message subject                                                                                     |
+| msg           | string    | No       | -             | Message content                                                                                     |
+| textureDict   | string    | No       | -             | Texture directory, see [Texture Directory](#Texture_Directory) for accepted values                  |
+| iconType      | number    | No       | -             | Icon type, see [Icon Types](#Icon_Types) for accepted values                                        |
+| flash         | boolean   | Yes      | false         | Flash the notification?                                                                             |
+| savetoBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                         |
 | hudColorIndex | number    | Yes      | nil           | The background color, see <https://gyazo.com/68bd384455fceb0a85a8729e48216e15> for available colors |
 
 ## Example
@@ -35,13 +35,13 @@ end
 
 To specify an texture directory you can either simply parse an already existing notification image, or you can for example create a player mugshot with ESX.
 
-* [Existing Image](https://wiki.gtanet.work/index.php?title=Notification_Pictures)
-* [Player Mugshots](./game/getpedmugshot))
+- [Existing Image](https://wiki.gtanet.work/index.php?title=Notification_Pictures)
+- [Player Mugshots](./game/getpedmugshot))
 
 ## Icon Types
 
 | Icon Type | Explantation        |
-|-----------|---------------------|
+| --------- | ------------------- |
 | 1         | Chat Box            |
 | 2         | Email               |
 | 3         | Add Friend Request  |

@@ -12,6 +12,6 @@ This command clears the users inventory.
 
 ## Arguments
 
-| Argument   | Data Type | Optional | Default Value |       Explanation         |
-|------------|-----------|----------|---------------|---------------------------|
-| ID         | number    | No       | -             | The ServerID of the user. |
+| Argument | Data Type | Optional | Default Value | Explanation               |
+| -------- | --------- | -------- | ------------- | ------------------------- |
+| ID       | number    | No       | -             | The ServerID of the user. |

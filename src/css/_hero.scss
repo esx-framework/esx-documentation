@@ -85,9 +85,9 @@
     .box {
       flex: 1;
       position: relative;
-      border: 1px dashed #FD9800;
+      border: 1px dashed #fd9800;
       border-radius: 3px;
-      transition: background-color .2s ease-in-out;
+      transition: background-color 0.2s ease-in-out;
 
       @include mobile {
         margin: 0 auto;
@@ -196,7 +196,7 @@
             flex: 0 0 14px;
 
             path {
-              transition: fill .2s ease-in-out;
+              transition: fill 0.2s ease-in-out;
             }
           }
         }
@@ -231,13 +231,13 @@
     @media only screen and (min-width: 997px) and (max-width: 1100px) {
       float: right;
       margin-left: 0;
-      zoom: .8;
+      zoom: 0.8;
     }
 
     @include tablet-mobile {
       display: block;
       margin: 0 auto 48px;
-      zoom: .48;
+      zoom: 0.48;
     }
   }
 }
