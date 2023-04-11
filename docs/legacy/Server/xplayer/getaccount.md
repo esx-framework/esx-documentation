@@ -11,7 +11,7 @@ This function gets details (returned in an table) for an account.
 | -------- | ---------- | 
 | "bank"       | string |
 | "money"      | string |
-| "black_money | string |
+| "black_money" | string |
 
 ## Argument
 
