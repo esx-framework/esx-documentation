@@ -15,7 +15,7 @@ This function sets the player cash balance.
 ## Example
 
 ```lua
-RegisterNetEvent('esx:playerDropped', function(playerId, reason)
+AddEventHandler('esx:playerDropped', function(playerId, reason)
   local xPlayer = ESX.GetPlayerFromId(playerId)
   xPlayer.setMoney(0)
 end)
