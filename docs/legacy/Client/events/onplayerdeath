@@ -1,0 +1,12 @@
+# playerDeath
+
+This event is triggered when the player dies, currently available only with esx_ambulancejob
+```lua
+AddEventHandler('esx:onPlayerDeath',function(data)
+local source = source
+local xPlayer = ESX.GetPlayerFromId(source)
+xPlayer.removeAccountMoney('bank', 1000)
+print('You just got taxed for your death')
+end)
+```
+
