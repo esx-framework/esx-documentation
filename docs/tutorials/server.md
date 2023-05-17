@@ -30,9 +30,9 @@ This Guide will show the quick and easy way to setup a FiveM server using txAdmi
 
 - Assuming you are now on a menu similar to [this](https://docs.fivem.net/server-setup/windows-step2-5.png), click `Next`.
 - From Here Choose `Popular Template`.
-- This will Give you A choice of multiple Options.
+- This will give you a choice of multiple options.
   - CFX Default - A plain server with **0** community resources.
-  - [QBCore](https://github.com/qbcore-framework/qb-core) -> An alternative famework to ESX.
+  - [QBCore](https://github.com/qbcore-framework/qb-core) -> An alternative framework to ESX.
   - ESX Legacy -> The offical ESX-Framework Template.
   - ZAP Hosting ESX Pack -> A tweaked ESX Template, maintained by ZAP hosting - **not recommended**.
 
