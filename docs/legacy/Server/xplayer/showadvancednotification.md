@@ -1,4 +1,4 @@
-# ShowAdvancedNotification
+# showAdvancedNotification
 
 ```lua
 xPlayer.showAdvancedNotification(sender, subject, msg, textureDict, iconType, flash, saveToBrief, hudColorIndex)
