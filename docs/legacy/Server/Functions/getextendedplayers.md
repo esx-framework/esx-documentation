@@ -29,7 +29,7 @@ end
 local xPlayers = ESX.GetExtendedPlayers('job', 'police')
 
 for _, xPlayer in pairs(xPlayers) do
-  xPlayer.giveInventoryItem('bread', 5)
+  xPlayer.addInventoryItem('bread', 5)
   xPlayer.showNotification('Here, have some free bread!')
 end
 ```
