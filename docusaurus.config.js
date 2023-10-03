@@ -9,7 +9,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png",
+  favicon: "https://media.discordapp.net/attachments/1141377366589976747/1141617235752919040/favicon.png?width=800&height=800",
   organizationName: "ESX",
   presets: [
     [
