@@ -42,4 +42,5 @@ end, false, {help = _U('command_cardel'), arguments = {{name = 'radius', help = 
 | string   | String Input                               |
 | item     | Checks if input is a valid item            |
 | weapon   | Checks if input is a Weapon                |
+| merge    | Allows to merge arguments                  |
 | any      | Any Input allowed                          |
