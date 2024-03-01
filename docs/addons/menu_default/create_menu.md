@@ -10,7 +10,7 @@ There are a couple key parts to creating a menu:
 
 | Part      | Data Type | Explanation                                                          |
 | --------- | --------- | -------------------------------------------------------------------- |
-| type      | string    | The Type of menu to display, in this case, `defualt`                 |
+| type      | string    | The Type of menu to display, in this case, `default`                 |
 | namespace | string    | Where to store the menu, normally `GetCurrentResourceName()` is used |
 | name      | string    | Unique Name For the menu                                             |
 | data      | table     | The Elements to show in the menu                                     |
