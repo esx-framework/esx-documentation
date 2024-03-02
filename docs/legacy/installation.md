@@ -61,9 +61,5 @@ add_ace resource.es_extended command.stop allow
 
 ensure oxmysql
 ensure spawnmanager
-ensure es_extended
-
-ensure esx_menu_default
-ensure esx_menu_list
-ensure esx_menu_dialog
+ensure [core]
 ```
