@@ -2,7 +2,7 @@
 
 Offical guide to installing **ESX Legacy**.
 
-Make sure you have successfully installed and setup your [database](../../tutorials/database) before you start! :)
+Make sure you have successfully installed and setup your [database](../../tutorials/database) before you start! 😄
 
 - [Host your server with Oxygenserv, use code `ESX` for 10% off](https://www.oxygenserv.com/en/hosting/gta-v-server/)
 - [Exand your server with scripts From Rcore, Use creator code `ESX` for 10% off](https://store.rcore.cz/esx)
@@ -29,9 +29,9 @@ Make sure you have successfully installed and setup your [database](../../tutori
 ## Install
 
 - Extract the `[core]` folder
-- Place it into the `Resources` folder in your server.
+- Place it into the `resources` folder in your server.
 - Extract the addons you have downloaded.
-- Create a `[addons]` folder in your `Resouces` folder.
+- Create a `[addons]` folder in your `resources` folder.
 - Place the exacted addons into `[addons]`.
 - Go into the `[SQL]` Folder from `ESX Legacy`:
 
