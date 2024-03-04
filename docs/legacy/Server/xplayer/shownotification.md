@@ -1,40 +1,37 @@
 # showNotification
 
 ```lua
-xPlayer.showNotification(msg, type, length)
+xPlayer.showNotification(msg, flash, saveToBrief, hudColorIndex)
 ```
 
-## Color Codes
+This function shows a basic notification to the player.
 
-```lua
-~r~ = Red
-~b~ = Blue
-~g~ = Green
-~y~ = Yellow
-~p~ = Purple
-~c~ = Grey
-~m~ = Dark Grey
-~u~ = Black
-~o~ = Orange
-```
+## String Colors
 
-This function shows a notification to the player.
-
-## String Types
-
-| Syntax    | Types                |
-| --------- | -------------------- |
-| "info"    | Info Notification    |
-| "success" | Success Notification |
-| "error"   | Error Notification   |
+| Syntax | Color           |
+| ------ | --------------- |
+| ~r~    | Red             |
+| ~b~    | Blue            |
+| ~g~    | Green           |
+| ~y~    | Yellow          |
+| ~p~    | Purple          |
+| ~o~    | Orange          |
+| ~c~    | Grey            |
+| ~m~    | Dark Grey       |
+| ~u~    | Black           |
+| ~n~    | New Line        |
+| ~s~    | White (default) |
+| ~w~    | White           |
+| ~h~    | Toggle Bold     |
 
 ## Arguments
 
-| Argument | Data Type | Optional | Default Value | Explanation                               |
-| -------- | --------- | -------- | ------------- | ----------------------------------------- |
-| msg      | string    | No       | -             | The message to display                    |
-| Type     | string    | Yes      | "info"        | What type the notification would be       |
-| time     | number    | Yes      | 3000          | For how long the notification should show |
+| Argument      | Data Type | Optional | Default Value | Explanation                                                                                         |
+| ------------- | --------- | -------- | ------------- | --------------------------------------------------------------------------------------------------- |
+| msg           | string    | No       | -             | The message to display                                                                              |
+| flash         | boolean   | Yes      | false         | Flash the notification?                                                                             |
+| saveToBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                         |
+| hudColorIndex | number    | Yes      | nil           | The background color, see <https://gyazo.com/68bd384455fceb0a85a8729e48216e15> for available colors |
 
 ## Example
 
@@ -42,8 +39,8 @@ This function shows a notification to the player.
 local xPlayer = ESX.GetPlayerFromId(source)
 local breadCount = xPlayer.getInventoryItem('bread').count -- how much bread the player has
 if breadCount > 1 then -- checks if they have more than 1 bread
-  xPlayer.showNotification('Congrats!, you have '.. breadCount .. ' Bread!', 'success', 5000) -- send them a happy message, telling them how much bread they have
+  xPlayer.showNotification('Congrats!, you have '.. breadCount .. ' Bread!') -- send them a happy message, telling them how much bread they have
 else -- if they have no bread
-  xPlayer.showNotification('oh no! you have no bread!', 'error') -- send them a sad message expressing your disapointment
+ xPlayer.showNotification('oh no! you have no bread!') -- send them a sad message expressing your disapointment
 end
 ```
