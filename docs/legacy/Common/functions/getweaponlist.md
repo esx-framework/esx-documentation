@@ -27,6 +27,6 @@ end
 ```lua
 local list = ESX.GetWeaponList(true)
 for hash, weapon in pairs(list) do
-  print(('weapon name: %s, hash: %s'):format(hash, weapon.name))
+  print(('weapon name: %s, hash: %s'):format(weapon.name, hash))
 end
 ```
